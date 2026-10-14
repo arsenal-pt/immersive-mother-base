@@ -1,0 +1,3218 @@
+{
+  "schema": 1,
+  "source": "core-tools/frozen/native/LifeLayout.lua",
+  "sourceSha256": "fdfe2c8dee72af127024d7d1dffa9d7445d176390dafd902204e46325a8767c6",
+  "provenance": "Authored prototype target coordinates and formations; no native FRT/template import",
+  "runtimeRouteNamesPreserved": true,
+  "gameplayProof": false,
+  "routes": [
+    {
+      "name": "nlab_bunk_queue_00",
+      "x": -25.5,
+      "y": 0,
+      "z": 14,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_01",
+      "x": -25.5,
+      "y": 0,
+      "z": 12.65,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_02",
+      "x": -25.5,
+      "y": 0,
+      "z": 11.3,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_03",
+      "x": -25.5,
+      "y": 0,
+      "z": 9.95,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_04",
+      "x": -25.5,
+      "y": 0,
+      "z": 8.6,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_05",
+      "x": -25.5,
+      "y": 0,
+      "z": 7.25,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_06",
+      "x": -25.5,
+      "y": 0,
+      "z": 5.9,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_bunk_queue_07",
+      "x": -25.5,
+      "y": 0,
+      "z": 4.55,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_bunk_use_00",
+      "x": -26.4,
+      "y": 0,
+      "z": 16.3,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_bunk_use_01",
+      "x": -24.6,
+      "y": 0,
+      "z": 16.3,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.bunk.uses.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_2_0",
+      "x": 10,
+      "y": 0,
+      "z": -20.15,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_2_1",
+      "x": 10,
+      "y": 0,
+      "z": -21.85,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_3_0",
+      "x": 10,
+      "y": 0,
+      "z": -19.95,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_3_1",
+      "x": 10.909327,
+      "y": 0,
+      "z": -21.525,
+      "yaw": 300,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_3_2",
+      "x": 9.090673,
+      "y": 0,
+      "z": -21.525,
+      "yaw": 60,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_4_0",
+      "x": 10,
+      "y": 0,
+      "z": -19.95,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_4_1",
+      "x": 11.05,
+      "y": 0,
+      "z": -21,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_4_2",
+      "x": 10,
+      "y": 0,
+      "z": -22.05,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_00_4_3",
+      "x": 8.95,
+      "y": 0,
+      "z": -21,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.1.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_2_0",
+      "x": 14.807373,
+      "y": 0,
+      "z": -20.207522,
+      "yaw": 201.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_2_1",
+      "x": 14.192627,
+      "y": 0,
+      "z": -21.792478,
+      "yaw": 21.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_3_0",
+      "x": 14.879696,
+      "y": 0,
+      "z": -20.021056,
+      "yaw": 201.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_3_1",
+      "x": 15.157942,
+      "y": 0,
+      "z": -21.818298,
+      "yaw": 321.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_3_2",
+      "x": 13.462362,
+      "y": 0,
+      "z": -21.160645,
+      "yaw": 81.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_4_0",
+      "x": 14.879696,
+      "y": 0,
+      "z": -20.021056,
+      "yaw": 201.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_4_1",
+      "x": 15.478944,
+      "y": 0,
+      "z": -21.379696,
+      "yaw": 291.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_4_2",
+      "x": 14.120304,
+      "y": 0,
+      "z": -21.978944,
+      "yaw": 21.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_01_4_3",
+      "x": 13.521056,
+      "y": 0,
+      "z": -20.620304,
+      "yaw": 111.199438,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.2.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_2_0",
+      "x": 19.573145,
+      "y": 0,
+      "z": -20.372302,
+      "yaw": 222.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_2_1",
+      "x": 18.426855,
+      "y": 0,
+      "z": -21.627698,
+      "yaw": 42.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_3_0",
+      "x": 19.708002,
+      "y": 0,
+      "z": -20.224608,
+      "yaw": 222.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_3_1",
+      "x": 19.317508,
+      "y": 0,
+      "z": -22.000844,
+      "yaw": 342.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_3_2",
+      "x": 17.97449,
+      "y": 0,
+      "z": -20.774548,
+      "yaw": 102.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_4_0",
+      "x": 19.708002,
+      "y": 0,
+      "z": -20.224608,
+      "yaw": 222.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_4_1",
+      "x": 19.775392,
+      "y": 0,
+      "z": -21.708002,
+      "yaw": 312.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_4_2",
+      "x": 18.291998,
+      "y": 0,
+      "z": -21.775392,
+      "yaw": 42.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_02_4_3",
+      "x": 18.224608,
+      "y": 0,
+      "z": -20.291998,
+      "yaw": 132.398877,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.3.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_2_0",
+      "x": 10.761344,
+      "y": 0,
+      "z": -25.622038,
+      "yaw": 243.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_2_1",
+      "x": 9.238656,
+      "y": 0,
+      "z": -26.377962,
+      "yaw": 63.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_3_0",
+      "x": 10.940484,
+      "y": 0,
+      "z": -25.533105,
+      "yaw": 243.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_3_1",
+      "x": 9.934101,
+      "y": 0,
+      "z": -27.04793,
+      "yaw": 3.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_3_2",
+      "x": 9.125416,
+      "y": 0,
+      "z": -25.418965,
+      "yaw": 123.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_4_0",
+      "x": 10.940484,
+      "y": 0,
+      "z": -25.533105,
+      "yaw": 243.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_4_1",
+      "x": 10.466895,
+      "y": 0,
+      "z": -26.940484,
+      "yaw": 333.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_4_2",
+      "x": 9.059516,
+      "y": 0,
+      "z": -26.466895,
+      "yaw": 63.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_03_4_3",
+      "x": 9.533105,
+      "y": 0,
+      "z": -25.059516,
+      "yaw": 153.598315,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.4.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_2_0",
+      "x": 15.346499,
+      "y": 0,
+      "z": -25.922929,
+      "yaw": 264.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_2_1",
+      "x": 13.653501,
+      "y": 0,
+      "z": -26.077071,
+      "yaw": 84.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_3_0",
+      "x": 15.545675,
+      "y": 0,
+      "z": -25.904795,
+      "yaw": 264.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_3_1",
+      "x": 14.059613,
+      "y": 0,
+      "z": -26.953184,
+      "yaw": 24.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_3_2",
+      "x": 13.894712,
+      "y": 0,
+      "z": -25.142022,
+      "yaw": 144.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_4_0",
+      "x": 15.545675,
+      "y": 0,
+      "z": -25.904795,
+      "yaw": 264.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_4_1",
+      "x": 14.595205,
+      "y": 0,
+      "z": -27.045675,
+      "yaw": 354.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_4_2",
+      "x": 13.454325,
+      "y": 0,
+      "z": -26.095205,
+      "yaw": 84.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_04_4_3",
+      "x": 14.404795,
+      "y": 0,
+      "z": -24.954325,
+      "yaw": 174.797754,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.5.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_2_0",
+      "x": 19.817084,
+      "y": 0,
+      "z": -26.234252,
+      "yaw": 285.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_2_1",
+      "x": 18.182916,
+      "y": 0,
+      "z": -25.765748,
+      "yaw": 105.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_3_0",
+      "x": 20.009339,
+      "y": 0,
+      "z": -26.28937,
+      "yaw": 285.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_3_1",
+      "x": 18.244729,
+      "y": 0,
+      "z": -26.729428,
+      "yaw": 45.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_3_2",
+      "x": 18.745932,
+      "y": 0,
+      "z": -24.981202,
+      "yaw": 165.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_4_0",
+      "x": 20.009339,
+      "y": 0,
+      "z": -26.28937,
+      "yaw": 285.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_4_1",
+      "x": 18.71063,
+      "y": 0,
+      "z": -27.009339,
+      "yaw": 15.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_4_2",
+      "x": 17.990661,
+      "y": 0,
+      "z": -25.71063,
+      "yaw": 105.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_05_4_3",
+      "x": 19.28937,
+      "y": 0,
+      "z": -24.990661,
+      "yaw": 195.997192,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.6.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_2_0",
+      "x": 6.677081,
+      "y": 0,
+      "z": -18.513869,
+      "yaw": 307.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_2_1",
+      "x": 5.322919,
+      "y": 0,
+      "z": -17.486131,
+      "yaw": 127.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_3_0",
+      "x": 6.836394,
+      "y": 0,
+      "z": -18.63478,
+      "yaw": 307.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_3_1",
+      "x": 5.032068,
+      "y": 0,
+      "z": -18.406948,
+      "yaw": 67.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_3_2",
+      "x": 6.131539,
+      "y": 0,
+      "z": -16.958272,
+      "yaw": 187.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_4_0",
+      "x": 6.836394,
+      "y": 0,
+      "z": -18.63478,
+      "yaw": 307.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_4_1",
+      "x": 5.36522,
+      "y": 0,
+      "z": -18.836394,
+      "yaw": 37.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_4_2",
+      "x": 5.163606,
+      "y": 0,
+      "z": -17.36522,
+      "yaw": 127.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_06_4_3",
+      "x": 6.63478,
+      "y": 0,
+      "z": -17.163606,
+      "yaw": 217.196631,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.sites.7.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_2_0",
+      "x": 19.445438,
+      "y": 0,
+      "z": -16.723937,
+      "yaw": 328.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.2.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_2_1",
+      "x": 18.554562,
+      "y": 0,
+      "z": -15.276063,
+      "yaw": 148.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.2.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_3_0",
+      "x": 19.550247,
+      "y": 0,
+      "z": -16.894276,
+      "yaw": 328.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.3.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_3_1",
+      "x": 17.950411,
+      "y": 0,
+      "z": -16.02939,
+      "yaw": 88.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.3.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_3_2",
+      "x": 19.499342,
+      "y": 0,
+      "z": -15.076335,
+      "yaw": 208.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.3.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_4_0",
+      "x": 19.550247,
+      "y": 0,
+      "z": -16.894276,
+      "yaw": 328.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.4.1"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_4_1",
+      "x": 18.105724,
+      "y": 0,
+      "z": -16.550247,
+      "yaw": 58.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.4.2"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_4_2",
+      "x": 18.449753,
+      "y": 0,
+      "z": -15.105724,
+      "yaw": 148.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.4.3"
+      ]
+    },
+    {
+      "name": "nlab_chat_07_4_3",
+      "x": 19.894276,
+      "y": 0,
+      "z": -15.449753,
+      "yaw": 238.396069,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.disabledSites.1.formations.4.4"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_00",
+      "x": -3,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_01",
+      "x": -4.35,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_02",
+      "x": -5.7,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_03",
+      "x": -7.05,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_04",
+      "x": -8.4,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_05",
+      "x": -9.75,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_06",
+      "x": -11.1,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_clinic_queue_07",
+      "x": -12.45,
+      "y": 0,
+      "z": 13,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_clinic_use_00",
+      "x": -0.7,
+      "y": 0,
+      "z": 13.9,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_clinic_use_01",
+      "x": -0.7,
+      "y": 0,
+      "z": 12.1,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.clinic.uses.2"
+      ]
+    },
+    {
+      "name": "nlab_gather_00",
+      "x": 14,
+      "y": 0,
+      "z": -20.2,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.1"
+      ]
+    },
+    {
+      "name": "nlab_gather_01",
+      "x": 15.299677,
+      "y": 0,
+      "z": -20.429168,
+      "yaw": 200,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.2"
+      ]
+    },
+    {
+      "name": "nlab_gather_02",
+      "x": 16.442593,
+      "y": 0,
+      "z": -21.089031,
+      "yaw": 220,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.3"
+      ]
+    },
+    {
+      "name": "nlab_gather_03",
+      "x": 17.290897,
+      "y": 0,
+      "z": -22.1,
+      "yaw": 240,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.4"
+      ]
+    },
+    {
+      "name": "nlab_gather_04",
+      "x": 17.742269,
+      "y": 0,
+      "z": -23.340137,
+      "yaw": 260,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.5"
+      ]
+    },
+    {
+      "name": "nlab_gather_05",
+      "x": 17.742269,
+      "y": 0,
+      "z": -24.659863,
+      "yaw": 280,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.6"
+      ]
+    },
+    {
+      "name": "nlab_gather_06",
+      "x": 17.290897,
+      "y": 0,
+      "z": -25.9,
+      "yaw": 300,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.7"
+      ]
+    },
+    {
+      "name": "nlab_gather_07",
+      "x": 16.442593,
+      "y": 0,
+      "z": -26.910969,
+      "yaw": 320,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.8"
+      ]
+    },
+    {
+      "name": "nlab_gather_08",
+      "x": 15.299677,
+      "y": 0,
+      "z": -27.570832,
+      "yaw": 340,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.9"
+      ]
+    },
+    {
+      "name": "nlab_gather_09",
+      "x": 14,
+      "y": 0,
+      "z": -27.8,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.10"
+      ]
+    },
+    {
+      "name": "nlab_gather_10",
+      "x": 12.700323,
+      "y": 0,
+      "z": -27.570832,
+      "yaw": 20,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.11"
+      ]
+    },
+    {
+      "name": "nlab_gather_11",
+      "x": 11.557407,
+      "y": 0,
+      "z": -26.910969,
+      "yaw": 40,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.12"
+      ]
+    },
+    {
+      "name": "nlab_gather_12",
+      "x": 10.709103,
+      "y": 0,
+      "z": -25.9,
+      "yaw": 60,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.13"
+      ]
+    },
+    {
+      "name": "nlab_gather_13",
+      "x": 10.257731,
+      "y": 0,
+      "z": -24.659863,
+      "yaw": 80,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.14"
+      ]
+    },
+    {
+      "name": "nlab_gather_14",
+      "x": 10.257731,
+      "y": 0,
+      "z": -23.340137,
+      "yaw": 100,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.15"
+      ]
+    },
+    {
+      "name": "nlab_gather_15",
+      "x": 10.709103,
+      "y": 0,
+      "z": -22.1,
+      "yaw": 120,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.16"
+      ]
+    },
+    {
+      "name": "nlab_gather_16",
+      "x": 11.557407,
+      "y": 0,
+      "z": -21.089031,
+      "yaw": 140,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.17"
+      ]
+    },
+    {
+      "name": "nlab_gather_17",
+      "x": 12.700323,
+      "y": 0,
+      "z": -20.429168,
+      "yaw": 160,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.gather.slots.18"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_00",
+      "x": 17.5,
+      "y": 0,
+      "z": 8,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_01",
+      "x": 17.5,
+      "y": 0,
+      "z": 6.65,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_02",
+      "x": 17.5,
+      "y": 0,
+      "z": 5.3,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_03",
+      "x": 17.5,
+      "y": 0,
+      "z": 3.95,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_04",
+      "x": 17.5,
+      "y": 0,
+      "z": 2.6,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_05",
+      "x": 17.5,
+      "y": 0,
+      "z": 1.25,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_06",
+      "x": 17.5,
+      "y": 0,
+      "z": -0.1,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_mess_queue_07",
+      "x": 17.5,
+      "y": 0,
+      "z": -1.45,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_mess_use_00",
+      "x": 16.6,
+      "y": 0,
+      "z": 10.3,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_mess_use_01",
+      "x": 18.4,
+      "y": 0,
+      "z": 10.3,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.mess.uses.2"
+      ]
+    },
+    {
+      "name": "nlab_muster_00",
+      "x": 5.390382,
+      "y": 0,
+      "z": -26.265156,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.1",
+        "LifeLayout.muster.slots.1",
+        "LifeLayout.workPosts.1.target"
+      ]
+    },
+    {
+      "name": "nlab_muster_01",
+      "x": 7.010067,
+      "y": 0,
+      "z": -25.950321,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.2",
+        "LifeLayout.muster.slots.2"
+      ]
+    },
+    {
+      "name": "nlab_muster_02",
+      "x": 8.629752,
+      "y": 0,
+      "z": -25.635486,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.3",
+        "LifeLayout.muster.slots.3"
+      ]
+    },
+    {
+      "name": "nlab_muster_03",
+      "x": 10.249437,
+      "y": 0,
+      "z": -25.320651,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.4",
+        "LifeLayout.muster.slots.4",
+        "LifeLayout.workPosts.2.target"
+      ]
+    },
+    {
+      "name": "nlab_muster_04",
+      "x": 5.046926,
+      "y": 0,
+      "z": -24.498227,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.5",
+        "LifeLayout.muster.slots.5"
+      ]
+    },
+    {
+      "name": "nlab_muster_05",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.6",
+        "LifeLayout.muster.slots.6"
+      ]
+    },
+    {
+      "name": "nlab_muster_06",
+      "x": 8.286296,
+      "y": 0,
+      "z": -23.868557,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.7",
+        "LifeLayout.muster.slots.7"
+      ]
+    },
+    {
+      "name": "nlab_muster_07",
+      "x": 9.905981,
+      "y": 0,
+      "z": -23.553722,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.1.slots.8",
+        "LifeLayout.muster.slots.8"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_00",
+      "x": 3.770697,
+      "y": 0,
+      "z": -26.579991,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.1"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_01",
+      "x": 5.390382,
+      "y": 0,
+      "z": -26.265156,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.2"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_02",
+      "x": 7.010067,
+      "y": 0,
+      "z": -25.950321,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.3"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_03",
+      "x": 8.629752,
+      "y": 0,
+      "z": -25.635486,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.4"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_04",
+      "x": 10.249437,
+      "y": 0,
+      "z": -25.320651,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.5"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_05",
+      "x": 11.869122,
+      "y": 0,
+      "z": -25.005816,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.6"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_06",
+      "x": 3.427241,
+      "y": 0,
+      "z": -24.813062,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.7"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_07",
+      "x": 5.046926,
+      "y": 0,
+      "z": -24.498227,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.8"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_08",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.9"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_08_e0_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.1.run",
+        "LifeLayout.muster.travel.entries.1.dash"
+      ],
+      "start": {
+        "x": 14.54,
+        "y": 0,
+        "z": -13.989
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e10_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.11.run",
+        "LifeLayout.muster.travel.entries.11.dash"
+      ],
+      "start": {
+        "x": 9.524,
+        "y": 0,
+        "z": -18.356
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e11_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.12.run",
+        "LifeLayout.muster.travel.entries.12.dash"
+      ],
+      "start": {
+        "x": -3.092,
+        "y": 0,
+        "z": -19.912
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e12_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.13.run",
+        "LifeLayout.muster.travel.entries.13.dash"
+      ],
+      "start": {
+        "x": 19.162,
+        "y": 0,
+        "z": -17.167
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e13_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.14.run",
+        "LifeLayout.muster.travel.entries.14.dash"
+      ],
+      "start": {
+        "x": 24.773,
+        "y": 0,
+        "z": -11.603
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e14_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.15.run",
+        "LifeLayout.muster.travel.entries.15.dash"
+      ],
+      "start": {
+        "x": -27.146,
+        "y": 0,
+        "z": -3.491
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e15_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.16.run",
+        "LifeLayout.muster.travel.entries.16.dash"
+      ],
+      "start": {
+        "x": -13.835,
+        "y": 0,
+        "z": -20.388
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e16_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.17.run",
+        "LifeLayout.muster.travel.entries.17.dash"
+      ],
+      "start": {
+        "x": -27.41,
+        "y": 0,
+        "z": 12.247
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e17_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.18.run",
+        "LifeLayout.muster.travel.entries.18.dash"
+      ],
+      "start": {
+        "x": 13.351,
+        "y": 0,
+        "z": -17.884
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e18_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.19.run",
+        "LifeLayout.muster.travel.entries.19.dash"
+      ],
+      "start": {
+        "x": -16.941,
+        "y": 4,
+        "z": -23.368
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e19_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.20.run",
+        "LifeLayout.muster.travel.entries.20.dash"
+      ],
+      "start": {
+        "x": -20.665,
+        "y": 8,
+        "z": -20.847
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e1_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.2.run",
+        "LifeLayout.muster.travel.entries.2.dash"
+      ],
+      "start": {
+        "x": -25.28,
+        "y": 0,
+        "z": 23.415
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e20_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.21.run",
+        "LifeLayout.muster.travel.entries.21.dash"
+      ],
+      "start": {
+        "x": -12.535,
+        "y": 8,
+        "z": -20.981
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e21_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.22.run",
+        "LifeLayout.muster.travel.entries.22.dash"
+      ],
+      "start": {
+        "x": -16.672,
+        "y": 8,
+        "z": -22.839
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e22_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.23.run",
+        "LifeLayout.muster.travel.entries.23.dash"
+      ],
+      "start": {
+        "x": -19.12,
+        "y": 8,
+        "z": -22.748
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e23_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.24.run",
+        "LifeLayout.muster.travel.entries.24.dash"
+      ],
+      "start": {
+        "x": -21.805,
+        "y": 12,
+        "z": 1.402
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e24_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.25.run",
+        "LifeLayout.muster.travel.entries.25.dash"
+      ],
+      "start": {
+        "x": -20.087,
+        "y": 12,
+        "z": -20.275
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e25_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.26.run",
+        "LifeLayout.muster.travel.entries.26.dash"
+      ],
+      "start": {
+        "x": -22.775,
+        "y": 12,
+        "z": -9.18
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e26_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.27.run",
+        "LifeLayout.muster.travel.entries.27.dash"
+      ],
+      "start": {
+        "x": -21.095,
+        "y": 12,
+        "z": -14.703
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e27_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.28.run",
+        "LifeLayout.muster.travel.entries.28.dash"
+      ],
+      "start": {
+        "x": 15.716,
+        "y": 16,
+        "z": 26.597
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e28_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.29.run",
+        "LifeLayout.muster.travel.entries.29.dash"
+      ],
+      "start": {
+        "x": 16.57,
+        "y": 16,
+        "z": 17.425
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e29_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.30.run",
+        "LifeLayout.muster.travel.entries.30.dash"
+      ],
+      "start": {
+        "x": 10.045,
+        "y": 16,
+        "z": 20.641
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e2_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.3.run",
+        "LifeLayout.muster.travel.entries.3.dash"
+      ],
+      "start": {
+        "x": -30.587,
+        "y": 0,
+        "z": -6.544
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e30_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.31.run",
+        "LifeLayout.muster.travel.entries.31.dash"
+      ],
+      "start": {
+        "x": 10.321,
+        "y": 16,
+        "z": 26.225
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e31_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.32.run",
+        "LifeLayout.muster.travel.entries.32.dash"
+      ],
+      "start": {
+        "x": 17.771,
+        "y": 20,
+        "z": 23.365
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e32_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.33.run",
+        "LifeLayout.muster.travel.entries.33.dash"
+      ],
+      "start": {
+        "x": 15.688,
+        "y": 20,
+        "z": 25.068
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e3_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.4.run",
+        "LifeLayout.muster.travel.entries.4.dash"
+      ],
+      "start": {
+        "x": -9.608,
+        "y": 0,
+        "z": -21.228
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e4_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.5.run",
+        "LifeLayout.muster.travel.entries.5.dash"
+      ],
+      "start": {
+        "x": -29.036,
+        "y": 0,
+        "z": 8.647
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e5_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.6.run",
+        "LifeLayout.muster.travel.entries.6.dash"
+      ],
+      "start": {
+        "x": 3.35,
+        "y": 0,
+        "z": -20.766
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e6_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.7.run",
+        "LifeLayout.muster.travel.entries.7.dash"
+      ],
+      "start": {
+        "x": 24.878,
+        "y": 0,
+        "z": -16.349
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e7_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.8.run",
+        "LifeLayout.muster.travel.entries.8.dash"
+      ],
+      "start": {
+        "x": -27.888,
+        "y": 0,
+        "z": 16.198
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e8_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.9.run",
+        "LifeLayout.muster.travel.entries.9.dash"
+      ],
+      "start": {
+        "x": -29.558,
+        "y": 0,
+        "z": 1.046
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_08_e9_rr",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "RelaxedRun",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.travel.entries.10.run",
+        "LifeLayout.muster.travel.entries.10.dash"
+      ],
+      "start": {
+        "x": 17.26,
+        "y": 0,
+        "z": -7.676
+      }
+    },
+    {
+      "name": "nlab_muster_6x3_09",
+      "x": 8.286296,
+      "y": 0,
+      "z": -23.868557,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.10"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_10",
+      "x": 9.905981,
+      "y": 0,
+      "z": -23.553722,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.11"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_11",
+      "x": 11.525665,
+      "y": 0,
+      "z": -23.238887,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.12"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_12",
+      "x": 3.083785,
+      "y": 0,
+      "z": -23.046133,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.13"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_13",
+      "x": 4.70347,
+      "y": 0,
+      "z": -22.731298,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.14"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_14",
+      "x": 6.323155,
+      "y": 0,
+      "z": -22.416463,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.15"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_15",
+      "x": 7.94284,
+      "y": 0,
+      "z": -22.101628,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.16"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_16",
+      "x": 9.562524,
+      "y": 0,
+      "z": -21.786793,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.17"
+      ]
+    },
+    {
+      "name": "nlab_muster_6x3_17",
+      "x": 11.182209,
+      "y": 0,
+      "z": -21.471959,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.2.slots.18"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_00",
+      "x": 2.151013,
+      "y": 0,
+      "z": -26.894825,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.1"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_01",
+      "x": 3.770697,
+      "y": 0,
+      "z": -26.579991,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.2"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_02",
+      "x": 5.390382,
+      "y": 0,
+      "z": -26.265156,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.3"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_03",
+      "x": 7.010067,
+      "y": 0,
+      "z": -25.950321,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.4"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_04",
+      "x": 8.629752,
+      "y": 0,
+      "z": -25.635486,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.5"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_05",
+      "x": 10.249437,
+      "y": 0,
+      "z": -25.320651,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.6"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_06",
+      "x": 11.869122,
+      "y": 0,
+      "z": -25.005816,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.7"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_07",
+      "x": 13.488806,
+      "y": 0,
+      "z": -24.690982,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.8"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_08",
+      "x": 1.807556,
+      "y": 0,
+      "z": -25.127897,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.9"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_09",
+      "x": 3.427241,
+      "y": 0,
+      "z": -24.813062,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.10"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_10",
+      "x": 5.046926,
+      "y": 0,
+      "z": -24.498227,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.11"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_11",
+      "x": 6.666611,
+      "y": 0,
+      "z": -24.183392,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.12"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_12",
+      "x": 8.286296,
+      "y": 0,
+      "z": -23.868557,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.13"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_13",
+      "x": 9.905981,
+      "y": 0,
+      "z": -23.553722,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.14"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_14",
+      "x": 11.525665,
+      "y": 0,
+      "z": -23.238887,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.15"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_15",
+      "x": 13.14535,
+      "y": 0,
+      "z": -22.924053,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.16"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_16",
+      "x": 1.4641,
+      "y": 0,
+      "z": -23.360968,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.17"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_17",
+      "x": 3.083785,
+      "y": 0,
+      "z": -23.046133,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.18"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_18",
+      "x": 4.70347,
+      "y": 0,
+      "z": -22.731298,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.19"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_19",
+      "x": 6.323155,
+      "y": 0,
+      "z": -22.416463,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.20"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_20",
+      "x": 7.94284,
+      "y": 0,
+      "z": -22.101628,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.21"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_21",
+      "x": 9.562524,
+      "y": 0,
+      "z": -21.786793,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.22"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_22",
+      "x": 11.182209,
+      "y": 0,
+      "z": -21.471959,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.23"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_23",
+      "x": 12.801894,
+      "y": 0,
+      "z": -21.157124,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.24"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_24",
+      "x": 1.120644,
+      "y": 0,
+      "z": -21.594039,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.25"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_25",
+      "x": 2.740329,
+      "y": 0,
+      "z": -21.279204,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.26"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_26",
+      "x": 4.360014,
+      "y": 0,
+      "z": -20.964369,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.27"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_27",
+      "x": 5.979698,
+      "y": 0,
+      "z": -20.649534,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.28"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_28",
+      "x": 7.599383,
+      "y": 0,
+      "z": -20.334699,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.29"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_29",
+      "x": 9.219068,
+      "y": 0,
+      "z": -20.019864,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.30"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_30",
+      "x": 10.838753,
+      "y": 0,
+      "z": -19.70503,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.31"
+      ]
+    },
+    {
+      "name": "nlab_muster_8x4_31",
+      "x": 12.458438,
+      "y": 0,
+      "z": -19.390195,
+      "yaw": 169,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.muster.formations.3.slots.32"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_00",
+      "x": -4.6,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 295,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_01",
+      "x": -3.5,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_02",
+      "x": -2.4,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_03",
+      "x": -1.3,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_04",
+      "x": -0.2,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_05",
+      "x": 0.9,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_06",
+      "x": 2,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_shower_queue_07",
+      "x": 3.1,
+      "y": 0,
+      "z": -20.7,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_shower_use_00",
+      "x": -6.183,
+      "y": 0,
+      "z": -19.923,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.shower.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_00",
+      "x": -10.5,
+      "y": 0,
+      "z": -5.5,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_01",
+      "x": -10.5,
+      "y": 0,
+      "z": -6.85,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_02",
+      "x": -10.5,
+      "y": 0,
+      "z": -8.2,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_03",
+      "x": -10.5,
+      "y": 0,
+      "z": -9.55,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_04",
+      "x": -10.5,
+      "y": 0,
+      "z": -10.9,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_05",
+      "x": -10.5,
+      "y": 0,
+      "z": -12.25,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_06",
+      "x": -10.5,
+      "y": 0,
+      "z": -13.6,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_toilet_queue_07",
+      "x": -10.5,
+      "y": 0,
+      "z": -14.95,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_toilet_use_00",
+      "x": -11.4,
+      "y": 0,
+      "z": -3.2,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_toilet_use_01",
+      "x": -9.6,
+      "y": 0,
+      "z": -3.2,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.toilet.uses.2"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_00",
+      "x": 22,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_01",
+      "x": 20.65,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_02",
+      "x": 19.3,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_03",
+      "x": 17.95,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_04",
+      "x": 16.6,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_05",
+      "x": 15.25,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_06",
+      "x": 13.9,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_training_queue_07",
+      "x": 12.55,
+      "y": 0,
+      "z": 19,
+      "yaw": 90,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_training_use_00",
+      "x": 24.3,
+      "y": 0,
+      "z": 19.9,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_training_use_01",
+      "x": 24.3,
+      "y": 0,
+      "z": 18.1,
+      "yaw": 270,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.training.uses.2"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_00",
+      "x": 17,
+      "y": 0,
+      "z": -11,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.1"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_01",
+      "x": 17,
+      "y": 0,
+      "z": -12.35,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.2"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_02",
+      "x": 17,
+      "y": 0,
+      "z": -13.7,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.3"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_03",
+      "x": 17,
+      "y": 0,
+      "z": -15.05,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.4"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_04",
+      "x": 17,
+      "y": 0,
+      "z": -16.4,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.5"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_05",
+      "x": 17,
+      "y": 0,
+      "z": -17.75,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.6"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_06",
+      "x": 17,
+      "y": 0,
+      "z": -19.1,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.7"
+      ]
+    },
+    {
+      "name": "nlab_water_queue_07",
+      "x": 17,
+      "y": 0,
+      "z": -20.45,
+      "yaw": 0,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.queue.8"
+      ]
+    },
+    {
+      "name": "nlab_water_use_00",
+      "x": 16.1,
+      "y": 0,
+      "z": -8.7,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.uses.1"
+      ]
+    },
+    {
+      "name": "nlab_water_use_01",
+      "x": 17.9,
+      "y": 0,
+      "z": -8.7,
+      "yaw": 180,
+      "edgeEvent": "legacy-default-edge",
+      "nodeEventId": 561913624,
+      "origins": [
+        "LifeLayout.facilities.water.uses.2"
+      ]
+    }
+  ]
+}

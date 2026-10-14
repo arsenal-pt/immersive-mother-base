@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "component": "command-platform-1-v9.1",
+  "releaseStatus": "experimental-known-native-defects",
+  "patchFormat": "BSDIFF40",
+  "patchFile": "command-v9.1.bsdiff",
+  "patchSha256": "6c91107a6426054c0ddee6a807a7e48ef7e1629c68de49f19572d9d7816160d3",
+  "patchBytes": 1658338,
+  "baseBundleSha256": "dbff28ecf0cdc4f3d231b86530b0074882478d69d33ef9e892c21eee93f9c5f5",
+  "targetBundleSha256": "334ab1c8daf0455b267e6ecba45f32c927260c5217224e7a007f4f54799859ad",
+  "sources": [
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+      "sha256": "8d0dbf7b3710768ba90f8b0efa820ee00f33181b7cfc465b67cf29eda9a1700d",
+      "bytes": 7187472
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+      "sha256": "662115b68ff93858ee4f10865936b08e60923f9517bc824245c046e5409a551c",
+      "bytes": 4202992
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpkd",
+      "sha256": "fb6d1d2f49aa3cafd8f5b0161526ca0db096a08a3cebd3c4992446ae605a96fd",
+      "bytes": 982240
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0010.fpk",
+      "sha256": "5537275acb4b47a070a782ed8489848a285209c084d18620b640e384418defa7",
+      "bytes": 4026576
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0010.fpkd",
+      "sha256": "fe069112963b2825d13fd15cfe7d0fcf46e907907942541fc1d453b6b0c51a5a",
+      "bytes": 894800
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0020.fpk",
+      "sha256": "858f8c7892aa63588008ae7c88dee99ffd076a100131d8c8b289bd3434827cf9",
+      "bytes": 5225136
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0020.fpkd",
+      "sha256": "82087c36ce0c2c1f1ba1360010b2e2e4ebf8c635a047aa7b97d545bf820a0e72",
+      "bytes": 922032
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0030.fpk",
+      "sha256": "60c224b72fd78d4ed9ca4968773e6eef0a4bb9b806b33d7f70b00a447b174e99",
+      "bytes": 4173008
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0030.fpkd",
+      "sha256": "4ad2d11c60b4aecbbb5672b8cb2d958ed0837b70a8232c81905befe1822a298e",
+      "bytes": 915280
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0040.fpk",
+      "sha256": "6ca583eb49087f8444eb123edee8756504dd48d26a9ab4a27e5c3e775e1f0682",
+      "bytes": 3170704
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0040.fpkd",
+      "sha256": "fea0fdbdfbb3afbf39e555a11c4dc87aaba0ced455a587c76f9b658f3d4e1f90",
+      "bytes": 822192
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0050.fpk",
+      "sha256": "cd7f54f19400e515c3e98259ebb7e19baaf38a1e396f3f02d9e947442a435570",
+      "bytes": 3953344
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0050.fpkd",
+      "sha256": "22be0abad92ffb67c1071415d2563eff079d7bb97d8c9a05a21aeb607fed7b07",
+      "bytes": 639376
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0050_close.fpkd",
+      "sha256": "65069ad5d1028ebfa7caab6816f245de9d4415b68a5be96d074f6accfaab0804",
+      "bytes": 8352
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0050_open.fpk",
+      "sha256": "5ff9674ea2e8059bda9438f8c9a4ea732d8974e62c15eb51c0ccec608190a63e",
+      "bytes": 259504
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0050_open.fpkd",
+      "sha256": "63564cdfc146231b08081eee27099ee08f09cc487e3ee5e2aaacf5f9b57528c2",
+      "bytes": 10912
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0060.fpk",
+      "sha256": "1257d3fea598a2e9a21d2028ad7b301de179a52bb994763f981014570724a2e9",
+      "bytes": 2466928
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0060.fpkd",
+      "sha256": "1c6481c269555b27666f687b65ac0ff3c576815ad3ac3e75a858f1a360cb2a3d",
+      "bytes": 618432
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0070.fpk",
+      "sha256": "8e9e46756e076cb2296cc94c9b945670cc5d2df021ae48af8023a27f76023765",
+      "bytes": 3382944
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0070.fpkd",
+      "sha256": "59be6a0f4645ee2422d655213ced5a9ab6746fd9fcd5540e622e9b9a064ac0a5",
+      "bytes": 889936
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt1.fpk",
+      "sha256": "23e14880823469c481a5159514b9a10f93fe24033fabdac0ede4d3d09ecedde3",
+      "bytes": 190304
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt1.fpkd",
+      "sha256": "107e759d04da5e9e3007ec9c70b8e049cb06afce5303f6b6fe2ffa05322291de",
+      "bytes": 364400
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt2.fpk",
+      "sha256": "6040b00f1a2cf8f428d8cb05a3f77c9eb886920b463222e14865fc157c992223",
+      "bytes": 69680
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt2.fpkd",
+      "sha256": "8e56421bd43d524f2991e9e62a137707b7c89a444fc87d304e1df5cd21dd52f7",
+      "bytes": 364400
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt3.fpk",
+      "sha256": "945d3b5822042e91ade873803b2c8f243bb6b06162296e6bf6743171ac762725",
+      "bytes": 69680
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt3.fpkd",
+      "sha256": "97c2a41e6a68a48e4aa2a6fef42b556b86a86e2efd021d7e8223bae1da4c92ab",
+      "bytes": 364400
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt_brdg.fpk",
+      "sha256": "a48a599adf873a14f68bb46214fc81785462be16e5588b59bb75de9119566579",
+      "bytes": 55552
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt_brdg.fpkd",
+      "sha256": "2e750edc4679b7236e0a16d2c7ec78a4a33c7273ea21ff7e45c37b9843652f17",
+      "bytes": 168848
+    }
+  ],
+  "targets": [
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+      "sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+      "bytes": 14327248
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpkd",
+      "sha256": "56a6d3d80d895a78f3eb652859947815cec72ae086c84a373d8abc98b38c68d4",
+      "bytes": 6156784
+    },
+    {
+      "path": "Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+      "sha256": "f7ddb798a4e23e5f2a9196adb3076b6c3733fcc3e4186fd7216535320d726248",
+      "bytes": 7187472
+    }
+  ],
+  "originalV9SupersededDueToLoadCrash": true,
+  "sharedPropsAffectOtherDepartments": true,
+  "assetsRedistributed": false,
+  "offlineByteExact": true
+}

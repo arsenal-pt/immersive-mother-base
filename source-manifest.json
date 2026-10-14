@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "version": "0.1.0-dev",
+  "license": "GPL-3.0-only",
+  "nativeAcceptance": false,
+  "coreLua": {
+    "GameDir/mod/nlab/NpcRegistry.lua": {
+      "candidateSha256": "58aa03384425c1e5423df140a9b38ad4bfb5d84b87dd507c0c4e0ddc35a6d0b9"
+    },
+    "GameDir/mod/nlab/NativeHierarchy.lua": {
+      "candidateSha256": "4af9ff1e829f3b88ad09d48e7c2c8c25a007825167cfb178afb6225b813f002b"
+    },
+    "GameDir/mod/nlab/NativeServiceBindings.lua": {
+      "candidateSha256": "6aceaef8db8412164be093b6eec6714625ff3ba15454a122982e5c57bf7d7494"
+    },
+    "GameDir/mod/nlab/CqcRosterPolicy.lua": {
+      "candidateSha256": "122db0076dbbc3a551d638796829bd1482157f0bb313e9fd4cda23d06f6221aa"
+    },
+    "GameDir/mod/nlab/CqcPairPlan.lua": {
+      "candidateSha256": "1ee3ddb5502a12f2b2547ae6e8d35d0cd96f0707f6a1d9ed3be0f90eb9aca11b"
+    },
+    "GameDir/mod/nlab/CqcTrainingPlan.lua": {
+      "candidateSha256": "17a76ca0cf676233229312701848fb9375ef062121e9092559acf0a8d2ab874b"
+    },
+    "GameDir/mod/nlab/CqcDrillSession.lua": {
+      "candidateSha256": "7fcb8360b54bd9e4fb602c7b1f3f5cb658e71d26f7a72aa87d480eeac2c2752c"
+    },
+    "GameDir/mod/nlab/NativeMotionObserver.lua": {
+      "candidateSha256": "6d6e7381b85755007d4cb6f7fccf79f4449cefbc1d679b17323b55bfb9429a92"
+    },
+    "GameDir/mod/nlab/StaffConfig.lua": {
+      "candidateSha256": "c9cdaa4bad7f8668458462d1d4d8e3c3347c13228a90183ec9e7e5025646c1c0"
+    },
+    "GameDir/mod/nlab/NpcLifeCore.lua": {
+      "candidateSha256": "32a8b2374dd4b46291844dd62affa4d47ce5622553598b14be619825487b0806"
+    },
+    "GameDir/mod/nlab/LifeLayout.lua": {
+      "candidateSha256": "05be79127e857a2f80f98eaefe94e5a0b058e2339d25d26faf5b00d8cedd1cd5"
+    },
+    "GameDir/mod/nlab/NativeCqcTraining.lua": {
+      "candidateSha256": "98cffa5ff6164a2fe0f0cf99643f7a3d9bb7750f082016d0dde01b99c1aec082"
+    },
+    "GameDir/mod/nlab/CqcTrainingProof.lua": {
+      "candidateSha256": "e961718f1f2fd33a0be0b0fd73f2986662df42fa8fdcdc8dbd163eaefcf98e01"
+    },
+    "GameDir/mod/nlab/ActionRecorderCore.lua": {
+      "candidateSha256": "92ad2753ad4596a86087a5b7b079c851d292533989c7525f26d4448b06165c55"
+    },
+    "GameDir/mod/modules/NpcBaseMap.lua": {
+      "candidateSha256": "698c1771d3b1c3532de6beb3f9869a0de3749aa39a8d8cdc8d6f3554b39c0de4"
+    },
+    "GameDir/mod/modules/NpcSoldiers.lua": {
+      "candidateSha256": "114123c196ec50eae6aa33687d1ec1334808a7f923475e219951e77f466edbc0"
+    },
+    "GameDir/mod/modules/NpcLife.lua": {
+      "candidateSha256": "6ed694c094b943821ad605930b958a3c7827f061c11de9f85749fe614c3cb30b"
+    },
+    "GameDir/mod/modules/NlabActionRecorder.lua": {
+      "candidateSha256": "1620565314cfba6c374255236aea7d47d76cd8c362f638b57394e3af4f022569"
+    },
+    "GameDir/mod/modules/NpcTraining.lua": {
+      "candidateSha256": "59c21077036dcb5b46c56b4dc7d3f110204f73a63b20f9bb2c6a937c1cf0188a"
+    },
+    "GameDir/mod/modules/ImmersiveMotherBase.lua": {
+      "candidateSha256": "ce74bb055ddec790df1a80683a75cd31b7193f620496b6b9767e75b0019f2206"
+    }
+  },
+  "sourceHashes": {
+    "companion/config.py": "f6f6b80b9cea6adac3725ee211f6b5a855bafb6703dce33f8d755774ddb0afcc",
+    "companion/runtime.py": "bfbd50a29b202739428f34b94cdfdb439cce17b6aba129cb728b551ecacdafd7",
+    "companion/commands.py": "00d9800ca2937df1c5d80984e6e039c306675f6e62137dcaef840357ee0b5f3e",
+    "companion/server.py": "a5320684cd802f381d26fbe8f823b924aab90ed4a7233b46d818d979f773a6c4",
+    "companion/config.example.json": "3ff7d4867b4ed58a0c81ea8f98a7a34def5caaa09de53caa7ac88cad67c4c78e",
+    "companion/index.html": "4c80d345bc9a526a70512e589c233930b1f0603b1782ed2cd9b08ee7353c69a9",
+    "companion/base-map.js": "2024a39fa2811ef6417c1a0830e2294fe130be3c7e364bfe8bf682399c8f3734",
+    "companion/StaffControlService.py": "997645e89c356179d8fdb01562f486a6b816c4e1e316b4c4cbd008abff97fb88",
+    "companion/NativeNameResolver.py": "1badba301d1374f0f792c483870e08244a2821ac5dc98ce065f835490b2d4a1e",
+    "experimental-sdk/NpcStaffControl.lua": "1dd2b534d1c32225c7e486bfc34ee550ad6d18bc15a25a790e0995606928eea7",
+    "experimental-sdk/OutdoorRestPilot.lua": "599456504f5fa18f9cbdca9f90a8e130a7768aea3d820d8c43635e8fd4f21f87",
+    "experimental-sdk/NativePerfProbe.lua": "07f43f0bcb9f8279b97104c3334f9a5c43ac51eede3222d9f2347d232b634d65",
+    "experimental-sdk/PlayerCqcReference.lua": "f32a8be1ac1f4b62d0f1c9a19b6eefc999e7a449be75a30480fb745408933f77",
+    "experimental-sdk/SoldierClipAdapter.py": "cfff35357c8e440eae00e5408758a2ded8e2cdfa0e2464505922a74670c8c4f2",
+    "resources-authored/Route-Waypoints.json": "314692cb9c775f35a637e8bf4a7dbfb38c26a9ae7a9de9bf4c5d09e44542ba2d",
+    "resources-authored/ImbRouteResources.lua": "8e7373468d8cce550cf55d11877dcd0c6c5fa508a309df8d2cb2bdebe777fa27",
+    "resource-tools/AuthoredRoutes.cs": "014df9d8e6c257ce004cebd80e046e2b3dad510f544aed4f11b96a986dcf6eca",
+    "resource-tools/Build-Authored-Routes.py": "54f47093518cafc512e988745313b44b572ffc2c4ae7b0e7612235a7d9cefcb0",
+    "tests/test_companion.py": "4eeed3b21fa717a3f148ff01977349a9a037c91f952c61cc1346b0e8c34a1e13",
+    "tests/test_map.cjs": "a1af142713068196bdb89ecdf7495ca2e2cb687980f5775a230c60bb96e5266c",
+    "tests/test_core.py": "eea5199fbeaa9333fdafff9940ed0e03f34701a73de6df2ffdd39adad33e753a",
+    "tests/OFFLINE-TEST-REPORT.json": "feddb6dcb892c11785bd291aa14756d0ee78eae6252795905eaee9c2bb149c38",
+    "tests/test_platform.py": "9c2f44eb306bfdecbd3017ffae563d7ffd8c2294d7e74321436cde94114cb505",
+    "platforms/command-v9/manifest.json": "e45e7043044821c780bb7a5dbf1bfd84d65eba258f01bcf2efb073bff6aca4f3",
+    "platforms/command-v9/rebuild.py": "8c3778f7012903d066db9c19aa0232fbc31cc0ed2c44381c6495d15a1340397c",
+    "platforms/command-v9/make_patch.py": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+    "tests/fixtures/NpcLifeTests.lua": "573d5f4f72f6039f9ce34980d0732cf719575b1f264cf1cb5e6e22753c812867",
+    "tests/fixtures/LifeLayout.lua": "fdfe2c8dee72af127024d7d1dffa9d7445d176390dafd902204e46325a8767c6",
+    "core/GameDir/mod/nlab/NpcRegistry.lua": "58aa03384425c1e5423df140a9b38ad4bfb5d84b87dd507c0c4e0ddc35a6d0b9",
+    "core/GameDir/mod/nlab/NativeHierarchy.lua": "4af9ff1e829f3b88ad09d48e7c2c8c25a007825167cfb178afb6225b813f002b",
+    "core/GameDir/mod/nlab/NativeServiceBindings.lua": "6aceaef8db8412164be093b6eec6714625ff3ba15454a122982e5c57bf7d7494",
+    "core/GameDir/mod/nlab/CqcRosterPolicy.lua": "122db0076dbbc3a551d638796829bd1482157f0bb313e9fd4cda23d06f6221aa",
+    "core/GameDir/mod/nlab/CqcPairPlan.lua": "1ee3ddb5502a12f2b2547ae6e8d35d0cd96f0707f6a1d9ed3be0f90eb9aca11b",
+    "core/GameDir/mod/nlab/CqcTrainingPlan.lua": "17a76ca0cf676233229312701848fb9375ef062121e9092559acf0a8d2ab874b",
+    "core/GameDir/mod/nlab/CqcDrillSession.lua": "7fcb8360b54bd9e4fb602c7b1f3f5cb658e71d26f7a72aa87d480eeac2c2752c",
+    "core/GameDir/mod/nlab/NativeMotionObserver.lua": "6d6e7381b85755007d4cb6f7fccf79f4449cefbc1d679b17323b55bfb9429a92",
+    "core/GameDir/mod/nlab/StaffConfig.lua": "c9cdaa4bad7f8668458462d1d4d8e3c3347c13228a90183ec9e7e5025646c1c0",
+    "core/GameDir/mod/nlab/NpcLifeCore.lua": "32a8b2374dd4b46291844dd62affa4d47ce5622553598b14be619825487b0806",
+    "core/GameDir/mod/nlab/LifeLayout.lua": "05be79127e857a2f80f98eaefe94e5a0b058e2339d25d26faf5b00d8cedd1cd5",
+    "core/GameDir/mod/nlab/NativeCqcTraining.lua": "98cffa5ff6164a2fe0f0cf99643f7a3d9bb7750f082016d0dde01b99c1aec082",
+    "core/GameDir/mod/nlab/CqcTrainingProof.lua": "e961718f1f2fd33a0be0b0fd73f2986662df42fa8fdcdc8dbd163eaefcf98e01",
+    "core/GameDir/mod/nlab/ActionRecorderCore.lua": "92ad2753ad4596a86087a5b7b079c851d292533989c7525f26d4448b06165c55",
+    "core/GameDir/mod/modules/NpcBaseMap.lua": "698c1771d3b1c3532de6beb3f9869a0de3749aa39a8d8cdc8d6f3554b39c0de4",
+    "core/GameDir/mod/modules/NpcSoldiers.lua": "114123c196ec50eae6aa33687d1ec1334808a7f923475e219951e77f466edbc0",
+    "core/GameDir/mod/modules/NpcLife.lua": "6ed694c094b943821ad605930b958a3c7827f061c11de9f85749fe614c3cb30b",
+    "core/GameDir/mod/modules/NlabActionRecorder.lua": "1620565314cfba6c374255236aea7d47d76cd8c362f638b57394e3af4f022569",
+    "core/GameDir/mod/modules/NpcTraining.lua": "59c21077036dcb5b46c56b4dc7d3f110204f73a63b20f9bb2c6a937c1cf0188a",
+    "core/GameDir/mod/modules/ImmersiveMotherBase.lua": "ce74bb055ddec790df1a80683a75cd31b7193f620496b6b9767e75b0019f2206"
+  }
+}

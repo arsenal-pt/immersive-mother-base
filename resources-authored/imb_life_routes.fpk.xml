@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FpkFile" Name="imb_life_routes.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level/mission2/imb/imb_life_routes.frt" />
+  </Entries>
+  <References />
+</ArchiveFile>

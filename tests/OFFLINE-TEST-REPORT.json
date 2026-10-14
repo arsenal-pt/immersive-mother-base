@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "date": "2026-10-14",
+  "scope": "actual child-server HTTP and atomic IPC with temporary fixtures",
+  "testsRun": 13,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "liveGameAccess": false,
+  "liveModAccess": false,
+  "port8785Used": false,
+  "nativeGameplayProved": false,
+  "childCleanup": "exact Popen children terminated and waited; temporary directory removed"
+}

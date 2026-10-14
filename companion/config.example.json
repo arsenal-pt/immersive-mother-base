@@ -1,0 +1,10 @@
+{
+  "host": "127.0.0.1",
+  "port": 8785,
+  "game_exe": "../your-owned-game/mgsvtpp.exe",
+  "mod_root": "../your-owned-game/mod",
+  "geometry_catalog": null,
+  "layout_file": null,
+  "native_names": false,
+  "name_resources": null
+}
