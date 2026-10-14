@@ -15,3 +15,12 @@ The HTTP suite uses temporary synthetic files, an ephemeral child server and the
 The platform helper tests validate exact input/output hashes, corrupted/wrong-base rejection and no-overwrite staging. None of these offline suites claims native animations, floor contact, accessibility, frame rate or installation acceptance.
 
 For optional platform checks, install its external requirements and run `python -B tests/test_platform.py`. Add `--originals-root` to validate all three frozen outputs from your exact owned inputs.
+
+
+## Alpha installer and context regressions
+
+`python -B tests/test_installer.py` verifies reversible file transactions in temporary fake-game folders:31tests,30pass and one Windows-symlink privilege skip; actual Windows junction rejection is separately tested and passed. It checks corrupt payloads/backups, path boundaries, process/OS locking, upgrades/earliest originals, partial failure recovery, preservation of edits and refusal of the legacy private IH-extra adapter.
+
+`python -B tests/test_readiness.py --library-dir <existing-Lupa-library-folder>` runs16portable context checks against the installed-source candidate. Cached actions/direct-provider commands must reject non-normal/loading/other-mission contexts while valid normal-MB patrol still works. Actual IH r267 loader/menu replay was also checked privately without bundling upstream source.
+
+The source manifest tracks current payload hashes. Historical native evidence is not transferred to this alpha. Package ZIP hashes and corresponding-source tag are in the versioned release manifest.

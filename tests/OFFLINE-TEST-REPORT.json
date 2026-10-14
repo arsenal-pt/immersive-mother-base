@@ -1,14 +1,31 @@
 {
-  "schema": 1,
+  "schema": 2,
+  "version": "0.1.0-alpha.1",
   "date": "2026-10-14",
-  "scope": "actual child-server HTTP and atomic IPC with temporary fixtures",
-  "testsRun": 13,
-  "failures": 0,
-  "errors": 0,
-  "passed": true,
-  "liveGameAccess": false,
-  "liveModAccess": false,
-  "port8785Used": false,
-  "nativeGameplayProved": false,
-  "childCleanup": "exact Popen children terminated and waited; temporary directory removed"
+  "nativeAcceptance": false,
+  "coreLuaChecks": 94,
+  "pureLifeBehaviorCases": 31,
+  "portableReadinessChecks": 16,
+  "privateActualIHR267LoaderChecks": 25,
+  "installerTests": 31,
+  "installerPassed": 30,
+  "installerSkipped": {
+    "count": 1,
+    "reason": "Windows symlink creation privilege unavailable; actual junction/reparse test passed"
+  },
+  "platformContractChecks": 6,
+  "v91ByteExactTargets": 3,
+  "historicalVariantsVerified": 10,
+  "historicalByteExactTargets": 22,
+  "historicalUnsafePathRejects": 40,
+  "companionHttpChecksRetained": 13,
+  "mapGroupedChecksRetained": 9,
+  "retainedCompanionEvidence": "Unchanged companion bytes; prior published-source offline report at b4e35a86852d3bc5d4181962d6d7b6d341a4e6a6.",
+  "gameLaunched": false,
+  "liveInstallChanged": false,
+  "limitations": [
+    "Temporary fake-game transactions are installation safety proof, not gameplay.",
+    "All clean-resource group/services/CQC gates remain unavailable.",
+    "Historical private native/FPS evidence does not transfer to this alpha."
+  ]
 }

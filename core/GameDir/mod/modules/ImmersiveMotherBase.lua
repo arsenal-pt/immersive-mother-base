@@ -1,10 +1,10 @@
 -- One owned Infinite Heaven root. Framework and original IH menus remain external.
-local this={VERSION="0.1.0-dev",owner="arsenal-pt",license="GPL-3.0-only"}
+local this={VERSION="0.1.0-alpha.1",owner="arsenal-pt",license="GPL-3.0-only"}
 this.registerMenus={"immersiveMotherBaseMenu","imbStaffMenu","imbTestingMenu"}
 this.immersiveMotherBaseMenu={parentRefs={"InfMenuDefs.inMissionMenu"},options={"ImmersiveMotherBase.ShowAvailability"}}
 this.imbStaffMenu={parentRefs={"ImmersiveMotherBase.immersiveMotherBaseMenu"},options={"ImmersiveMotherBase.ShowStaff","ImmersiveMotherBase.ShowHierarchy"}}
 this.imbTestingMenu={parentRefs={"ImmersiveMotherBase.immersiveMotherBaseMenu"},options={"ImmersiveMotherBase.ShowAvailability","ImmersiveMotherBase.ShowMap"}}
-this.langStrings={eng={immersiveMotherBaseMenu="Immersive Mother Base",imbStaffMenu="Staff and hierarchy",imbTestingMenu="Testing and diagnostics",showAvailability="Candidate feature availability",showStaff="Observed regular soldiers",showHierarchy="Simulated military hierarchy",showMap="Read-only native platform snapshot"},help={eng={immersiveMotherBaseMenu="Pre-alpha source build; GPL-3.0-only; resource builds and fresh gameplay acceptance pending.",imbTestingMenu="On-demand diagnostics; companion HTTP service is optional."}}}
+this.langStrings={eng={immersiveMotherBaseMenu="Immersive Mother Base",imbStaffMenu="Staff and hierarchy",imbTestingMenu="Testing and diagnostics",showAvailability="Candidate feature availability",showStaff="Observed regular soldiers",showHierarchy="Simulated military hierarchy",showMap="Read-only native platform snapshot"},help={eng={immersiveMotherBaseMenu="Installable alpha foundation; GPL-3.0-only; service/group/CQC resources and native acceptance pending.",imbTestingMenu="On-demand diagnostics; companion HTTP service is optional."}}}
 local function feedback(s)
  this.lastStatus=s
  if InfMenu and type(InfMenu.Print)=="function"then InfMenu.Print(s)end

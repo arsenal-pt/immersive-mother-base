@@ -41,7 +41,11 @@ local function serialize(v,lua)
  return (lua and "{"or(array and "["or "{"))..table.concat(rows,",")..(lua and "}"or(array and "]"or "}"))
 end
 local function write(path,data)local f=io.open(path,"w");if f then f:write(data);f:close();return true end;return false end
-local function active()return vars.missionCode==30050 and gvars.usingNormalMissionSlot==true and MotherBaseStage.GetCurrentCluster()<7 end
+local function active()
+ return vars.missionCode==30050 and gvars.usingNormalMissionSlot==true
+  and MotherBaseStage.GetCurrentCluster()<7
+  and not MotherBaseStage.IsLoading()and not MotherBaseStage.IsActivating()
+end
 local function save()
  if world then local saved=core.Save(world);write(InfCore.paths.mod.."nlab/imb-life-save.lua","return "..serialize(saved,true))end
  if hierarchy then write(InfCore.paths.mod.."nlab/imb-native-ranks.lua","return "..serialize(hierarchyApi.Save(hierarchy),true))end
@@ -124,6 +128,7 @@ end
 function this.OnAllocateTop()if cqcTraining then cqcTraining.Stop("allocation");cqcTraining=nil end;if servicePilot then this.EndServicePilot("allocation",lastNow)end;save();world=nil;core=nil;layout=nil;registry=nil;serviceApi=nil;serviceCatalog=nil;legacyFacilities=nil;serviceStatus={};nextServiceRefresh=0;nextUpdate=0;nextPublish=0;errors={}end
 function this.Command(command,now)
  now=now or lastNow
+ assert(active(),"daily life requires ready normal Mother Base")
  assert(initialize(now),"daily life requires registered Mother Base staff")
  if command=="muster"or command=="gather"then assert(layout.assembliesAvailable~=false,layout.assemblyUnavailableReason)end
  if command=="cqc"or command=="cqc_verify"or command=="cqc_four"then
@@ -148,7 +153,7 @@ function this.Command(command,now)
  nextPublish=0;save()
 end
 function this.Request(request,now)
- now=now or lastNow;assert(initialize(now),"daily life requires registered staff")
+ now=now or lastNow;assert(active(),"daily life requires ready normal Mother Base");assert(initialize(now),"daily life requires registered staff")
  if request.kind=="muster"or request.kind=="gather"then assert(layout.assembliesAvailable~=false,layout.assemblyUnavailableReason)end
  apply(core.Request(world,request,TppClock.GetTime("number"),now),now);nextPublish=0;save()
 end

@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "platformIdentity": {
+    "gameName": "Command",
+    "clusterName": "Command",
+    "clusterCode": "cl00",
+    "clusterIndex0": 0,
+    "nativePlantIndex0": 0,
+    "displayPlatform1": 1,
+    "uniqueCode": "uq_0000",
+    "nativePackStem": "mtbs_unique_0000",
+    "nativeBlock": "Assets/tpp/level/location/mtbs/block_unique/mtbs_uni0000.fox2",
+    "nativePlantType": "Special"
+  },
+  "recommendedReference": "v9.1",
+  "allVersionsExperimental": true,
+  "otherCommandPlatformsEdited": false,
+  "versions": [
+    {
+      "revision": "v6",
+      "description": "all-floor gray room shells",
+      "status": "offline-only-superseded-layout",
+      "path": "versions/v6",
+      "patchFile": "command-platform-1-v6.bsdiff",
+      "patchBytes": 589971,
+      "patchSha256": "705eb0e61e0ac7f245a0638b1aa53829ae8ccaff956cf23ef600aebc9c8e1932",
+      "targetCount": 2,
+      "nativeStatusNote": "Native gameplay not tested; superseded full room lining approach."
+    },
+    {
+      "revision": "v7.8",
+      "description": "original walls and shared lower bay",
+      "status": "historical-known-native-defects",
+      "path": "versions/v7.8",
+      "patchFile": "command-platform-1-v7.8.bsdiff",
+      "patchBytes": 1264890,
+      "patchSha256": "443078b61dcfe924cdb26244e06fe0fa1d72f4d8f778f4bd6cb50af24e28a6c7",
+      "targetCount": 2,
+      "nativeStatusNote": "Native load and short camera/FPS inspection passed; inward coverage and upright access failed later human review."
+    },
+    {
+      "revision": "v8",
+      "description": "wider entrances and structural reverse faces",
+      "status": "historical-known-native-defects",
+      "path": "versions/v8",
+      "patchFile": "command-platform-1-v8.bsdiff",
+      "patchBytes": 1656903,
+      "patchSha256": "e05b31914cac64d8aabf45d7f08042c919c7acc667b1c1500f1a5e2e0ea61575",
+      "targetCount": 2,
+      "nativeStatusNote": "Native load/day and short foreground FPS passed; user reported both doorway crossing and standing inside still failed."
+    },
+    {
+      "revision": "v8-A",
+      "description": "one-door added-wall collision isolation",
+      "status": "historical-diagnostic-not-a-fixed-platform",
+      "path": "versions/v8-A",
+      "patchFile": "command-platform-1-v8-A.bsdiff",
+      "patchBytes": 1656550,
+      "patchSha256": "b0acbdad441a131111dffac4059a343aff6128cbec815530cdfad2fa1b9b4f13",
+      "targetCount": 2,
+      "nativeStatusNote": "Six added wall shapes near CMD1-002 removed. Original floors/visuals and all other collision retained. Native load passed; walking/standing acceptance not established."
+    },
+    {
+      "revision": "v9",
+      "description": "all modeled assets no-culling with cloned resource paths",
+      "status": "archived-native-load-crash-do-not-install",
+      "path": "versions/v9",
+      "patchFile": "command-platform-1-v9.bsdiff",
+      "patchBytes": 2821387,
+      "patchSha256": "47eab8276f3b4120f500fe4bb6475f36cad4f620301a19f08cf4f44b4ed6c7bb",
+      "targetCount": 3,
+      "nativeStatusNote": "Native load crashed with C0000005 at mgsvtpp.exe offset0xB6F29E before playable state. Replaced by source-identity variants."
+    },
+    {
+      "revision": "v9-A",
+      "description": "cloned resource diagnostic without common override",
+      "status": "archived-native-load-crash-do-not-install",
+      "path": "versions/v9-A",
+      "patchFile": "command-platform-1-v9-A.bsdiff",
+      "patchBytes": 2821239,
+      "patchSha256": "5b746410bfd551d436f59063015922f9cd77ecf84635a4a0085e9d104f3ebc6d",
+      "targetCount": 2,
+      "nativeStatusNote": "Common overlay absent diagnostic still crashed at offset0xB6F29E. Requires original common package instead of v9 common override."
+    },
+    {
+      "revision": "v9-B",
+      "description": "core-only cloned resource diagnostic with specialized alpha restored",
+      "status": "archived-native-load-crash-do-not-install",
+      "path": "versions/v9-B",
+      "patchFile": "command-platform-1-v9-B.bsdiff",
+      "patchBytes": 2820989,
+      "patchSha256": "5864cc05db757ce7325424c26709b32e1a0d40780bf5a6d7eee362c3c04e1bfd",
+      "targetCount": 2,
+      "nativeStatusNote": "Core-only variant was tested and still crashed at offset0xB6F29E; not the untested full common-restored combination."
+    },
+    {
+      "revision": "v9-C",
+      "description": "original-path owned opaque models diagnostic",
+      "status": "historical-subset-diagnostic",
+      "path": "versions/v9-C",
+      "patchFile": "command-platform-1-v9-C.bsdiff",
+      "patchBytes": 1656970,
+      "patchSha256": "c2eb65fab6fce178507d7770a116521b356e0e17ce3bc0938b4ab1e842be4ac9",
+      "targetCount": 2,
+      "nativeStatusNote": "Native settled load/day and short foreground57.318FPS passed. Only294 owned models/388 opaque conversions; not every asset. Common overlay absent."
+    },
+    {
+      "revision": "v9-D",
+      "description": "original-path all static opaque models diagnostic",
+      "status": "historical-opaque-only-diagnostic",
+      "path": "versions/v9-D",
+      "patchFile": "command-platform-1-v9-D.bsdiff",
+      "patchBytes": 1657708,
+      "patchSha256": "c69fd660a08332e88e1bfa8412b68a87e5abe65b7442902a741c662320c875ab",
+      "targetCount": 2,
+      "nativeStatusNote": "Native settled load passed; specialized nonopaque modes retained. Common props unmodified; source/cache priority and full physical acceptance unproved."
+    },
+    {
+      "revision": "v9.1",
+      "description": "original-path all modeled assets no-culling (v9-E)",
+      "status": "experimental-known-native-defects",
+      "path": "versions/v9.1",
+      "patchFile": "command-v9.1.bsdiff",
+      "patchBytes": 1658338,
+      "patchSha256": "6c91107a6426054c0ddee6a807a7e48ef7e1629c68de49f19572d9d7816160d3",
+      "targetCount": 3,
+      "nativeStatusNote": "Native settled load/day and short foreground57.749FPS passed. Upright access, bay support, inward contact, red decals and angular rendering remain failed/unresolved."
+    }
+  ],
+  "editorOnlyVersionsNotPublished": [
+    "all-floor-v1",
+    "all-floor-v2",
+    "all-floor-v3",
+    "all-floor-v4",
+    "all-floor-v5",
+    "v7.1",
+    "v7.2",
+    "v7.3",
+    "v7.4",
+    "v7.5",
+    "v7.6",
+    "v7.7"
+  ],
+  "editorOnlyReason": "Private Blender iterations have no independently frozen exact native package targets; do not synthesize a playable build."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "canonicalComponent": "../command/platform-1/versions/v9.1",
+  "platformIdentity": {
+    "gameName": "Command",
+    "clusterName": "Command",
+    "clusterCode": "cl00",
+    "clusterIndex0": 0,
+    "nativePlantIndex0": 0,
+    "displayPlatform1": 1,
+    "uniqueCode": "uq_0000",
+    "nativePackStem": "mtbs_unique_0000",
+    "nativeBlock": "Assets/tpp/level/location/mtbs/block_unique/mtbs_uni0000.fox2"
+  },
+  "payloadDuplicated": false,
+  "originalPublicationCommit": "b4e35a86852d3bc5d4181962d6d7b6d341a4e6a6"
+}

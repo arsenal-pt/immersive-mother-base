@@ -1,0 +1,630 @@
+{
+  "schema": 1,
+  "version": "0.1.0-alpha.1",
+  "sourceTag": "v0.1.0-alpha.1",
+  "sourceTreeSha256": "ffce2047967a0b3b5481272422c971ded472ab178e121f13d92318c0440f26a6",
+  "excludes": [
+    "installer/package-manifest.json",
+    "release-content.json",
+    "source-manifest.json",
+    "dist/"
+  ],
+  "files": {
+    ".gitignore": {
+      "sha256": "a4e1d31a1e0895807723ec9e941ab7795d5da16919b2fc2b0cefbb98b757f350",
+      "bytes": 171
+    },
+    "CHANGELOG.md": {
+      "sha256": "3dca160dc633fe99ec2d50f3e15b49dc5cb727c797f7c951e08b1e23269d2c26",
+      "bytes": 2387
+    },
+    "companion/base-map.js": {
+      "sha256": "2024a39fa2811ef6417c1a0830e2294fe130be3c7e364bfe8bf682399c8f3734",
+      "bytes": 18774
+    },
+    "companion/commands.py": {
+      "sha256": "00d9800ca2937df1c5d80984e6e039c306675f6e62137dcaef840357ee0b5f3e",
+      "bytes": 2377
+    },
+    "companion/config.example.json": {
+      "sha256": "3ff7d4867b4ed58a0c81ea8f98a7a34def5caaa09de53caa7ac88cad67c4c78e",
+      "bytes": 232
+    },
+    "companion/config.py": {
+      "sha256": "f6f6b80b9cea6adac3725ee211f6b5a855bafb6703dce33f8d755774ddb0afcc",
+      "bytes": 2633
+    },
+    "companion/index.html": {
+      "sha256": "4c80d345bc9a526a70512e589c233930b1f0603b1782ed2cd9b08ee7353c69a9",
+      "bytes": 23264
+    },
+    "companion/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "companion/NativeNameResolver.py": {
+      "sha256": "1badba301d1374f0f792c483870e08244a2821ac5dc98ce065f835490b2d4a1e",
+      "bytes": 9523
+    },
+    "companion/README.md": {
+      "sha256": "5b986faf554dc10a3a1b31c883240985d26de8e88d5d3dc80f1b0b7b9bd9cfc7",
+      "bytes": 7907
+    },
+    "companion/runtime.py": {
+      "sha256": "bfbd50a29b202739428f34b94cdfdb439cce17b6aba129cb728b551ecacdafd7",
+      "bytes": 3357
+    },
+    "companion/server.py": {
+      "sha256": "a5320684cd802f381d26fbe8f823b924aab90ed4a7233b46d818d979f773a6c4",
+      "bytes": 5255
+    },
+    "companion/StaffControlService.py": {
+      "sha256": "997645e89c356179d8fdb01562f486a6b816c4e1e316b4c4cbd008abff97fb88",
+      "bytes": 3939
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "9ff5d8c1455e9d7dabc8161ab6abfbe860c707abd5e4ad612b09d101aa78acef",
+      "bytes": 5851
+    },
+    "CONTRIBUTORS.md": {
+      "sha256": "d22b9b5c8c15a31bd67cfa25115de3f9893661dd7aa92e4266ee41fe71082498",
+      "bytes": 2332
+    },
+    "core/GameDir/mod/modules/ImmersiveMotherBase.lua": {
+      "sha256": "9ca2cc4bc800876e3f8b5bfda64dd3056a30d89fb847f42b6f3d45e7af4a099a",
+      "bytes": 2201
+    },
+    "core/GameDir/mod/modules/NlabActionRecorder.lua": {
+      "sha256": "1620565314cfba6c374255236aea7d47d76cd8c362f638b57394e3af4f022569",
+      "bytes": 13088
+    },
+    "core/GameDir/mod/modules/NpcBaseMap.lua": {
+      "sha256": "698c1771d3b1c3532de6beb3f9869a0de3749aa39a8d8cdc8d6f3554b39c0de4",
+      "bytes": 3557
+    },
+    "core/GameDir/mod/modules/NpcLife.lua": {
+      "sha256": "8ba69ebda5b27681a6e99185eb5839a257466ad93b0b264c9f442e4ef594e36e",
+      "bytes": 18706
+    },
+    "core/GameDir/mod/modules/NpcSoldiers.lua": {
+      "sha256": "f5581460b4d690a9046da1d67890c565e023df34088983f071985f50c67b6043",
+      "bytes": 8378
+    },
+    "core/GameDir/mod/modules/NpcTraining.lua": {
+      "sha256": "59c21077036dcb5b46c56b4dc7d3f110204f73a63b20f9bb2c6a937c1cf0188a",
+      "bytes": 1106
+    },
+    "core/GameDir/mod/nlab/action-recordings/README.md": {
+      "sha256": "c6a42bdf6f8747e03c62558fbab55cd25756c0d7a89a53a404d876a8ac95a399",
+      "bytes": 92
+    },
+    "core/GameDir/mod/nlab/ActionRecorderCore.lua": {
+      "sha256": "92ad2753ad4596a86087a5b7b079c851d292533989c7525f26d4448b06165c55",
+      "bytes": 9490
+    },
+    "core/GameDir/mod/nlab/CqcDrillSession.lua": {
+      "sha256": "7fcb8360b54bd9e4fb602c7b1f3f5cb658e71d26f7a72aa87d480eeac2c2752c",
+      "bytes": 8092
+    },
+    "core/GameDir/mod/nlab/CqcPairPlan.lua": {
+      "sha256": "1ee3ddb5502a12f2b2547ae6e8d35d0cd96f0707f6a1d9ed3be0f90eb9aca11b",
+      "bytes": 2333
+    },
+    "core/GameDir/mod/nlab/CqcRosterPolicy.lua": {
+      "sha256": "122db0076dbbc3a551d638796829bd1482157f0bb313e9fd4cda23d06f6221aa",
+      "bytes": 2267
+    },
+    "core/GameDir/mod/nlab/CqcTrainingPlan.lua": {
+      "sha256": "17a76ca0cf676233229312701848fb9375ef062121e9092559acf0a8d2ab874b",
+      "bytes": 2882
+    },
+    "core/GameDir/mod/nlab/CqcTrainingProof.lua": {
+      "sha256": "e961718f1f2fd33a0be0b0fd73f2986662df42fa8fdcdc8dbd163eaefcf98e01",
+      "bytes": 1446
+    },
+    "core/GameDir/mod/nlab/LifeLayout.lua": {
+      "sha256": "05be79127e857a2f80f98eaefe94e5a0b058e2339d25d26faf5b00d8cedd1cd5",
+      "bytes": 24106
+    },
+    "core/GameDir/mod/nlab/NativeCqcTraining.lua": {
+      "sha256": "98cffa5ff6164a2fe0f0cf99643f7a3d9bb7750f082016d0dde01b99c1aec082",
+      "bytes": 20466
+    },
+    "core/GameDir/mod/nlab/NativeHierarchy.lua": {
+      "sha256": "4af9ff1e829f3b88ad09d48e7c2c8c25a007825167cfb178afb6225b813f002b",
+      "bytes": 6255
+    },
+    "core/GameDir/mod/nlab/NativeMotionObserver.lua": {
+      "sha256": "6d6e7381b85755007d4cb6f7fccf79f4449cefbc1d679b17323b55bfb9429a92",
+      "bytes": 2154
+    },
+    "core/GameDir/mod/nlab/NativeServiceBindings.lua": {
+      "sha256": "6aceaef8db8412164be093b6eec6714625ff3ba15454a122982e5c57bf7d7494",
+      "bytes": 6853
+    },
+    "core/GameDir/mod/nlab/NpcLifeCore.lua": {
+      "sha256": "32a8b2374dd4b46291844dd62affa4d47ce5622553598b14be619825487b0806",
+      "bytes": 41228
+    },
+    "core/GameDir/mod/nlab/NpcRegistry.lua": {
+      "sha256": "58aa03384425c1e5423df140a9b38ad4bfb5d84b87dd507c0c4e0ddc35a6d0b9",
+      "bytes": 1729
+    },
+    "core/GameDir/mod/nlab/StaffConfig.lua": {
+      "sha256": "c9cdaa4bad7f8668458462d1d4d8e3c3347c13228a90183ec9e7e5025646c1c0",
+      "bytes": 83
+    },
+    "core/README.md": {
+      "sha256": "decec2b1860ee9055590c41b862c4d97861a44b408d9b97e14fa3715f1498b7a",
+      "bytes": 1606
+    },
+    "CREDITS.md": {
+      "sha256": "e87395d66ad53dfede9274a95ac5d72c9eae5f472a7bb376564132cf8df42e6e",
+      "bytes": 6945
+    },
+    "DEPENDENCIES-AND-COMPATIBILITY.md": {
+      "sha256": "ecf372486d902d2b4a2add8c28082a1571517d08188469d84e630100bbe9143d",
+      "bytes": 7170
+    },
+    "DOWNLOADS.md": {
+      "sha256": "b86ed05cc50b4af5e070ea637261370d47f94f04656e99cb44d3ff8ba1671376",
+      "bytes": 2476
+    },
+    "experimental-sdk/NativePerfProbe.lua": {
+      "sha256": "07f43f0bcb9f8279b97104c3334f9a5c43ac51eede3222d9f2347d232b634d65",
+      "bytes": 3376
+    },
+    "experimental-sdk/NpcStaffControl.lua": {
+      "sha256": "1dd2b534d1c32225c7e486bfc34ee550ad6d18bc15a25a790e0995606928eea7",
+      "bytes": 19344
+    },
+    "experimental-sdk/OutdoorRestPilot.lua": {
+      "sha256": "599456504f5fa18f9cbdca9f90a8e130a7768aea3d820d8c43635e8fd4f21f87",
+      "bytes": 7496
+    },
+    "experimental-sdk/PlayerCqcReference.lua": {
+      "sha256": "f32a8be1ac1f4b62d0f1c9a19b6eefc999e7a449be75a30480fb745408933f77",
+      "bytes": 5551
+    },
+    "experimental-sdk/README.md": {
+      "sha256": "36e94ccd9dcde5e799e34b72edba8e411a458c01e5b757cf6768365d6893ac81",
+      "bytes": 3565
+    },
+    "experimental-sdk/SoldierClipAdapter.py": {
+      "sha256": "cfff35357c8e440eae00e5408758a2ded8e2cdfa0e2464505922a74670c8c4f2",
+      "bytes": 5843
+    },
+    "Install.cmd": {
+      "sha256": "e0feedef352d29726c62c7e8501257456722d28f68657285f47551a35ea1dea0",
+      "bytes": 578
+    },
+    "INSTALL.md": {
+      "sha256": "33e6186892b28f75df599bab0fe3c000b0d8f170607fa48b810d8893ecb2ee93",
+      "bytes": 6346
+    },
+    "installer/install.py": {
+      "sha256": "4b6c9ce3ee50e41c82f3df6f6f1f4461454ecc16ba8fd1c0ae50304ea85a9b5b",
+      "bytes": 30178
+    },
+    "installer/README.md": {
+      "sha256": "0bd77f8b4dc40011d6274bcc584cd71669749032ed1d02f33c25bfef7922e0f9",
+      "bytes": 6225
+    },
+    "LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "LICENSE-SCOPE.md": {
+      "sha256": "d8aabb3fbaeb259e4d0d0cb9aec8e7f7143a2a9affeafedf1d1dad6d4d87c4d8",
+      "bytes": 1714
+    },
+    "platforms/command/platform-1/history.json": {
+      "sha256": "b5568281b69ed146d9d8fd297bea9b4f9edf3e9e4dd0154431432dacd46bb6d5",
+      "bytes": 6511
+    },
+    "platforms/command/platform-1/README.md": {
+      "sha256": "9ccfee1d17b2c29dd6a4444cafe7611e4c83a395f8254c86467ffbc3186dfd2b",
+      "bytes": 7212
+    },
+    "platforms/command/platform-1/versions/v6/command-platform-1-v6.bsdiff": {
+      "sha256": "705eb0e61e0ac7f245a0638b1aa53829ae8ccaff956cf23ef600aebc9c8e1932",
+      "bytes": 589971
+    },
+    "platforms/command/platform-1/versions/v6/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v6/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v6/manifest.json": {
+      "sha256": "024ccf113600de6b97cd1b84b7cb7342325d9232c382a4ace10aeb4cdb1ddbc2",
+      "bytes": 7430
+    },
+    "platforms/command/platform-1/versions/v6/README.md": {
+      "sha256": "05ac789d9a423f876026e114f9516419b89ab9f829b2cac943e532eebe2dceaf",
+      "bytes": 456
+    },
+    "platforms/command/platform-1/versions/v6/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v6/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v7.8/command-platform-1-v7.8.bsdiff": {
+      "sha256": "443078b61dcfe924cdb26244e06fe0fa1d72f4d8f778f4bd6cb50af24e28a6c7",
+      "bytes": 1264890
+    },
+    "platforms/command/platform-1/versions/v7.8/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v7.8/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v7.8/manifest.json": {
+      "sha256": "ff5bcae226b88bd13718374b3778696b3cf72fdb53cf6403581c11a047806a55",
+      "bytes": 7496
+    },
+    "platforms/command/platform-1/versions/v7.8/README.md": {
+      "sha256": "dd36507db63b8858583918bbd062da35d5eb571c34e273adc46ba8a2a46b22f7",
+      "bytes": 516
+    },
+    "platforms/command/platform-1/versions/v7.8/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v7.8/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v8/command-platform-1-v8.bsdiff": {
+      "sha256": "e05b31914cac64d8aabf45d7f08042c919c7acc667b1c1500f1a5e2e0ea61575",
+      "bytes": 1656903
+    },
+    "platforms/command/platform-1/versions/v8/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v8/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v8/manifest.json": {
+      "sha256": "b83d81f9cb005de7d6282456f022053b699847856d3cd071ff51622204d7b45d",
+      "bytes": 7504
+    },
+    "platforms/command/platform-1/versions/v8/README.md": {
+      "sha256": "cc22f123d326e881375f883220dc70e4a77ac4244af83a04636f820d717ddce9",
+      "bytes": 528
+    },
+    "platforms/command/platform-1/versions/v8/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v8/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v8-A/command-platform-1-v8-A.bsdiff": {
+      "sha256": "b0acbdad441a131111dffac4059a343aff6128cbec815530cdfad2fa1b9b4f13",
+      "bytes": 1656550
+    },
+    "platforms/command/platform-1/versions/v8-A/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v8-A/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v8-A/manifest.json": {
+      "sha256": "d44e5b105b17dea46df7c52d66b2d3dbd0b020119b5a45d7165f15eb3aca461b",
+      "bytes": 7565
+    },
+    "platforms/command/platform-1/versions/v8-A/README.md": {
+      "sha256": "b854c77222958ecc4b6cf42ff4db5334376d971278a3b763a6fddbc5cce6c45e",
+      "bytes": 585
+    },
+    "platforms/command/platform-1/versions/v8-A/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v8-A/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v9/command-platform-1-v9.bsdiff": {
+      "sha256": "47eab8276f3b4120f500fe4bb6475f36cad4f620301a19f08cf4f44b4ed6c7bb",
+      "bytes": 2821387
+    },
+    "platforms/command/platform-1/versions/v9/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v9/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v9/manifest.json": {
+      "sha256": "a38c87a97ed665c9abe6cc8292dce4ed7a7eba1ffe1328f315954b0d33389c34",
+      "bytes": 7730
+    },
+    "platforms/command/platform-1/versions/v9/README.md": {
+      "sha256": "b21e1ed5b55cbba510c00b953b38fe0d06f47184c0e2c9f9d3b8d69b68f45617",
+      "bytes": 556
+    },
+    "platforms/command/platform-1/versions/v9/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v9/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v9-A/command-platform-1-v9-A.bsdiff": {
+      "sha256": "5b746410bfd551d436f59063015922f9cd77ecf84635a4a0085e9d104f3ebc6d",
+      "bytes": 2821239
+    },
+    "platforms/command/platform-1/versions/v9-A/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v9-A/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v9-A/manifest.json": {
+      "sha256": "3cafec2408dc942f0e26c128632f449418993294d652994cae5001ce17ce7334",
+      "bytes": 7536
+    },
+    "platforms/command/platform-1/versions/v9-A/README.md": {
+      "sha256": "62766710f0300c14dd8e53da37af236d5a2f122d8cd1c5d7c26f212767767749",
+      "bytes": 557
+    },
+    "platforms/command/platform-1/versions/v9-A/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v9-A/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v9-B/command-platform-1-v9-B.bsdiff": {
+      "sha256": "5864cc05db757ce7325424c26709b32e1a0d40780bf5a6d7eee362c3c04e1bfd",
+      "bytes": 2820989
+    },
+    "platforms/command/platform-1/versions/v9-B/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v9-B/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v9-B/manifest.json": {
+      "sha256": "7a5f3e35731576a7e72aac312fe4e86b1ec8a77ebc23481202a69639bb90ab89",
+      "bytes": 7541
+    },
+    "platforms/command/platform-1/versions/v9-B/README.md": {
+      "sha256": "de38dfd2bffbf4dd00394616502bdefc3eee0536856cb33fbfad3c1132fa7fb1",
+      "bytes": 562
+    },
+    "platforms/command/platform-1/versions/v9-B/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v9-B/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v9-C/command-platform-1-v9-C.bsdiff": {
+      "sha256": "c2eb65fab6fce178507d7770a116521b356e0e17ce3bc0938b4ab1e842be4ac9",
+      "bytes": 1656970
+    },
+    "platforms/command/platform-1/versions/v9-C/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v9-C/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v9-C/manifest.json": {
+      "sha256": "a8453f5e3306e942e318ecb10faa6a00c6ed5e146006d77a3101e7850f759d03",
+      "bytes": 7535
+    },
+    "platforms/command/platform-1/versions/v9-C/README.md": {
+      "sha256": "fb421c5c0c290f06ffd2bdcb3a544cb8204667284a83d60c1cd3ea1daf086c61",
+      "bytes": 555
+    },
+    "platforms/command/platform-1/versions/v9-C/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v9-C/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v9-D/command-platform-1-v9-D.bsdiff": {
+      "sha256": "c69fd660a08332e88e1bfa8412b68a87e5abe65b7442902a741c662320c875ab",
+      "bytes": 1657708
+    },
+    "platforms/command/platform-1/versions/v9-D/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v9-D/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v9-D/manifest.json": {
+      "sha256": "ed5e3b1b88c6d70aea606742546307f994ffc654a94c4c37354d6f0ea4a35d13",
+      "bytes": 7550
+    },
+    "platforms/command/platform-1/versions/v9-D/README.md": {
+      "sha256": "2075111c29fd86a55c051f34917cac2e892dc8e4d51359efd9e5a0bcc0ce66c4",
+      "bytes": 570
+    },
+    "platforms/command/platform-1/versions/v9-D/rebuild.py": {
+      "sha256": "61230a91b30df64e36caf7f0868e9054e431db232ca0b75054c9313a8e5f29d7",
+      "bytes": 4251
+    },
+    "platforms/command/platform-1/versions/v9-D/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/platform-1/versions/v9.1/command-v9.1.bsdiff": {
+      "sha256": "6c91107a6426054c0ddee6a807a7e48ef7e1629c68de49f19572d9d7816160d3",
+      "bytes": 1658338
+    },
+    "platforms/command/platform-1/versions/v9.1/LICENSE": {
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "bytes": 34674
+    },
+    "platforms/command/platform-1/versions/v9.1/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command/platform-1/versions/v9.1/manifest.json": {
+      "sha256": "e45e7043044821c780bb7a5dbf1bfd84d65eba258f01bcf2efb073bff6aca4f3",
+      "bytes": 7019
+    },
+    "platforms/command/platform-1/versions/v9.1/README.md": {
+      "sha256": "b00d240ab31b610a2e326616f760a739f767e1495b6fca4379aa64834b4556da",
+      "bytes": 585
+    },
+    "platforms/command/platform-1/versions/v9.1/rebuild.py": {
+      "sha256": "8c3778f7012903d066db9c19aa0232fbc31cc0ed2c44381c6495d15a1340397c",
+      "bytes": 4224
+    },
+    "platforms/command/platform-1/versions/v9.1/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/command/README.md": {
+      "sha256": "6b54b272623b125bc95e6ff23625b63cbca9e6972ea3d70a7deb63a1328cfc9c",
+      "bytes": 294
+    },
+    "platforms/command-v9/make_patch.py": {
+      "sha256": "89a678294979e5deac0f7d1c3b13b23b093afa5caabbb396c3b53beb5bbc70e9",
+      "bytes": 1651
+    },
+    "platforms/command-v9/MOVED.json": {
+      "sha256": "a3c353e25d658a58ea5a1cd451fef4e707c07643ad4bf3a55d314817e041fbf6",
+      "bytes": 549
+    },
+    "platforms/command-v9/README.md": {
+      "sha256": "31a4064ec6ff31ef064eebd342184c0280b9acbf072ebeed20a8ca0304db649b",
+      "bytes": 728
+    },
+    "platforms/command-v9/rebuild.py": {
+      "sha256": "9747c955c3913816a1ac1839f8245eb448a76a47cf723433ecb3b843d7855ba6",
+      "bytes": 707
+    },
+    "platforms/command-v9/requirements.txt": {
+      "sha256": "a3bacf54080a71d1bd72bd92e432c0efde6dd4968cc01bff2c5a6f2169c56d44",
+      "bytes": 16
+    },
+    "platforms/README.md": {
+      "sha256": "b8e6382e9f4c10b20c7c68d0624069c8987f1b42887886a800b335bb85bb7543",
+      "bytes": 1137
+    },
+    "README.md": {
+      "sha256": "a692c63beeaff339a072f4eae3e7a1318341a46a4c00bd206e8fc74f45cc3cf2",
+      "bytes": 10322
+    },
+    "resource-tools/AuthoredRoutes.cs": {
+      "sha256": "014df9d8e6c257ce004cebd80e046e2b3dad510f544aed4f11b96a986dcf6eca",
+      "bytes": 5077
+    },
+    "resource-tools/Build-Authored-Routes.py": {
+      "sha256": "54f47093518cafc512e988745313b44b572ffc2c4ae7b0e7612235a7d9cefcb0",
+      "bytes": 2502
+    },
+    "resource-tools/FoxKit-Hashing-Upstream-Notice.txt": {
+      "sha256": "22fe60178a86bbef91cce9d200dfd1a026d5bb5f3947733f79df2630cec20911",
+      "bytes": 1069
+    },
+    "resource-tools/README.md": {
+      "sha256": "2b2641eacfb0125d21dfa882ac83fc7c9c43f5025c6240f3dddc08266bb5ea18",
+      "bytes": 1399
+    },
+    "resources-authored/imb_life_routes.fpk.xml": {
+      "sha256": "c61a38e3cee451c899d582bb807eaccd9ce79aeaed2fcbe8afeb9b91cdecdf9c",
+      "bytes": 300
+    },
+    "resources-authored/ImbRouteResources.lua": {
+      "sha256": "8e7373468d8cce550cf55d11877dcd0c6c5fa508a309df8d2cb2bdebe777fa27",
+      "bytes": 669
+    },
+    "resources-authored/Route-Waypoints.json": {
+      "sha256": "314692cb9c775f35a637e8bf4a7dbfb38c26a9ae7a9de9bf4c5d09e44542ba2d",
+      "bytes": 76366
+    },
+    "ROADMAP.md": {
+      "sha256": "135bffc68c136a2b90324261e934bd67dd1122d77e94011d88eb24e96cd6c67d",
+      "bytes": 1763
+    },
+    "tests/fixtures/LifeLayout.lua": {
+      "sha256": "fdfe2c8dee72af127024d7d1dffa9d7445d176390dafd902204e46325a8767c6",
+      "bytes": 23658
+    },
+    "tests/fixtures/NpcLifeTests.lua": {
+      "sha256": "573d5f4f72f6039f9ce34980d0732cf719575b1f264cf1cb5e6e22753c812867",
+      "bytes": 19720
+    },
+    "tests/OFFLINE-TEST-REPORT.json": {
+      "sha256": "3ed4777bf6f185a705c778466a66d591822704b0c0147a2a9d638b319f4c9206",
+      "bytes": 1119
+    },
+    "tests/README.md": {
+      "sha256": "17026957205263d987dd7394f35526a4197d8579ebe9523f1e59ce0445da4f0d",
+      "bytes": 2440
+    },
+    "tests/test_companion.py": {
+      "sha256": "4eeed3b21fa717a3f148ff01977349a9a037c91f952c61cc1346b0e8c34a1e13",
+      "bytes": 11976
+    },
+    "tests/test_core.py": {
+      "sha256": "eea5199fbeaa9333fdafff9940ed0e03f34701a73de6df2ffdd39adad33e753a",
+      "bytes": 11987
+    },
+    "tests/test_installer.py": {
+      "sha256": "b52a3c5801659e93395e7f4dd5ab3a595d0327cddf8a9f9109f6b178fa9d726f",
+      "bytes": 20379
+    },
+    "tests/test_map.cjs": {
+      "sha256": "a1af142713068196bdb89ecdf7495ca2e2cb687980f5775a230c60bb96e5266c",
+      "bytes": 2319
+    },
+    "tests/test_platform.py": {
+      "sha256": "9c2f44eb306bfdecbd3017ffae563d7ffd8c2294d7e74321436cde94114cb505",
+      "bytes": 4596
+    },
+    "tests/test_readiness.py": {
+      "sha256": "7302a6082a6a3e082733602b6f7a2e37bb947a5f2dc979f847a362436e3a9abe",
+      "bytes": 11532
+    },
+    "tools/build-release.py": {
+      "sha256": "44c2f39102d5eff986924a84a98f624b5052ba0a994bedb59081cf71ae5a2ebd",
+      "bytes": 7607
+    },
+    "Uninstall.cmd": {
+      "sha256": "b2de726a4d46affb619c73881b7265184149ab9104e8bd388abb3c775bdc5830",
+      "bytes": 582
+    },
+    "VERSION": {
+      "sha256": "72ece0a8bbdeeb1b57889384fad5e74b0929ad70d8a73f326f24dfb176bf151f",
+      "bytes": 15
+    },
+    "VERSIONING.md": {
+      "sha256": "0a660f79c5bbac337055e272d420a1bb23a80c4eb8086bcc4c38f7452bbbc207",
+      "bytes": 2482
+    }
+  }
+}

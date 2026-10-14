@@ -10,7 +10,11 @@ end
 local config=assert(loadfile(InfCore.paths.mod.."nlab/StaffConfig.lua"))()
 local identity=assert(loadfile(InfCore.paths.mod.."nlab/NpcRegistry.lua"))().StaffIdentity
 local function send(id,c)local ok,v=pcall(GameObject.SendCommand,id,c);if not ok and #errors<32 then errors[#errors+1]=c.id..": "..tostring(v)end;return ok,v end
-local function active()return vars.missionCode==30050 and MotherBaseStage.GetCurrentCluster()<7 end
+local function active()
+ return vars.missionCode==30050 and gvars.usingNormalMissionSlot==true
+  and MotherBaseStage.GetCurrentCluster()<7
+  and not MotherBaseStage.IsLoading()and not MotherBaseStage.IsActivating()
+end
 local function fnAssets()return TppEnemy.GetMBEnemyAssetTable or mvars.mbSoldier_funcGetAssetTable end
 local function refresh()
  actors={};routes={};cid=MotherBaseStage.GetCurrentCluster()+1
@@ -72,6 +76,7 @@ function this.GetObservations()
  end;return out
 end
 function this.ApplyLifeAction(action,now)
+ if not active()then return end
  local a=actors[action.actor];if not a or GameObject.SendCommand(action.actor,{id='GetStatus'})==TppGameObject.NPC_STATE_DISABLE or GameObject.SendCommand(action.actor,{id='GetLifeStatus'})~=TppGameObject.NPC_LIFE_STATE_NORMAL then return end
  if action.kind=='roam'then roam(action.actor,a,now)
  elseif action.kind=='move'then
