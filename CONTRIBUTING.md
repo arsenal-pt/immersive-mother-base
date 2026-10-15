@@ -40,6 +40,8 @@ Retain rank ceilings: privates are soldiers, corporals at most team leaders, ser
 
 Follow the [animation preview workflow](research/animation-preview-workflow.md). Supply titled actual-motion GIFs, thumbnails and catalogue links for supported clips, with exact provenance and explicit visual gaps for the rest. Credit tools and reference rigs, and distinguish offline previews from gameplay proof.
 
+Use the [animation library](research/animation-library/README.md) and [bounded research plan](research/animation-library/RESEARCH-PLAN.md) for later selected sets. Preserve original records and archive/hash IDs; keep the index image-free, animated tables to at most four GIFs, and still-image alternatives. Work only on expressly assigned batches; reference lists do not authorize a whole-game or whole-workbook import.
+
 ## Acceptance and review
 
 A PR states problem, exact variants, origin/revisions, authored changes, evidence, limits and reversible install/restore. Separate offline and native proof.

@@ -24,6 +24,8 @@ The published 0.1.0-alpha.1 source is a limited, resource-disabled alpha. Some r
 
 13. [Animation preview workflow](animation-preview-workflow.md) â€” full-character GIFs, plain-English titles, thumbnails, exact clip links and evidence limits for future animation research.
 
+14. [MGSV Animation Reference Library](animation-library/README.md) — the existing 25 clips in paged animated/still tables, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
+
 ## Evidence labels
 
 - **Upstream reference** means a linked public source or tool document. It may document an API or file format without proving a specific runtime result.

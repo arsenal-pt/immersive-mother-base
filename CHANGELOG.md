@@ -1,5 +1,9 @@
 # Development history
 
+## Unreleased — animation reference library starter
+
+Added a 25-clip MGSV research library with an image-free category index, tables of at most four animated thumbnails, still-image alternatives, larger clip pages and complete JSON/CSV provenance. Reuses unchanged reviewed full-size GIFs and extraction records. Added source credits and a plan for later expressly selected 3–5-clip batches; no additional extraction, native test, runtime/version, alpha tag or release archive changes.
+
 ## Unreleased — titled animation preview gallery
 
 Added 25 full-character CQC/receiver/special-state GIFs with titles, exact identifiers, thumbnails and catalogue links. Actual decoded clips use stock Ocelot as an untextured offline reference through community MTAR/FMDL Studio tools. Clean renders are preserved privately. Published the executed recipe, four authored helpers and a persistent contributor/agent preview standard. Source role confidence, native timing, contact and secondary-motion limits remain explicit; no gameplay feature, version, existing release archive or tag changed. Rendered preview media are excluded from software packages.

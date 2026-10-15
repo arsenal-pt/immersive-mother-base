@@ -1,5 +1,7 @@
 # CQC animation GIF gallery
 
+For lighter browsing, open the [MGSV Animation Reference Library](../animation-library/README.md). Its index loads no images; each animated table contains at most four small GIFs, with still-image alternatives and links to larger views and complete data. This expanded gallery remains the historical full-size view.
+
 All **25 extracted clips** have a titled full-character GIF and a still thumbnail. The visible character is **stock Ocelot**, used as an untextured reference model. The filename identifies the original Snake/NPC animation source, not Ocelot's own routine.
 
 Three examples are expanded below. Expand another title to see its loop, or open the GIF directly. Clean images and GIFs were saved privately before titles were added.

@@ -15,6 +15,8 @@ New animation research should be immediately understandable to people who do not
 
 ## CQC combo set
 
+Browse the [animation reference library](animation-library/README.md) for small paged previews, larger clip pages and complete data. Its [research plan](animation-library/RESEARCH-PLAN.md) keeps later work to explicitly selected 3–5-clip batches: root chat handles orchestration/human decisions and subagents implement only their assigned scope. Keep the index image-free, each animated table at no more than four GIFs, and a still-image alternative. Preserve stable archive/hash identities, exact original records and source credits; a guide or workbook name is a discovery lead rather than extraction or gameplay evidence.
+
 The [MtarTool extraction catalogue](mtar-punch-combos/README.md) contains 25 selected entries. Its ordinary NPC combo family is the receiving side candidate, not a proven normal-soldier attacker combo. Any reference-rig GIFs must retain this distinction. Preview rates are presentation choices until native timing has been measured.
 
 This workflow was requested by the project owner on 15 October 2026 as a standing requirement for continuing animation extraction/research, including work delegated to an AI agent. It does not by itself authorize a game installation, runtime experiment or new release.
