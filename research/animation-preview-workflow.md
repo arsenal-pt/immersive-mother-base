@@ -20,3 +20,8 @@ Browse the [animation reference library](animation-library/README.md) for small 
 The [MtarTool extraction catalogue](mtar-punch-combos/README.md) contains 25 selected entries. Its ordinary NPC combo family is the receiving side candidate, not a proven normal-soldier attacker combo. Any reference-rig GIFs must retain this distinction. Preview rates are presentation choices until native timing has been measured.
 
 This workflow was requested by the project owner on 15 October 2026 as a standing requirement for continuing animation extraction/research, including work delegated to an AI agent. It does not by itself authorize a game installation, runtime experiment or new release.
+
+
+## Explicit one-category batch policy — batch002
+
+The latest expressly assigned batch allows up to25 NEW source clips in ONE category, superseding the earlier3–5 recommendation for that task. Persist a defined source-version/list and category progress with completed/pending/remaining IDs, exclusions and cursor; continue the category in later expressly assigned tasks until that scope is complete. Do not switch category to fill the cap or claim all-game completeness from a partial source list. Batch002 has only two LMG reload candidates and stops there. Reuse verified retained payloads/ZIP members; preserve all clean originals and prior records/media, prove one sample, keep actual thumbnail aspect ratios, a zero-image index and <=4-GIF table pages. Root reviews/publishes; no automatic future batch/native work is authorized.

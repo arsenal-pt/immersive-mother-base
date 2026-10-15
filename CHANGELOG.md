@@ -1,5 +1,9 @@
 # Development history
 
+## Unreleased — LMG ready/reload reference batch
+
+Added two new LMG ready/reload candidates with titled full-character GIFs, stills, aspect-correct animated thumbnails and exact extraction/preview provenance. The library now has 27 clips; all prior 25 media/records remain unchanged. The selected category is complete at 2/2 only within workbook Sheet1 L4:L5 plus the identified enetmgn members in the preserved Soldier_common archive; zero remain in that scope. The explicitly authorized cap is up to 25 new clips in one category per assigned batch, with category progress retained and no automatic second category. Workbook credit remains KnochenGott (human supplied); raw workbook/game payloads stay private. Offline reference poses have no held LMG and establish no native reload/timing/actor compatibility. No runtime/version/tag or release archive change.
+
 ## Unreleased — animation reference library starter
 
 Added a 25-clip MGSV research library with an image-free category index, tables of at most four animated thumbnails, still-image alternatives, larger clip pages and complete JSON/CSV provenance. Reuses unchanged reviewed full-size GIFs and extraction records. Added source credits and a plan for later expressly selected 3–5-clip batches; no additional extraction, native test, runtime/version, alpha tag or release archive changes.

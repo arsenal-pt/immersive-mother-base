@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "recordedDate": "2026-10-15",
+  "scope": "LMG ready/reload category: selected2 workbook rows plus all enetmgn members in this exact stock Soldier_common1345 archive; not all-game LMG coverage",
+  "claims": {
+    "freshDatExtraction": false,
+    "freshFpkExtraction": false,
+    "freshMtarExtraction": true,
+    "sourceStartingInput": "Preserved immutable MTAR from reviewed prior stock extraction",
+    "nativeGameplayProof": false,
+    "nativeTimingProof": false
+  },
+  "toolVersions": {
+    "MtarTool": "0.2.7"
+  },
+  "archives": [
+    {
+      "name": "Soldier_common",
+      "pack": "Soldier2Common",
+      "mtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "entries": 1345,
+      "selectedMembers": 2
+    }
+  ],
+  "animations": [
+    {
+      "id": "Soldier_common-0938-enetmgn_q_rdy_rld",
+      "sourceArchive": "Soldier_common",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "sourceRole": "enemy",
+      "archiveOrdinalZeroBased": 938,
+      "ordinalNote": "Historical MtarTool extraction XML order; select actual MTAR header by full hash",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetmgn/enetmgn_q_rdy_rld",
+      "hashId": "313cdbcc7c1d9",
+      "libraryGroup": "lmg-reloads",
+      "role": "lmg_ready_reload_candidate",
+      "sequenceFamily": "lmg_ready_reload",
+      "phase": null,
+      "phaseKind": "posture_variant",
+      "frameCount": 337,
+      "frameCountMethod": "GANI2 uint32 miniheader, verified against community decoder during render",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only; native playback rate unmeasured",
+      "namingConfidence": "Exact dictionary-resolved archive member; matches selected source workbook filename",
+      "interpretationConfidence": "Ready/reload and q/s posture inferred from identifiers/category; no native weapon/contact test",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Alternative posture candidates in the same LMG ready/reload namespace, not paired phases. Isolated reference-body previews omit held weapon; no reload mechanics/contact or native compatibility proof.",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "cataloguePath": "catalogue/clips/Soldier_common-0938-enetmgn_q_rdy_rld/enetmgn_q_rdy_rld.gani",
+          "bytes": 24880,
+          "sha256": "b72f17489ff8c8fa6fe18f0c93f02bc4162a6fc4bf553c21f26b1e4d92a6fae8",
+          "freshMatchesRetainedExtraction": true
+        },
+        {
+          "extension": ".exchnk",
+          "cataloguePath": "catalogue/clips/Soldier_common-0938-enetmgn_q_rdy_rld/enetmgn_q_rdy_rld.exchnk",
+          "bytes": 2848,
+          "sha256": "c5f180a122f1e0c1988dcce10a89f7a995bcc835d8bc14578624f3282c207334",
+          "freshMatchesRetainedExtraction": true
+        },
+        {
+          "extension": ".enchnk",
+          "cataloguePath": "catalogue/clips/Soldier_common-0938-enetmgn_q_rdy_rld/enetmgn_q_rdy_rld.enchnk",
+          "bytes": 528,
+          "sha256": "0d6a0323154d160f7aa824b60c89669831ad88e7b252169b98b6a719809edd5b",
+          "freshMatchesRetainedExtraction": true
+        }
+      ],
+      "sharedFiles": [
+        {
+          "path": "mtars/Soldier_common/Soldier_common.trk",
+          "sha256": "8d883f9d76434597b7756d32ecc1428d1a833117249b3e37bbb18e9cf5e63348"
+        },
+        {
+          "path": "mtars/Soldier_common/Soldier_common.chnk",
+          "sha256": "7d7826aacf1cf9f898c7e9ca6fc97baf0cd21a7f2ae1205f28778a08f105718c"
+        }
+      ],
+      "discoverySource": {
+        "workbookCredit": "KnochenGott (human supplied)",
+        "workbookSha256": "849e9052875866d392354ab856df8c77c0f794fa83ed422d190a07b1741ad7cd",
+        "sourceCell": "Sheet1!L4",
+        "guideReferenceCommit": "2301912bd8694e5abd81044b0e9b15c811cb5772"
+      }
+    },
+    {
+      "id": "Soldier_common-0939-enetmgn_s_rdy_rld",
+      "sourceArchive": "Soldier_common",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "sourceRole": "enemy",
+      "archiveOrdinalZeroBased": 939,
+      "ordinalNote": "Historical MtarTool extraction XML order; select actual MTAR header by full hash",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetmgn/enetmgn_s_rdy_rld",
+      "hashId": "380f6573688d2",
+      "libraryGroup": "lmg-reloads",
+      "role": "lmg_ready_reload_candidate",
+      "sequenceFamily": "lmg_ready_reload",
+      "phase": null,
+      "phaseKind": "posture_variant",
+      "frameCount": 337,
+      "frameCountMethod": "GANI2 uint32 miniheader, verified against community decoder during render",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only; native playback rate unmeasured",
+      "namingConfidence": "Exact dictionary-resolved archive member; matches selected source workbook filename",
+      "interpretationConfidence": "Ready/reload and q/s posture inferred from identifiers/category; no native weapon/contact test",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Alternative posture candidates in the same LMG ready/reload namespace, not paired phases. Isolated reference-body previews omit held weapon; no reload mechanics/contact or native compatibility proof.",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "cataloguePath": "catalogue/clips/Soldier_common-0939-enetmgn_s_rdy_rld/enetmgn_s_rdy_rld.gani",
+          "bytes": 25760,
+          "sha256": "d7f6ce2b28008468f5c1a643eef67ceaab47f2c3f7016ae999a850aa0f75d3d7",
+          "freshMatchesRetainedExtraction": true
+        },
+        {
+          "extension": ".exchnk",
+          "cataloguePath": "catalogue/clips/Soldier_common-0939-enetmgn_s_rdy_rld/enetmgn_s_rdy_rld.exchnk",
+          "bytes": 2864,
+          "sha256": "2d66f3815047427960dd54ef2a4130892982201b368119adf34645e2cf1a9c06",
+          "freshMatchesRetainedExtraction": true
+        },
+        {
+          "extension": ".enchnk",
+          "cataloguePath": "catalogue/clips/Soldier_common-0939-enetmgn_s_rdy_rld/enetmgn_s_rdy_rld.enchnk",
+          "bytes": 624,
+          "sha256": "ffe38f167553408901d34dc09bb40da95a43b185bddffcb61776121514cbd39c",
+          "freshMatchesRetainedExtraction": true
+        }
+      ],
+      "sharedFiles": [
+        {
+          "path": "mtars/Soldier_common/Soldier_common.trk",
+          "sha256": "8d883f9d76434597b7756d32ecc1428d1a833117249b3e37bbb18e9cf5e63348"
+        },
+        {
+          "path": "mtars/Soldier_common/Soldier_common.chnk",
+          "sha256": "7d7826aacf1cf9f898c7e9ca6fc97baf0cd21a7f2ae1205f28778a08f105718c"
+        }
+      ],
+      "discoverySource": {
+        "workbookCredit": "KnochenGott (human supplied)",
+        "workbookSha256": "849e9052875866d392354ab856df8c77c0f794fa83ed422d190a07b1741ad7cd",
+        "sourceCell": "Sheet1!L5",
+        "guideReferenceCommit": "2301912bd8694e5abd81044b0e9b15c811cb5772"
+      }
+    }
+  ],
+  "provenance": {
+    "MtarToolExecutableSha256": "7ef5686320b0f5817db50c7c0f8dc38b5362b366c6dd712f76c5f96b70e9070a",
+    "MtarToolRuntimeFileHashes": [
+      {
+        "path": "CityHash.dll",
+        "sha256": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+        "bytes": 15872
+      },
+      {
+        "path": "mtar_dictionary.txt",
+        "sha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+        "bytes": 756215
+      },
+      {
+        "path": "MtarTool.Core.dll",
+        "sha256": "84b5111069c2ecccbc90394b6f52d9b7c0bff228a97f7dc4ea866c617373a9e9",
+        "bytes": 15360
+      },
+      {
+        "path": "MtarTool.exe",
+        "sha256": "7ef5686320b0f5817db50c7c0f8dc38b5362b366c6dd712f76c5f96b70e9070a",
+        "bytes": 6656
+      },
+      {
+        "path": "hashed_names.txt",
+        "sha256": "a91a06d97c5d977239840126dd032b78da2e33179498e687ebb674620497f068",
+        "bytes": 123794
+      }
+    ],
+    "sourceReuse": "Preserved stock MTAR; selected files match retained complete library ZIP; upstream DAT/FPK/model conversions were reused, not rerun",
+    "scope": "Only two identified LMG ready/reload source clips; no other category"
+  }
+}

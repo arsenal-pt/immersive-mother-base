@@ -1,6 +1,6 @@
 # MGSV Animation Reference Library
 
-A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Start with **25 decoded CQC-related clips**, exact source identities, larger GIF views and complete technical records.
+A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **27 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
 
 **This index loads no GIFs or thumbnails.** Expand a category and choose a table page. Each animated table loads **at most four small GIFs**; still-image pages run no animations. Click a preview or title to open one larger clip. No mod, dashboard or running game is needed.
 
@@ -8,7 +8,7 @@ A visual reference for researching animations in **Metal Gear Solid V: The Phant
 
 ## Browse by section
 
-The largest current animated page contains 1.20 MiB of thumbnail files. Separate pages bound the number of animations loaded; collapsed HTML sections alone do not guarantee that images are deferred.
+The largest current animated page contains 3.00 MiB of thumbnail files. Separate pages bound the number of animations loaded; collapsed HTML sections alone do not guarantee that images are deferred.
 
 <details>
 <summary><strong>Snake CQC combo and transition candidates</strong> - 11 clips</summary>
@@ -41,6 +41,15 @@ The largest current animated page contains 1.20 MiB of thumbnail files. Separate
 
 </details>
 
+<details>
+<summary><strong>LMG ready/reload candidates</strong> - 2 clips</summary>
+
+| Page | Clip range | Animated table | Still-image table |
+| --- | --- | --- | --- |
+| 1 | `enetmgn_q_rdy_rld` to `enetmgn_s_rdy_rld` | [Open 2 GIFs](tables/lmg-reloads-1.md) | [Open stills](tables/lmg-reloads-1-stills.md) |
+
+</details>
+
 ## How to read the previews
 
 The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions. All are **offline previews**. Durations use a chosen 30 source frames/s; native timing is unmeasured. Labels retain candidate, receiver, transition and special-actor distinctions. Individual clips have no matched partner or held weapon, and hair/clothing motion is approximate.
@@ -49,11 +58,15 @@ Each detail page includes source archive and exact clip path, hash ID, frame cou
 
 The [original expanded gallery](../mtar-punch-combos/gallery.md) remains available for historical reference; it can load more full-size animations at once.
 
+## Category coverage
+
+The [category ledger](category-progress.json) records the selected source version/list, completed IDs, remaining IDs and next cursor. The current LMG ready/reload section has two identified entries. Completing that defined scope does not establish all-game LMG coverage. Stop at the selected category boundary; do not add another category to fill a batch cap.
+
 ## Reuse and future expansion
 
 This is general MGSV animation research hosted in Immersive Mother Base. It does not depend on the mod's simulation or Infinite Heaven. Future sets can cover idle actions, locomotion, duties, services, training and reactions, including movements unrelated to Mother Base.
 
-A separate animation-library project is a **future direction**, not a second repository created by this update. Portable JSON/CSV, stable IDs, individual clip pages and explicit media paths support a later move while preserving provenance, credits and evidence limits. This is a 25-clip starting set, not every animation in the game.
+A separate animation-library project is a **future direction**, not a second repository created by this update. Portable JSON/CSV, stable IDs, individual clip pages and explicit media paths support a later move while preserving provenance, credits and evidence limits. Coverage is scoped to identified source versions/lists, not every animation in the game.
 
 Follow the [bounded research plan](RESEARCH-PLAN.md) and [preview workflow](../animation-preview-workflow.md). Reference names from a guide or spreadsheet are discovery leads, not proof that a clip has been extracted, previewed or tested. See [reference notes](references.md) for the additional sources and their scope.
 

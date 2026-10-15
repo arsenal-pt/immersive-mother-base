@@ -1,8 +1,16 @@
 {
   "schemaVersion": 1,
   "purpose": "Paged animation library thumbnails",
-  "sourcePreviewManifest": "media/animation-previews/2026-10-15/preview-manifest.json",
-  "sourcePreviewManifestSha256": "03e69f6547a1c63359597ac6ef9524e389d95f346b23d4d525085eef69c19140",
+  "sourcePreviewManifests": [
+    {
+      "path": "media/animation-previews/2026-10-15/preview-manifest.json",
+      "sha256": "03e69f6547a1c63359597ac6ef9524e389d95f346b23d4d525085eef69c19140"
+    },
+    {
+      "path": "media/animation-previews/2026-10-15-lmg-reloads/preview-manifest.json",
+      "sha256": "bb5694f2de62080e3f3b83898af422ee15acd8c0c0f0eb1669a37fd343d55f18"
+    }
+  ],
   "generator": "research/animation-library/build-library.py",
   "pillowVersion": "12.2.0",
   "entries": [
@@ -478,6 +486,44 @@
         "sourceGifFrames": 8,
         "encodedFrames": 8,
         "durationMilliseconds": 500,
+        "loop": 0
+      }
+    },
+    {
+      "id": "mgsv-tpp-soldier_common-313cdbcc7c1d9",
+      "sourceFullGif": {
+        "path": "media/animation-previews/2026-10-15-lmg-reloads/Soldier_common-0938-enetmgn_q_rdy_rld.gif",
+        "sha256": "28d871ffd98d148ef8fc78cb8a247051f700316522f487e8d2762dba7e1ff797",
+        "bytes": 13310262
+      },
+      "animatedThumbnail": {
+        "path": "media/animation-previews/library-thumbnails/2026-10-15/mgsv-tpp-soldier_common-313cdbcc7c1d9.gif",
+        "sha256": "c9d2fbd30ee939f88750f967f34f760396c3e5f5bc016cb139720b1dce4d3070",
+        "bytes": 1727815,
+        "width": 160,
+        "height": 202,
+        "sourceGifFrames": 169,
+        "encodedFrames": 169,
+        "durationMilliseconds": 11230,
+        "loop": 0
+      }
+    },
+    {
+      "id": "mgsv-tpp-soldier_common-380f6573688d2",
+      "sourceFullGif": {
+        "path": "media/animation-previews/2026-10-15-lmg-reloads/Soldier_common-0939-enetmgn_s_rdy_rld.gif",
+        "sha256": "b5cc2eee0e6e3e8fba5d554e02fbd836939caf76b332b237b01a6b04af6df812",
+        "bytes": 8826938
+      },
+      "animatedThumbnail": {
+        "path": "media/animation-previews/library-thumbnails/2026-10-15/mgsv-tpp-soldier_common-380f6573688d2.gif",
+        "sha256": "8812a2c5114a4af5742ff6ef846a9461ec8499eaa80c746f605b532797e79e82",
+        "bytes": 1422656,
+        "width": 160,
+        "height": 202,
+        "sourceGifFrames": 169,
+        "encodedFrames": 169,
+        "durationMilliseconds": 11230,
         "loop": 0
       }
     }

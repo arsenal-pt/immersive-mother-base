@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "task": "MB-ANIMATION-BATCH-002",
+  "batchCapNewClips": 25,
+  "activeCategory": "lmg-reloads",
+  "label": "LMG ready reload candidates / enetmgn",
+  "selection": "Tied smallest supported workbook category (2); Sniper also2; source-column-order tie break",
+  "sourceCoverage": {
+    "workbookSha256": "849e9052875866d392354ab856df8c77c0f794fa83ed422d190a07b1741ad7cd",
+    "workbookRange": "Sheet1!L4:L5",
+    "workbookCredit": "KnochenGott (human supplied)",
+    "archive": "Soldier_common",
+    "archiveSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+    "archiveEntryCount": 1345,
+    "selector": "all exact enetmgn member names in this archive",
+    "identifiedSourceCount": 2,
+    "dictionaryScopeNote": "All identified enetmgn matches in the preserved MtarTool XML/dictionary snapshot plus the two selected workbook rows; unknown/other archive sources excluded",
+    "sourceMemberNames": [
+      "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetmgn/enetmgn_q_rdy_rld",
+      "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetmgn/enetmgn_s_rdy_rld"
+    ],
+    "sourceHashIds": [
+      "313cdbcc7c1d9",
+      "380f6573688d2"
+    ]
+  },
+  "selectedNames": [
+    "enetmgn_q_rdy_rld",
+    "enetmgn_s_rdy_rld"
+  ],
+  "alreadyCataloguedIds": [],
+  "completedIds": [
+    "mgsv-tpp-soldier_common-313cdbcc7c1d9",
+    "mgsv-tpp-soldier_common-380f6573688d2"
+  ],
+  "pendingNames": [],
+  "remainingNames": [],
+  "exclusions": [
+    "Other categories, including tied Sniper section, not selected",
+    "Other archives/game versions outside defined coverage",
+    "No quadruped data selected",
+    "No workbook descriptions or full workbook public import"
+  ],
+  "nextCursor": null,
+  "status": "complete-defined-offline-scope",
+  "scopeCompletenessLimit": "Defined workbook+archive version only, not all LMG animation data in the game",
+  "sourceMemberIds": [
+    "mgsv-tpp-soldier_common-313cdbcc7c1d9",
+    "mgsv-tpp-soldier_common-380f6573688d2"
+  ],
+  "pendingIds": [],
+  "remainingIds": [],
+  "completed": 2,
+  "remaining": 0,
+  "nextAction": "Stop. This defined category is complete. A later expressly assigned task may select the next category or expand the source scope; no automatic second category.",
+  "archiveReusePolicy": "Reuse hash-verified retained extraction or exact members from the immutable private library ZIP by default; unpack a whole container only when needed; never start duplicate extraction while a job is active."
+}

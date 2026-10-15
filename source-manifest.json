@@ -119,7 +119,8 @@
     "research/mtar-punch-combos/preview-tools/Import-Character-Collada.py": "ff7dce442d92194d0561c36e890391dbc5f1a2d4222896946090b3e2211a636c",
     "research/mtar-punch-combos/preview-tools/PreviewPartsExport.cs": "aba9f4450c97e09114a96f9e1c5a16fbef48bef749bb8c1b80090b8e117bfbc7",
     "research/mtar-punch-combos/preview-tools/Render-MtarCharacter.py": "13c2fe0cc9ba420c28e2ced10c2f3b6e230d473f7ae9b698d68703bfc305adf6",
-    "research/animation-library/build-library.py": "80271e6a2583094e20ddc814e6a6e1df6c1d2979f965398150aaf560ffe7e229"
+    "research/animation-library/build-library.py": "e75a56035042c7a01a154d284c83b96e1b633089a9e418fab3337e465bef3139",
+    "research/animation-batches/lmg-reloads/Encode-LMG-Previews.py": "a2d7b08edd83e21d4f6d016d410a5cd87ad423d5488ad23f92d157399d89806d"
   },
   "sourceTag": "v0.1.0-alpha.1",
   "sourceTreeSha256": "ffce2047967a0b3b5481272422c971ded472ab178e121f13d92318c0440f26a6",
@@ -139,12 +140,18 @@
     "animationLibraryJson": "research/animation-library/catalogue.json",
     "animationLibraryCsv": "research/animation-library/catalogue.csv",
     "animationLibraryReferences": "research/animation-library/references.md",
-    "animationLibraryPlan": "research/animation-library/RESEARCH-PLAN.md"
+    "animationLibraryPlan": "research/animation-library/RESEARCH-PLAN.md",
+    "lmgReloadBatch": "research/animation-batches/lmg-reloads/README.md",
+    "lmgReloadMetadata": "research/animation-batches/lmg-reloads/animations-metadata.json",
+    "animationLibraryCategoryProgress": "research/animation-library/category-progress.json"
   },
   "animationPreviewDocumentation": {
     "manifest": "media/animation-previews/2026-10-15/preview-manifest.json",
     "includedInSoftwarePackages": false,
     "changesNativeAcceptance": false,
-    "libraryThumbnailManifest": "media/animation-previews/library-thumbnails/2026-10-15/manifest.json"
+    "libraryThumbnailManifest": "media/animation-previews/library-thumbnails/2026-10-15/manifest.json",
+    "supplementaryManifests": [
+      "media/animation-previews/2026-10-15-lmg-reloads/preview-manifest.json"
+    ]
   }
 }

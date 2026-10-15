@@ -21,3 +21,8 @@ A bounded read-only review found one worksheet, `Sheet1`, with stored extent `B1
 ## Next selected research
 
 After the user chooses and approves a small motion set, identify its exact source archives and compare only selected identifiers with community notes or the workbook. Keep community descriptions attributed and separate from observed motion labels. Apply the existing full-character preview workflow and record native testing separately. Expanding the workbook into a catalogue or extracting a broader animation set remains future work.
+
+
+## Batch002 selected source matching
+
+The authorized next section matches only the supplied workbook's LMG cells Sheet1 L4:L5 to actual enetmgn_q_rdy_rld/enetmgn_s_rdy_rld archive members. KnochenGott attribution remains human supplied; the workbook stays read-only/private and no unrelated rows/descriptions are imported. See the [defined coverage/receipt metadata](../animation-batches/lmg-reloads/README.md) and [category ledger](category-progress.json). Source names are interpretation leads; native weapon mechanics/contact/timing remain unproved.

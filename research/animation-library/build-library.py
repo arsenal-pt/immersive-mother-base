@@ -21,12 +21,18 @@ LIB = "research/animation-library"
 SOURCE = "research/mtar-punch-combos/animations-metadata.json"
 MANIFEST = "media/animation-previews/2026-10-15/preview-manifest.json"
 THUMBS = "media/animation-previews/library-thumbnails/2026-10-15"
+BATCHES = [
+    {"id": "cqc-starter", "source": SOURCE, "manifest": MANIFEST},
+    {"id": "lmg-reloads-002", "source": "research/animation-batches/lmg-reloads/animations-metadata.json",
+     "manifest": "media/animation-previews/2026-10-15-lmg-reloads/preview-manifest.json"},
+]
 BT = chr(96)
 FENCE = BT * 3
 GROUPS = [
     ("snake-cqc", "Snake CQC combo and transition candidates"),
     ("npc-receivers", "NPC receiving and reaction candidates"),
     ("special-actors", "Special / zombie actor candidates"),
+    ("lmg-reloads", "LMG ready/reload candidates"),
 ]
 
 
@@ -43,6 +49,8 @@ def link_from(page, path):
 
 
 def group_for(record):
+    if record.get("libraryGroup"):
+        return record["libraryGroup"]
     if "zmb" in record["name"].rsplit("/", 1)[-1]:
         return "special-actors"
     if record["sourceRole"] == "player":
@@ -56,9 +64,10 @@ def make_thumbnail(data):
     with Image.open(BytesIO(data)) as original:
         if original.info.get("loop") != 0:
             raise ValueError("Expected a looping source GIF")
+        size = (160, round(original.height * 160 / original.width))
         for frame in ImageSequence.Iterator(original):
             image = frame.convert("RGB")
-            image = image.resize((160, 194), Image.Resampling.LANCZOS)
+            image = image.resize(size, Image.Resampling.LANCZOS)
             images.append(image.quantize(colors=96, method=Image.Quantize.MEDIANCUT,
                                          dither=Image.Dither.NONE))
             durations.append(int(frame.info["duration"]))
@@ -71,7 +80,7 @@ def make_thumbnail(data):
         for frame in ImageSequence.Iterator(check):
             frame.load()
             check_durations.append(int(frame.info["duration"]))
-        assert check.size == (160, 194) and check.info.get("loop") == 0
+        assert check.size == size and check.info.get("loop") == 0
         assert sum(check_durations) == sum(durations)
         assert check.n_frames > 1
     return result, len(durations), len(check_durations), sum(durations)
@@ -176,7 +185,7 @@ def render_table_page(page, stills=False):
     for e in page["entries"]:
         detail = link_from(current, e["detailPage"])
         image_path = e["media"]["stillThumbnail" if stills else "animatedThumbnail"]["path"]
-        image = '<a href="' + detail + '"><img src="' + link_from(current, image_path) + '" width="160" height="194" alt="' + html.escape(e["title"], quote=True) + '"></a>'
+        image = '<a href="' + detail + '"><img src="' + link_from(current, image_path) + '" width="160" height="' + str(e["media"]["animatedThumbnail"]["height"]) + '" alt="' + html.escape(e["title"], quote=True) + '"></a>'
         identity = "[" + e["title"] + "](" + detail + ")<br><code>" + e["shortIdentifier"] + "</code><br><code>" + e["source"]["archive"] + "</code>"
         timing = str(e["rawFrameCount"]) + " raw<br>" + f'{e["previewDurationMilliseconds"]/1000:g}' + " s (chosen)"
         lines.append("| " + image + " | " + identity + " | " + timing + " | [Metadata](" + detail + "#technical-data)<br>Offline preview |")
@@ -190,7 +199,7 @@ def render_readme(catalogue):
     lines = [
         "# MGSV Animation Reference Library", "",
         "A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. "
-        "Start with **25 decoded CQC-related clips**, exact source identities, larger GIF views and complete technical records.", "",
+        "Browse **" + str(catalogue["entryCount"]) + " decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.", "",
         "**This index loads no GIFs or thumbnails.** Expand a category and choose a table page. "
         "Each animated table loads **at most four small GIFs**; still-image pages run no animations. "
         "Click a preview or title to open one larger clip. No mod, dashboard or running game is needed.", "",
@@ -224,13 +233,17 @@ def render_readme(catalogue):
         "JSON media paths are relative to the repository root.", "",
         "The [original expanded gallery](../mtar-punch-combos/gallery.md) remains available for historical reference; "
         "it can load more full-size animations at once.", "",
+        "## Category coverage", "",
+        "The [category ledger](category-progress.json) records the selected source version/list, completed IDs, remaining IDs and next cursor. "
+        "The current LMG ready/reload section has two identified entries. Completing that defined scope does not establish all-game LMG coverage. "
+        "Stop at the selected category boundary; do not add another category to fill a batch cap.", "",
         "## Reuse and future expansion", "",
         "This is general MGSV animation research hosted in Immersive Mother Base. It does not depend on the mod's "
         "simulation or Infinite Heaven. Future sets can cover idle actions, locomotion, duties, services, training "
         "and reactions, including movements unrelated to Mother Base.", "",
         "A separate animation-library project is a **future direction**, not a second repository created by this update. "
         "Portable JSON/CSV, stable IDs, individual clip pages and explicit media paths support a later move while "
-        "preserving provenance, credits and evidence limits. This is a 25-clip starting set, not every animation in the game.", "",
+        "preserving provenance, credits and evidence limits. Coverage is scoped to identified source versions/lists, not every animation in the game.", "",
         "Follow the [bounded research plan](RESEARCH-PLAN.md) and [preview workflow](../animation-preview-workflow.md). Reference names from a guide or spreadsheet "
         "are discovery leads, not proof that a clip has been extracted, previewed or tested. See "
         "[reference notes](references.md) for the additional sources and their scope.", "",
@@ -257,77 +270,86 @@ def render_readme(catalogue):
 
 
 def build(root):
-    source_bytes = (root / SOURCE).read_bytes()
-    manifest_bytes = (root / MANIFEST).read_bytes()
-    source = json.loads(source_bytes)
-    manifest = json.loads(manifest_bytes)
-    previews = {e["id"]: e for e in manifest["entries"]}
-    if len(previews) != len(manifest["entries"]):
-        raise ValueError("Duplicate preview identity")
     outputs, entries, identities = {}, [], set()
-    for original in source["animations"]:
-        p = previews[original["id"]]
-        assert p["hashId"] == original["hashId"]
-        assert p["sourceName"] == original["name"]
-        assert p["rawFrameCount"] == original["frameCount"]
-        assert p["sourceArchiveSha256"] == original["sourceMtarSha256"]
-        identity = "mgsv-tpp-" + original["sourceArchive"].lower() + "-" + original["hashId"].lower()
-        if identity in identities:
-            raise ValueError("Duplicate stable library identity")
-        identities.add(identity)
-        full_path = posixpath.dirname(MANIFEST) + "/" + p["titledGif"]["path"]
-        full = (root / full_path).read_bytes()
-        assert sha(full) == p["titledGif"]["sha256"]
-        thumb, source_frames, encoded_frames, duration = make_thumbnail(full)
-        assert duration == p["gifDurationMilliseconds"]
-        thumb_path = THUMBS + "/" + identity + ".gif"
-        outputs[thumb_path] = thumb
-        still_path = posixpath.dirname(MANIFEST) + "/" + p["thumbnail"]["path"]
-        assert sha((root / still_path).read_bytes()) == p["thumbnail"]["sha256"]
-        record = {
-            "id": identity,
-            "title": p["title"],
-            "shortIdentifier": p["shortIdentifier"],
-            "group": group_for(original),
-            "source": {"game": "MGSV TPP", "archive": original["sourceArchive"],
-                       "archiveSha256": original["sourceMtarSha256"],
-                       "path": original["name"], "hashId": original["hashId"],
-                       "originalCatalogueId": original["id"]},
-            "rawFrameCount": original["frameCount"],
-            "nativeFrameRate": None,
-            "previewDurationMilliseconds": duration,
-            "detailPage": LIB + "/clips/" + identity + ".md",
-            "media": {
-                "animatedThumbnail": {"path": thumb_path, "sha256": sha(thumb),
-                                      "bytes": len(thumb), "width": 160, "height": 194,
-                                      "sourceGifFrames": source_frames,
-                                      "encodedFrames": encoded_frames,
-                                      "durationMilliseconds": duration, "loop": 0},
-                "fullGif": {"path": full_path, "sha256": sha(full), "bytes": len(full)},
-                "stillThumbnail": {"path": still_path, "sha256": p["thumbnail"]["sha256"],
-                                   "bytes": p["thumbnail"]["bytes"]},
-            },
-            "evidence": {"offlineDecodedPreview": True, "nativeGameplay": False,
-                         "nativeTiming": False, "pairedAlignment": False,
-                         "ordinarySoldierAttacker": False},
-            "originalRecords": {"extraction": original, "preview": p},
-        }
-        entries.append(record)
-        outputs[record["detailPage"]] = render_page(record)
-    assert len(entries) == len(previews)
+    batch_records, manifests = [], []
+    for registration in BATCHES:
+        source_path, manifest_path = registration["source"], registration["manifest"]
+        source_bytes = (root / source_path).read_bytes()
+        manifest_bytes = (root / manifest_path).read_bytes()
+        source, manifest = json.loads(source_bytes), json.loads(manifest_bytes)
+        manifests.append(manifest)
+        previews = {e["id"]: e for e in manifest["entries"]}
+        if len(previews) != len(manifest["entries"]):
+            raise ValueError("Duplicate preview identity")
+        assert len(source["animations"]) == len(previews)
+        batch_records.append({"id": registration["id"], "entryCount": len(previews),
+                              "extraction": {"path": source_path, "sha256": sha(source_bytes)},
+                              "previews": {"path": manifest_path, "sha256": sha(manifest_bytes)}})
+        for original in source["animations"]:
+            p = previews[original["id"]]
+            assert p["hashId"] == original["hashId"]
+            assert p["sourceName"] == original["name"]
+            assert p["rawFrameCount"] == original["frameCount"]
+            assert p["sourceArchiveSha256"] == original["sourceMtarSha256"]
+            identity = "mgsv-tpp-" + original["sourceArchive"].lower() + "-" + original["hashId"].lower()
+            if identity in identities:
+                raise ValueError("Duplicate stable library identity")
+            identities.add(identity)
+            full_path = posixpath.dirname(manifest_path) + "/" + p["titledGif"]["path"]
+            full = (root / full_path).read_bytes()
+            assert sha(full) == p["titledGif"]["sha256"]
+            thumb, source_frames, encoded_frames, duration = make_thumbnail(full)
+            assert duration == p["gifDurationMilliseconds"]
+            thumb_path = THUMBS + "/" + identity + ".gif"
+            outputs[thumb_path] = thumb
+            still_path = posixpath.dirname(manifest_path) + "/" + p["thumbnail"]["path"]
+            assert sha((root / still_path).read_bytes()) == p["thumbnail"]["sha256"]
+            record = {
+                "id": identity,
+                "title": p["title"],
+                "shortIdentifier": p["shortIdentifier"],
+                "group": group_for(original),
+                "source": {"game": "MGSV TPP", "archive": original["sourceArchive"],
+                           "archiveSha256": original["sourceMtarSha256"],
+                           "path": original["name"], "hashId": original["hashId"],
+                           "originalCatalogueId": original["id"]},
+                "rawFrameCount": original["frameCount"],
+                "nativeFrameRate": None,
+                "previewDurationMilliseconds": duration,
+                "detailPage": LIB + "/clips/" + identity + ".md",
+                "media": {
+                    "animatedThumbnail": {"path": thumb_path, "sha256": sha(thumb),
+                                          "bytes": len(thumb), "width": 160, "height": Image.open(BytesIO(thumb)).height,
+                                          "sourceGifFrames": source_frames,
+                                          "encodedFrames": encoded_frames,
+                                          "durationMilliseconds": duration, "loop": 0},
+                    "fullGif": {"path": full_path, "sha256": sha(full), "bytes": len(full)},
+                    "stillThumbnail": {"path": still_path, "sha256": p["thumbnail"]["sha256"],
+                                       "bytes": p["thumbnail"]["bytes"]},
+                },
+                "evidence": {"offlineDecodedPreview": True, "nativeGameplay": False,
+                             "nativeTiming": False, "pairedAlignment": False,
+                             "ordinarySoldierAttacker": False},
+                "originalRecords": {"extraction": original, "preview": p},
+            }
+            if registration["id"] != "cqc-starter":
+                record["sourceBatch"] = registration["id"]
+                record["recordPathsBase"] = {"extraction": posixpath.dirname(source_path), "preview": posixpath.dirname(manifest_path)}
+            entries.append(record)
+            outputs[record["detailPage"]] = render_page(record)
+    manifest = manifests[0]  # Preserve the starter's legacy shared reference fields.
     catalogue = {
         "schemaVersion": 1,
         "title": "MGSV Animation Reference Library",
         "game": "Metal Gear Solid V: The Phantom Pain",
         "recordedDate": "2026-10-15",
-        "scope": "Current reviewed 25-clip starting set; general animation research",
+        "scope": "Reviewed explicitly scoped animation batches; general animation research",
         "pathBase": "repository-root",
         "browsing": {"indexInlineImages": 0, "maxAnimatedPreviewsPerPage": PAGE_SIZE, "stillImageMode": True},
         "identityPolicy": "game + source archive + clip hash; extraction ordinals are historical only",
-        "sourceRecords": [
-            {"path": SOURCE, "sha256": sha(source_bytes)},
-            {"path": MANIFEST, "sha256": sha(manifest_bytes)},
-        ],
+        "sourceRecords": [record for batch in batch_records
+                          for record in (batch["extraction"], batch["previews"])],
+        "sourceBatches": batch_records,
         "originalRecordPathsBase": posixpath.dirname(SOURCE),
         "originalPreviewRecordPathsBase": posixpath.dirname(MANIFEST),
         "previewTooling": manifest["tooling"],
@@ -335,7 +357,7 @@ def build(root):
         "timing": manifest["timing"],
         "limits": manifest["limits"],
         "thumbnailEncoding": {"tool": "Pillow", "version": PILLOW_VERSION,
-                              "size": [160, 194], "colors": 96,
+                              "width": 160, "heightPolicy": "Preserve source aspect ratio, nearest pixel", "colors": 96,
                               "resampling": "LANCZOS", "dither": "NONE",
                               "originalFullSizeMediaChanged": False},
         "groups": [{"id": key, "title": title,
@@ -371,7 +393,7 @@ def build(root):
         outputs[page["stills"]] = render_table_page(page, stills=True)
     outputs[THUMBS + "/manifest.json"] = json_bytes({
         "schemaVersion": 1, "purpose": "Paged animation library thumbnails",
-        "sourcePreviewManifest": MANIFEST, "sourcePreviewManifestSha256": sha(manifest_bytes),
+        "sourcePreviewManifests": [batch["previews"] for batch in batch_records],
         "generator": LIB + "/build-library.py", "pillowVersion": PILLOW_VERSION,
         "entries": [{"id": e["id"], "sourceFullGif": e["media"]["fullGif"],
                      "animatedThumbnail": e["media"]["animatedThumbnail"]} for e in entries],
