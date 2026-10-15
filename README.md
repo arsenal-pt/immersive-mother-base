@@ -26,6 +26,8 @@ A mod project for **Metal Gear Solid V: The Phantom Pain (MGSV TPP)** to make Mo
 
 https://github.com/user-attachments/assets/87f7cc30-23a1-49b6-bf4b-e100d5d832e4
 
+Use the play button above to watch the captioned web version, or download the full-resolution copy below.
+
 [Download the full-resolution captioned video (1080p, 24.3 MB)](https://github.com/arsenal-pt/immersive-mother-base/raw/refs/heads/main/media/showcase/2026-10-14/Immersive-Mother-Base-Showcase-CAPTIONED.mp4) · [Video captions](media/showcase/2026-10-14/video-captions.txt) · [All 17 screenshots and capture notes](media/showcase/2026-10-14/README.md)
 
 ### Muster and CQC training
