@@ -16,6 +16,7 @@ A mod project for **Metal Gear Solid V: The Phantom Pain (MGSV TPP)** to make Mo
 
 ## Repository contents
 
+- [research](research/README.md): accumulated technical findings, known failures, source references and repeatable contributor workflows. Later development observations are labeled separately from the public alpha.
 - [core](core/README.md): in-game daily-life modules and a single IH menu.
 - [companion](companion/README.md): optional loopback dashboard using the same simulation.
 - [Command Platform 1 — cl00/pl0, mtbs_unique_0000](platforms/command/platform-1/README.md): optional v9.1 and historical hash-checked rebuild patches; the other Command platforms have not been modified.

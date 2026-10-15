@@ -4,7 +4,7 @@ import argparse, hashlib, json, re, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PREFIXES = ('core/', 'companion/', 'experimental-sdk/', 'resources-authored/',
-            'resource-tools/', 'tests/', 'platforms/', 'installer/', 'tools/')
+            'resource-tools/', 'tests/', 'platforms/', 'installer/', 'tools/', 'research/')
 ROOT_FILES = {'README.md', 'LICENSE', 'LICENSE-SCOPE.md', 'CONTRIBUTING.md', 'CONTRIBUTORS.md',
               'ROADMAP.md', 'INSTALL.md', 'CREDITS.md', 'CHANGELOG.md', 'VERSION', 'VERSIONING.md',
               '.gitignore', 'Install.cmd', 'Uninstall.cmd', 'DEPENDENCIES-AND-COMPATIBILITY.md', 'source-manifest.json', 'release-content.json', 'DOWNLOADS.md'}

@@ -1,5 +1,9 @@
 # Development history
 
+## Unreleased — research documentation
+
+Added a contributor research library covering simulation/performance, IH/native actor boundaries, identities/hierarchy, dynamic platform mapping, FMDL/Blender workflows, rendering/collision experiments, native capture/CQC, services, and Paz/Huey/Battle Gear spaces. Notes preserve failed experiments, source revisions and evidence limits; later private observations are not public-alpha feature claims. The source-package allowlist accepts this documentation for future builds. No runtime payloads, version numbers, existing release archives or release tags changed.
+
 ## 0.1.0-alpha.1 — 2026-10-14
 
 First prepared downloadable testing alpha: reversible, hash-allowlisted core installer with backup/restore receipts, optional companion, corresponding source and separately rebuilt Command Platform1 history. Fixed cached NPC command dispatch outside valid normal Mother Base/loading contexts. Missing native service/group/CQC resource starts remain deliberately disabled; the public alpha has no new native gameplay/FPS acceptance.

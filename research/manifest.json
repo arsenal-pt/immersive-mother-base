@@ -1,0 +1,87 @@
+{
+  "directory": "research/",
+  "status": "Reviewed contributor research; published independently of runtime release artifacts",
+  "package_scope": "original authored research summaries and contributor recipes only",
+  "research_basis": {
+    "canonical_checkpoint": "CURRENT_CHECKPOINT revision 133, 2026-10-14",
+    "project_memory_topic_index": [
+      "performance and IHHook lifecycle",
+      "platform map and native naming",
+      "native service bindings",
+      "FMDL/editor pipeline",
+      "collision and wall reuse",
+      "CQC and activity interface",
+      "special-room integration",
+      "action-recorder 0.1.2 review"
+    ],
+    "task_ids": [
+      "MB-PERF-001",
+      "MB-PERF-002",
+      "MB-CMD1-ACCESS-WALLS-004",
+      "MB-CMD1-CULL-ALL-005",
+      "MB-CMD1-WALL-REUSE-003",
+      "MB-MAP-001",
+      "MB-STAFF-CONSOLIDATE-001",
+      "MB-STAFF-GRAPH-002",
+      "MB-CQC-001",
+      "MB-ACTION-RECORDER-001",
+      "MB-SHOWER-001",
+      "MB-SPECIAL-ROOMS-001",
+      "MB-SHOWCASE-001"
+    ],
+    "upstream_revisions": {
+      "IHHook": "924278894bab056e7d035abc3fbfe4bd726ad4ce",
+      "MGSV Modding Wiki": "2326cdf753a6fcfefb1867dd66ed97a078d4d114",
+      "TppLocation deminified source": "3b8d6a0487ce45f69502d40e684b3d653d3b8965",
+      "GzsTool hashing": "384cb81155ada82716c21b95035b5306b1c0d9cf",
+      "GeomTool partial reader": "4e4b300444e5e0cca85b5113249b76d88d9a55f1",
+      "V Framework address reference": "7d29e15ea1e370d750a3f1becb085c47d56ed20f",
+      "FMDL Blender exporter": "231093d"
+    },
+    "public_alpha_baseline": {
+      "version": "0.1.0-alpha.1",
+      "source_commit": "402ca78ea324478616c6c39432cfc5afdb537eb0",
+      "warning": "Later development observations in the notes are not public-alpha feature or native-acceptance claims."
+    }
+  },
+  "files": [
+    "README.md",
+    "runtime-and-performance.md",
+    "ih-native-bridge.md",
+    "identity-and-rosters.md",
+    "platforms-and-map.md",
+    "asset-pipeline.md",
+    "rendering-and-collision.md",
+    "native-capture-and-activities.md",
+    "services-and-capabilities.md",
+    "special-rooms.md",
+    "verification-recipes.md",
+    "version-and-evidence-index.md"
+  ],
+  "excluded_material": [
+    "owned game assets, archives, extracted source and textures",
+    "Blender scenes or libraries containing game assets",
+    "native DLLs or executables, including IHHook builds",
+    "save files and runtime state",
+    "raw process memory, native addresses beyond public upstream citations, and raw capture feeds",
+    "credentials, tokens, local absolute paths, private reports and third-party source copies"
+  ],
+  "provenance_note": "Research is a curated original summary of project-authored notes and local verification. Private observations are labeled as such and are not independently reproducible from this repository alone; upstream links are pinned where applicable.",
+  "file_hashes_scope": "SHA-256 values cover all listed Markdown files; manifest.json is excluded because it contains these values.",
+  "file_sha256": {
+    "asset-pipeline.md": "072995540d62c9aeab362abc807da3748a4fd7a5bc4972119fa4e0190ca1f420",
+    "identity-and-rosters.md": "548d1ca7201f8a395cb6ef1de69b88019631a620ec3ccec2235e84ca927b87d9",
+    "ih-native-bridge.md": "3bc32a255d52e03bdeebdedfebe68843f5da9923c45cbc0e9546d1e71e3de085",
+    "native-capture-and-activities.md": "29f408bc8046c65323a7a9c2cad5502a8cfbc97f1fb23f247869d3757d280065",
+    "platforms-and-map.md": "bd9668371d604b0eff67ae2c25d8df9e5897e4351962c2c574ed001a54a7589a",
+    "README.md": "412af5fae2a897403283eb764fd5307cc7c94f73884d02d8e4943e52974d68ec",
+    "rendering-and-collision.md": "159096e533bff34b8bab4ecb1ea7e55471fed2108a765608fcb6acbf8b9f44a8",
+    "runtime-and-performance.md": "060d2218e6cb7a18f317194e6e2d63bcba153fe73aeab0b21fb509c71020d489",
+    "services-and-capabilities.md": "9d73280e36734617d0b080eb34959f7311d32414971a54bb898aead87f3a2324",
+    "special-rooms.md": "12cf6189ded5d85cdcd4214fade17dd6b89aec13afa5ffa1cffbd6824e231b02",
+    "verification-recipes.md": "be9be2a23d55a996176894206ca7286347e911c36893625f60c55837c50df7d7",
+    "version-and-evidence-index.md": "6b757509276c4266dc0c7e5f39049e3e8b1791ef83730c5846ac1519bb07071f"
+  },
+  "reviewed_date": "2026-10-14",
+  "publication_task": "MB-RESEARCH-001"
+}
