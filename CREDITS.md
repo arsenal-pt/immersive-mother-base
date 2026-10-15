@@ -21,6 +21,8 @@ These authors created the underlying framework/tool systems. Our AI-development 
 | Tool / authors | Actual use / evidence | Source |
 | --- | --- | --- |
 | GzsTool — Atvaark and contributors | Archive/FPK unpacking and repacking; local platform pipeline used v0.5.3. | [Repository](https://github.com/Atvaark/GzsTool) |
+| MtarTool — BobDoleOwndU and contributors | Actual local MTAR unpack/repack and round-trip checks; animation experiments and punching-combo extraction use v0.2.7. Extracted game motions remain private. | [Repository](https://github.com/BobDoleOwndU/MtarTool), [community guide](https://mgsvmoddingwiki.github.io/MtarTool/) |
+| Fox Engine MTAR Tools for Blender — mctrollin and contributors | Existing animation inspection and selected player-to-soldier conversion reuse its binary reader/writer utilities. This does not mean every clip was edited in the Blender GUI or is runtime-compatible. | [Repository](https://github.com/mctrollin/fox_engine_mtar_tools_blender) |
 | FoxTool — Atvaark and contributors | Native FOX2/XML decode/compile; local pipeline used v0.2.6. | [Repository](https://github.com/Atvaark/FoxTool) |
 | FtexTool — Atvaark and contributors | Locally owned texture decoding/preview workflow. | [Repository](https://github.com/Atvaark/FtexTool) |
 | FMDL Studio v2 — BobDoleOwndU and contributors | Model/material format references and Unity import/export validation. Culling reference reviewed at d580b94215cc007df6c38bdb0bfce6a0f30e4701; byte-preserving authored writers were also used rather than treating every build as an ordinary Studio export. | [Repository](https://github.com/BobDoleOwndU/FMDL-Studio-v2), [wiki](https://github.com/BobDoleOwndU/FMDL-Studio-v2/wiki) |

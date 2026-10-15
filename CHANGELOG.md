@@ -1,5 +1,9 @@
 # Development history
 
+## Unreleased — MtarTool extraction research
+
+Added a reproducible community-tool animation extraction guide, 25-entry metadata catalogue, eight proposed attack/receive phase links, an entry schema and an actually executed PowerShell replay. The research documents original archive hashes, required companion files, the numbered-filename audit correction and the distinction between Snake attack candidates, NPC receivers and separate special/zombie punches. MtarTool/BobDoleOwndU and mctrollin credits are explicit. Raw game animations and recordings stay private; no new native punching behavior or release acceptance is claimed. The source builder accepts reviewed CSV/PowerShell research files.
+
 ## Unreleased — development showcase
 
 Published a 2:50 captioned development video, a full-resolution download and 17 labeled screenshots covering muster, paired CQC, social gatherings, a shower-queue prototype, optional Command Platform1 interiors and the companion dashboard. The README separates installed-development footage from public-alpha features and identifies IH extras, test props and known animation/collision/rendering failures. Showcase media have their own hash/provenance manifest and are excluded from software release packages. No runtime/version or existing release asset/tag changed.

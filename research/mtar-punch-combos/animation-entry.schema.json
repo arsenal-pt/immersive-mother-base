@@ -1,0 +1,88 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "sourceArchive",
+    "sourceMtarSha256",
+    "name",
+    "hashId",
+    "role",
+    "frameCount",
+    "frameRate",
+    "payloads",
+    "visualConfirmed",
+    "nativePlaybackConfirmed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "sourceArchive": {
+      "type": "string"
+    },
+    "sourceMtarSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "hashId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "role": {
+      "enum": [
+        "snake_combo_initiator_candidate",
+        "npc_combo_receiver_candidate",
+        "special_actor_punch_candidate"
+      ]
+    },
+    "frameCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "frameRate": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "visualConfirmed": {
+      "type": "boolean"
+    },
+    "nativePlaybackConfirmed": {
+      "type": "boolean"
+    },
+    "payloads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "extension",
+          "bytes",
+          "sha256"
+        ],
+        "properties": {
+          "extension": {
+            "enum": [
+              ".gani",
+              ".exchnk",
+              ".enchnk"
+            ]
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

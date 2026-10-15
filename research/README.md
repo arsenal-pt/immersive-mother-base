@@ -20,6 +20,8 @@ The published 0.1.0-alpha.1 source is a limited, resource-disabled alpha. Some r
 10. [Contributor verification recipes](verification-recipes.md) — compact repeatable workflows and pending gates.
 11. [Version and evidence index](version-and-evidence-index.md) — published alpha, later prototypes and failed attempts.
 
+12. [MtarTool punching-combo extraction](mtar-punch-combos/README.md) — actual community-tool commands, 25 catalogued attack/receiver/special-actor candidates, source hashes, companions, phase hypotheses and a tested extraction replay.
+
 ## Evidence labels
 
 - **Upstream reference** means a linked public source or tool document. It may document an API or file format without proving a specific runtime result.

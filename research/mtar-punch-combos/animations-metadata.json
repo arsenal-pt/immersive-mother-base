@@ -1,0 +1,1093 @@
+{
+  "schemaVersion": 1,
+  "recordedDate": "2026-10-15",
+  "scope": "private extraction evidence; metadata only, no game payloads",
+  "claims": {
+    "freshFpkExtraction": true,
+    "freshMtarExtraction": true,
+    "freshDatExtraction": false,
+    "visualAnimationProof": false,
+    "nativeCompatibilityProof": false
+  },
+  "toolVersions": {
+    "MtarTool": "0.2.7",
+    "GzsTool": "0.5.3"
+  },
+  "archives": [
+    {
+      "name": "player2_cqc",
+      "pack": "player2_mtbs_motion",
+      "mtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "entries": 94,
+      "payloadFiles": 274
+    },
+    {
+      "name": "player2_resident",
+      "pack": "player2_resident_motion",
+      "mtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "entries": 1285,
+      "payloadFiles": 3345
+    },
+    {
+      "name": "Soldier_common",
+      "pack": "Soldier2Common",
+      "mtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "entries": 1345,
+      "payloadFiles": 3825
+    }
+  ],
+  "animations": [
+    {
+      "id": "player2_cqc-0079-snapcqc_s_com_f1_ed",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 79,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_com_f1_ed",
+      "hashId": "16b0a2fb40a09",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "related_combo_transition",
+      "phase": null,
+      "phaseKind": "ending",
+      "frameCount": 30,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 6704,
+          "sha256": "4ee7d2b62c9dc5a63e91960dc781ffb1e6ca66279b0f68d0d06ede626eee1796"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1248,
+          "sha256": "2b8ec53c57fb241c4f63ea1b0a470baae0dcc37474e614b94a0a0faa524983aa"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 336,
+          "sha256": "1637f6b7b95bfa88e37c1767a0adfff274772ce741bc5b2aeca30c3daa8ec7fe"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0080-snapcqc_s_com_st_mis_l",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 80,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_com_st_mis_l",
+      "hashId": "e831dda3d332",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "related_combo_transition",
+      "phase": null,
+      "phaseKind": "attack",
+      "frameCount": 75,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 9872,
+          "sha256": "3c39793629d178a55b8b543d3b68faa9453488a325c3bf93f4cfc38fea1f3bc5"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 272,
+          "sha256": "c09afd99f130141ddb34c700bfddce1526ac8044b0da2403710717e405a7ce5f"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0084-snapcqc_s_new_com_asr_b2",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 84,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_b2",
+      "hashId": "2a144c68bf5f2",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "back",
+      "phase": 2,
+      "phaseKind": "phase",
+      "frameCount": 85,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 14768,
+          "sha256": "a2e41dd0a2b9dc64cddba8ba7594ee1011dba23c9708224f37db97990798db48"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 2336,
+          "sha256": "90ed0d3dd98a06558c9224fed169e7de41ca8f606ef4cfe3a74d52308c661dde"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 640,
+          "sha256": "3aad53907cdaf7abdefb8c4f56aeb846e37f8eb2b20321eef043ea4f55647004"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0085-snapcqc_s_new_com_asr_b3",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 85,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_b3",
+      "hashId": "102647d14d3f3",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "back",
+      "phase": 3,
+      "phaseKind": "phase",
+      "frameCount": 90,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 17264,
+          "sha256": "82216f953952a36e69fd0b8be93d754c085e212f6e334af98bb8552050f80675"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 2608,
+          "sha256": "f7718afc042da600e24036c4d4f8be16e4c0cabe54a336067c60152ede425762"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 704,
+          "sha256": "0513b5b8aa30cecef1c289be4760e648724423ea445949610cba8db0a2c1d3e0"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0086-snapcqc_s_new_com_asr_f1",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 86,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f1",
+      "hashId": "6b4ebb77250b",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "front",
+      "phase": 1,
+      "phaseKind": "phase",
+      "frameCount": 60,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 9168,
+          "sha256": "559f6489aa6b151cf396df38b41cde798b2b8e5aad52fabeb091a991bde8438a"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1920,
+          "sha256": "d35a37612d7144be385002560a8f846912feec428174b59b41768b665837fa99"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 496,
+          "sha256": "3c968d291072202c0fe2a82d565151f7e8aa9c64b93a104058d5de12572cb694"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0087-snapcqc_s_new_com_asr_f2",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 87,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f2",
+      "hashId": "3a075aca6a734",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "front",
+      "phase": 2,
+      "phaseKind": "phase",
+      "frameCount": 78,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 13248,
+          "sha256": "c0c88943e60826f9a3578f99da0f0c5af8a7490d306b08686ee54848a275b640"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 2336,
+          "sha256": "331b3e88d1726f66896b6aa666a5ed6b1f54ed5915af0fc4a77fda714cdf1003"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 640,
+          "sha256": "de3fa85655119f0fe808d278a2f9005c866494727e77f032b592aff02575cb8f"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0088-snapcqc_s_new_com_asr_f3",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 88,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f3",
+      "hashId": "138b1932095af",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "front",
+      "phase": 3,
+      "phaseKind": "phase",
+      "frameCount": 83,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 16592,
+          "sha256": "579f9cc712f18c352ba34c620a5ca62b273aecc8ddeb1bc5cbdbbdb4666680b3"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 2720,
+          "sha256": "09dfe0a24fede8cf0e3eaf1ab2bc0ec2a5d2e1b4ba2486a81dfb853ad2a7957c"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 640,
+          "sha256": "70724c2142d17501e98a1044c8487490e4873fcf0c7e9ac50a8ae697aae47f6c"
+        }
+      ]
+    },
+    {
+      "id": "player2_cqc-0089-snapcqc_s_new_com_asr_f4",
+      "sourceArchive": "player2_cqc",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 89,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f4",
+      "hashId": "2471f88c4999c",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "front",
+      "phase": 4,
+      "phaseKind": "phase",
+      "frameCount": 85,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 13936,
+          "sha256": "a6d95a5d1bd3c3890aa35e7d244bee291b2644c57a9d988ff99750ce9eb05bd6"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 2496,
+          "sha256": "6d4dc2ae04f0c5b03c7297e0f72344b073b9e15fa3212bc0b2a4d775c8eec8ce"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 656,
+          "sha256": "9fd1d4e5e000e3de187ecc756ccd56d41e8b6643aa44bb9e66459f95f21d2a2e"
+        }
+      ]
+    },
+    {
+      "id": "player2_resident-0226-snapcqc_s_new_com_asr_b1",
+      "sourceArchive": "player2_resident",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 226,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_b1",
+      "hashId": "36c8fbcb8b28a",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "back",
+      "phase": 1,
+      "phaseKind": "phase",
+      "frameCount": 60,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 8928,
+          "sha256": "f7e125ce5691396a5234a049322500c55f5f7fc697f14422a9656ec6638f7237"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1920,
+          "sha256": "29bc77f36773d77f152b64d5395780e4968d18ddc471a36a820559283da7c5e1"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 496,
+          "sha256": "3254a3fef38026d34c55ef3ba8d964c6aa821e8a046bb5cba3372badcef8a9b3"
+        }
+      ]
+    },
+    {
+      "id": "player2_resident-0227-snapcqc_s_new_com_asr_f1_st",
+      "sourceArchive": "player2_resident",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 227,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f1_st",
+      "hashId": "4857fd9e7ebc",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "front",
+      "phase": 1,
+      "phaseKind": "start",
+      "frameCount": 25,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 6176,
+          "sha256": "b21e279f226b0eb59ea8fbc174c4b030e64e0cc16d51957399e5bd17edc48260"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1056,
+          "sha256": "eda32fe2985371fb63e48fc219b7367cbdd3dd95a7df94de25f6dcfcbe3a7d87"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 416,
+          "sha256": "3a8dc0033e8ef92b0529155a6664416b4372331e7290a1e21ca474eefd61501a"
+        }
+      ]
+    },
+    {
+      "id": "player2_resident-0228-snapcqc_s_new_com_asr_f5",
+      "sourceArchive": "player2_resident",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 228,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f5",
+      "hashId": "1a1c4551b3706",
+      "role": "snake_combo_initiator_candidate",
+      "sequenceFamily": "front",
+      "phase": 5,
+      "phaseKind": "phase",
+      "frameCount": 105,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 21360,
+          "sha256": "959df67edf0edc1ed2e48df021ca164f78ab2d5921acf76a09c739c82993814a"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 2880,
+          "sha256": "dfe924705bfe995506dde9812667ebfcf16517141586d0a5cec14897a20cb5b9"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 784,
+          "sha256": "7dfceb191880ae31db8d818842198711265cde3ff392fa814557eb63f2e268ca"
+        }
+      ]
+    },
+    {
+      "id": "player2_resident-1280-snapzmb_s_atk_pnh",
+      "sourceArchive": "player2_resident",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 1280,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapzmb/snapzmb_s_atk_pnh",
+      "hashId": "18dfe32fab367",
+      "role": "special_actor_punch_candidate",
+      "sequenceFamily": "zombie_melee",
+      "phase": null,
+      "phaseKind": "attack",
+      "frameCount": 60,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 8624,
+          "sha256": "85ad59d986378d24a531a24f8e86a4183c1a5df5aba469ca36df811c67f73383"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 192,
+          "sha256": "8560faeb7d1ae8f8faba245c83712f068e7149391ef44008ad9a16e6c0ff23b3"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 416,
+          "sha256": "54941049f77bef9ce50704865239cd56752bf7d25bf2d9dfa23fb959ecaf4b65"
+        }
+      ]
+    },
+    {
+      "id": "player2_resident-1281-snapzmb_s_atk_pnh2",
+      "sourceArchive": "player2_resident",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 1281,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapzmb/snapzmb_s_atk_pnh2",
+      "hashId": "29553c4699ca8",
+      "role": "special_actor_punch_candidate",
+      "sequenceFamily": "zombie_melee",
+      "phase": null,
+      "phaseKind": "attack2",
+      "frameCount": 43,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 5088,
+          "sha256": "30f0aaad13eb97e979790384cfb9c27cbb451af07d1b360329ee8370d51ea645"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 96,
+          "sha256": "49e5ce665e305efbe010b6e5b7365dcd6c134b6070b24cb7751294131cd74d16"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 336,
+          "sha256": "0b6d2cd76086bf97722f96c31a4d0e2b8e9a1e6781dbe33494ecbb00097b1634"
+        }
+      ]
+    },
+    {
+      "id": "player2_resident-1282-snapzmb_s_atk_pnh_ed",
+      "sourceArchive": "player2_resident",
+      "sourceRole": "player",
+      "archiveOrdinalZeroBased": 1282,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapzmb/snapzmb_s_atk_pnh_ed",
+      "hashId": "34ff0e1541984",
+      "role": "special_actor_punch_candidate",
+      "sequenceFamily": "zombie_melee",
+      "phase": null,
+      "phaseKind": "ending",
+      "frameCount": 15,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 3808,
+          "sha256": "abd860c6bcb69a6b46f73604870ab6492463c1350ca494ad2bdc82a67fae8ccf"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 192,
+          "sha256": "d13ec3abaf242936a528ff5f3be50dd2952ac4e35d2c553f7843c8ca57fcdcf3"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 320,
+          "sha256": "7e3b9130fa2f804827a455e5657389327753ba57e9c1f0effa1b3bd3d6ed67bf"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0114-enemasr_s_new_com_asr_b1",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 114,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_b1",
+      "hashId": "eb18706e40a",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "back",
+      "phase": 1,
+      "phaseKind": "phase",
+      "frameCount": 87,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 14784,
+          "sha256": "1cdf99914b769209550fa4a3d9919d7d829f53ead46a16b86db6765f5d457552"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 608,
+          "sha256": "dcf3be1e78fff5eefc64b8c027c113f55237780fedf273b8d4a02e5d0b62c4de"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 528,
+          "sha256": "203fb6ea28286de099cc094710523f7d2833a715bf0ea465440b31e37983a069"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0115-enemasr_s_new_com_asr_b2",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 115,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_b2",
+      "hashId": "3996cc2687e1f",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "back",
+      "phase": 2,
+      "phaseKind": "phase",
+      "frameCount": 98,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 14432,
+          "sha256": "3f726e03a8295ab57a49977e87e3e5eead38d411c4230cc83894411c64a4b561"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 912,
+          "sha256": "4054747278e4205bd2b9d7e04bf4f8579ce9dcc168c5fbaa82af06f9282e3162"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 560,
+          "sha256": "7bffdce08c32cd5d21278a12299d29c23519eb6d0c021a249945503e19fe622a"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0116-enemasr_s_new_com_asr_b3",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 116,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_b3",
+      "hashId": "369dec61164bd",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "back",
+      "phase": 3,
+      "phaseKind": "phase",
+      "frameCount": 120,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 19664,
+          "sha256": "f2ad1b1313a4a5bf306d94e3f389d9b11cbe5cf6795211be14e3c6d2f1ebc45a"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1648,
+          "sha256": "adbe1c2fa94db3a15c37f6dc6a1f23540aa1e8c368550d91ad5dc1ad263b91f3"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 736,
+          "sha256": "ada51c2dd5bb8419da38d5767f513a6684183ff881d7ac6e570dfdb14b02f596"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0117-enemasr_s_new_com_asr_f1",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 117,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f1",
+      "hashId": "2cf6595afc1aa",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "front",
+      "phase": 1,
+      "phaseKind": "phase",
+      "frameCount": 65,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 10672,
+          "sha256": "d9b388178a1ccf8b56a7acadbd5f6da9cad8fd1754bc50da2d092a586ce7ba88"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 800,
+          "sha256": "110778263ff19f24e6a8aff2336f20a9e0e1ae428472f67e9537fe82cdd7cc41"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 544,
+          "sha256": "09ee787732681e7225488265007f88b3c49a70038b2275d2b9ee2f7f30d108e1"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0118-enemasr_s_new_com_asr_f2",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 118,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f2",
+      "hashId": "2fa7f3ebdc793",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "front",
+      "phase": 2,
+      "phaseKind": "phase",
+      "frameCount": 90,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 16288,
+          "sha256": "eb8590c384bdcdc1c719dbc9fe22f8ee5030714e3859a0fc4c638ed31fb87fbe"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1008,
+          "sha256": "1c6297fb216ff134a19426f8a8f02ae3b6af6545eb0d6850bebbdf4eb12504db"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 560,
+          "sha256": "4f429c99f7e2230fae40daa13a954ad9aa9b915d971ea318b5044c52c06befc6"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0119-enemasr_s_new_com_asr_f3",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 119,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f3",
+      "hashId": "26966dd52b38f",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "front",
+      "phase": 3,
+      "phaseKind": "phase",
+      "frameCount": 100,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 14992,
+          "sha256": "efe763d4bde4ae008046ef0b0ff17b5ee2b0621ea06be4dad9deaa0ac55d5cc0"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1168,
+          "sha256": "f8dd365fab1f24f4ed50049fb81ae64b0f60db8d8469d9330cf3f7c7ef1bdb65"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 576,
+          "sha256": "a0ceacffa040820de401924e5d5679cb19bdc06db1c0eaed57cfccce8fd4eb5a"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0120-enemasr_s_new_com_asr_f4",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 120,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f4",
+      "hashId": "2d551b46a321c",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "front",
+      "phase": 4,
+      "phaseKind": "phase",
+      "frameCount": 93,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 15024,
+          "sha256": "579c52165299015fe149f278ce37732379efe1cf7efe7ee978a6d599fa9e9ef6"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 1136,
+          "sha256": "b357569e7c40a9d584d39e799986ac00be1c8378fb31539952f4aa5a33834e08"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 624,
+          "sha256": "62c3c6663f9b7491706301c440afe559332028216ed3867d89464e2ac0f9e0cf"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-0121-enemasr_s_new_com_asr_f5",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 121,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f5",
+      "hashId": "326a085b59184",
+      "role": "npc_combo_receiver_candidate",
+      "sequenceFamily": "front",
+      "phase": 5,
+      "phaseKind": "phase",
+      "frameCount": 135,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 20496,
+          "sha256": "285a9ce6b5ba99db09f067936c07ecd4c55193b1dd6ec5cc24c8f6bd40d1e4f6"
+        },
+        {
+          "extension": ".exchnk",
+          "bytes": 3344,
+          "sha256": "7f68ce7e69b853f25f9fb49f39069b5e52563dd01dbc47b2c437f5157b27abaf"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 736,
+          "sha256": "9c2aae8e4b38d0a57261ab5e8fe33173717096705742cc7576af68448ac00d4b"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-1311-enetzmb_s_atk_pnh",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 1311,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh",
+      "hashId": "17e48d5c5ad12",
+      "role": "special_actor_punch_candidate",
+      "sequenceFamily": "zombie_melee",
+      "phase": null,
+      "phaseKind": "attack",
+      "frameCount": 60,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 9984,
+          "sha256": "c8a81595aeb312f72b88d167586d51d585f9b6e77d69e4a3693556bd4e335b6a"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 416,
+          "sha256": "d799dcdf9ef24935d2ab093c3762c6bcce3d669309e294e7317a0d551020c375"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-1312-enetzmb_s_atk_pnh2",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 1312,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh2",
+      "hashId": "244c2b65d1149",
+      "role": "special_actor_punch_candidate",
+      "sequenceFamily": "zombie_melee",
+      "phase": null,
+      "phaseKind": "attack2",
+      "frameCount": 43,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 6512,
+          "sha256": "05339d4f98c01ef68cdace9eda7db2dc1a9ca1f94a0bd9bd892159117b9d17d7"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 400,
+          "sha256": "f25a0926d659d1b2e6e4907179077d5c162c5280d4caa69c2d1edb9a4e577cbf"
+        }
+      ]
+    },
+    {
+      "id": "Soldier_common-1313-enetzmb_s_atk_pnh_ed",
+      "sourceArchive": "Soldier_common",
+      "sourceRole": "Soldier2Common archive (membership does not prove actor use)",
+      "archiveOrdinalZeroBased": 1313,
+      "ordinalNote": "Ordinal in first MtarTool extraction XML; tool may renumber on repack",
+      "name": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh_ed",
+      "hashId": "3f61b4434967",
+      "role": "special_actor_punch_candidate",
+      "sequenceFamily": "zombie_melee",
+      "phase": null,
+      "phaseKind": "ending",
+      "frameCount": 15,
+      "frameCountMethod": "GANI2 mini-header uint32 at offset0, consistent with mctrollin reader/previous adapter",
+      "frameRate": null,
+      "durationSeconds": null,
+      "timingNote": "Raw frame count only. Runtime rate and transitions not measured.",
+      "namingConfidence": "dictionary-resolved exact archive member",
+      "interpretationConfidence": "candidate inferred from family names; not visual confirmation",
+      "visualConfirmed": false,
+      "nativePlaybackConfirmed": false,
+      "relationshipNote": "Distinct special-actor/transition candidate; not an ordinary soldier combo proof.",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "payloads": [
+        {
+          "extension": ".gani",
+          "bytes": 3888,
+          "sha256": "63afcbd0f9485e3097bd3a67a30abb26c9d48387a2205168df5b66ceff5d490f"
+        },
+        {
+          "extension": ".enchnk",
+          "bytes": 384,
+          "sha256": "8f9a9d2ebb5b89b0bb98c9fbcec6553fc35c17d3dc5e4a51eda0fadfd7f0a0dd"
+        }
+      ]
+    }
+  ],
+  "roundtrip": [
+    {
+      "name": "player2_cqc",
+      "payloadFiles": 274,
+      "allCanonicalMemberPathsAndSha256Equal": true,
+      "comparisonNormalization": "only MtarTool four-digit ordinal prefixes removed; collisions rejected",
+      "sourceMtarSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+      "repackedMtarSha256": "5dd8b0159bad862a13bf25fa3bcb2b1b939c8bba38b425431a3a1a335259ddc4",
+      "nativeMotionProof": false
+    },
+    {
+      "name": "player2_resident",
+      "payloadFiles": 3345,
+      "allCanonicalMemberPathsAndSha256Equal": true,
+      "comparisonNormalization": "only MtarTool four-digit ordinal prefixes removed; collisions rejected",
+      "sourceMtarSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+      "repackedMtarSha256": "d8e9eb9c4ca6e81cc11c5edf7913e28c027e32b769ed0544fe0fc2254eb4ed7a",
+      "nativeMotionProof": false
+    },
+    {
+      "name": "Soldier_common",
+      "payloadFiles": 3825,
+      "allCanonicalMemberPathsAndSha256Equal": true,
+      "comparisonNormalization": "only MtarTool four-digit ordinal prefixes removed; collisions rejected",
+      "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "repackedMtarSha256": "fc9e6ee8e702a314470371e88edc52823ddd45662d8083eec9cccba2b3fe700f",
+      "nativeMotionProof": false
+    }
+  ],
+  "toolRuntimeHashes": {
+    "gzs": {
+      "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+      "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+      "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+      "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+      "GzsTool.exe.config": "3db4221c53a287dbb3dd13efbec4ad88f29cb2edcf13cfe0c829f6406532c9fe",
+      "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2",
+      "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42"
+    },
+    "mtar": {
+      "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+      "mtar_dictionary.txt": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+      "MtarTool.Core.dll": "84b5111069c2ecccbc90394b6f52d9b7c0bff228a97f7dc4ea866c617373a9e9",
+      "MtarTool.exe": "7ef5686320b0f5817db50c7c0f8dc38b5362b366c6dd712f76c5f96b70e9070a"
+    }
+  },
+  "dictionaryRevisionNote": "Installed release snapshot hashes, not a fresh lookup-strings fetch or claim of its revision."
+}

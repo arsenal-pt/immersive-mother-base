@@ -1,0 +1,98 @@
+[
+  {
+    "family": "front",
+    "phase": 1,
+    "snakeId": "player2_cqc-0086-snapcqc_s_new_com_asr_f1",
+    "snakeHash": "6b4ebb77250b",
+    "snakeFrames": 60,
+    "npcId": "Soldier_common-0117-enemasr_s_new_com_asr_f1",
+    "npcHash": "2cf6595afc1aa",
+    "npcFrames": 65,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "front",
+    "phase": 2,
+    "snakeId": "player2_cqc-0087-snapcqc_s_new_com_asr_f2",
+    "snakeHash": "3a075aca6a734",
+    "snakeFrames": 78,
+    "npcId": "Soldier_common-0118-enemasr_s_new_com_asr_f2",
+    "npcHash": "2fa7f3ebdc793",
+    "npcFrames": 90,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "front",
+    "phase": 3,
+    "snakeId": "player2_cqc-0088-snapcqc_s_new_com_asr_f3",
+    "snakeHash": "138b1932095af",
+    "snakeFrames": 83,
+    "npcId": "Soldier_common-0119-enemasr_s_new_com_asr_f3",
+    "npcHash": "26966dd52b38f",
+    "npcFrames": 100,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "front",
+    "phase": 4,
+    "snakeId": "player2_cqc-0089-snapcqc_s_new_com_asr_f4",
+    "snakeHash": "2471f88c4999c",
+    "snakeFrames": 85,
+    "npcId": "Soldier_common-0120-enemasr_s_new_com_asr_f4",
+    "npcHash": "2d551b46a321c",
+    "npcFrames": 93,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "front",
+    "phase": 5,
+    "snakeId": "player2_resident-0228-snapcqc_s_new_com_asr_f5",
+    "snakeHash": "1a1c4551b3706",
+    "snakeFrames": 105,
+    "npcId": "Soldier_common-0121-enemasr_s_new_com_asr_f5",
+    "npcHash": "326a085b59184",
+    "npcFrames": 135,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "back",
+    "phase": 1,
+    "snakeId": "player2_resident-0226-snapcqc_s_new_com_asr_b1",
+    "snakeHash": "36c8fbcb8b28a",
+    "snakeFrames": 60,
+    "npcId": "Soldier_common-0114-enemasr_s_new_com_asr_b1",
+    "npcHash": "eb18706e40a",
+    "npcFrames": 87,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "back",
+    "phase": 2,
+    "snakeId": "player2_cqc-0084-snapcqc_s_new_com_asr_b2",
+    "snakeHash": "2a144c68bf5f2",
+    "snakeFrames": 85,
+    "npcId": "Soldier_common-0115-enemasr_s_new_com_asr_b2",
+    "npcHash": "3996cc2687e1f",
+    "npcFrames": 98,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  },
+  {
+    "family": "back",
+    "phase": 3,
+    "snakeId": "player2_cqc-0085-snapcqc_s_new_com_asr_b3",
+    "snakeHash": "102647d14d3f3",
+    "snakeFrames": 90,
+    "npcId": "Soldier_common-0116-enemasr_s_new_com_asr_b3",
+    "npcHash": "369dec61164bd",
+    "npcFrames": 120,
+    "basis": "matching dictionary family/phase suffix only",
+    "nativePairingProved": false
+  }
+]

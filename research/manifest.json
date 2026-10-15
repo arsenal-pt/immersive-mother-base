@@ -27,7 +27,8 @@
       "MB-ACTION-RECORDER-001",
       "MB-SHOWER-001",
       "MB-SPECIAL-ROOMS-001",
-      "MB-SHOWCASE-001"
+      "MB-SHOWCASE-001",
+      "MB-MTAR-COMBO-001"
     ],
     "upstream_revisions": {
       "IHHook": "924278894bab056e7d035abc3fbfe4bd726ad4ce",
@@ -42,6 +43,20 @@
       "version": "0.1.0-alpha.1",
       "source_commit": "402ca78ea324478616c6c39432cfc5afdb537eb0",
       "warning": "Later development observations in the notes are not public-alpha feature or native-acceptance claims."
+    },
+    "mtar_combo_supplement": {
+      "date": "2026-10-15",
+      "tools": {
+        "MtarTool": "0.2.7",
+        "GzsTool": "0.5.3"
+      },
+      "selectedClips": 25,
+      "selectedCompanionPayloads": 71,
+      "canonicalRoundtripPayloads": 7444,
+      "portableReplayActuallyExecuted": true,
+      "freshDatExtraction": false,
+      "nativeAnimationProof": false,
+      "footageAndGamePayloads": "private, not included in repository"
     }
   },
   "files": [
@@ -56,7 +71,14 @@
     "services-and-capabilities.md",
     "special-rooms.md",
     "verification-recipes.md",
-    "version-and-evidence-index.md"
+    "version-and-evidence-index.md",
+    "mtar-punch-combos/animation-entry.schema.json",
+    "mtar-punch-combos/animations-metadata.csv",
+    "mtar-punch-combos/animations-metadata.json",
+    "mtar-punch-combos/Extract-Preserved-Packages.ps1",
+    "mtar-punch-combos/phase-table.md",
+    "mtar-punch-combos/proposed-phase-pairs.json",
+    "mtar-punch-combos/README.md"
   ],
   "excluded_material": [
     "owned game assets, archives, extracted source and textures",
@@ -67,21 +89,28 @@
     "credentials, tokens, local absolute paths, private reports and third-party source copies"
   ],
   "provenance_note": "Research is a curated original summary of project-authored notes and local verification. Private observations are labeled as such and are not independently reproducible from this repository alone; upstream links are pinned where applicable.",
-  "file_hashes_scope": "SHA-256 values cover all listed Markdown files; manifest.json is excluded because it contains these values.",
+  "file_hashes_scope": "SHA-256 covers all files named in files, including the reviewed metadata and replay script; manifest.json is excluded because it contains these values.",
   "file_sha256": {
-    "asset-pipeline.md": "072995540d62c9aeab362abc807da3748a4fd7a5bc4972119fa4e0190ca1f420",
-    "identity-and-rosters.md": "548d1ca7201f8a395cb6ef1de69b88019631a620ec3ccec2235e84ca927b87d9",
-    "ih-native-bridge.md": "3bc32a255d52e03bdeebdedfebe68843f5da9923c45cbc0e9546d1e71e3de085",
-    "native-capture-and-activities.md": "29f408bc8046c65323a7a9c2cad5502a8cfbc97f1fb23f247869d3757d280065",
-    "platforms-and-map.md": "bd9668371d604b0eff67ae2c25d8df9e5897e4351962c2c574ed001a54a7589a",
-    "README.md": "412af5fae2a897403283eb764fd5307cc7c94f73884d02d8e4943e52974d68ec",
-    "rendering-and-collision.md": "159096e533bff34b8bab4ecb1ea7e55471fed2108a765608fcb6acbf8b9f44a8",
+    "README.md": "5af31dc4ae14ba5847c81c5f15426849e8a3def2327850aea7aa77433ce66b6a",
     "runtime-and-performance.md": "060d2218e6cb7a18f317194e6e2d63bcba153fe73aeab0b21fb509c71020d489",
+    "ih-native-bridge.md": "3bc32a255d52e03bdeebdedfebe68843f5da9923c45cbc0e9546d1e71e3de085",
+    "identity-and-rosters.md": "548d1ca7201f8a395cb6ef1de69b88019631a620ec3ccec2235e84ca927b87d9",
+    "platforms-and-map.md": "bd9668371d604b0eff67ae2c25d8df9e5897e4351962c2c574ed001a54a7589a",
+    "asset-pipeline.md": "072995540d62c9aeab362abc807da3748a4fd7a5bc4972119fa4e0190ca1f420",
+    "rendering-and-collision.md": "159096e533bff34b8bab4ecb1ea7e55471fed2108a765608fcb6acbf8b9f44a8",
+    "native-capture-and-activities.md": "29f408bc8046c65323a7a9c2cad5502a8cfbc97f1fb23f247869d3757d280065",
     "services-and-capabilities.md": "9d73280e36734617d0b080eb34959f7311d32414971a54bb898aead87f3a2324",
     "special-rooms.md": "12cf6189ded5d85cdcd4214fade17dd6b89aec13afa5ffa1cffbd6824e231b02",
     "verification-recipes.md": "be9be2a23d55a996176894206ca7286347e911c36893625f60c55837c50df7d7",
-    "version-and-evidence-index.md": "6b757509276c4266dc0c7e5f39049e3e8b1791ef83730c5846ac1519bb07071f"
+    "version-and-evidence-index.md": "6b757509276c4266dc0c7e5f39049e3e8b1791ef83730c5846ac1519bb07071f",
+    "mtar-punch-combos/animation-entry.schema.json": "8a27f31690ec60b2021d50699b6bbfeb291181977fd83e3fd8d037a3abbb6a22",
+    "mtar-punch-combos/animations-metadata.csv": "b077f259de3a4bff5ae58c52834934286df1c5583a58dc54d5fde8ff73d39393",
+    "mtar-punch-combos/animations-metadata.json": "94b3d3f266619271a8768cf078b7e42140a668125c44505f486ca5ac517fa0c1",
+    "mtar-punch-combos/Extract-Preserved-Packages.ps1": "c632ea610264ad1032af1c09bf0dd83c3ba66229813fd2eb758a0c3b71e005e0",
+    "mtar-punch-combos/phase-table.md": "f891ae749f0015daf1b119be488b1ec1a2871e60242e002df7d56354e7f3a78a",
+    "mtar-punch-combos/proposed-phase-pairs.json": "075914b739d3810c7306ffd691aafaecdef3c77f5153127da3a4d61c7a697504",
+    "mtar-punch-combos/README.md": "6ffaa087c7abb22d3a942c1e61f06585006b467d19e22496c3d19d42e2b87d7f"
   },
-  "reviewed_date": "2026-10-14",
-  "publication_task": "MB-RESEARCH-001"
+  "reviewed_date": "2026-10-15",
+  "publication_task": "MB-RESEARCH-001 + MB-MTAR-COMBO-001"
 }
