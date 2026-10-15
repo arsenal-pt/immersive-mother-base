@@ -83,6 +83,57 @@
           }
         }
       }
+    },
+    "displayTitle": {
+      "type": "string"
+    },
+    "offlinePreviewConfirmed": {
+      "type": "boolean"
+    },
+    "preview": {
+      "type": "object",
+      "required": [
+        "status",
+        "referenceCharacter",
+        "gif",
+        "thumbnail",
+        "nativeGameplayProof"
+      ],
+      "properties": {
+        "status": {
+          "const": "offline-reference-character"
+        },
+        "referenceCharacter": {
+          "type": "string"
+        },
+        "gif": {
+          "type": "string"
+        },
+        "thumbnail": {
+          "type": "string"
+        },
+        "manifest": {
+          "type": "string"
+        },
+        "chosenSourceFramesPerSecond": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "nominalGifFramesPerSecond": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "durationSeconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "nativeTimingVerified": {
+          "const": false
+        },
+        "nativeGameplayProof": {
+          "const": false
+        }
+      }
     }
   }
 }

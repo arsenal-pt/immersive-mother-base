@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "15 October 2026 offline MTAR character preview manifest",
+  "description": "Metadata/media schema for this bounded25-entry offline reference-character batch. It is not a native animation compatibility certificate.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "date",
+    "scope",
+    "tooling",
+    "skinning",
+    "timing",
+    "limits",
+    "entries"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "date": {
+      "const": "2026-10-15"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "tooling": {
+      "type": "object",
+      "required": [
+        "blender",
+        "mctrollinReferenceRevision",
+        "referenceRevisionStatus",
+        "installedCommunityPythonFiles",
+        "referenceRigSha256",
+        "trackMapSha256",
+        "boneMapSha256",
+        "characterFmdlSha256"
+      ],
+      "properties": {
+        "installedCommunityPythonFiles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "skinning": {
+      "type": "object",
+      "required": [
+        "method",
+        "secondaryBonesFollowMappedNativeAncestor",
+        "fallbackCount"
+      ],
+      "properties": {
+        "fallbackCount": {
+          "const": 18
+        }
+      }
+    },
+    "timing": {
+      "type": "object",
+      "required": [
+        "nativeFrameRate",
+        "chosenSourceFramesPerSecond"
+      ],
+      "properties": {
+        "nativeFrameRate": {
+          "type": "null"
+        },
+        "chosenSourceFramesPerSecond": {
+          "const": 30
+        }
+      }
+    },
+    "limits": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "string"
+      }
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 25,
+      "maxItems": 25,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "shortIdentifier",
+          "sourceName",
+          "sourceArchive",
+          "sourceArchiveSha256",
+          "sourceGaniSha256",
+          "hashId",
+          "role",
+          "rawFrameCount",
+          "decodedTrackCount",
+          "sourceFramesSampled",
+          "chosenSourceFramesPerSecond",
+          "nativeFrameRate",
+          "nativeGameplayProof",
+          "pairedAlignmentProof",
+          "ordinarySoldierAttackProof",
+          "referenceCharacter",
+          "cameraFixedForFullClip",
+          "titledGif",
+          "thumbnail",
+          "maximumPerVertexWeightSumError"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(player2_cqc|player2_resident|Soldier_common)-[0-9]{4}-[A-Za-z0-9_]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "shortIdentifier": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceName": {
+            "type": "string",
+            "pattern": "^/Assets/"
+          },
+          "sourceArchive": {
+            "enum": [
+              "player2_cqc",
+              "player2_resident",
+              "Soldier_common"
+            ]
+          },
+          "sourceArchiveSha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "sourceGaniSha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "hashId": {
+            "type": "string",
+            "pattern": "^[0-9a-f]+$"
+          },
+          "role": {
+            "type": "string"
+          },
+          "rawFrameCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "decodedTrackCount": {
+            "const": 18
+          },
+          "sourceFramesSampled": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "uniqueItems": true
+          },
+          "chosenSourceFramesPerSecond": {
+            "const": 30
+          },
+          "nativeFrameRate": {
+            "type": "null"
+          },
+          "nativeGameplayProof": {
+            "const": false
+          },
+          "pairedAlignmentProof": {
+            "const": false
+          },
+          "ordinarySoldierAttackProof": {
+            "const": false
+          },
+          "referenceCharacter": {
+            "const": "Stock Ocelot oce0_main0_def"
+          },
+          "cameraFixedForFullClip": {
+            "const": true
+          },
+          "titledGif": {
+            "type": "object",
+            "required": [
+              "path",
+              "bytes",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^[^/\\\\:]+\\.(gif|png)$"
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "thumbnail": {
+            "type": "object",
+            "required": [
+              "path",
+              "bytes",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^[^/\\\\:]+\\.(gif|png)$"
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "maximumPerVertexWeightSumError": {
+            "type": "number",
+            "minimum": 0,
+            "exclusiveMaximum": 1e-05
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

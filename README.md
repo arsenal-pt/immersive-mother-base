@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/87f7cc30-23a1-49b6-bf4b-e100d5d832e4
 
 Use the play button above to watch the captioned web version, or download the full-resolution copy below.
 
-[Download the full-resolution captioned video (1080p, 24.3 MB)](https://github.com/arsenal-pt/immersive-mother-base/raw/refs/heads/main/media/showcase/2026-10-14/Immersive-Mother-Base-Showcase-CAPTIONED.mp4) · [Video captions](media/showcase/2026-10-14/video-captions.txt) · [All 17 screenshots and capture notes](media/showcase/2026-10-14/README.md)
+[Download the full-resolution captioned video (1080p, 24.3 MB)](https://github.com/arsenal-pt/immersive-mother-base/raw/refs/heads/main/media/showcase/2026-10-14/Immersive-Mother-Base-Showcase-CAPTIONED.mp4) Â· [Video captions](media/showcase/2026-10-14/video-captions.txt) Â· [All 17 screenshots and capture notes](media/showcase/2026-10-14/README.md)
 
 ### Muster and CQC training
 
@@ -90,10 +90,10 @@ The dashboard shown is the development testing setup. Its experimental controls 
 
 ## Repository contents
 
-- [research](research/README.md): accumulated technical findings, known failures, source references and repeatable contributor workflows. Later development observations are labeled separately from the public alpha.
+- [research](research/README.md): accumulated technical findings, known failures, source references and repeatable contributor workflows. Later development observations are labeled separately from the public alpha. Browse the [25 titled animation GIFs](research/mtar-punch-combos/gallery.md).
 - [core](core/README.md): in-game daily-life modules and a single IH menu.
 - [companion](companion/README.md): optional loopback dashboard using the same simulation.
-- [Command Platform 1 — cl00/pl0, mtbs_unique_0000](platforms/command/platform-1/README.md): optional v9.1 and historical hash-checked rebuild patches; the other Command platforms have not been modified.
+- [Command Platform 1 â€” cl00/pl0, mtbs_unique_0000](platforms/command/platform-1/README.md): optional v9.1 and historical hash-checked rebuild patches; the other Command platforms have not been modified.
 - [experimental-sdk](experimental-sdk/README.md): preserved prototypes, outside installation.
 - [resource-tools](resource-tools/README.md) and [tests](tests/README.md): authored route builder and offline verification.
 
@@ -105,7 +105,7 @@ Infinite Heaven/IHHook are external framework dependencies. Our experimental IH-
 
 ## Download and current feature set
 
-**[Download v0.1.0-alpha.1](https://github.com/arsenal-pt/immersive-mother-base/releases/tag/v0.1.0-alpha.1)** — separate core installer, optional local dashboard, Command Platform1 history/rebuild tools and corresponding source. See [DOWNLOADS.md](DOWNLOADS.md) for individual files and hashes. This is a ready-to-install **testing alpha foundation**, not the completed living-base roadmap.
+**[Download v0.1.0-alpha.1](https://github.com/arsenal-pt/immersive-mother-base/releases/tag/v0.1.0-alpha.1)** â€” separate core installer, optional local dashboard, Command Platform1 history/rebuild tools and corresponding source. See [DOWNLOADS.md](DOWNLOADS.md) for individual files and hashes. This is a ready-to-install **testing alpha foundation**, not the completed living-base roadmap.
 
 | Included in this alpha | Not yet enabled in this public build |
 | --- | --- |
@@ -143,7 +143,7 @@ If you distribute a covered modified version, its recipients must receive GPL ri
 
 Credit to arsenal-pt and links back are appreciated. Contributions through issues and pull requests are welcome while the project is under active development; GPL does not require a push to this particular repository. Preserve applicable license/copyright notices and identify modifications. Game assets, framework/dependency material and other upstream work keep their own terms. Full provenance/combined-distribution review remains a release gate.
 
-## Optional Command Platform 1 — v9.1
+## Optional Command Platform 1 â€” v9.1
 
 The included **v9.1 / v9-E** patch rebuilds the frozen **Command Platform1 (cl00/pl0; mtbs_unique_0000)** revision from exact stock packages extracted from your legally obtained local game. It is a local geometry experiment, not MGSV version9.1 or a change to all Command platforms. Earlier shell/floor/access iterations led to v8/v8-A; v9 attempted broad no-cull rendering, and v9.1 corrected the native resource identity/package layout after v9-family loading failures. See the [platform index and version history](platforms/command/platform-1/README.md). The original v9 diagnostic crashed while loading and is superseded. V9.1 loaded in prior native tests, but upright doorway clearance, lower-bay floor support, inward wall collision, red decals and angle-dependent rendering remain known failures. Shared prop overrides affect matching props across other departments. It is an experimental geometry component, separate from daily-life simulation, and is not installed by default.
 

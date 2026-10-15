@@ -8,19 +8,21 @@ The published 0.1.0-alpha.1 source is a limited, resource-disabled alpha. Some r
 
 ## Reading order
 
-1. [Runtime and performance](runtime-and-performance.md) — ownership, budgets, telemetry and FPS diagnosis.
-2. [IH, native actors and bridge safety](ih-native-bridge.md) — shared-pipe hazards, bounded commands, adoption rules and capability gates.
-3. [Identity and roster safety](identity-and-rosters.md) — stable identity, changing rosters and rank-limited appointments.
-4. [Platform identity and map model](platforms-and-map.md) — native naming, grade-dependent layouts and coordinate evidence.
-5. [Asset extraction and editing](asset-pipeline.md) — preservation, FMDL/Blender mapping, UV orientation and export limits.
-6. [Rendering and collision experiments](rendering-and-collision.md) — wall reuse, alpha render modes, collision formats and native acceptance.
-7. [Native observation and activity capture](native-capture-and-activities.md) — safe camera evidence, CQC findings and showcase limits.
-8. [Services, animation and actor capabilities](services-and-capabilities.md) — route pilots, Hostage2/IH actors, recorder limitations.
-9. [Special rooms and reusable interiors](special-rooms.md) — Paz, Huey and Battle Gear source placement and future integration.
-10. [Contributor verification recipes](verification-recipes.md) — compact repeatable workflows and pending gates.
-11. [Version and evidence index](version-and-evidence-index.md) — published alpha, later prototypes and failed attempts.
+1. [Runtime and performance](runtime-and-performance.md) â€” ownership, budgets, telemetry and FPS diagnosis.
+2. [IH, native actors and bridge safety](ih-native-bridge.md) â€” shared-pipe hazards, bounded commands, adoption rules and capability gates.
+3. [Identity and roster safety](identity-and-rosters.md) â€” stable identity, changing rosters and rank-limited appointments.
+4. [Platform identity and map model](platforms-and-map.md) â€” native naming, grade-dependent layouts and coordinate evidence.
+5. [Asset extraction and editing](asset-pipeline.md) â€” preservation, FMDL/Blender mapping, UV orientation and export limits.
+6. [Rendering and collision experiments](rendering-and-collision.md) â€” wall reuse, alpha render modes, collision formats and native acceptance.
+7. [Native observation and activity capture](native-capture-and-activities.md) â€” safe camera evidence, CQC findings and showcase limits.
+8. [Services, animation and actor capabilities](services-and-capabilities.md) â€” route pilots, Hostage2/IH actors, recorder limitations.
+9. [Special rooms and reusable interiors](special-rooms.md) â€” Paz, Huey and Battle Gear source placement and future integration.
+10. [Contributor verification recipes](verification-recipes.md) â€” compact repeatable workflows and pending gates.
+11. [Version and evidence index](version-and-evidence-index.md) â€” published alpha, later prototypes and failed attempts.
 
-12. [MtarTool punching-combo extraction](mtar-punch-combos/README.md) — actual community-tool commands, 25 catalogued attack/receiver/special-actor candidates, source hashes, companions, phase hypotheses and a tested extraction replay.
+12. [MtarTool punching-combo extraction](mtar-punch-combos/README.md) â€” actual community-tool commands, 25 catalogued attack/receiver/special-actor candidates, source hashes, companions, phase hypotheses and a tested extraction replay; [25 titled full-character GIFs](mtar-punch-combos/gallery.md) and an executed preview recipe.
+
+13. [Animation preview workflow](animation-preview-workflow.md) â€” full-character GIFs, plain-English titles, thumbnails, exact clip links and evidence limits for future animation research.
 
 ## Evidence labels
 

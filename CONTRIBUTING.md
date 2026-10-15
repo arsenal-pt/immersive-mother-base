@@ -36,6 +36,10 @@ Independent doctor/nurse, researcher, ground-crew, logistics, intel, engineering
 
 Retain rank ceilings: privates are soldiers, corporals at most team leaders, sergeants may lead squads; higher appointments require qualified ranks. Appointments do not automatically promote people or alter MGSV ability ratings.
 
+## Animation research
+
+Follow the [animation preview workflow](research/animation-preview-workflow.md). Supply titled actual-motion GIFs, thumbnails and catalogue links for supported clips, with exact provenance and explicit visual gaps for the rest. Credit tools and reference rigs, and distinguish offline previews from gameplay proof.
+
 ## Acceptance and review
 
 A PR states problem, exact variants, origin/revisions, authored changes, evidence, limits and reversible install/restore. Separate offline and native proof.

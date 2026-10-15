@@ -1,12 +1,22 @@
 # Pulling CQC combo clips with the real community tools
 
-Evidence date: 15 October 2026. This is an offline extraction and cataloguing result. Source animation payloads and process videos remain private.
+Evidence date: 15 October 2026. This records offline extraction/cataloguing and later reference-character previews. Source animation payloads and extraction process videos remain private.
+
+## Animated previews
+
+**[View all 25 titled full-character GIFs](gallery.md)**, grouped into Snake CQC clips, NPC receivers and separate special/zombie melee. Each catalogue entry now links to its GIF and thumbnail.
+
+![Snake CQC combo, front phase 1 — stock Ocelot reference model](../../media/animation-previews/2026-10-15/player2_cqc-0086-snapcqc_s_new_com_asr_f1.gif)
+
+The previews use actual decoded clips on an **untextured stock Ocelot reference character**. They use a chosen preview speed; native timing, paired contact and ordinary-soldier attack behavior remain unverified. Secondary clothing/hair motion is approximate, and no partner or held weapon is shown. See the [full-character recipe](full-character-preview-recipe.md), [media provenance manifest](../../media/animation-previews/2026-10-15/preview-manifest.json) and [persistent preview workflow](../animation-preview-workflow.md).
+
+The extraction findings below remain unchanged. The GIFs are later offline visualization evidence; original `visualConfirmed`/native-playback fields retain their original interpretation limits, with a separate `offlinePreviewConfirmed` field and `preview` links added.
 
 ## What was actually done
 
 The real installed GzsTool 0.5.3 and MtarTool 0.2.7 executables ran on fresh copies of three preserved game packages. GzsTool opened each FPK; MtarTool opened the resulting MTAR with its numbered-output option. Twenty-five selected clips were saved with their available companions. All **7,444 extracted payload files** across the three MTARs survived an unchanged repack/unpack with matching canonical member names and SHA-256.
 
-The selection has **11 Snake combo/transition candidates, 8 NPC combo receiver candidates, and 6 separate special/zombie punch candidates**. The NPC combo family is the likely receiving side of Snake's attack, inferred from its names. This task did **not** establish an ordinary Mother Base soldier attacking with an equivalent native combo.
+The selection has **11 Snake combo/transition candidates, 8 NPC combo receiver candidates, and 6 separate special/zombie punch candidates**. The NPC combo family is the likely receiving side of Snake's attack, inferred from its names. This work did **not** establish an ordinary Mother Base soldier attacking with an equivalent native combo.
 
 ## The pipeline in ordinary language
 
@@ -17,7 +27,7 @@ Think of the game data as boxes inside boxes:
 3. **MTAR** is the animation collection in that package. MtarTool opens it.
 4. **GANI** is an individual animation payload. MtarTool also produces an XML index and companion chunks/layout files used to reconstruct a Type 2 archive.
 
-The recorded repeatable run begins with **previously preserved FPK files**. Earlier source receipts identify chunk0.dat and a_chunk7.dat as their origin; this run did not freshly unpack those whole DAT archives. The run freshly performs FPK → MTAR → GANI and companions. No installed game archive, live mod or save was changed.
+The recorded repeatable run begins with **previously preserved FPK files**. Earlier source receipts identify chunk0.dat and a_chunk7.dat as their origin; this run did not freshly unpack those whole DAT archives. The run freshly performs FPK â†’ MTAR â†’ GANI and companions. No installed game archive, live mod or save was changed.
 
 The actual command forms are:
 
@@ -64,7 +74,7 @@ The first recorded take extracted successfully, but its first roundtrip audit co
 
 The corrected recorded run removes **only** the exact four-digit basename prefix, rejects canonical-name collisions, then compares every canonical member name and SHA-256. All three archives pass. Original numbered manifests remain intact. Roundtrip archive hashes may differ because packing/order changes; the proof is equality of every extracted member.
 
-This establishes converter/data preservation. It does not establish animation quality, rig compatibility, root motion, paired contact, gameplay timing or a functioning NPC behavior. No clips were edited/normalized; no replacement game packs were built for installation, Blender preview was not claimed, and MGSV was not launched.
+This establishes converter/data preservation. It does not establish animation quality, rig compatibility, root motion, paired contact, gameplay timing or a functioning NPC behavior. No clips were edited/normalized; no replacement game packs were built for installation, the initial extraction did not include Blender previews, and MGSV was not launched. Later offline previews are documented above.
 
 ## Recording and reproducibility
 
@@ -76,9 +86,9 @@ The portable replay accepts the three preserved FPKs, copies installed community
 
 ## Community credits and primary references
 
-- **BobDoleOwndU — MtarTool**: [project](https://github.com/BobDoleOwndU/MtarTool), [command implementation](https://github.com/BobDoleOwndU/MtarTool/blob/042beb1a6e74a375c9a1c5ca4168d740d1d00f85/MtarTool/Program.cs), [name resolver](https://github.com/BobDoleOwndU/MtarTool/blob/042beb1a6e74a375c9a1c5ca4168d740d1d00f85/MtarTool.Core/Utility/NameResolver.cs), source revision 042beb1a6e74a375c9a1c5ca4168d740d1d00f85. Actual release 0.2.7 binary was independently hashed; a source citation does not imply it was rebuilt locally.
-- **Atvaark — GzsTool**: [project](https://github.com/Atvaark/GzsTool), [release 0.5.3](https://github.com/Atvaark/GzsTool/releases/tag/v0.5.3). Community contributors and fork authors retain their own authorship.
-- **mctrollin — Fox Engine MTAR Tools for Blender**: [project snapshot](https://github.com/mctrollin/fox_engine_mtar_tools_blender/tree/7fa90e589349ad4ba87102f0061a8d8d343a8bf4), [GANI types/mini-header reader](https://github.com/mctrollin/fox_engine_mtar_tools_blender/blob/7fa90e589349ad4ba87102f0061a8d8d343a8bf4/py_fox/fox_gani_types.py), revision 7fa90e589349ad4ba87102f0061a8d8d343a8bf4. The reader informs the frame-count interpretation; this task did not run its Blender GUI or claim its code as ours.
+- **BobDoleOwndU â€” MtarTool**: [project](https://github.com/BobDoleOwndU/MtarTool), [command implementation](https://github.com/BobDoleOwndU/MtarTool/blob/042beb1a6e74a375c9a1c5ca4168d740d1d00f85/MtarTool/Program.cs), [name resolver](https://github.com/BobDoleOwndU/MtarTool/blob/042beb1a6e74a375c9a1c5ca4168d740d1d00f85/MtarTool.Core/Utility/NameResolver.cs), source revision 042beb1a6e74a375c9a1c5ca4168d740d1d00f85. Actual release 0.2.7 binary was independently hashed; a source citation does not imply it was rebuilt locally.
+- **Atvaark â€” GzsTool**: [project](https://github.com/Atvaark/GzsTool), [release 0.5.3](https://github.com/Atvaark/GzsTool/releases/tag/v0.5.3). Community contributors and fork authors retain their own authorship.
+- **mctrollin â€” Fox Engine MTAR Tools for Blender**: [project snapshot](https://github.com/mctrollin/fox_engine_mtar_tools_blender/tree/7fa90e589349ad4ba87102f0061a8d8d343a8bf4), [GANI types/mini-header reader](https://github.com/mctrollin/fox_engine_mtar_tools_blender/blob/7fa90e589349ad4ba87102f0061a8d8d343a8bf4/py_fox/fox_gani_types.py), revision 7fa90e589349ad4ba87102f0061a8d8d343a8bf4. The reader informs the frame-count interpretation; the initial extraction did not run its Blender GUI or claim its code as ours. The later preview stage actually used its selected-MTAR importer, example rig and maps in background Blender, as documented in the recipe.
 - **MGSV Modding Wiki contributors**: [MtarTool](https://mgsvmoddingwiki.github.io/MtarTool/), [MTAR](https://mgsvmoddingwiki.github.io/MTAR/), [GANI](https://mgsvmoddingwiki.github.io/GANI/), [GzsTool](https://mgsvmoddingwiki.github.io/GzsTool/), [CQC damage notes](https://mgsvmoddingwiki.github.io/Damage_Tables/), read through MGSV MCP at revision 2326cdf753a6fcfefb1867dd66ed97a078d4d114. Damage-category notes do not prove an individual animation filename mapping.
 - **TinManTex and lookup-string contributors**: [mgsv-lookup-strings](https://github.com/TinManTex/mgsv-lookup-strings), linked by the wiki as a dictionary resource. This run copied the installed MtarTool dictionary snapshot and saved its hash; it did not claim a fresh lookup-strings revision.
 
