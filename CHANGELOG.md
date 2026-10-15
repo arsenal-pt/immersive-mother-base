@@ -1,5 +1,9 @@
 # Development history
 
+## Unreleased — development showcase
+
+Published a 2:50 captioned development video, a full-resolution download and 17 labeled screenshots covering muster, paired CQC, social gatherings, a shower-queue prototype, optional Command Platform1 interiors and the companion dashboard. The README separates installed-development footage from public-alpha features and identifies IH extras, test props and known animation/collision/rendering failures. Showcase media have their own hash/provenance manifest and are excluded from software release packages. No runtime/version or existing release asset/tag changed.
+
 ## Unreleased — research documentation
 
 Added a contributor research library covering simulation/performance, IH/native actor boundaries, identities/hierarchy, dynamic platform mapping, FMDL/Blender workflows, rendering/collision experiments, native capture/CQC, services, and Paz/Huey/Battle Gear spaces. Notes preserve failed experiments, source revisions and evidence limits; later private observations are not public-alpha feature claims. The source-package allowlist accepts this documentation for future builds. No runtime payloads, version numbers, existing release archives or release tags changed.

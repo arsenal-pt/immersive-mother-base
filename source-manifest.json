@@ -113,8 +113,14 @@
     "core/GameDir/mod/modules/NpcLife.lua": "6ed694c094b943821ad605930b958a3c7827f061c11de9f85749fe614c3cb30b",
     "core/GameDir/mod/modules/NlabActionRecorder.lua": "1620565314cfba6c374255236aea7d47d76cd8c362f638b57394e3af4f022569",
     "core/GameDir/mod/modules/NpcTraining.lua": "59c21077036dcb5b46c56b4dc7d3f110204f73a63b20f9bb2c6a937c1cf0188a",
-    "core/GameDir/mod/modules/ImmersiveMotherBase.lua": "ce74bb055ddec790df1a80683a75cd31b7193f620496b6b9767e75b0019f2206"
+    "core/GameDir/mod/modules/ImmersiveMotherBase.lua": "ce74bb055ddec790df1a80683a75cd31b7193f620496b6b9767e75b0019f2206",
+    "tools/build-release.py": "e6e6dea6ee2e6a833841c908046fc08134ed06da4bc573b6145a0c308369ec23"
   },
   "sourceTag": "v0.1.0-alpha.1",
-  "sourceTreeSha256": "ffce2047967a0b3b5481272422c971ded472ab178e121f13d92318c0440f26a6"
+  "sourceTreeSha256": "ffce2047967a0b3b5481272422c971ded472ab178e121f13d92318c0440f26a6",
+  "showcaseDocumentation": {
+    "manifest": "media/showcase/2026-10-14/manifest.json",
+    "includedInSoftwarePackages": false,
+    "changesNativeAcceptance": false
+  }
 }

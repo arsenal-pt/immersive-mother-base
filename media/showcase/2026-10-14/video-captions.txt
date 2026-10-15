@@ -1,0 +1,88 @@
+0:00:14.00 - 0:00:17.00 [bottom]
+INSTALLED DEVELOPMENT BUILD
+Prototype footage: some activities are not enabled in the public alpha.
+
+0:00:17.00 - 0:00:35.00 [bottom]
+MUSTER | RAPID ASSEMBLY
+Soldiers hurry to assigned formation spots.
+The order takes priority over their current routines.
+
+0:00:17.00 - 0:00:30.00 [top]
+RECORDING SETUP | INFINITE HEAVEN EXTRAS
+Children, doctors, some other NPCs and helicopters are from IH.
+Those characters and vehicles are not included in this mod.
+
+0:00:35.00 - 0:00:49.00 [bottom]
+CQC TRAINING | FIXED PAIRS
+Soldiers alternate throwing and recovering at set stations.
+Sessions target at least five real-world minutes.
+
+0:00:49.00 - 0:01:03.00 [bottom]
+ANIMATION WORK IN PROGRESS
+Reused animations still need pose, alignment and recovery fixes.
+The goal is ambient practice without taking over player controls or camera.
+
+0:01:03.00 - 0:01:25.00 [bottom]
+SOCIAL GATHERINGS
+Soldiers pause their routines to gather and socialize.
+Group behavior and timing are still being refined.
+
+0:01:06.00 - 0:01:18.00 [top]
+EXPERIMENTAL PROPS
+The mattress and radio on deck are test props.
+They are not included in the standard mod download.
+
+0:01:25.00 - 0:01:37.00 [bottom]
+SHOWER QUEUE | PROTOTYPE
+Soldiers reserve places and wait near the shower.
+Entering, washing and stepping out are not working yet.
+
+0:01:37.00 - 0:01:49.00 [bottom]
+SHOWER ANIMATIONS | STILL TO CONNECT
+The NPC entry, washing and exit animations still need to be connected.
+A queue or idle pose is not a completed shower.
+
+0:01:49.00 - 0:01:54.00 [bottom]
+LOWER SHARED BAY | EASTWARD VIEW
+Lower doors are intended to lead into one shared space.
+Floor support and upright doorway access remain unreliable.
+
+0:01:54.00 - 0:01:59.00 [bottom]
+LOWER SHARED BAY | REVERSE VIEW
+Lower doors are intended to lead into one shared space.
+Floor support and upright doorway access remain unreliable.
+
+0:01:59.00 - 0:02:04.00 [bottom]
+MAIN LEVEL | INWARD VIEW
+Some walls still disappear from inside (culling).
+Textures can pop in and out as the camera angle changes.
+
+0:02:04.00 - 0:02:09.00 [bottom]
+MAIN LEVEL | REVERSE VIEW
+Some walls still disappear from inside (culling).
+Textures can pop in and out as the camera angle changes.
+
+0:02:09.00 - 0:02:14.00 [bottom]
+WEST INTERIOR | OPTIONAL PLATFORM WIP
+Invisible collision can block doorways.
+Some floors and inside-facing walls still lack reliable collision.
+
+0:02:14.00 - 0:02:19.00 [bottom]
+UPPER LEVEL | UNFINISHED SPACE
+Existing walls are being reused.
+Interior visibility, lighting and collision still need work.
+
+0:02:19.00 - 0:02:24.00 [bottom]
+UPPER COMMAND AREA | UNFINISHED SPACE
+These are empty structural experiments.
+Finished barracks, offices and other facilities are future work.
+
+0:02:24.00 - 0:02:32.10 [bottom]
+OPTIONAL COMPANION DASHBOARD
+Inspect staff identities, needs, activities and the live base map.
+These testing controls belong to the development setup shown here.
+
+0:02:32.10 - 0:02:40.23 [bottom]
+DEVELOPMENT FOOTAGE vs. PUBLIC ALPHA
+The downloadable alpha is smaller than this development setup.
+Advanced activities and finished interiors remain work in progress.

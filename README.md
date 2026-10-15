@@ -14,6 +14,78 @@ Immersive Mother Base aims to make **Mother Base in Metal Gear Solid V: The Phan
 
 A mod project for **Metal Gear Solid V: The Phantom Pain (MGSV TPP)** to make Mother Base a working, inhabited military base: identities, needs, duties, services, training, specialist personnel and usable spaces that follow the base you have actually built.
 
+## Development showcase
+
+**Recorded development build, 14 October 2026.** These are prototype results, beyond the smaller [public alpha feature set](#download-and-current-feature-set). Groups, services and CQC starts remain disabled in that download.
+
+- The altered platform appearance, red decals and unfinished open interiors come from the **optional Command Platform 1 v9.1 experiment**. The standard core keeps the normal platform and does not add these WIP spaces.
+- Children, doctors, some other NPCs and helicopters visible here come from the separately enabled **Infinite Heaven Mother Base NPCs** configuration; they are not included as features of this mod. The test mattress and radio are also excluded from the standard download.
+- Reused animations still need pose/alignment/recovery fixes. Shower footage shows a queue only; NPC entry, washing and exit are unfinished. Room work still has doorway/floor/inside-wall collision failures, backface culling and textures popping in and out at certain angles.
+
+### Captioned video - 2 minutes 50 seconds
+
+https://github.com/user-attachments/assets/87f7cc30-23a1-49b6-bf4b-e100d5d832e4
+
+[Download the full-resolution captioned video (1080p, 24.3 MB)](https://github.com/arsenal-pt/immersive-mother-base/raw/refs/heads/main/media/showcase/2026-10-14/Immersive-Mother-Base-Showcase-CAPTIONED.mp4) · [Video captions](media/showcase/2026-10-14/video-captions.txt) · [All 17 screenshots and capture notes](media/showcase/2026-10-14/README.md)
+
+### Muster and CQC training
+
+| **Muster** - soldiers assembling at assigned spots | **CQC Training** - fixed pairs alternating practice throws |
+| --- | --- |
+| ![Muster - wider formation view](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/01-muster-angle-B.webp) | ![CQC training - fixed pairs, wider view](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/03-cqc-angle-B.webp) |
+
+### Social gathering and shower queue
+
+| **Social Gathering** - soldiers pausing to socialize | **Shower Queue (prototype)** - waiting at the unit; washing is not implemented |
+| --- | --- |
+| ![Social gathering - first angle](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/05-gathering-angle-A.webp) | ![Shower queue prototype - first angle](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/07-shower-queue-angle-A.webp) |
+
+<details>
+<summary>More event angles: Muster, CQC Training, Social Gathering and Shower Queue</summary>
+
+| **Muster - opposite angle** | **CQC Training - opposite angle** |
+| --- | --- |
+| ![Muster - opposite angle](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/02-muster-angle-A.webp) | ![CQC training - opposite angle](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/04-cqc-angle-A.webp) |
+
+| **Social Gathering - opposite angle** | **Shower Queue - opposite angle** |
+| --- | --- |
+| ![Social gathering - opposite angle](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/06-gathering-angle-B.webp) | ![Shower queue prototype - opposite angle](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/08-shower-queue-angle-B.webp) |
+
+</details>
+
+### Optional Command Platform 1 interiors - work in progress
+
+| **Lower Shared Bay** - one large shared space planned behind the lower doors | **Main-Level Interior** - existing walls with experimental floors/openings |
+| --- | --- |
+| ![Lower shared bay (WIP) - eastward](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/09-lower-shared-bay-eastward.webp) | ![Main-level interior (WIP) - inward view](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/11-main-room-inward.webp) |
+
+These are unfinished structural experiments, not accepted barracks, offices or other usable facilities. Floor support and upright door clearance remain unreliable.
+
+<details>
+<summary>More interior views: reverse angles, west interior and upper levels</summary>
+
+| **Lower Shared Bay - reverse view** | **Main-Level Interior - reverse view** |
+| --- | --- |
+| ![Lower shared bay (WIP) - westward](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/10-lower-shared-bay-westward.webp) | ![Main-level interior (WIP) - reverse view](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/12-main-room-reverse.webp) |
+
+**West Interior (WIP)**
+
+![West interior (WIP)](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/13-west-room.webp)
+
+| **Upper Interior - level 12 (WIP)** | **Upper Command Interior - level 20 (WIP)** |
+| --- | --- |
+| ![Upper interior (WIP) - level 12](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/14-upper-room-L12.webp) | ![Upper command interior (WIP) - level 20](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/15-upper-command-room-L20.webp) |
+
+</details>
+
+### Optional companion dashboard
+
+| **Base Map and Testing Controls** | **Staff and Daily-Life Needs** |
+| --- | --- |
+| ![Companion dashboard - map and testing controls](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/16-dashboard-map.webp) | ![Companion dashboard - staff needs](https://raw.githubusercontent.com/arsenal-pt/immersive-mother-base/main/media/showcase/2026-10-14/17-dashboard-staff-needs.webp) |
+
+The dashboard shown is the development testing setup. Its experimental controls do not mean those activities are enabled in the downloadable public alpha. See [capture notes](media/showcase/2026-10-14/README.md) and [credits](CREDITS.md).
+
 ## Repository contents
 
 - [research](research/README.md): accumulated technical findings, known failures, source references and repeatable contributor workflows. Later development observations are labeled separately from the public alpha.

@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "captured": "2026-10-14",
+  "published": "2026-10-15",
+  "scope": "Installed development footage; not a feature promise for public alpha0.1.0-alpha.1",
+  "installedDevelopment": {
+    "NpcLife": "0.1.21",
+    "IHProvider": "0.2.6",
+    "NativeCqcTraining": "0.2.3",
+    "CommandPlatform1": "v9.1"
+  },
+  "captionedVideo": {
+    "file": "Immersive-Mother-Base-Showcase-CAPTIONED.mp4",
+    "seconds": 170.266666,
+    "bytes": 24341541,
+    "sha256": "f8287b7b1b71b137ba3ead1ecca5962811f2db00b7540f6b1fe5baaaa5302fe9"
+  },
+  "screenshots": [
+    {
+      "file": "01-muster-angle-B.webp",
+      "label": "Muster - wider formation view",
+      "bytes": 247102,
+      "sha256": "c465407c06d0c6305142f71d2002514d1d0d9a3a7035ed82eb376bc9a78c6bd8",
+      "sourceSha256": "870e4e29acf7ce9651659579a8d1b6f46d62e44fd01c3a71e4309de27ac64221",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "02-muster-angle-A.webp",
+      "label": "Muster - opposite angle",
+      "bytes": 118964,
+      "sha256": "3a6406a8f4a1405b41efbf13608cf93460aa6accc0e9f46ccdfedd83576b36d6",
+      "sourceSha256": "728f7a1ce5af76edabd1945ab8f13943d255da6e3bbb48f1ca7ff6a0c038df8e",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "03-cqc-angle-B.webp",
+      "label": "CQC training - fixed pairs, wider view",
+      "bytes": 246072,
+      "sha256": "e1b2894efaa73a6690f61dd5e03be078fe3dd13db6932f15191d545b99875709",
+      "sourceSha256": "e47c5b282bb6a87e7ca229281a08ed9fc781ddf02e5b54dfc13e52cecd2bd88d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "04-cqc-angle-A.webp",
+      "label": "CQC training - opposite angle",
+      "bytes": 226702,
+      "sha256": "4bcb4530d582c4bbbd12ab6a6aa6df36247954886f6f6ff040ab38868fd7073b",
+      "sourceSha256": "626dbbadd592fb81978e8b879eeb668eb730c6f727b6b4be6ef08c5893a0b939",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "05-gathering-angle-A.webp",
+      "label": "Social gathering - first angle",
+      "bytes": 228326,
+      "sha256": "6f12dd4e39466f228bccd8f29706668788e440b80d485914a62c95114c2f704b",
+      "sourceSha256": "2fa0135f047d8c2d9715679f165e66b778f6e2324c48199fc02ae6f20b0b6d06",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "06-gathering-angle-B.webp",
+      "label": "Social gathering - opposite angle",
+      "bytes": 253066,
+      "sha256": "4722f72c82fb2c4a91f048420cebbabc2cb5e5065c3af33cae4a1788d77c84f0",
+      "sourceSha256": "9e18508f4e34faf7a22ddddc2626d7f526d5c7f2cacd9c49aab825dd543b3286",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "07-shower-queue-angle-A.webp",
+      "label": "Shower queue prototype - first angle",
+      "bytes": 268994,
+      "sha256": "49afb10cc8a8ac8a974985c86c29f2e3918eb07adae9195ff3cb5172c822d28b",
+      "sourceSha256": "207d386b33e3b1b6b052c7926d24167fd5b79227da887fc835310538f4a995e3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "08-shower-queue-angle-B.webp",
+      "label": "Shower queue prototype - opposite angle",
+      "bytes": 246284,
+      "sha256": "14780c1fffa79d11a92e06432f3b1dc8952d24aebe4a54123f065500329e4483",
+      "sourceSha256": "36b153e329cdd915953160fa9fbe33416d5bd22c6daf929a9c11730ba013a41c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "09-lower-shared-bay-eastward.webp",
+      "label": "Lower shared bay (WIP) - eastward",
+      "bytes": 69532,
+      "sha256": "dce7164ebda854bedc6c181385f7e9efa93f8c35a940590c4e8e8454e8990b8f",
+      "sourceSha256": "e77277efefb612e17440780ee3d9fa906a9e7e1e97cb9f3849f882d015b0d3b0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "10-lower-shared-bay-westward.webp",
+      "label": "Lower shared bay (WIP) - westward",
+      "bytes": 69382,
+      "sha256": "5531fa59e25514dfd967011d1dac0f2ef4bba5913fdc15183099e38433cf8815",
+      "sourceSha256": "00edef3b61aa2264049d5ae40c75d24d558aeff1f08cbba932d475a6f12d3780",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "11-main-room-inward.webp",
+      "label": "Main-level interior (WIP) - inward view",
+      "bytes": 37540,
+      "sha256": "b4c37cfb33601d11e842b4b1326bd00d8a6f41adcba35965da3bffed74ebc19f",
+      "sourceSha256": "2c920a7cb4e956d22a2b41d366739d93e687d6d47e628e672566c9d132982c74",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "12-main-room-reverse.webp",
+      "label": "Main-level interior (WIP) - reverse view",
+      "bytes": 28236,
+      "sha256": "b7faefaf21f470b0091271f40d00151276f28d3be23cc0cd02abcf8035ed24a8",
+      "sourceSha256": "a589b2150640fd67c3431e2d0833a5e5500148c74d38646fdc6ccebd6febeb80",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "13-west-room.webp",
+      "label": "West interior (WIP)",
+      "bytes": 61768,
+      "sha256": "30af23f28352b62722ceaa29adb1d3b3e56e2b46a0df0595afb1df469ea3966a",
+      "sourceSha256": "22a5677e6c1e365e1b85b3f66209e355cd3fb5f523875162dfd353786f51fd6b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "14-upper-room-L12.webp",
+      "label": "Upper interior (WIP) - level 12",
+      "bytes": 53856,
+      "sha256": "71880c7a9f296663c192c57f7dfe1da44605888ab9a308a8f5a5fa60d3ed99ac",
+      "sourceSha256": "9bc7abdb1b376c0c379cbc7d0f3d0e32f6c431f211bacc3f109d1b090c06f7bb",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "15-upper-command-room-L20.webp",
+      "label": "Upper command interior (WIP) - level 20",
+      "bytes": 40370,
+      "sha256": "a602351a3d8e5c11cfe290e570f75cf801bd40215e170d6c4311b30d8940fa7d",
+      "sourceSha256": "44fddba90d136aed22dfb9ddb6ddcfb19198d4661e2d72bd03674ac636ae1cbb",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "16-dashboard-map.webp",
+      "label": "Companion dashboard - map and testing controls",
+      "bytes": 53144,
+      "sha256": "efe40cf589c4fa25424e65025204d1067e6503a6615e91e42fb5faee8dda48bb",
+      "sourceSha256": "482f2311b11045c2d73d18d3de997c8975d39446a675747ff61c08abf4735aa8",
+      "dimensions": [
+        769,
+        928
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    },
+    {
+      "file": "17-dashboard-staff-needs.webp",
+      "label": "Companion dashboard - staff needs",
+      "bytes": 60324,
+      "sha256": "f994451c8ad1cc56118f8e6652ba496fdfce874aa46071094fd58322412dfed8",
+      "sourceSha256": "c4c156b41fc843a212d49ae841f2b0975b5f8b6bbefcb1517aaa210cb340dc0e",
+      "dimensions": [
+        769,
+        928
+      ],
+      "conversion": "WebP quality88, original dimensions; no baked labels, overlays or cropping"
+    }
+  ],
+  "upstream": "Gameplay contains MGSV publisher content and separately enabled Infinite Heaven extras; see README and project CREDITS. No new rights to underlying game assets.",
+  "packaging": "Showcase media are documentation, excluded from mod and code-source release builders.",
+  "inlineVideo": {
+    "url": "https://github.com/user-attachments/assets/87f7cc30-23a1-49b6-bf4b-e100d5d832e4",
+    "seconds": 170.28,
+    "bytes": 8774567,
+    "sha256": "37705dd98f9976e535567455d95d84e43b6a264be6591251eb9fea5525705834",
+    "resolution": "1280x720",
+    "note": "Web-sized captioned copy for GitHub inline playback; full-resolution captioned original linked separately."
+  }
+}

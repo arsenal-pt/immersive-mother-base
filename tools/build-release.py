@@ -11,6 +11,8 @@ ROOT_FILES = {'README.md', 'LICENSE', 'LICENSE-SCOPE.md', 'CONTRIBUTING.md', 'CO
 ALLOWED = {'.py', '.lua', '.md', '.json', '.txt', '.cs', '.xml', '.cjs', '.js', '.html', '.cmd', '.bsdiff'}
 GENERATED = {'source-manifest.json', 'release-content.json', 'installer/package-manifest.json'}
 IGNORED = {'.git', '__pycache__', 'private-builds', 'build', 'dist'}
+# Gameplay showcase recordings are documented separately, never installed or relicensed as code.
+SHOWCASE_PREFIX = 'media/showcase/'
 DOCS = ['README.md', 'INSTALL.md', 'CREDITS.md', 'CONTRIBUTORS.md', 'LICENSE', 'LICENSE-SCOPE.md',
         'VERSION', 'VERSIONING.md', 'CHANGELOG.md', 'DOWNLOADS.md', 'CONTRIBUTING.md', 'ROADMAP.md',
         'source-manifest.json', 'release-content.json', 'DEPENDENCIES-AND-COMPATIBILITY.md']
@@ -29,6 +31,8 @@ def inventory(root):
     for path in sorted(root.rglob('*')):
         rel = path.relative_to(root).as_posix()
         if any(x in IGNORED for x in path.relative_to(root).parts) or not path.is_file():
+            continue
+        if rel.startswith(SHOWCASE_PREFIX):
             continue
         if not (rel in ROOT_FILES or rel.startswith(PREFIXES)):
             raise ValueError('Unreviewed public file: ' + rel)
