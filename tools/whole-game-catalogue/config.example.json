@@ -1,0 +1,14 @@
+{
+  "gameRoot": "E:/YOUR_STEAM_LIBRARY/steamapps/common/MGS_TPP",
+  "toolRoot": "C:/YOUR_TOOLS/GzsTool-0.5.3",
+  "runtimeRoot": "C:/YOUR_PRIVATE_RUNTIME/MGSV-Whole-Game-Catalogue",
+  "exportRoot": "C:/YOUR_PRIVATE_EXPORTS/MGSV-Catalogue",
+  "maxContainerBytes": 268435456,
+  "cacheBytes": 1073741824,
+  "ioBytesPerRun": 2147483648,
+  "reserveBytes": 2147483648,
+  "memoryBytes": 1610612736,
+  "timeoutSeconds": 180,
+  "maxMembers": 1000000,
+  "maxDepth": 8
+}

@@ -4,7 +4,7 @@ The reviewed library now has 10 parent models and 19 actual preview views: origi
 
 Continue using the seven practical categories below, semantic search tags, plain-English descriptions, exact retained paths/hashes, central/detail credits, zero-image index, at most12static thumbnails/table page, and a single full GIF per selected detail view. Native model components must not be described as complete assembled or interactive objects without evidence.
 
-The new whole-game goal supersedes the earlier parked status: first catalogue the as-installed archive/member metadata with explicit known/unknown paths/types and membership, then join native dependencies and process user-sized preview batches. Catalogue coverage and preview/assembly coverage must remain separate. Source API/read-only feasibility research precedes implementation approval. No full-game unpack/render has begun. The current local automatic queue still covers149retained versions only.
+The whole-game goal supersedes the earlier parked status. Its [metadata census tool is implemented](whole-game-catalogue.md):21QAR/202,303outer occurrences indexed, one nestedFPK proof,43,596nested containers pending and scanner dependency/previews0/0. Count/all is per-command budget-bounded and remaining work resumes later. Next implement the selective model/material/FTEX dependency bridge into the existing renderer; source/code and fixture tests are accepted, not universal previews. No whole-game unpack/render has begun. The separate preview queue still covers149retained versions (8complete at this snapshot).
 
 ## Original bounded pilot plan (historical scope)
 

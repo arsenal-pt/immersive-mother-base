@@ -1,0 +1,28 @@
+GzsTool - Atvaark
+Source v0.5.3: https://github.com/Atvaark/GzsTool/tree/fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5
+The external installed GzsTool.Core, CityHash and Zlib binaries retain their own licences.
+No third-party binaries, game assets or saves are distributed here.
+
+PFTXS metadata framing in archive_bridge.cs follows the upstream PftxsFile.cs and PftxsFtexFile.cs header layout while using public PftxsFtexsFileEntry.Read. The eager upstream payload loop is deliberately omitted. Other archive readers/selective decoders use the external library unchanged.
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Atvaark
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

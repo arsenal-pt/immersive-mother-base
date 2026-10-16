@@ -18,7 +18,7 @@
   "wholeCategoryComplete": false,
   "allGameComplete": false,
   "owner": "asset_library_planning",
-  "nextAction": "Publish reviewed seven-record existing-media import. Whole-game metadata census is newly requested and in source/design reconnaissance; no broad extraction/render yet.",
+  "nextAction": "Existing ten-parent visual library published. Whole-game metadata census tool implemented; dependency/preview bridge pending, not all-game completion.",
   "qualityCoverage": {
     "scope": "exact existing3families/nativeLOD0-3 within retained inputs",
     "selectedParentIds": [
@@ -73,5 +73,18 @@
     "provenance": "batch-provenance.json"
   },
   "totalParentReferences": 10,
-  "totalRenderedViews": 19
+  "totalRenderedViews": 19,
+  "wholeGameMetadata": {
+    "tool": "../../tools/whole-game-catalogue/README.md",
+    "notes": "whole-game-catalogue.md",
+    "outerArchives": 21,
+    "outerMemberOccurrences": 202303,
+    "nestedIndexed": 1,
+    "nestedPending": 43596,
+    "dependencyResolved": 0,
+    "scannerPreviews": 0,
+    "separateRetainedPreviewIndex": 149,
+    "separateRetainedPreviewComplete": 8,
+    "allGameVisualComplete": false
+  }
 }
