@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "authoredDependency": "Existing first-party read-only static native decoder, reused byte-exactly",
+  "owner": "arsenal-pt; implementation authored using OpenAI Codex AI LLM",
+  "license": "GPL-3.0 for eligible authored source; no Konami assets or third-party code bundled",
+  "formatReference": {
+    "url": "https://github.com/BobDoleOwndU/FMDL-Studio-v2/blob/d580b94215cc007df6c38bdb0bfce6a0f30e4701/FMDL-Studio-v2/Assets/Fmdl%20Studio/Scripts/Classes/Fmdl.cs",
+    "revision": "d580b94215cc007df6c38bdb0bfce6a0f30e4701"
+  },
+  "dependencies": [
+    {
+      "originalProjectPath": "MGSV-MCP/workspace/motherbase-extraction/FmdlReader.py",
+      "sha256": "932ac6543f010171496120b2ea4f045481da4cb77d967d444d7bec1d1cc9bc1b",
+      "reuse": "Byte-exact bundled reader"
+    },
+    {
+      "originalProjectPath": "MGSV-MCP/workspace/motherbase-extraction/Native-Materials.py",
+      "sha256": "f2066ffd41b509f722f749184d51bd91a9454ddbef6932e3d1b178be357b2c1a",
+      "reuse": "Byte-exact bundled reader"
+    },
+    {
+      "originalProjectPath": "MGSV-MCP/workspace/motherbase-extraction/Audit-Visibility.py",
+      "sha256": "e696d7f20209b164cd793431ffd404cfcf49fc0a1de5444a52cf96b7c3976c5b",
+      "reuse": "Read-only per-file LOD inspection factored into native.py; original batch script not imported"
+    }
+  ]
+}

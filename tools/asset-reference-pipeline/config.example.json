@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "runtime": "%LOCALAPPDATA%/MGSV-Asset-Reference",
+  "sourceRoots": [
+    "C:/Private/MGSV-Retained"
+  ],
+  "defaultManifest": "C:/Private/selected-job.local.json",
+  "tools": {
+    "python": {
+      "path": "C:/Python314/python.exe"
+    },
+    "blender": {
+      "path": "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe"
+    },
+    "gzs": {
+      "path": "C:/Tools/GzsTool/GzsTool.exe",
+      "sha256": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10"
+    },
+    "ftex": {
+      "path": "C:/Tools/FtexTool/FtexTool.exe",
+      "sha256": "6c040a70d4ba1a67693d7e1ed7fba2c1e0ef239063d356cc2e92c4dcc4c461b4"
+    }
+  },
+  "exportRoot": "%LOCALAPPDATA%/MGSV-Asset-Reference-Exports"
+}

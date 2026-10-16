@@ -1,0 +1,7 @@
+config.local.json
+*.local.json
+*.sqlite*
+__pycache__/
+cache/
+logs/
+renders/

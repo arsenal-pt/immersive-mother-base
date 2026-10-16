@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+      "stem": "mtbs_char002",
+      "title": "Folding chair",
+      "description": "Weathered folding chair with a fabric seat and back.",
+      "category": "Furniture / Seating",
+      "tags": [
+        "chair",
+        "folding",
+        "Mother Base"
+      ],
+      "staticOnly": true,
+      "adapter": "known-static-native",
+      "lods": [
+        0
+      ],
+      "model": {
+        "sha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+        "virtualPath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+        "member": "Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+        "container": {
+          "file": "C:/Private/MGSV-Retained/f30050_hanger_btg00.fpk",
+          "sha256": "4ad3d31598aff8eff00f8d507f80e5b6e491c71c0bda03fb991391a2560453c9",
+          "virtualPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg00.fpk"
+        }
+      },
+      "baseTextures": [
+        {
+          "materialIndex": 0,
+          "samplerName": "Base_Tex_SRGB",
+          "samplerNameHash": "72475356961633",
+          "nativePathHash": "1542935154948558078",
+          "ftex": {
+            "file": "C:/Private/MGSV-Retained/f559be16dfdd29c50c20906f3a55b72ccdfaaf8111275f15082e2d353c39b75c.ftex",
+            "sha256": "00b2be3ee7ac7055decb6759231cbba92de4ed017e21d9886698980b3e056171"
+          },
+          "sidecars": [
+            {
+              "file": "C:/Private/MGSV-Retained/f559be16dfdd29c50c20906f3a55b72ccdfaaf8111275f15082e2d353c39b75c.1.ftexs",
+              "sha256": "55a3d06c97736128f30356b03cf9263121e4928f9d138097cfe86067a501919d"
+            },
+            {
+              "file": "C:/Private/MGSV-Retained/f559be16dfdd29c50c20906f3a55b72ccdfaaf8111275f15082e2d353c39b75c.2.ftexs",
+              "sha256": "3798f1e20968ff19738820c0b399bd2f6dca02751209ad6554541fb275e12472"
+            },
+            {
+              "file": "C:/Private/MGSV-Retained/f559be16dfdd29c50c20906f3a55b72ccdfaaf8111275f15082e2d353c39b75c.3.ftexs",
+              "sha256": "f15f6f48c5ce693eeadf65948942b87a005da8e6e83b881340da259d58be1645"
+            }
+          ],
+          "ddsSha256": "105362d96275cb39c12d25ece58841b1a7dfe89c2628d1e85559acd1b9f67c7f"
+        }
+      ]
+    }
+  ]
+}
