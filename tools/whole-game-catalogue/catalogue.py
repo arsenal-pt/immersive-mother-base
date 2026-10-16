@@ -16,6 +16,7 @@ import subprocess
 import sys
 import time
 import uuid
+from run_logging import RunJournal, compact_counts, print_coverage, print_footer, print_log_paths
 
 HERE = Path(__file__).resolve().parent
 MIB = 1024 * 1024
@@ -156,6 +157,10 @@ class Catalogue:
 
     def close(self):
         self.db.close()
+
+    def progress(self, event, **detail):
+        callback = getattr(self, "progress_callback", None)
+        if callback: callback(event, detail)
 
     def event(self, command, container, state, detail=None):
         self.db.execute("INSERT INTO events(at,command,container_id,state,detail) VALUES(?,?,?,?,?)",
@@ -414,9 +419,17 @@ class Catalogue:
         done = 0
         for row in rows:
             self.cancelled()
-            self.index_one(row)
+            self.progress("container_started", phase="index", container_id=row["id"], name=row["name"], number=done+1, total=len(rows))
+            try:
+                self.index_one(row)
+            except BaseException as e:
+                self.progress("container_cancelled" if isinstance(e,KeyboardInterrupt) else "container_error",
+                              phase="index", container_id=row["id"], name=row["name"], reason=str(e))
+                raise
             done += 1
-            print(jdump({"indexed_archives": done, "remaining": len(rows) - done, "last": row["name"]}), flush=True)
+            self.progress("container_completed", phase="index", container_id=row["id"], name=row["name"], number=done, total=len(rows))
+            if not getattr(self, "human_output", False):
+                print(jdump({"indexed_archives": done, "remaining": len(rows) - done, "last": row["name"]}), flush=True)
         return {"indexed_this_run": done, "payload_decodes": self.decoded, "helper_processes": self.processes, "read_bytes": self.budget.used}
 
     def cache_bytes(self):
@@ -501,6 +514,7 @@ class Catalogue:
             if prior:
                 self.validate_source(prior["source_id"])
                 if Path(prior["index_path"]).is_file() and digest_file(prior["index_path"], self.budget.charge) == prior["index_sha256"]:
+                    self.progress("container_skipped", phase="expand", container_id=prior["id"], name=prior["name"], reason="verified_index_cache")
                     return {"attempts": 0, "indexed": 0, "cache_hit": True, "needs_attention": 0,
                             "payload_decodes": 0, "helper_processes": 0, "read_bytes": self.budget.used}
                 self.db.execute("UPDATE containers SET state='pending',reason='stale_index' WHERE id=?", (selected,))
@@ -514,6 +528,7 @@ class Catalogue:
             self.cancelled()
             row = rows[0]
             attempts += 1
+            self.progress("container_started", phase="expand", container_id=row["id"], name=row["name"], number=attempts, total=count)
             self.db.execute("UPDATE containers SET state='running',attempts=attempts+1 WHERE id=?", (row["id"],))
             self.db.commit()
             try:
@@ -527,13 +542,17 @@ class Catalogue:
             except KeyboardInterrupt:
                 self.db.execute("UPDATE containers SET state='cancelled',reason='cancelled' WHERE id=?", (row["id"],))
                 self.db.commit()
+                self.progress("container_cancelled", phase="expand", container_id=row["id"], name=row["name"], reason="cancelled")
                 raise
             except Exception as e:
                 self.db.execute("UPDATE containers SET state='deferred',reason=? WHERE id=?", (str(e)[:2000], row["id"]))
                 self.db.commit()
                 self.event("expand", row["id"], "deferred", {"error": str(e)})
                 errors += 1
+                self.progress("container_error", phase="expand", container_id=row["id"], name=row["name"], reason=str(e))
                 if self.budget.remaining <= 0: break
+            else:
+                self.progress("container_completed", phase="expand", container_id=row["id"], name=row["name"], number=attempts, total=count)
             rows = self.db.execute("""SELECT c.* FROM containers c JOIN sources s ON s.id=c.source_id
                  WHERE s.active=1 AND c.depth>0 AND c.state IN ('pending','cancelled') AND (? IS NULL OR c.id=?)
                  ORDER BY s.relative_path,c.depth,c.name,c.id""", (selected, selected)).fetchall()
@@ -614,6 +633,7 @@ class Catalogue:
 
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--verbose", action="store_true", help="show detailed JSON in the interactive menu")
     p.add_argument("--config", default=os.environ.get("MGSV_CATALOGUE_CONFIG", str(HERE / "config.local.json")))
     sub = p.add_subparsers(dest="command")
     for command in ("census", "index", "status", "cancel", "export", "menu"): sub.add_parser(command)
@@ -622,42 +642,84 @@ def main(argv=None):
     ep.add_argument("--container")
     ep.add_argument("--retry-review", action="store_true")
     args = p.parse_args(argv)
-    cat = None
+    cat, journal, capture = None, None, None
+    exit_code, result, work = 2, {}, {}
     try:
         cat = Catalogue(read_json(args.config))
         command = args.command or "menu"
+        inputs = {key:getattr(args,key) for key in ("count","container","retry_review") if hasattr(args,key)}
+        journal = RunJournal(cat.runtime, command, inputs)
+        journal.human = command == "menu"
+        cat.human_output = journal.human
+        cat.progress_callback = journal.progress
+        capture = journal.capture()
+        capture.__enter__()
+        journal.set_before(cat.status())
         if command == "cancel":
             cat.setmeta("cancel", "1")
-            print(jdump({"cancel_requested": True}))
-            return 0
+            result = {"cancel_requested":True}
+            print(jdump(result))
+            exit_code = 0
+            return exit_code
         if command == "status":
             print(json.dumps(cat.status(), indent=2))
-            return 0
+            exit_code = 0
+            return exit_code
         with cat.lock():
-            if command == "census": result = cat.census()
-            elif command == "index": result = cat.index()
-            elif command == "expand": result = cat.expand(args.count, args.container, args.retry_review)
+            if command == "census":
+                result = cat.census()
+                journal.phase_result("census", result)
+            elif command == "index":
+                result = cat.index()
+                work = result
+                journal.phase_result("index", result)
+            elif command == "expand":
+                result = cat.expand(args.count, args.container, args.retry_review)
+                work = result
+                journal.phase_result("expand", result)
             elif command == "export": result = cat.export()
             else:
-                print("As-installed MGSV catalogue: filesystem + outer index; nested expansion is separate.")
-                print(jdump(cat.census()))
-                print(jdump(cat.index()))
-                print(json.dumps(cat.status(), indent=2))
+                print("MGSV asset metadata catalogue")
+                print_log_paths(journal)
+                print_coverage("Before", cat.status())
+                print("Checking filesystem and outer archive metadata...", flush=True)
+                journal.phase_result("census", cat.census())
+                journal.phase_result("index", cat.index())
+                current = cat.status()
+                print_coverage("Current", current)
+                if args.verbose: print(json.dumps(current, indent=2))
                 text = input("Nested containers to attempt [0 = index only; positive count or all]: ").strip() or "0"
+                journal.entered("nested_count", text)
+                print("Selected nested count: " + text, flush=True)
                 if text != "0":
-                    amount = count_arg(text)
-                    print(jdump(cat.expand(amount)))
+                    work = cat.expand(count_arg(text))
+                    journal.phase_result("expand", work)
                 result = cat.export()
-            print(json.dumps(result, indent=2))
-            return 1 if result.get("needs_attention") else 0
+            if command != "menu": print(json.dumps(result, indent=2))
+            exit_code = 1 if work.get("needs_attention") or result.get("needs_attention") else 0
+            return exit_code
     except KeyboardInterrupt:
         print("Cancelled; completed work retained. Restart to resume.", file=sys.stderr)
-        return 130
+        exit_code = 130
+        return exit_code
     except Exception as e:
         print(type(e).__name__ + ": " + str(e), file=sys.stderr)
-        return 2
+        if journal: journal.error(type(e).__name__ + ": " + str(e))
+        exit_code = 2
+        return exit_code
     finally:
-        if cat: cat.close()
+        if cat:
+            try:
+                if journal:
+                    final_status = cat.status()
+                    journal.finish(exit_code, final_status, result, work)
+                    if journal.human:
+                        print_footer(journal, final_status)
+                        journal.save()
+            finally:
+                if capture: capture.__exit__(None,None,None)
+                if journal: journal.close()
+                cat.close()
 
 if __name__ == "__main__":
     raise SystemExit(main())

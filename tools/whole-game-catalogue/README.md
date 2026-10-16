@@ -41,6 +41,18 @@ Each fresh export contains sanitized catalogue.sqlite plus sources/containers/oc
 
 Material sampler/path-hash to FTEX sidecar closure, FOVA/character assembly, compatible animation rigs, FOX shading and preview rendering are separate adapters. This tool currently reports dependency_resolved0 and previews0; the existing149-model renderer remains separate. MTAR/GANI occurrences are searchable when encountered, but clip-level enumeration/playback is not implemented.
 
+## Automatic private run records
+
+After configuration/path validation, the same configured launcher and CLI automatically save each run; screenshots are unnecessary for ordinary progress/debug reports. Open `<runtime>/logs/latest-run.json` to find the latest `runs/<UTC-ID>/` bundle:
+
+- `summary.json`: command/result/exit code, before/after coverage, entered inputs, bounded reasons and export path. Outer-index work and nested expansion are reported separately.
+- `transcript.txt`: saved console output, progress and errors.
+- `events.jsonl`: chronological structured run/progress events.
+
+These are private operational files and are excluded from metadata exports. Transcript/events each have an8MiB cap and reasons are bounded. A run remains marked running with its PID until it finishes; an interrupted or failed run is not silently called successful. Setup/path errors can remain console-only; the tool never falls back to writing logs inside the game or protected paths.
+
+The default menu prints compact progress/results and the saved paths. `--verbose` restores full menu JSON. The `status` CLI retains parseable JSON on stdout; saved logs do not replace or pollute it. Error/cancellation exit codes remain meaningful. No additional scan/decode/render is needed just to read these files. New transcripts do not retroactively recreate older console sessions; older saved exports/events remain their evidence.
+
 ## Validation and source credit
 
 Run test_catalogue.py with MGSV_CATALOGUE_TEST_TOOL pointing to the installed pinned tool directory and MGSV_CATALOGUE_TEST_ROOT pointing to a private test workspace. Tiny authored QAR/FPK/SBP/PFTXS fixtures use upstream QAR writing only in tests; they cover unknown/null hashes, references, bounded expansion/restart/cache reuse, malformed ranges, source mutation, export privacy and owned-child cancellation/timeout. No real game payload is needed by tests. Real native-branch coverage is stated separately in the review receipt.

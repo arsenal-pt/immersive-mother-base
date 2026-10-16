@@ -145,16 +145,18 @@
     "research/asset-library/test_import_batch.py": "88e273c4ceb46ef77f3aa738976a2ae0a6e0a442ddab06653f3f02fa7067cc0b",
     "tools/whole-game-catalogue/.gitignore": "d78cd9e6011e8177401ea106f358c3c28c16af1548287042704cb32a441af9c7",
     "tools/whole-game-catalogue/Index-Game-Assets.cmd": "c5e31e05700f58f3469ae0a923825580c8916251011db2fd7dd8d3fc728a8167",
-    "tools/whole-game-catalogue/README.md": "539c195548c8576600fef67b280bed11823b5b60f34eece9a238acf578a0566f",
+    "tools/whole-game-catalogue/README.md": "6b12f4ae2c3834656762d8f19321df507faf3590095e47b7b87471c4b03bf923",
     "tools/whole-game-catalogue/THIRD-PARTY-NOTICES.txt": "ab0b5a1576556559461e24353ff3c4bb93a3cdd3dac2cff0d802fc03d2a87f67",
     "tools/whole-game-catalogue/archive_bridge.cs": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
-    "tools/whole-game-catalogue/catalogue.py": "b01f064f9dc6c13dd5845e4484de52244317240b9557d5065b02faf57d0853bb",
+    "tools/whole-game-catalogue/catalogue.py": "9d97a627caf7126aeafcc8c20576f14a6c6f558eaeb2822848f98bad347dd52a",
     "tools/whole-game-catalogue/config.example.json": "41f2e3f2e34bb198b383ddfff7d0923a8a2bea51f0f48158e3bb633ae34efeaf",
     "tools/whole-game-catalogue/test_catalogue.py": "08bddaaad14b49deee56f1c858236eb1218a542a4bbe1722c150f2d9ec7df3df",
     "README.md": "65a9e522a99fc2da0f4178d65a3b3c5f6c98c7d9c1b201c7dd178dacb83bb127",
     "research/README.md": "9915e3bb359d16fd4ad873874a528f60cd8ece37d7dd0ea6827140ced354587e",
     "research/asset-library/category-progress.json": "7682553a83c1d663528371739e48e699ee67dda4699cbee51414d26c0c470c6f",
-    "research/asset-library/whole-game-catalogue.md": "c9244ea5eb0929c3ff49a15a5f8b1938b303a876aac9f98bd0be86dcc78abcdc"
+    "research/asset-library/whole-game-catalogue.md": "0f1c0862bb9be422d05e00c80435b69c2e2f9d6f04cc32607a87b0a6405f930e",
+    "tools/whole-game-catalogue/run_logging.py": "ab0dc0a750529ebe9cfdb86cb656133a7086a582673e4eb2f01df0e611b5b729",
+    "tools/whole-game-catalogue/test_run_logging.py": "f2fc81347cba5048d77fba1d0a0d96acb49d5403ce1dd20c23ac386d43f4b011"
   },
   "sourceTag": "v0.1.0-alpha.1",
   "sourceTreeSha256": "ffce2047967a0b3b5481272422c971ded472ab178e121f13d92318c0440f26a6",
@@ -227,10 +229,27 @@
       "dependencyResolved": 0,
       "scannerPreviews": 0
     },
-    "fixtureTests": 14,
+    "fixtureTests": 22,
     "rendererBridgeImplemented": false,
     "bulkExportsOrNativePayloadsIncluded": false,
     "changesNativeAcceptance": false,
-    "releaseRebuilt": false
+    "releaseRebuilt": false,
+    "loggingSourceFreezeSha256": "20c2cef9ae2ba676bf02a139db15e2ed9ca02d9f751b60e0c53f5285bc7e4f87",
+    "loggingFixtureTests": 8,
+    "automaticPrivateRunLogs": {
+      "pointer": "<runtime>/logs/latest-run.json",
+      "bundle": "<runtime>/logs/runs/<UTC-ID>/",
+      "files": [
+        "summary.json",
+        "transcript.txt",
+        "events.jsonl"
+      ],
+      "excludedFromMetadataExports": true,
+      "statusCliJsonPreserved": true,
+      "defaultMenu": "compact; --verbose enables detailed JSON",
+      "transcriptAndEventCapsMiB": 8,
+      "reasonCap": 50,
+      "setupPathFailureMayBeConsoleOnly": true
+    }
   }
 }

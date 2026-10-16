@@ -29,6 +29,10 @@ Index-Game-Assets.cmd performs the filesystem census and outer metadata indexing
 
 Default limits are256MiB per declared/decoded container,1GiB combined raw cache/partials,2GiB logical read budget,2GiB free-space reserve,180seconds per helper and1.5GiB child-memory watchdog. Existing codecs can allocate whole buffers; failed or killed work stays incomplete. Cancellation is supported; hard-crash lock/child recovery remains manual. Operational SQLite, staged bytes and large sanitized CSV/SQLite exports stay local, outside the public repository.
 
+## Read progress without screenshots
+
+The configured scanner now saves private run records automatically after safe setup: `<runtime>/logs/latest-run.json` points to `runs/<UTC-ID>/summary.json`, `transcript.txt` and `events.jsonl`. The menu prints a concise result and saved paths; `--verbose` shows full menu JSON, while the `status` CLI keeps its JSON interface. Summary results distinguish outer indexing from nested attempts, and record failure/cancellation honestly. Logs are bounded, private and excluded from metadata exports; setup/path failures can be console-only. See the [run-record guide](../../tools/whole-game-catalogue/README.md#automatic-private-run-records). These logs track scanner work, not gameplay or completed previews, and do not retroactively recreate older console sessions.
+
 ## Next deterministic bridge (pending)
 
 1. Select next unfinished unique discovered FMDL/content candidate in an explicit asset-count budget; preserve all source occurrence chains and alternatives.
