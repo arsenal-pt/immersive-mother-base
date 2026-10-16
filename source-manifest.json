@@ -114,7 +114,7 @@
     "core/GameDir/mod/modules/NlabActionRecorder.lua": "1620565314cfba6c374255236aea7d47d76cd8c362f638b57394e3af4f022569",
     "core/GameDir/mod/modules/NpcTraining.lua": "59c21077036dcb5b46c56b4dc7d3f110204f73a63b20f9bb2c6a937c1cf0188a",
     "core/GameDir/mod/modules/ImmersiveMotherBase.lua": "ce74bb055ddec790df1a80683a75cd31b7193f620496b6b9767e75b0019f2206",
-    "tools/build-release.py": "821d39ff789aecf6104617a93e3a87c0810a9c18bf0dcf4cdc5e8490cf40f0dc",
+    "tools/build-release.py": "f4e3d4b2d7cfb9f1374ab31ced2fa100b514ca4671e1b4d6404f66b24a1b422b",
     "research/mtar-punch-combos/preview-tools/Encode-MtarCharacterGIFs.py": "236618174a229c186a64582b7207fd7d1e9c274c88fa968038523555f5f9542a",
     "research/mtar-punch-combos/preview-tools/Import-Character-Collada.py": "ff7dce442d92194d0561c36e890391dbc5f1a2d4222896946090b3e2211a636c",
     "research/mtar-punch-combos/preview-tools/PreviewPartsExport.cs": "aba9f4450c97e09114a96f9e1c5a16fbef48bef749bb8c1b80090b8e117bfbc7",
@@ -147,7 +147,12 @@
     "animationMetadataSourceReview": "research/animation-library/metadata-source-review.json",
     "animationDescriptionSources": "research/animation-library/description-sources.md",
     "animationContainerProvenance": "research/animation-library/container-provenance.json",
-    "animationBrowsingRules": "research/animation-library/description-sources.md"
+    "animationBrowsingRules": "research/animation-library/description-sources.md",
+    "assetLibrary": "research/asset-library/README.md",
+    "assetLibraryJson": "research/asset-library/catalogue.json",
+    "assetLibraryCsv": "research/asset-library/catalogue.csv",
+    "assetLibraryPlan": "research/asset-library/RESEARCH-PLAN.md",
+    "assetReferenceWorkflow": "research/asset-library/workflow.md"
   },
   "animationPreviewDocumentation": {
     "manifest": "media/animation-previews/2026-10-15/preview-manifest.json",
@@ -157,5 +162,13 @@
     "supplementaryManifests": [
       "media/animation-previews/2026-10-15-lmg-reloads/preview-manifest.json"
     ]
+  },
+  "assetPreviewDocumentation": {
+    "manifest": "media/asset-previews/2026-10-16-seating/manifest.json",
+    "includedInSoftwarePackages": false,
+    "changesNativeAcceptance": false,
+    "originalGameAssetsIncluded": false,
+    "selectedReferences": 3,
+    "wholeCategoryComplete": false
   }
 }

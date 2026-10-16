@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "kind": "rendered visual references; no source assets",
+  "owner": "Konami owns original game models/textures; arsenal-pt owns this project; Codex AI/LLM implementation",
+  "method": "Retained source-linked LOD0 mesh/UV/base-color DDS, Blender5.2.2 camera orbit, Pillow12.2 global-palette GIF",
+  "nativeRenderingEquivalent": false,
+  "cleanFramesPreservedPrivately": true,
+  "sourceIdentities": [
+    {
+      "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+      "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+      "sha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43"
+    },
+    {
+      "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2",
+      "nativePath": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+      "sha256": "af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128"
+    },
+    {
+      "id": "mgsv-tpp-cypr_whch001-68d6a4c0c875",
+      "nativePath": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+      "sha256": "68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441"
+    }
+  ],
+  "files": [
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda.png",
+      "sha256": "1aa3da5a20f3e4c6e3e1c323ac1d34c654ba542308a2049df1a0507404ced432",
+      "bytes": 185558,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-mtbs_char002-5f80c9bdacda.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-360.gif",
+      "sha256": "cb8fa10a12c52eb2a5ea013e404cb92d7d43455619d48dd9d947b01754125e69",
+      "bytes": 1179625,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-mtbs_char002-5f80c9bdacda-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-thumb.png",
+      "sha256": "9998738db15f0cf5f2714a287bd7dbd01db23f11c8d670f8fc4a30333ba79e00",
+      "bytes": 13409,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-mtbs_char002-5f80c9bdacda-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2.png",
+      "sha256": "9a9a6b770da85a36a26e1dc4f02a62c262ee1fc91ecc658a2e521583467383c2",
+      "bytes": 134239,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_char001-af15e4cfc6f2.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-360.gif",
+      "sha256": "425e9c0308c6f8d520f7233036886e1ca4237dd449c654abdde970c0c450531d",
+      "bytes": 759364,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_char001-af15e4cfc6f2-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-thumb.png",
+      "sha256": "1d706754b032ababdbd1b644910806ce50f8f1cccfefe50cbdbe2d30ec5925ce",
+      "bytes": 8807,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_char001-af15e4cfc6f2-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875.png",
+      "sha256": "6efd2c11bcea190bb0907497d324d313911b792bdc199263ea97517d1f06ef9b",
+      "bytes": 204819,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_whch001-68d6a4c0c875.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-360.gif",
+      "sha256": "d1f3fc1360e8291b064030d333261e6be57e0efe0fb89488f299a1c2583af21a",
+      "bytes": 1217352,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_whch001-68d6a4c0c875-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-thumb.png",
+      "sha256": "e9094a99bbdc234496b59d0e1c38474eeb8251dd1c319c356808bad3222140ca",
+      "bytes": 15006,
+      "path": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_whch001-68d6a4c0c875-thumb.png"
+    }
+  ]
+}

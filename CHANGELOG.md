@@ -1,5 +1,10 @@
 # Development history
 
+## 2026-10-16 - asset reference starter
+
+Added a bounded asset-reference library with three retained Furniture > Seating examples: folding chair, rolling stool and wheelchair. Each has a clean textured still, a48-frame full360-degree camera turntable and a small static thumbnail. A zero-image index, static-only category table, detailed JSON/CSV/source identities, credits and category/workflow plan keep browsing lightweight. Retained FPK/model bytes and texture identities were checked; current DAT contents and native FOX shader/gameplay equivalence remain unverified. No original models/textures/archives, new extraction, game/native change, release archive, tag or version change.
+
+
 ## 2026-10-16 - animation browsing correction
 
 - Give all 27 entries concise action descriptions and semantic search tags; remove Credits from animated/still tables while preserving detail/source attribution.

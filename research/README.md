@@ -24,7 +24,7 @@ The published 0.1.0-alpha.1 source is a limited, resource-disabled alpha. Some r
 
 13. [Animation preview workflow](animation-preview-workflow.md) â€” full-character GIFs, plain-English titles, thumbnails, exact clip links and evidence limits for future animation research.
 
-14. [MGSV Animation Reference Library](animation-library/README.md) — 27 clips in paged animated/still tables, separate category/tag/source-location/description/credit columns, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
+14. [MGSV Animation Reference Library](animation-library/README.md) — 27 clips in paged animated/still tables, category/tag/source-location/description columns, with central/detail source credits, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
 
 15. [LMG ready/reload batch](animation-batches/lmg-reloads/README.md) — two new offline kneeling/standing candidates; [category progress](animation-library/category-progress.json) records 2/2 completed and zero remaining in the defined workbook plus stock-archive scope. No held weapon or native reload/timing/compatibility proof.
 
@@ -44,3 +44,5 @@ Original explanatory text and recipes here were authored for this repository fro
 
 The public repository owner and project creator is arsenal-pt. Original project implementation was AI-written with human direction and testing; the public README AI disclosure remains authoritative. This research package is intended to help contributors build on the GPL-3.0-only project while preserving upstream licenses and game ownership.
 
+
+16. [MGSV Asset Reference Library](asset-library/README.md) - three selected seating references: textured stills, small static thumbnails, full360-degree camera turntables and source-backed model/container metadata. See the [category plan](asset-library/RESEARCH-PLAN.md) and [standing workflow](asset-library/workflow.md); no downloadable game assets or all-game completeness claim.

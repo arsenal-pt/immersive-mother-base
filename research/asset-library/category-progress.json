@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "category": "Furniture",
+  "subcategory": "Seating",
+  "scope": "Exactly three retained seating references expressly selected for this pilot; not all seating or all-game coverage",
+  "selectedIds": [
+    "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+    "mgsv-tpp-cypr_char001-af15e4cfc6f2",
+    "mgsv-tpp-cypr_whch001-68d6a4c0c875"
+  ],
+  "completedSelectedIds": [
+    "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+    "mgsv-tpp-cypr_char001-af15e4cfc6f2",
+    "mgsv-tpp-cypr_whch001-68d6a4c0c875"
+  ],
+  "pendingSelectedIds": [],
+  "selectedRemaining": 0,
+  "wholeCategoryComplete": false,
+  "allGameComplete": false,
+  "owner": "asset_library_planning",
+  "nextAction": "Stop after root-reviewed publication/checkpoint; await next expressly assigned small batch. Broader category discovery and all-game catalogue remain unstarted."
+}

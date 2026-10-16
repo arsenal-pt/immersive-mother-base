@@ -14,6 +14,7 @@ IGNORED = {'.git', '__pycache__', 'private-builds', 'build', 'dist'}
 # Rendered documentation is tracked separately, never installed or relicensed as code.
 SHOWCASE_PREFIX = 'media/showcase/'
 ANIMATION_PREVIEW_PREFIX = 'media/animation-previews/'
+ASSET_PREVIEW_PREFIX = 'media/asset-previews/'
 DOCS = ['README.md', 'INSTALL.md', 'CREDITS.md', 'CONTRIBUTORS.md', 'LICENSE', 'LICENSE-SCOPE.md',
         'VERSION', 'VERSIONING.md', 'CHANGELOG.md', 'DOWNLOADS.md', 'CONTRIBUTING.md', 'ROADMAP.md',
         'source-manifest.json', 'release-content.json', 'DEPENDENCIES-AND-COMPATIBILITY.md']
@@ -33,7 +34,7 @@ def inventory(root):
         rel = path.relative_to(root).as_posix()
         if any(x in IGNORED for x in path.relative_to(root).parts) or not path.is_file():
             continue
-        if rel.startswith((SHOWCASE_PREFIX, ANIMATION_PREVIEW_PREFIX)):
+        if rel.startswith((SHOWCASE_PREFIX, ANIMATION_PREVIEW_PREFIX, ASSET_PREVIEW_PREFIX)):
             continue
         if not (rel in ROOT_FILES or rel.startswith(PREFIXES)):
             raise ValueError('Unreviewed public file: ' + rel)
