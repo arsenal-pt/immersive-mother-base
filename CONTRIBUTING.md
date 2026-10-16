@@ -42,6 +42,8 @@ Follow the [animation preview workflow](research/animation-preview-workflow.md).
 
 Use the [animation library](research/animation-library/README.md) and [bounded research plan](research/animation-library/RESEARCH-PLAN.md) for later selected sets. Preserve original records and archive/hash IDs; keep the index image-free, animated tables to at most four GIFs, and still-image alternatives. Work only on expressly assigned batches; reference lists do not authorize a whole-game or whole-workbook import.
 
+For animation metadata, read [description-source matching rules](research/animation-library/description-sources.md). Keep authored category/tags/observations separate from exact-match community descriptions and credits; preserve stable IDs, originalRecords and media. Use the builder's --metadata-only mode for catalogue-only updates.
+
 ## Acceptance and review
 
 A PR states problem, exact variants, origin/revisions, authored changes, evidence, limits and reversible install/restore. Separate offline and native proof.

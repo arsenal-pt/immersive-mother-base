@@ -21,6 +21,8 @@ LIB = "research/animation-library"
 SOURCE = "research/mtar-punch-combos/animations-metadata.json"
 MANIFEST = "media/animation-previews/2026-10-15/preview-manifest.json"
 THUMBS = "media/animation-previews/library-thumbnails/2026-10-15"
+METADATA_REVIEW = LIB + "/metadata-source-review.json"
+CONTAINER_REVIEW = LIB + "/container-provenance.json"
 BATCHES = [
     {"id": "cqc-starter", "source": SOURCE, "manifest": MANIFEST},
     {"id": "lmg-reloads-002", "source": "research/animation-batches/lmg-reloads/animations-metadata.json",
@@ -58,6 +60,143 @@ def group_for(record):
     return "npc-receivers"
 
 
+
+def enrich_metadata(record, archive, source, source_path, review, container_review):
+    """Keep authored labels, source locations and external descriptions distinct."""
+    original = record["originalRecords"]["extraction"]
+    category = dict(GROUPS)[record["group"]]
+    tags = ["offline-reference", "source-" + original["sourceRole"]]
+    if record["group"] == "snake-cqc":
+        tags += ["cqc", "combo-candidate"]
+        if original["sequenceFamily"] == "related_combo_transition":
+            tags += ["transition-candidate"]
+    elif record["group"] == "npc-receivers":
+        tags += ["cqc", "receiver-candidate", "reaction-candidate"]
+    elif record["group"] == "special-actors":
+        tags += ["special-actor", "zombie-namespace", "punch-candidate"]
+    elif record["group"] == "lmg-reloads":
+        tags += ["lmg", "reload-candidate"]
+    else:
+        raise ValueError("Unclassified library category: " + record["group"])
+    if original["sequenceFamily"] in ("front", "back"):
+        tags += [original["sequenceFamily"] + "-family"]
+    if original.get("phase") is not None:
+        tags += ["phase-" + str(original["phase"])]
+    if original.get("phaseKind") in ("start", "ending"):
+        tags += [original["phaseKind"] + "-candidate"]
+    posture = next((x for x in ("kneeling", "standing") if x in record["title"].lower()), None)
+    if posture:
+        tags += [posture]
+    dictionary = source.get("toolRuntimeHashes", {}).get("mtar", {}).get("mtar_dictionary.txt")
+    if not dictionary:
+        dictionary = next((x["sha256"] for x in source.get("provenance", {}).get("MtarToolRuntimeFileHashes", []) if x["path"] == "mtar_dictionary.txt"), None)
+    locations = {
+        "ganiVirtualPath": original["name"] + ".gani",
+        "ganiDirectory": posixpath.dirname(original["name"]),
+        "archiveFile": archive["name"] + ".mtar",
+        "recordedContainerLabel": archive.get("pack"),
+        "archiveVirtualPath": None,
+        "containerVirtualPath": None,
+        "containerLocationStatus": "label-only; exact virtual container/archive path is not recorded in the portable input",
+        "provenance": {"kind": "retained-extraction-record", "recordPath": source_path,
+                       "archiveSha256": original["sourceMtarSha256"], "dictionarySha256": dictionary,
+                       "pathRule": "Exact resolved member stem plus the extracted .gani payload extension; no extraction ordinal used"},
+    }
+    origins = [x for x in container_review["archives"] if x["archiveFile"] == locations["archiveFile"] and x["archiveSha256"] == original["sourceMtarSha256"]]
+    if len(origins) > 1:
+        raise ValueError("Ambiguous container source identity")
+    locations.update(datArchive=None, datArchiveSha256=None)
+    if origins:
+        origin = origins[0]
+        for key in ("archiveVirtualPath", "containerVirtualPath", "containerSha256", "datArchive", "datArchiveSha256", "datOriginStatus"):
+            locations[key] = origin[key]
+        locations["containerLocationStatus"] = "known historical virtual paths; exact retained FPK/MTAR hashes verified"
+        locations["provenance"]["containerReview"] = CONTAINER_REVIEW
+        locations["provenance"]["containerEvidence"] = origin["evidence"]
+        locations["provenance"]["containerVerification"] = origin["verification"]
+    key = (locations["archiveFile"], original["sourceMtarSha256"], locations["ganiVirtualPath"], original["hashId"])
+    matches = []
+    for candidate in review["verifiedDescriptions"]:
+        identity = candidate["identity"]
+        candidate_key = (identity["archiveFile"], identity["archiveSha256"], identity["ganiVirtualPath"], identity["hashId"])
+        if candidate_key == key:
+            matches.append(candidate)
+    if len(matches) > 1:
+        raise ValueError("Ambiguous external description identity: " + record["id"])
+    description = {"status": "unavailable-no-verified-exact-match", "text": None, "credit": None,
+                   "sourceUrl": None, "reason": review["unavailableReason"], "reviewRecord": METADATA_REVIEW}
+    if matches:
+        match = matches[0]
+        if not all(match.get(x) for x in ("text", "credit", "sourceUrl", "sourceRevision", "verification")):
+            raise ValueError("Missing description provenance")
+        description = {"status": "verified-exact-source-match", **match, "reviewRecord": METADATA_REVIEW}
+    credits = [
+        {"name": "Konami / Kojima Productions", "role": "original game animation"},
+        {"name": "mctrollin and contributors", "role": "community motion decoder, reference rig and mappings"},
+        {"name": "arsenal-pt / OpenAI Codex", "role": "authored catalogue category, tags and preview summary"},
+    ]
+    discovery = original.get("discoverySource", {})
+    if discovery.get("workbookCredit"):
+        credits.append({"name": discovery["workbookCredit"], "role": "selected workbook discovery", "sourceCell": discovery["sourceCell"], "sourceSha256": discovery["workbookSha256"]})
+    if description["credit"]:
+        credits.append({"name": description["credit"], "role": "verified external description", "sourceUrl": description["sourceUrl"]})
+    record.update(
+        category={"id": record["group"], "label": category}, tags=list(dict.fromkeys(tags)),
+        classificationProvenance={"kind": "project-authored", "credit": "arsenal-pt / OpenAI Codex",
+            "categoryAndCandidateTags": "Retained source namespace, role, family and phase metadata; interpretations remain candidates",
+            "postureTags": "Previously reviewed offline preview title" if posture else None,
+            "extractionRecordPath": source_path, "nativeGameplayProof": False},
+        locations=locations,
+        authoredDescription={"text": record["title"] + " on an untextured reference character.",
+            "kind": "project-authored preview summary", "credit": "arsenal-pt / OpenAI Codex",
+            "basis": "Previously reviewed titled offline preview; source meanings/native use remain unverified"},
+        sourceDescription=description, credits=credits)
+
+
+def html_code(value):
+    return "<code>" + html.escape(value or "Unrecorded", quote=True).replace("|", "&#124;") + "</code>"
+
+
+def render_csv(entries):
+    stream = StringIO(newline="")
+    fields = ["id", "title", "group", "archive", "clipName", "hashId", "rawFrames",
+              "nativeFrameRate", "chosenSourceFramesPerSecond", "previewMilliseconds",
+              "sourceArchiveSha256", "ganiSha256", "fullGifPath", "fullGifSha256",
+              "animatedThumbnailPath", "animatedThumbnailSha256", "detailPage",
+              "offlinePreview", "nativeGameplay", "pairedAlignment",
+              "category", "tags", "ganiVirtualPath", "ganiDirectory", "archiveFile",
+              "containerLabel", "archiveVirtualPath", "containerVirtualPath", "datArchive", "datOriginStatus",
+              "sourceDescriptionStatus", "sourceDescription", "sourceDescriptionCredit", "sourceDescriptionUrl",
+              "authoredDescription", "classificationCredit", "discoveryCredit",
+              "tagProvenance", "locationProvenance", "sourceDescriptionReview", "credits"]
+    writer = csv.DictWriter(stream, fieldnames=fields, lineterminator="\n")
+    writer.writeheader()
+    for e in entries:
+        loc, desc = e["locations"], e["sourceDescription"]
+        writer.writerow({
+            "id": e["id"], "title": e["title"], "group": e["group"], "archive": e["source"]["archive"],
+            "clipName": e["source"]["path"], "hashId": e["source"]["hashId"], "rawFrames": e["rawFrameCount"],
+            "nativeFrameRate": "", "chosenSourceFramesPerSecond": e["originalRecords"]["preview"]["chosenSourceFramesPerSecond"],
+            "previewMilliseconds": e["previewDurationMilliseconds"], "sourceArchiveSha256": e["source"]["archiveSha256"],
+            "ganiSha256": e["originalRecords"]["preview"]["sourceGaniSha256"], "fullGifPath": e["media"]["fullGif"]["path"],
+            "fullGifSha256": e["media"]["fullGif"]["sha256"], "animatedThumbnailPath": e["media"]["animatedThumbnail"]["path"],
+            "animatedThumbnailSha256": e["media"]["animatedThumbnail"]["sha256"], "detailPage": e["detailPage"],
+            "offlinePreview": True, "nativeGameplay": False, "pairedAlignment": False,
+            "category": e["category"]["label"], "tags": ";".join(e["tags"]), "ganiVirtualPath": loc["ganiVirtualPath"],
+            "ganiDirectory": loc["ganiDirectory"], "archiveFile": loc["archiveFile"], "containerLabel": loc["recordedContainerLabel"],
+            "archiveVirtualPath": loc["archiveVirtualPath"], "containerVirtualPath": loc["containerVirtualPath"],
+            "datArchive": loc["datArchive"], "datOriginStatus": loc.get("datOriginStatus", "Unrecorded"),
+            "sourceDescriptionStatus": desc["status"], "sourceDescription": desc["text"],
+            "sourceDescriptionCredit": desc["credit"], "sourceDescriptionUrl": desc["sourceUrl"],
+            "authoredDescription": e["authoredDescription"]["text"], "classificationCredit": e["classificationProvenance"]["credit"],
+            "discoveryCredit": ";".join(c["name"] for c in e["credits"] if c["role"] == "selected workbook discovery"),
+            "tagProvenance": e["classificationProvenance"]["categoryAndCandidateTags"] + ("; posture: " + e["classificationProvenance"]["postureTags"] if e["classificationProvenance"]["postureTags"] else ""),
+            "locationProvenance": loc["provenance"]["recordPath"], "sourceDescriptionReview": desc["reviewRecord"],
+            "credits": ";".join(c["name"] + ": " + c["role"] for c in e["credits"]),
+        })
+    return stream.getvalue().encode("utf-8")
+
+
 def make_thumbnail(data):
     """Resize every composited GIF frame; retain loop and display durations."""
     images, durations = [], []
@@ -90,14 +229,24 @@ def render_page(record):
     page = record["detailPage"]
     full = link_from(page, record["media"]["fullGif"]["path"])
     still = link_from(page, record["media"]["stillThumbnail"]["path"])
-    catalogue = link_from(page, LIB + "/catalogue.json")
-    extraction = record["originalRecords"]["extraction"]
-    preview = record["originalRecords"]["preview"]
+    extraction, preview = record["originalRecords"]["extraction"], record["originalRecords"]["preview"]
+    loc, desc = record["locations"], record["sourceDescription"]
+    source_note = link_from(page, LIB + "/description-sources.md")
     rows = [
         ("Game", "Metal Gear Solid V: The Phantom Pain"),
         ("Library ID", BT + record["id"] + BT),
+        ("Category", record["category"]["label"]),
+        ("Tags (authored retrieval labels)", ", ".join(record["tags"])),
         ("Source archive", BT + record["source"]["archive"] + BT),
-        ("Exact clip name", BT + record["source"]["path"] + BT),
+        ("Exact clip stem (retained)", BT + record["source"]["path"] + BT),
+        ("Virtual GANI file", BT + loc["ganiVirtualPath"] + BT),
+        ("Virtual GANI directory", BT + loc["ganiDirectory"] + BT),
+        ("MTAR file", BT + loc["archiveFile"] + BT),
+        ("Recorded container label", loc["recordedContainerLabel"] or "Unrecorded"),
+        ("Virtual MTAR path", loc["archiveVirtualPath"] or "Unrecorded"),
+        ("Virtual FPK path", loc["containerVirtualPath"] or "Unrecorded"),
+        ("Recorded DAT origin", loc["datArchive"] or "Unrecorded"),
+        ("DAT version limit", loc.get("datOriginStatus", "Unrecorded")),
         ("Clip hash ID", BT + record["source"]["hashId"] + BT),
         ("Original source role", extraction["sourceRole"]),
         ("Role interpretation", extraction["role"]),
@@ -112,37 +261,33 @@ def render_page(record):
         ("Ordinary soldier attacker proof", "Unverified"),
         ("Archive SHA-256", BT + record["source"]["archiveSha256"] + BT),
         ("GANI SHA-256", BT + preview["sourceGaniSha256"] + BT),
+        ("Dictionary snapshot SHA-256", BT + loc["provenance"]["dictionarySha256"] + BT if loc["provenance"]["dictionarySha256"] else "Unrecorded"),
     ]
-    lines = [
-        "# " + record["title"], "",
-        "[Back to animation library](../README.md) · "
-        + "[Complete library data](" + catalogue + ")", "",
-        "Click the image to open the original full-size GIF. Its visible character is a "
-        "reference model; the source archive below identifies the original animation.", "",
+    description = desc["text"] if desc["text"] is not None else "Unavailable. " + desc["reason"]
+    lines = ["# " + record["title"], "",
+        "[Back to animation library](../README.md) · [Complete library data](" + link_from(page, LIB + "/catalogue.json") + ")", "",
+        "Click the image to open the original full-size GIF. Its visible character is a reference model; source identity is recorded separately below.", "",
         "[![" + record["title"] + " — full-character offline preview](" + full + ")](" + full + ")", "",
         "[Open full-size GIF](" + full + ") · [Still image](" + still + ")", "",
-        "## Technical data", "", "| Field | Value |", "| --- | --- |",
-    ]
+        "## Classification and descriptions", "",
+        "**Category:** " + record["category"]["label"] + ". **Tags:** " + ", ".join(BT + x + BT for x in record["tags"]) + ".", "",
+        "**Authored preview description:** " + record["authoredDescription"]["text"] + " Credit: " + record["authoredDescription"]["credit"] + ". " + record["authoredDescription"]["basis"] + ".", "",
+        "**Community source description:** " + description, "",
+        "Match status: " + BT + desc["status"] + BT + ". [Description sources and matching rules](" + source_note + ").", "",
+        "The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) joins retained FPK/MTAR hashes and historical extraction logs; recorded DAT origins do not verify current DAT contents.", "",
+        "## Technical data", "", "| Field | Value |", "| --- | --- |"]
     lines += ["| " + k + " | " + v.replace("|", "&#124;") + " |" for k, v in rows]
-    lines += [
-        "", "## Interpretation and limits", "",
-        extraction["relationshipNote"], "",
-        "The preview speed is a presentation choice. Individual clips have no matched "
-        "partner or held weapon; names alone do not prove unarmed punching. "
-        "Hair, scarf and holster motion uses mapped-ancestor fallbacks. Native Fox "
-        "cloth/twist behavior, timing, interaction contact and actor compatibility remain unverified.", "",
-        "The historical extraction record below keeps its original confidence fields. "
-        "Its original visualConfirmed=false predates the later offline preview; it is "
-        "not a claim that the library has no GIF. Offline visualization and native "
-        "gameplay proof are separate fields.", "",
-        "<details>", "<summary>Complete extraction and preview records</summary>", "",
-        FENCE + "json",
-        json.dumps(record["originalRecords"], indent=2, ensure_ascii=False),
-        FENCE, "", "</details>", "",
-        "[Extraction method](../../mtar-punch-combos/README.md) · "
-        "[Full-character recipe](../../mtar-punch-combos/full-character-preview-recipe.md) · "
-        "[Credits](../../../CREDITS.md)", "",
-    ]
+    lines += ["", "## Credits and evidence", ""]
+    lines += ["- **" + c["name"] + "** — " + c["role"] + ("; " + c["sourceCell"] if c.get("sourceCell") else "") + "." for c in record["credits"]]
+    lines += ["", "Categories/tags and preview summaries are project-authored. Candidate roles/families come from retained naming metadata; posture labels come from the already reviewed offline preview. An unavailable community description has no attributed per-entry source author. [Full tool/model credits](../../../CREDITS.md).", "",
+        "## Interpretation and limits", "", extraction["relationshipNote"], "",
+        "Preview speed is a presentation choice. Individual clips have no matched partner or held weapon. Labels alone do not prove native weapon handling, interaction contact or actor compatibility. Hair, scarf and holster motion uses mapped-ancestor fallbacks; native Fox cloth/twist and timing remain unverified.", "",
+        "Historical extraction confidence fields below are unchanged. Original visualConfirmed=false predates the later offline preview; offline visualization and native gameplay proof remain separate fields.", "",
+        "<details>", "<summary>Classification, location and description provenance</summary>", "", FENCE + "json",
+        json.dumps({k: record[k] for k in ("category", "tags", "classificationProvenance", "locations", "authoredDescription", "sourceDescription", "credits")}, indent=2, ensure_ascii=False),
+        FENCE, "", "</details>", "", "<details>", "<summary>Complete original extraction and preview records</summary>", "", FENCE + "json",
+        json.dumps(record["originalRecords"], indent=2, ensure_ascii=False), FENCE, "", "</details>", "",
+        "[Exact extraction catalogue](" + link_from(page, loc["provenance"]["recordPath"]) + ") · [Full-character recipe](../../mtar-punch-combos/full-character-preview-recipe.md) · [Credits](../../../CREDITS.md)", ""]
     return "\n".join(lines).encode("utf-8")
 
 
@@ -164,32 +309,40 @@ def page_sets(catalogue):
 
 def render_table_page(page, stills=False):
     current = page["stills" if stills else "animated"]
-    mode = "Still-image mode (no GIFs loaded)" if stills else "Animated preview mode"
     sibling = page["animated" if stills else "stills"]
+    mode = "Still-image mode (no GIFs loaded)" if stills else "Animated preview mode"
     nav = []
     for i in range(1, page["count"] + 1):
-        suffix = "-stills" if stills else ""
-        name = page["group"] + "-" + str(i) + suffix + ".md"
+        name = page["group"] + "-" + str(i) + ("-stills" if stills else "") + ".md"
         nav.append("**" + str(i) + "**" if i == page["index"] else "[" + str(i) + "](" + name + ")")
     total = sum(e["media"]["stillThumbnail" if stills else "animatedThumbnail"]["bytes"] for e in page["entries"])
     lines = ["# " + page["title"] + " - page " + str(page["index"]) + " of " + str(page["count"]), "",
-             "[Library index](../README.md) · [Switch to " + ("animated previews" if stills else "still images") + "](" + link_from(current, sibling) + ")", "",
-             "**" + mode + "** · " + str(len(page["entries"])) + " previews · " + f"{total / 1048576:.2f}" + " MiB of image files. "
-             "Click a thumbnail or title for the larger GIF and full clip data.", "",
-             "Pages: " + " · ".join(nav), "",
-             "The visible model is untextured Ocelot, displaying actual decoded source motions. "
-             "All entries are offline reference previews; native timing, pairing and ordinary-soldier "
-             "attacker compatibility remain unverified. Durations below use a chosen preview rate.", "",
-             "| Preview - click to enlarge | Animation / source | Frames / preview length | Data |",
-             "| --- | --- | --- | --- |"]
+        "[Library index](../README.md) · [Switch to " + ("animated previews" if stills else "still images") + "](" + link_from(current, sibling) + ")", "",
+        "**" + mode + "** · " + str(len(page["entries"])) + " previews · " + f"{total / 1048576:.2f}" + " MiB of image files. Click a preview or title for its larger GIF and complete data.", "",
+        "Pages: " + " · ".join(nav), "",
+        "Categories/tags are authored retrieval labels; candidate source roles and observed reference posture remain distinct. GANI paths are virtual asset locations. Recorded container chains are historical source locations; current DAT contents are unverified. [Description matching and credits](../description-sources.md) explain why a community description may be unavailable.", "",
+        "All clips are offline Ocelot reference previews. Native timing, weapon/contact, pairing and actor compatibility remain unverified; duration uses a chosen preview rate.", "",
+        "| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Community source description | Credits | Frames / data |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for e in page["entries"]:
         detail = link_from(current, e["detailPage"])
-        image_path = e["media"]["stillThumbnail" if stills else "animatedThumbnail"]["path"]
-        image = '<a href="' + detail + '"><img src="' + link_from(current, image_path) + '" width="160" height="' + str(e["media"]["animatedThumbnail"]["height"]) + '" alt="' + html.escape(e["title"], quote=True) + '"></a>'
-        identity = "[" + e["title"] + "](" + detail + ")<br><code>" + e["shortIdentifier"] + "</code><br><code>" + e["source"]["archive"] + "</code>"
-        timing = str(e["rawFrameCount"]) + " raw<br>" + f'{e["previewDurationMilliseconds"]/1000:g}' + " s (chosen)"
-        lines.append("| " + image + " | " + identity + " | " + timing + " | [Metadata](" + detail + "#technical-data)<br>Offline preview |")
-    lines += ["", "Pages: " + " · ".join(nav), "", "[All data (JSON)](../catalogue.json) · [Spreadsheet data (CSV)](../catalogue.csv) · [Research references](../references.md)", ""]
+        img = e["media"]["stillThumbnail" if stills else "animatedThumbnail"]["path"]
+        image = '<a href="' + detail + '"><img src="' + link_from(current, img) + '" width="160" height="' + str(e["media"]["animatedThumbnail"]["height"]) + '" alt="' + html.escape(e["title"], quote=True) + '"></a>'
+        identity = "[" + e["title"].replace("|", "&#124;") + "](" + detail + ")<br>" + html_code(e["shortIdentifier"]) + "<br>Authored preview label"
+        loc, desc = e["locations"], e["sourceDescription"]
+        gani = html_code(loc["ganiDirectory"] + "/") + "<br>" + html_code(posixpath.basename(loc["ganiVirtualPath"]))
+        container = "DAT: " + html_code(loc["datArchive"]) + "<br>FPK: " + html_code(loc["containerVirtualPath"] or loc["recordedContainerLabel"]) + "<br>MTAR: " + html_code(loc["archiveVirtualPath"] or loc["archiveFile"]) + "<br>Historical source receipt"
+        description = html.escape(desc["text"], quote=True).replace("|", "&#124;") if desc["text"] is not None else "Unavailable: no verified exact source match."
+        if desc["credit"]:
+            description += "<br>" + html.escape(desc["credit"], quote=True)
+        credit = "Game: Konami / Kojima Productions<br>Labels: arsenal-pt / Codex"
+        if any(c["role"] == "selected workbook discovery" for c in e["credits"]):
+            credit += "<br>Discovery: KnochenGott (human supplied)"
+        credit += "<br>[Per-entry provenance](" + detail + "#credits-and-evidence)"
+        timing = str(e["rawFrameCount"]) + " raw<br>" + f'{e["previewDurationMilliseconds"]/1000:g}' + " s (chosen)<br>[Full data](" + detail + "#technical-data)"
+        cells = [image, identity, html.escape(e["category"]["label"]), "<br>".join(html_code(x) for x in e["tags"]), gani, container, description, credit, timing]
+        lines.append("| " + " | ".join(cells) + " |")
+    lines += ["", "Pages: " + " · ".join(nav), "", "[All data (JSON)](../catalogue.json) · [Spreadsheet data (CSV)](../catalogue.csv) · [Source review](../description-sources.md)", ""]
     return "\n".join(lines).encode("utf-8")
 
 
@@ -221,6 +374,10 @@ def render_readme(catalogue):
             lines.append("| " + str(page["index"]) + " | " + label + " | [Open " + str(len(page["entries"])) + " GIFs](" + link_from(LIB + "/README.md", page["animated"]) + ") | [Open stills](" + link_from(LIB + "/README.md", page["stills"]) + ") |")
         lines += ["", "</details>", ""]
     lines += [
+        "## Metadata columns", "",
+        "Tables, JSON/CSV and detail pages separate **category**, **authored tags**, **virtual GANI directory/file**, **MTAR/container location**, **community source description** and **per-entry credits**. "
+        "Existing title-based preview summaries are project-authored; missing external descriptions remain unavailable. "
+        "The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).", "",
         "## How to read the previews", "",
         "The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions. "
         "All are **offline previews**. Durations use a chosen 30 source frames/s; native timing is unmeasured. "
@@ -251,10 +408,14 @@ def render_readme(catalogue):
         "The existing extraction catalogue and preview manifest are the input records. Do not hand-edit generated "
         "tables, pages, CSV, JSON or thumbnails. With Python 3.10+ and Pillow 12.2.0 installed, run from the repository root:", "",
         FENCE + "console", "python research/animation-library/build-library.py",
-        "python research/animation-library/build-library.py --check", FENCE, "",
+        "python research/animation-library/build-library.py --check",
+        "# Metadata changes only: preserve existing reviewed media",
+        "python research/animation-library/build-library.py --metadata-only",
+        "python research/animation-library/build-library.py --metadata-only --check", FENCE, "",
         "This reads existing reviewed GIFs, deterministically downscales their composited frames, retains loop and total "
         "display duration, and writes only library documentation and new thumbnails. The full-size GIFs and original "
         "metadata stay unchanged. New batches need explicit input registration/group labels in the builder. "
+        "The --metadata-only option reuses hash-verified existing thumbnails and writes no media. "
         "No raw game files are copied, no game is launched, and research media stays outside software packages.", "",
         "## Credits and scope", "",
         "Original game assets/animations: **Konami / Kojima Productions**. Community motion decoding, reference rig "
@@ -269,8 +430,18 @@ def render_readme(catalogue):
     return "\n".join(lines).encode("utf-8")
 
 
-def build(root):
+def build(root, metadata_only=False):
     outputs, entries, identities = {}, [], set()
+    review_bytes = (root / METADATA_REVIEW).read_bytes()
+    description_review = json.loads(review_bytes)
+    container_review_bytes = (root / CONTAINER_REVIEW).read_bytes()
+    container_review = json.loads(container_review_bytes)
+    cache = {}
+    if metadata_only:
+        cached_manifest = json.loads((root / THUMBS / "manifest.json").read_bytes())
+        cache = {e["id"]: e for e in cached_manifest["entries"]}
+        if len(cache) != len(cached_manifest["entries"]):
+            raise ValueError("Duplicate cached thumbnail identity")
     batch_records, manifests = [], []
     for registration in BATCHES:
         source_path, manifest_path = registration["source"], registration["manifest"]
@@ -298,10 +469,23 @@ def build(root):
             full_path = posixpath.dirname(manifest_path) + "/" + p["titledGif"]["path"]
             full = (root / full_path).read_bytes()
             assert sha(full) == p["titledGif"]["sha256"]
-            thumb, source_frames, encoded_frames, duration = make_thumbnail(full)
-            assert duration == p["gifDurationMilliseconds"]
             thumb_path = THUMBS + "/" + identity + ".gif"
-            outputs[thumb_path] = thumb
+            if metadata_only:
+                cached = cache[identity]
+                assert cached["sourceFullGif"] == {"path": full_path, "sha256": sha(full), "bytes": len(full)}
+                thumbnail = dict(cached["animatedThumbnail"])
+                thumb = (root / thumbnail["path"]).read_bytes()
+                assert thumbnail["path"] == thumb_path and sha(thumb) == thumbnail["sha256"]
+                assert len(thumb) == thumbnail["bytes"]
+                duration = thumbnail["durationMilliseconds"]
+            else:
+                thumb, source_frames, encoded_frames, duration = make_thumbnail(full)
+                outputs[thumb_path] = thumb
+                thumbnail = {"path": thumb_path, "sha256": sha(thumb),
+                             "bytes": len(thumb), "width": 160, "height": Image.open(BytesIO(thumb)).height,
+                             "sourceGifFrames": source_frames, "encodedFrames": encoded_frames,
+                             "durationMilliseconds": duration, "loop": 0}
+            assert duration == p["gifDurationMilliseconds"]
             still_path = posixpath.dirname(manifest_path) + "/" + p["thumbnail"]["path"]
             assert sha((root / still_path).read_bytes()) == p["thumbnail"]["sha256"]
             record = {
@@ -318,11 +502,7 @@ def build(root):
                 "previewDurationMilliseconds": duration,
                 "detailPage": LIB + "/clips/" + identity + ".md",
                 "media": {
-                    "animatedThumbnail": {"path": thumb_path, "sha256": sha(thumb),
-                                          "bytes": len(thumb), "width": 160, "height": Image.open(BytesIO(thumb)).height,
-                                          "sourceGifFrames": source_frames,
-                                          "encodedFrames": encoded_frames,
-                                          "durationMilliseconds": duration, "loop": 0},
+                    "animatedThumbnail": thumbnail,
                     "fullGif": {"path": full_path, "sha256": sha(full), "bytes": len(full)},
                     "stillThumbnail": {"path": still_path, "sha256": p["thumbnail"]["sha256"],
                                        "bytes": p["thumbnail"]["bytes"]},
@@ -335,6 +515,9 @@ def build(root):
             if registration["id"] != "cqc-starter":
                 record["sourceBatch"] = registration["id"]
                 record["recordPathsBase"] = {"extraction": posixpath.dirname(source_path), "preview": posixpath.dirname(manifest_path)}
+            archive = next(a for a in source["archives"] if a["name"] == original["sourceArchive"])
+            assert archive["mtarSha256"] == original["sourceMtarSha256"]
+            enrich_metadata(record, archive, source, source_path, description_review, container_review)
             entries.append(record)
             outputs[record["detailPage"]] = render_page(record)
     manifest = manifests[0]  # Preserve the starter's legacy shared reference fields.
@@ -347,6 +530,9 @@ def build(root):
         "pathBase": "repository-root",
         "browsing": {"indexInlineImages": 0, "maxAnimatedPreviewsPerPage": PAGE_SIZE, "stillImageMode": True},
         "identityPolicy": "game + source archive + clip hash; extraction ordinals are historical only",
+        "metadataSourceReview": {"path": METADATA_REVIEW, "sha256": sha(review_bytes)},
+        "metadataContainerProvenance": {"path": CONTAINER_REVIEW, "sha256": sha(container_review_bytes)},
+        "metadataPolicy": "Authored categories/tags/preview summaries are separate from exact-match external descriptions and retained original records",
         "sourceRecords": [record for batch in batch_records
                           for record in (batch["extraction"], batch["previews"])],
         "sourceBatches": batch_records,
@@ -367,37 +553,19 @@ def build(root):
         "entries": entries,
     }
     outputs[LIB + "/catalogue.json"] = json_bytes(catalogue)
-    csv_stream = StringIO(newline="")
-    fields = ["id", "title", "group", "archive", "clipName", "hashId", "rawFrames",
-              "nativeFrameRate", "chosenSourceFramesPerSecond", "previewMilliseconds",
-              "sourceArchiveSha256", "ganiSha256", "fullGifPath", "fullGifSha256",
-              "animatedThumbnailPath", "animatedThumbnailSha256", "detailPage",
-              "offlinePreview", "nativeGameplay", "pairedAlignment"]
-    writer = csv.DictWriter(csv_stream, fieldnames=fields, lineterminator="\n")
-    writer.writeheader()
-    for e in entries:
-        writer.writerow(dict(zip(fields, [
-            e["id"], e["title"], e["group"], e["source"]["archive"], e["source"]["path"],
-            e["source"]["hashId"], e["rawFrameCount"], "",
-            e["originalRecords"]["preview"]["chosenSourceFramesPerSecond"],
-            e["previewDurationMilliseconds"], e["source"]["archiveSha256"],
-            e["originalRecords"]["preview"]["sourceGaniSha256"],
-            e["media"]["fullGif"]["path"], e["media"]["fullGif"]["sha256"],
-            e["media"]["animatedThumbnail"]["path"],
-            e["media"]["animatedThumbnail"]["sha256"], e["detailPage"], True, False, False,
-        ])))
-    outputs[LIB + "/catalogue.csv"] = csv_stream.getvalue().encode("utf-8")
+    outputs[LIB + "/catalogue.csv"] = render_csv(entries)
     outputs[LIB + "/README.md"] = render_readme(catalogue)
     for page in page_sets(catalogue):
         outputs[page["animated"]] = render_table_page(page)
         outputs[page["stills"]] = render_table_page(page, stills=True)
-    outputs[THUMBS + "/manifest.json"] = json_bytes({
-        "schemaVersion": 1, "purpose": "Paged animation library thumbnails",
-        "sourcePreviewManifests": [batch["previews"] for batch in batch_records],
-        "generator": LIB + "/build-library.py", "pillowVersion": PILLOW_VERSION,
-        "entries": [{"id": e["id"], "sourceFullGif": e["media"]["fullGif"],
-                     "animatedThumbnail": e["media"]["animatedThumbnail"]} for e in entries],
-    })
+    if not metadata_only:
+        outputs[THUMBS + "/manifest.json"] = json_bytes({
+            "schemaVersion": 1, "purpose": "Paged animation library thumbnails",
+            "sourcePreviewManifests": [batch["previews"] for batch in batch_records],
+            "generator": LIB + "/build-library.py", "pillowVersion": PILLOW_VERSION,
+            "entries": [{"id": e["id"], "sourceFullGif": e["media"]["fullGif"],
+                         "animatedThumbnail": e["media"]["animatedThumbnail"]} for e in entries],
+        })
     return outputs, catalogue
 
 
@@ -405,10 +573,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true",
                         help="Check generated bytes without writing")
+    parser.add_argument("--metadata-only", action="store_true",
+                        help="Reuse hash-verified reviewed thumbnails; write/check documentation and catalogue only")
     args = parser.parse_args()
     if PILLOW_VERSION != "12.2.0":
         raise SystemExit("Use Pillow 12.2.0 to reproduce the reviewed encoding")
-    outputs, catalogue = build(ROOT)
+    outputs, catalogue = build(ROOT, metadata_only=args.metadata_only)
     for name, data in outputs.items():
         path = ROOT / name
         if args.check:
@@ -419,6 +589,7 @@ def main():
             path.write_bytes(data)
     print(json.dumps({
         "mode": "check" if args.check else "write",
+        "metadataOnly": args.metadata_only,
         "clips": catalogue["entryCount"],
         "generatedFiles": len(outputs),
         "animatedThumbnailBytes": sum(e["media"]["animatedThumbnail"]["bytes"]

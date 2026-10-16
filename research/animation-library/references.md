@@ -26,3 +26,9 @@ After the user chooses and approves a small motion set, identify its exact sourc
 ## Batch002 selected source matching
 
 The authorized next section matches only the supplied workbook's LMG cells Sheet1 L4:L5 to actual enetmgn_q_rdy_rld/enetmgn_s_rdy_rld archive members. KnochenGott attribution remains human supplied; the workbook stays read-only/private and no unrelated rows/descriptions are imported. See the [defined coverage/receipt metadata](../animation-batches/lmg-reloads/README.md) and [category ledger](category-progress.json). Source names are interpretation leads; native weapon mechanics/contact/timing remain unproved.
+
+## Descriptions and metadata provenance
+
+Read [verified description sources and matching rules](description-sources.md) before enriching an entry. The supplied BobDoleOwndU BossQuiet2_layers notes have zero virtual-path or basename matches among the current 27 clips; community description text/author stays unavailable for those entries. Authored categories, retrieval tags and preview summaries are separately credited, with exact source GANI locations and recorded MTAR/pack labels. The [source-review registry](metadata-source-review.json) retains pinned source identity and the empty exact-match set; unknown full container paths stay unrecorded.
+
+The [container provenance map](container-provenance.json) records historical DAT origins and exact virtual FPK/MTAR paths for the three archive hashes used here, verified from retained source receipts, successful extraction logs and matching immutable ZIP members. These are source locations, not deployment instructions or current-install verification; missing evidence remains unrecorded.

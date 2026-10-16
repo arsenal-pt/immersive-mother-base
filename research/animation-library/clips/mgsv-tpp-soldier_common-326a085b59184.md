@@ -2,11 +2,23 @@
 
 [Back to animation library](../README.md) · [Complete library data](../catalogue.json)
 
-Click the image to open the original full-size GIF. Its visible character is a reference model; the source archive below identifies the original animation.
+Click the image to open the original full-size GIF. Its visible character is a reference model; source identity is recorded separately below.
 
 [![NPC combo receiver - front phase 5 — full-character offline preview](../../../media/animation-previews/2026-10-15/Soldier_common-0121-enemasr_s_new_com_asr_f5.gif)](../../../media/animation-previews/2026-10-15/Soldier_common-0121-enemasr_s_new_com_asr_f5.gif)
 
 [Open full-size GIF](../../../media/animation-previews/2026-10-15/Soldier_common-0121-enemasr_s_new_com_asr_f5.gif) · [Still image](../../../media/animation-previews/2026-10-15/Soldier_common-0121-enemasr_s_new_com_asr_f5.png)
+
+## Classification and descriptions
+
+**Category:** NPC receiving and reaction candidates. **Tags:** `offline-reference`, `source-Soldier2Common archive (membership does not prove actor use)`, `cqc`, `receiver-candidate`, `reaction-candidate`, `front-family`, `phase-5`.
+
+**Authored preview description:** NPC combo receiver - front phase 5 on an untextured reference character. Credit: arsenal-pt / OpenAI Codex. Previously reviewed titled offline preview; source meanings/native use remain unverified.
+
+**Community source description:** Unavailable. No verified exact source-description match for this entry. The reviewed BossQuiet2_layers list has zero matching paths among the current 27 clips.
+
+Match status: `unavailable-no-verified-exact-match`. [Description sources and matching rules](../description-sources.md).
+
+The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) joins retained FPK/MTAR hashes and historical extraction logs; recorded DAT origins do not verify current DAT contents.
 
 ## Technical data
 
@@ -14,8 +26,18 @@ Click the image to open the original full-size GIF. Its visible character is a r
 | --- | --- |
 | Game | Metal Gear Solid V: The Phantom Pain |
 | Library ID | `mgsv-tpp-soldier_common-326a085b59184` |
+| Category | NPC receiving and reaction candidates |
+| Tags (authored retrieval labels) | offline-reference, source-Soldier2Common archive (membership does not prove actor use), cqc, receiver-candidate, reaction-candidate, front-family, phase-5 |
 | Source archive | `Soldier_common` |
-| Exact clip name | `/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f5` |
+| Exact clip stem (retained) | `/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f5` |
+| Virtual GANI file | `/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f5.gani` |
+| Virtual GANI directory | `/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr` |
+| MTAR file | `Soldier_common.mtar` |
+| Recorded container label | Soldier2Common |
+| Virtual MTAR path | /Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar |
+| Virtual FPK path | /Assets/tpp/pack/soldier/common/Soldier2Common.fpk |
+| Recorded DAT origin | a_chunk7.dat |
+| DAT version limit | Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task |
 | Clip hash ID | `326a085b59184` |
 | Original source role | Soldier2Common archive (membership does not prove actor use) |
 | Role interpretation | npc_combo_receiver_candidate |
@@ -30,17 +52,128 @@ Click the image to open the original full-size GIF. Its visible character is a r
 | Ordinary soldier attacker proof | Unverified |
 | Archive SHA-256 | `6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e` |
 | GANI SHA-256 | `285a9ce6b5ba99db09f067936c07ecd4c55193b1dd6ec5cc24c8f6bd40d1e4f6` |
+| Dictionary snapshot SHA-256 | `30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591` |
+
+## Credits and evidence
+
+- **Konami / Kojima Productions** — original game animation.
+- **mctrollin and contributors** — community motion decoder, reference rig and mappings.
+- **arsenal-pt / OpenAI Codex** — authored catalogue category, tags and preview summary.
+
+Categories/tags and preview summaries are project-authored. Candidate roles/families come from retained naming metadata; posture labels come from the already reviewed offline preview. An unavailable community description has no attributed per-entry source author. [Full tool/model credits](../../../CREDITS.md).
 
 ## Interpretation and limits
 
 Equal front/back phase suffix is a proposed attacker/receiver correspondence; native contact/timing not proved.
 
-The preview speed is a presentation choice. Individual clips have no matched partner or held weapon; names alone do not prove unarmed punching. Hair, scarf and holster motion uses mapped-ancestor fallbacks. Native Fox cloth/twist behavior, timing, interaction contact and actor compatibility remain unverified.
+Preview speed is a presentation choice. Individual clips have no matched partner or held weapon. Labels alone do not prove native weapon handling, interaction contact or actor compatibility. Hair, scarf and holster motion uses mapped-ancestor fallbacks; native Fox cloth/twist and timing remain unverified.
 
-The historical extraction record below keeps its original confidence fields. Its original visualConfirmed=false predates the later offline preview; it is not a claim that the library has no GIF. Offline visualization and native gameplay proof are separate fields.
+Historical extraction confidence fields below are unchanged. Original visualConfirmed=false predates the later offline preview; offline visualization and native gameplay proof remain separate fields.
 
 <details>
-<summary>Complete extraction and preview records</summary>
+<summary>Classification, location and description provenance</summary>
+
+```json
+{
+  "category": {
+    "id": "npc-receivers",
+    "label": "NPC receiving and reaction candidates"
+  },
+  "tags": [
+    "offline-reference",
+    "source-Soldier2Common archive (membership does not prove actor use)",
+    "cqc",
+    "receiver-candidate",
+    "reaction-candidate",
+    "front-family",
+    "phase-5"
+  ],
+  "classificationProvenance": {
+    "kind": "project-authored",
+    "credit": "arsenal-pt / OpenAI Codex",
+    "categoryAndCandidateTags": "Retained source namespace, role, family and phase metadata; interpretations remain candidates",
+    "postureTags": null,
+    "extractionRecordPath": "research/mtar-punch-combos/animations-metadata.json",
+    "nativeGameplayProof": false
+  },
+  "locations": {
+    "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f5.gani",
+    "ganiDirectory": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr",
+    "archiveFile": "Soldier_common.mtar",
+    "recordedContainerLabel": "Soldier2Common",
+    "archiveVirtualPath": "/Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar",
+    "containerVirtualPath": "/Assets/tpp/pack/soldier/common/Soldier2Common.fpk",
+    "containerLocationStatus": "known historical virtual paths; exact retained FPK/MTAR hashes verified",
+    "provenance": {
+      "kind": "retained-extraction-record",
+      "recordPath": "research/mtar-punch-combos/animations-metadata.json",
+      "archiveSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+      "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+      "pathRule": "Exact resolved member stem plus the extracted .gani payload extension; no extraction ordinal used",
+      "containerReview": "research/animation-library/container-provenance.json",
+      "containerEvidence": [
+        {
+          "kind": "source-provenance receipt",
+          "sha256": "e4ae0bf6f27d42630865662a89e5a387748fdf1cfbf91c718f4254c0855bffc8"
+        },
+        {
+          "kind": "successful Gzs command receipt",
+          "sha256": "5cbcac1e19cdb652353306f15b39c1878ead289b907ee462d72be516343ee615",
+          "commandTag": "gzs-Soldier2Common",
+          "exitCode": 0
+        },
+        {
+          "kind": "retained Gzs extracted-path log",
+          "sha256": "6b7541bd463e4172c0c1d640d325f978e22242830dd972e394c6934f05a4452a"
+        },
+        {
+          "kind": "immutable private library receipt",
+          "sha256": "b640d528849cdf79327353cf6c37d2f15244659a6e3039f2cee18e8cb431cbb8",
+          "libraryZipSha256": "299795a7378d55f18d059f02a2946763d8c546c2a4db5da6bdb5baed84646c2d"
+        }
+      ],
+      "containerVerification": "Exact retained FPK and original MTAR member bytes match recorded hashes; pack label joins the successful extraction log. No new extraction or current DAT verification."
+    },
+    "datArchive": "a_chunk7.dat",
+    "datArchiveSha256": null,
+    "containerSha256": "7b44821cda5ecb657abb44fed05e856dbe99373cf7bfd53e9c1e126523d0be36",
+    "datOriginStatus": "Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task"
+  },
+  "authoredDescription": {
+    "text": "NPC combo receiver - front phase 5 on an untextured reference character.",
+    "kind": "project-authored preview summary",
+    "credit": "arsenal-pt / OpenAI Codex",
+    "basis": "Previously reviewed titled offline preview; source meanings/native use remain unverified"
+  },
+  "sourceDescription": {
+    "status": "unavailable-no-verified-exact-match",
+    "text": null,
+    "credit": null,
+    "sourceUrl": null,
+    "reason": "No verified exact source-description match for this entry. The reviewed BossQuiet2_layers list has zero matching paths among the current 27 clips.",
+    "reviewRecord": "research/animation-library/metadata-source-review.json"
+  },
+  "credits": [
+    {
+      "name": "Konami / Kojima Productions",
+      "role": "original game animation"
+    },
+    {
+      "name": "mctrollin and contributors",
+      "role": "community motion decoder, reference rig and mappings"
+    },
+    {
+      "name": "arsenal-pt / OpenAI Codex",
+      "role": "authored catalogue category, tags and preview summary"
+    }
+  ]
+}
+```
+
+</details>
+
+<details>
+<summary>Complete original extraction and preview records</summary>
 
 ```json
 {
@@ -324,4 +457,4 @@ The historical extraction record below keeps its original confidence fields. Its
 
 </details>
 
-[Extraction method](../../mtar-punch-combos/README.md) · [Full-character recipe](../../mtar-punch-combos/full-character-preview-recipe.md) · [Credits](../../../CREDITS.md)
+[Exact extraction catalogue](../../mtar-punch-combos/animations-metadata.json) · [Full-character recipe](../../mtar-punch-combos/full-character-preview-recipe.md) · [Credits](../../../CREDITS.md)

@@ -50,6 +50,10 @@ The largest current animated page contains 3.00 MiB of thumbnail files. Separate
 
 </details>
 
+## Metadata columns
+
+Tables, JSON/CSV and detail pages separate **category**, **authored tags**, **virtual GANI directory/file**, **MTAR/container location**, **community source description** and **per-entry credits**. Existing title-based preview summaries are project-authored; missing external descriptions remain unavailable. The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).
+
 ## How to read the previews
 
 The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions. All are **offline previews**. Durations use a chosen 30 source frames/s; native timing is unmeasured. Labels retain candidate, receiver, transition and special-actor distinctions. Individual clips have no matched partner or held weapon, and hair/clothing motion is approximate.
@@ -77,9 +81,12 @@ The existing extraction catalogue and preview manifest are the input records. Do
 ```console
 python research/animation-library/build-library.py
 python research/animation-library/build-library.py --check
+# Metadata changes only: preserve existing reviewed media
+python research/animation-library/build-library.py --metadata-only
+python research/animation-library/build-library.py --metadata-only --check
 ```
 
-This reads existing reviewed GIFs, deterministically downscales their composited frames, retains loop and total display duration, and writes only library documentation and new thumbnails. The full-size GIFs and original metadata stay unchanged. New batches need explicit input registration/group labels in the builder. No raw game files are copied, no game is launched, and research media stays outside software packages.
+This reads existing reviewed GIFs, deterministically downscales their composited frames, retains loop and total display duration, and writes only library documentation and new thumbnails. The full-size GIFs and original metadata stay unchanged. New batches need explicit input registration/group labels in the builder. The --metadata-only option reuses hash-verified existing thumbnails and writes no media. No raw game files are copied, no game is launched, and research media stays outside software packages.
 
 ## Credits and scope
 

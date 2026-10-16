@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "task": "MB-ANIMATION-METADATA-001",
+  "reviewedDate": "2026-10-15",
+  "identityPolicy": [
+    "archive filename",
+    "archive SHA-256 / source version",
+    "exact virtual GANI path",
+    "full clip hash ID"
+  ],
+  "ordinalPolicy": "Historical extraction ordinal is never a cross-archive match key.",
+  "comparedCatalogueSha256": "10144115d15e170baf36abe08565625897ba36f2a59c81527eade46867ec8819",
+  "comparedEntries": 27,
+  "sources": [
+    {
+      "id": "choc-usage",
+      "kind": "method reference",
+      "credit": "choc / chocmake",
+      "url": "https://chocmake.github.io/guides/mgsv-adding-player-motions/#usage",
+      "pinnedUrl": "https://github.com/chocmake/chocmake.github.io/blob/2301912bd8694e5abd81044b0e9b15c811cb5772/guides/mgsv-adding-player-motions/index.html#L1151",
+      "commit": "2301912bd8694e5abd81044b0e9b15c811cb5772",
+      "gitBlobSha1": "d057a583ed08cddf3bad992318cb6eb3279a054d"
+    },
+    {
+      "id": "bobdole-bossquiet2-layers",
+      "kind": "community description list",
+      "credit": "BobDoleOwndU (credited by the guide)",
+      "url": "https://chocmake.github.io/guides/mgsv-adding-player-motions/files/gani-descriptions/BobDoleOwndU/BossQuiet2_layers.txt",
+      "pinnedUrl": "https://github.com/chocmake/chocmake.github.io/blob/2301912bd8694e5abd81044b0e9b15c811cb5772/guides/mgsv-adding-player-motions/files/gani-descriptions/BobDoleOwndU/BossQuiet2_layers.txt",
+      "commit": "2301912bd8694e5abd81044b0e9b15c811cb5772",
+      "gitBlobSha1": "cc849df018389da78f0d5f76f224eedec174d63e",
+      "bytes": 12852,
+      "rawMapDate": "2026-06-05",
+      "listedPaths": 122,
+      "exactVirtualPathMatches": 0,
+      "basenameMatches": 0,
+      "archiveSha256Provided": false,
+      "ganiPayloadHashesProvided": false,
+      "applicability": "BossQuiet-specific list; zero path or basename matches among the current 27 clips. Its container chain and meanings are not transferred."
+    }
+  ],
+  "verifiedDescriptions": [],
+  "unavailableReason": "No verified exact source-description match for this entry. The reviewed BossQuiet2_layers list has zero matching paths among the current 27 clips.",
+  "sourceNote": "description-sources.md",
+  "comparisonNormalization": "Optional leading slash normalized and only four-digit MtarTool filename prefixes removed; remaining path spelling/case retained. Runtime .gani path is separate from the retained extensionless source stem.",
+  "authoredSourceNoteSha256": "cdaeb3cd3935833d18f7b49843f7d154c4243a172359f6c1e794f7f299c333c5"
+}

@@ -1,5 +1,9 @@
 # Development history
 
+## Unreleased — animation metadata columns and source provenance
+
+Added separate category, authored tags, virtual GANI directory/file, MTAR/container labels, community description status and per-entry credit fields to all 27 existing entries, tables, detail pages and JSON/CSV. The supplied BossQuiet2_layers notes match none of these entries; external description text/author remains unavailable, separate from useful project-authored preview labels. Recovered historical DAT/FPK/MTAR locations from retained hash-matched source receipts/logs; current DAT contents remain unverified, and unmatched locations stay unrecorded. Added pinned source/matching notes and a metadata-only rebuild that preserves all media. Stable IDs, nested original records, source inputs and release/runtime/native status stay unchanged.
+
 ## Unreleased — LMG ready/reload reference batch
 
 Added two new LMG ready/reload candidates with titled full-character GIFs, stills, aspect-correct animated thumbnails and exact extraction/preview provenance. The library now has 27 clips; all prior 25 media/records remain unchanged. The selected category is complete at 2/2 only within workbook Sheet1 L4:L5 plus the identified enetmgn members in the preserved Soldier_common archive; zero remain in that scope. The explicitly authorized cap is up to 25 new clips in one category per assigned batch, with category progress retained and no automatic second category. Workbook credit remains KnochenGott (human supplied); raw workbook/game payloads stay private. Offline reference poses have no held LMG and establish no native reload/timing/actor compatibility. No runtime/version/tag or release archive change.

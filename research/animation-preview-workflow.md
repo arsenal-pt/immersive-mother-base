@@ -13,6 +13,10 @@ New animation research should be immediately understandable to people who do not
 7. Account for every selected clip as previewed, distorted, unsupported or pending. Extraction and archive roundtrip checks establish data preservation; they do not prove retargeting, paired contact, root motion, timing or native actor compatibility.
 8. Update the research guide, catalogue and provenance manifest. Preserve failed attempts and next actions. Credit community tools, reference rigs and original game assets explicitly. Publish authored recipes and reviewed rendered documentation within the authorized scope; raw game files and scenes containing them stay private.
 
+## Metadata enrichment
+
+Before adding categories, tags, locations or sourced descriptions, read [description-source matching rules](animation-library/description-sources.md). Preserve stable IDs, originalRecords and media; keep authored observations and community evidence separate. Rebuild catalogue-only changes with --metadata-only and verify the unchanged media hashes.
+
 ## CQC combo set
 
 Browse the [animation reference library](animation-library/README.md) for small paged previews, larger clip pages and complete data. Its [research plan](animation-library/RESEARCH-PLAN.md) keeps later work to explicitly selected 3–5-clip batches: root chat handles orchestration/human decisions and subagents implement only their assigned scope. Keep the index image-free, each animated table at no more than four GIFs, and a still-image alternative. Preserve stable archive/hash identities, exact original records and source credits; a guide or workbook name is a discovery lead rather than extraction or gameplay evidence.
