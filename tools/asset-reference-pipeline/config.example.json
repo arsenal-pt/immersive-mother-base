@@ -21,5 +21,11 @@
       "sha256": "6c040a70d4ba1a67693d7e1ed7fba2c1e0ef239063d356cc2e92c4dcc4c461b4"
     }
   },
-  "exportRoot": "%LOCALAPPDATA%/MGSV-Asset-Reference-Exports"
+  "exportRoot": "%LOCALAPPDATA%/MGSV-Asset-Reference-Exports",
+  "intake": {
+    "sourceRoot": "C:/Private/MGSV-Retained",
+    "index": "Special-Rooms/Editor/Curated-Asset-Index.json",
+    "defaultCategory": "furniture",
+    "defaultCount": 25
+  }
 }

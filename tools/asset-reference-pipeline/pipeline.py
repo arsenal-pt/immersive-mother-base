@@ -39,6 +39,10 @@ def config_load(path):
         if ctypes.windll.kernel32.GetDriveTypeW(runtime.anchor) != 3:
             raise ManualReview('Use a local fixed disk for SQLite/cache, not a network/removable drive')
     cfg['runtime'], cfg['sourceRoots'] = str(runtime), list(map(str, roots))
+    export = Path(os.path.expandvars(cfg.get('exportRoot', '%LOCALAPPDATA%/MGSV-Asset-Reference-Exports'))).resolve()
+    if inside(export,PUBLIC) or inside(export,runtime) or inside(runtime,export) or any(inside(export,r) or inside(r,export) for r in roots):
+        raise ManualReview('Export root must be outside public checkout, private runtime and source roots')
+    cfg['exportRoot'] = str(export)
     return cfg
 
 
@@ -49,6 +53,8 @@ def source_inputs(recipe):
         values += [recipe['prepared']['cache'], recipe['prepared']['lodCache']]
     for t in recipe['baseTextures']:
         values += [t['ftex'], *t['sidecars']] if recipe['adapter'] == 'known-static-native' else [t['dds']]
+        if t.get('ftexHeader'):
+            values.append(t['ftexHeader'])
     return values
 
 
@@ -67,7 +73,7 @@ def verify_inputs(recipe, cfg):
 
 
 def validate_recipe(r):
-    if r.get('adapter') not in ('known-static-native', 'prepared'):
+    if r.get('adapter') not in ('known-static-native', 'prepared', 'retained-static'):
         raise ManualReview('Unsupported adapter; Unity/FOVA/GUI/animation steps require manual preparation')
     if not r.get('staticOnly'):
         raise ManualReview('Recipe must explicitly select a known static prop; no character assembly')
@@ -131,7 +137,7 @@ def legacy_path(path):
 
 def file_stage(store, job, recipe, tools):
     model = recipe['model']
-    if recipe['adapter'] == 'prepared':
+    if recipe['adapter'] in ('prepared','retained-static'):
         return Path(model['file']).resolve()
     if 'gzs' not in tools:
         raise ManualReview('GzsTool is not configured for native FPK staging')
@@ -159,7 +165,7 @@ def texture_stage(store, job, recipe, tools):
         index = str(binding['materialIndex'])
         if index in textures:
             raise ManualReview('Ambiguous duplicate material/base binding')
-        if recipe['adapter'] == 'prepared':
+        if recipe['adapter'] in ('prepared','retained-static'):
             p = Path(binding['dds']['file']).resolve()
         else:
             if 'ftex' not in tools:
@@ -190,12 +196,16 @@ def texture_stage(store, job, recipe, tools):
             raise ManualReview('Expected real DDS texture')
         height, width = struct.unpack_from('<II',b,12)
         mips = struct.unpack_from('<I',b,28)[0]
-        if recipe['adapter'] == 'known-static-native':
-            fb = Path(binding['ftex']['file']).read_bytes()
+        native_mips_verified = False
+        header = binding.get('ftexHeader') or (binding['ftex'] if recipe['adapter']=='known-static-native' else None)
+        if header:
+            fb = Path(header['file']).read_bytes()
             if fb[:4] != b'FTEX' or struct.unpack_from('<HH',fb,10) != (width,height) or fb[16] != mips:
                 raise ManualReview('Native FTEX/DDS pixel or mip dimensions differ')
+            native_mips_verified = True
         textures[index] = {'file':str(p),'sha256':sha(p),'width':width,'height':height,'mipCount':mips,
-                           'materialIndex':int(index),'nativePathHash':str(binding['nativePathHash'])}
+                           'materialIndex':int(index),'nativePathHash':str(binding['nativePathHash']),
+                           'nativeMipCountVerified':native_mips_verified}
     return textures
 
 
@@ -290,9 +300,11 @@ def run_job(store, job, cfg, tools):
                   'modelSha256':r['model']['sha256'],'containerPath':r['model'].get('container',{}).get('virtualPath'),
                   'containerSha256':r['model'].get('container',{}).get('sha256'),'lod':lod,
                   'triangles':selected['triangles'],'nativeLods':native['quality'],'baseTextures':public_textures,
-                  'baseTextureSummary':'; '.join(f"{t['width']} x {t['height']}; {t['mipCount']} native/DDS mips" for t in public_textures),
+                  'baseTextureSummary':'; '.join(f"{t['width']} x {t['height']}; {t['mipCount']} "+('native/DDS mips' if t.get('nativeMipCountVerified') else 'DDS mips (native header not rechecked)') for t in public_textures),
                   'still':'media/'+variant+'.png','gif':'media/'+variant+'-360.gif','thumbnail':'media/'+variant+'-thumb.png',
                   'sourceScope':'Explicit selected retained recipe, not a whole-game variant inventory',
+                  'sourceEvidence':r.get('sourceEvidence'),
+                  'upstreamPreparation':('Actual GzsTool/FtexTool staged-copy invocation' if r['adapter']=='known-static-native' else 'Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job'),
                   'nativeShaderEquivalent':False,'rotation':'Camera orbit; static native geometry, not animation',
                   'tools':{name:{k:v for k,v in tools[name].items() if k != 'path'} for name in tools}}
         store.db.execute('INSERT OR REPLACE INTO assets VALUES(?,?)',(job,canonical(record)))
@@ -318,6 +330,11 @@ def main():
     ap.add_argument('--config',type=Path,required=True)
     sub = ap.add_subparsers(dest='command',required=True)
     sub.add_parser('doctor')
+    p = sub.add_parser('library',help='Prompt/select the next unfinished retained assets and export aggregate results')
+    p.add_argument('--category')
+    p.add_argument('--count',help='Positive integer or all; default prompt25')
+    p.add_argument('--plan',action='store_true',help='Show next selection without processing/advancing it')
+    p.add_argument('--retry-review',action='store_true',help='Explicitly retry review/failed entries; does not loop automatically')
     for name in ('run','queue'):
         p = sub.add_parser(name)
         p.add_argument('--manifest',type=Path)
@@ -349,9 +366,13 @@ def main():
             print(json.dumps(export_catalogue(store,args.output,args.job),indent=2))
             return 0
         tools = fingerprints(cfg)
+        if args.command == 'library':
+            from intake import library
+            summary=library(store,cfg,tools,SETTINGS,verify_inputs,run_job,args.category,args.count,args.plan,args.retry_review)
+            return 130 if summary.get('cancelled') else (1 if summary.get('needsAttention') else 0)
         if args.command == 'doctor':
             print(json.dumps({'runtime':cfg['runtime'],'tools':tools,
-                              'adapters':['known-static-native selected FPK/FTEX recipe','prepared pinned caches + native proof'],
+                              'adapters':['known-static-native selected FPK/FTEX recipe','prepared pinned caches + native proof','retained-static automatic retained-index FMDL/DDS intake'],
                               'manual':['FOVA/characters','Unity GUI import','unknown material/hash resolution','unselected archive discovery'],
                               'networkCallsRequired':0},indent=2))
             return 0
@@ -385,6 +406,9 @@ def main():
             print('CATALOGUE_EXPORT '+str(destination.resolve()),flush=True)
             print('Open README.md in that folder for the catalogue. '+canonical(summary),flush=True)
         return 0 if all(successes) else 1
+    except KeyboardInterrupt:
+        print('Stopped before/after the active asset; completed work is retained. Relaunch to resume.',file=sys.stderr)
+        return 130
     except (ValueError,KeyError,ManualReview,OSError) as ex:
         print('MANUAL_REVIEW: '+str(ex),file=sys.stderr)
         return 2

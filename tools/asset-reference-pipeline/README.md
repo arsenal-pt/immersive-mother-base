@@ -1,4 +1,43 @@
-# Local asset reference pipeline (first slice)
+# Asset Reference Library: choose a category and the next batch
+
+Use **Start-Asset-Library.cmd** on this configured machine, or **AssetLibrary.cmd** after setup on another machine. The menu asks for a category and an editable positive count (default25). Type **all** only when you want every remaining eligible model in that category. Normal processing uses local Python/community tools; it requires no AI, MCP, agent, server or network connection.
+
+**The next run continues with the next unfinished assets.** Completed valid references do not use the allowance, and the tool does not repeat the first25. Each allowance is a maximum number of unfinished unique model versions attempted in that run, including resumed work; it is not a promise that every attempt will succeed. Initially unsupported entries are recorded with reasons and skipped. Newly encountered unsupported/execution failures are recorded, consume their attempted slot and allow the batch to continue. Explicit --retry-review retries review/failed entries in the selected category.
+
+The current configured source is **149 retained model versions**, not every asset in MGSV. Initial metadata import found138supported candidates and11entries needing review; each selected entry still gets native/source verification before rendering. Counts update as work finishes. The default is nativeLOD0 only; all nativeLOD counts are inventoried, with no synthetic higher-detail models. "All remaining" stays within the chosen retained category.
+
+A successful batch creates a **new aggregate catalogue** containing the valid completed references from earlier batches as well as this one. It never replaces the accepted research library or uploads anything. The menu displays pending/completed/manual-review counts and the new folder path, then stays open. The index loads no images; bounded tables use still thumbnails and individual pages load one larger still/GIF.
+
+The familiar no-argument Run-Chair-Reference.cmd on this machine now forwards to the new menu. Its original bytes are preserved as Run-Chair-Diagnostic.cmd, and explicit arguments still use the diagnostic path. AssetPipeline.cmd remains the explicit-manifest/diagnostic launcher in the portable source.
+
+## Set up automatic intake once
+
+Configure intake.sourceRoot in your private config to the retained extraction folder, plus these existing metadata files (defaults shown; paths are configurable):
+
+- Special-Rooms/Editor/Curated-Asset-Index.json
+- Material-Dependency-Manifest.json and Special-Rooms/Material-Dependency-Manifest.json
+- Source-Manifest.json and Special-Rooms/Pack-Members.json
+
+Configure the installed Python/Pillow and Blender paths, private local runtime and separate exportRoot as below. No per-asset hand-written JSON recipe is needed for this retained index. GzsTool/FtexTool performed upstream preparation of the existing files; **auto retained-static jobs do not invoke those converters again**. The explicit native recipe path below can still invoke them when needed.
+
+The tool joins native model SHAs, exact retained member records, native sampler/path hashes and converted DDS identities. Filenames alone are not texture-binding evidence. Lowercase historical index paths are kept as normalizedLookupKey; exact /Assets spelling comes from member records. Missing/ambiguous mappings, unsupported hidden/skinned layouts and absent prepared sources become manual_review with a reason. Source originals stay private and immutable.
+
+This repository does not contain Konami's raw assets or construct the149-entry retained dataset from a fresh game installation. A legitimate local copy and existing extraction/index preparation are prerequisites. A missing dataset/config is a clear setup error, not a completed extraction.
+
+    python pipeline.py --config PRIVATE/config.local.json library
+    python pipeline.py --config PRIVATE/config.local.json library --category furniture --count 25
+    python pipeline.py --config PRIVATE/config.local.json library --category furniture --count all
+    python pipeline.py --config PRIVATE/config.local.json library --category furniture --count 25 --plan
+    python pipeline.py --config PRIVATE/config.local.json library --category furniture --count 5 --retry-review
+
+Plan-only shows the next selection without rendering/advancing it. SQLite keeps persistent per-asset states and the last attempted batch key, so restarts resume the queue. The worker lock covers intake/selection/work. Ctrl+C or the existing cancel --job command retains completed work; cancellation returns exit130 and the next launch resumes unfinished work. Newly attempted failures return a needs-attention exit1; known initial exclusions do not make an otherwise successful batch fail. Hard-close/orphan process cleanup remains manual as described below.
+
+Source/DDS/tool/output changes revalidate completion. A source mapping change cannot reuse an old recipe with different material content; moved sources use accessible current inputs. Already completed native/prepared jobs can be recognized by matching actual nativeSHA/LOD/base texture/settings/tools and verified output hashes, rather than by identical manifest JSON. Friendly descriptions/tags can update without rerendering.
+
+Tests cover next25 then next25 across SQLite restart, custom/all counts, unknown category/manual exclusions, cancellation and interruption at the pre-runner claim, aggregate/stale output, source/texture changes with old sources still present, and moved-source recipes. Two real new shelf-model components/variants proved intake-to-render-to-aggregate progression; the prior chair was skipped without replay.
+
+## Explicit manifest mode and implementation details
+
 
 After setup, double-click **AssetPipeline.cmd** to process your selected manifest and write a fresh local portable catalogue. The window stays open with the result/error and output path. It uses installed tools and local Python code: ordinary runs require no LLM, MCP, agent, network account or server. This is an early local tool, developed entirely using AI LLM assistance (OpenAI Codex), owned by arsenal-pt.
 
