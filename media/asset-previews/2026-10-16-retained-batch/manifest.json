@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "Offline reference preview media only",
+  "parentModels": 7,
+  "renderedViews": 7,
+  "nativeAnimation": false,
+  "nativeShaderEquivalent": false,
+  "originalGamePayloads": false,
+  "provenance": "research/asset-library/batch-provenance.json",
+  "files": [
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54-360.gif",
+      "bytes": 1115586,
+      "sha256": "6e997b8226dd1836ad2c72ad3e208bc36afbcaf5fe00b24ac7c1dd123d4caa30"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54-thumb.png",
+      "bytes": 12933,
+      "sha256": "ac4b90b0abb3d9135a80d97942d2104ea1e9f3e00805039111dd8ba921202a27"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54.png",
+      "bytes": 285091,
+      "sha256": "5f3030ae33b45a6f5b5ec0e8fa9cfb0173154b137b3caba15b82acfeed65c88a"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a-360.gif",
+      "bytes": 1244984,
+      "sha256": "b6996cd098b4fe940f2e0c790911f8158be090331810cb2a55f2288bdd4fa8e8"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a-thumb.png",
+      "bytes": 16374,
+      "sha256": "2806be71b45368df159d5a4011310c5fbb522bcec3bd88ab7cc59d1a8f3da4c7"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a.png",
+      "bytes": 360224,
+      "sha256": "287e61aba145ef24ad7d9a01dfafd21ee7c814e2f45285b011f08125644d85cb"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0-360.gif",
+      "bytes": 962290,
+      "sha256": "83a5afef128f771ccb8f7a6e8e42553f44d860497cc7b506c49a48a09f787125"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0-thumb.png",
+      "bytes": 12308,
+      "sha256": "bc00bf7ec9e04c3a005019bb74251735f34ad02b876a9c032bbc295fa9ceb7e8"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0.png",
+      "bytes": 290374,
+      "sha256": "a07c1c2a6ce820409d2784fad4372f3a063f22d4b58360f8927363af41bcac22"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2-360.gif",
+      "bytes": 2447119,
+      "sha256": "6e1ed880e75298583521840051b7f375529034bff431ca6494b4944bf7573fd4"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2-thumb.png",
+      "bytes": 20045,
+      "sha256": "08895a087067778f0d0175753d925e1d78169e481997fcfceaf5cc5eb9540a8e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2.png",
+      "bytes": 587412,
+      "sha256": "c58bbfd6e9ccb10824e3456ac925327950a616a9194f68058dab2a962d7dcf63"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a-360.gif",
+      "bytes": 1149854,
+      "sha256": "7b84bcf27d5d7a51d29909385933111053223c196f08451633727703b744d59c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a-thumb.png",
+      "bytes": 10674,
+      "sha256": "024b71a38e91b99ca5d70e9862bcd13d5860f5c1988e96df7ad8760e5a9b0478"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a.png",
+      "bytes": 326859,
+      "sha256": "99ea3a89afd2cd88a19f19345b2992ac86f1481c239be79b4294b83e3b38f0a1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c-360.gif",
+      "bytes": 1181153,
+      "sha256": "ddd857f8bc519b0c167f82e366743b80db44a3adb625d012cbc6cd2c91519146"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c-thumb.png",
+      "bytes": 12274,
+      "sha256": "b13417b4931d3270768b55bed1b07895559b8f071ed929ae0685b885759695f5"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c.png",
+      "bytes": 325841,
+      "sha256": "3722cb04364516acf4f2ba270ef86a6b6310ab61d2d87b7f482d0481de81fff7"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150-360.gif",
+      "bytes": 1534724,
+      "sha256": "d89ea461fcd4719766a8cdea9bc7f330139ca0effa3571cdf13d8a8118e69110"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150-thumb.png",
+      "bytes": 16792,
+      "sha256": "1d2b8a94dffe1a97801f7180a09b8b7a0c83b96181e6bf9730e78762d9e5e50e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150.png",
+      "bytes": 327445,
+      "sha256": "8516144a47be0baee9f6f4fcdbeb67d88d86cc0c146185762875ca069d93aef4"
+    }
+  ]
+}

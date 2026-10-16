@@ -52,7 +52,7 @@ def generated_base(catalogue):
  outputs['catalogue.csv']=sio.getvalue();return outputs
 
 
-def generated(catalogue):
+def generated_seating(catalogue):
  outputs=generated_base(catalogue);assets=catalogue['assets']
  if not all('quality' in a for a in assets):return outputs
  table=['# Seating references - page1','','Three original asset identities with twelve native LOD views in the retained scope. Static thumbnails only; open an asset for its LOD comparisons and individually linked larger previews.','',
@@ -99,10 +99,32 @@ def generated(catalogue):
  return outputs
 
 
+def generated(catalogue):
+ # Preserve all accepted original pages/views; import only portable preview metadata.
+ import import_batch
+ original=[a for a in catalogue['assets'] if 'batchImport' not in a]
+ imported=[a for a in catalogue['assets'] if 'batchImport' in a]
+ outputs=generated_seating({**catalogue,'assets':original})
+ if not imported:return outputs
+ outputs.update(import_batch.generated(imported))
+ lodrows=[]
+ for a in imported:
+  for v in a['quality']['nativeLods']:
+   lodrows.append({'parentId':a['id'],'nativeLod':v['nativeLod'],'triangles':v['triangles'],'decodedIndicesSha256':v['indicesSha256'],'duplicateOf':v.get('duplicateOf',''),'previewStatus':'rendered' if v['nativeLod'] in a['quality']['renderedNativeLods'] else 'not separately rendered','nativePath':a['source']['nativePath'],'nativeSha256':a['source']['nativeSha256']})
+ lodout=io.StringIO(newline='');lodwriter=csv.DictWriter(lodout,fieldnames=list(lodrows[0]),lineterminator='\n');lodwriter.writeheader();lodwriter.writerows(lodrows);outputs['batch-native-lods.csv']=lodout.getvalue()
+ rows=list(csv.DictReader(io.StringIO(outputs['catalogue.csv'])));columns=list(rows[0])
+ for a in imported:
+  s=a['source'];q=a['quality'];p=a['preview'];row={k:'' for k in columns}
+  row.update(id=a['id'],title=a['title'],category=a['category'],subcategory=a['subcategory'],tags=';'.join(a['tags']),description=a['description'],sourceNamespace=a['sourceNamespace'],observedUse=a['observedUse'],nativePath=s['nativePath'],nativeSha256=s['nativeSha256'],containerPath=s['container']['nativePath'],containerSha256=s['container']['sha256'],locationStatus=s['locationStatus'],currentDatVerified=False,lod=a['geometry']['lod'],triangles=a['geometry']['triangles'],still=p['still'],turntable=p['turntable'],thumbnail=p['thumbnail'],nativeRenderingEquivalent=False,highestRetainedNativeLod=q['highestRetainedGeometricLod'],distinctNativeLods=q['distinctNativeLods'],baseTextureWidth=q['baseTextureDimensions'][0],baseTextureHeight=q['baseTextureDimensions'][1],nativeBaseMipCount=q['baseTextureNativeMipCount'])
+  rows.append(row)
+ out=io.StringIO(newline='');writer=csv.DictWriter(out,fieldnames=columns,lineterminator='\n');writer.writeheader();writer.writerows(rows);outputs['catalogue.csv']=out.getvalue()
+ return outputs
+
+
 def run():
  ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args()
  o=json.loads((ROOT/'catalogue.json').read_text(encoding='utf-8'))
- if len(o['assets'])!=3 or len({a['id'] for a in o['assets']})!=3:raise ValueError('This starter is exactly three unique entries')
+ if len({a['id'] for a in o['assets']})!=len(o['assets']):raise ValueError('Duplicate parent identity')
  for a in o['assets']:
   if a['preview']['gifFrames']!=48 or a['preview']['frameDelayMs']!=100:raise ValueError('Visual budget differs')
  for rel,s in generated(o).items():
@@ -110,5 +132,5 @@ def run():
   if args.check:
    if not p.exists() or p.read_text(encoding='utf-8')!=s:raise ValueError('Stale output '+rel)
   else:p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s,encoding='utf-8')
- print('PASS: three parent records; twelve nativeLODviews; one static-only category table; portable CSV;'+(' outputs current' if args.check else ' outputs generated'))
+ print('PASS: '+str(len(o['assets']))+' unique parents; original twelve LOD views preserved; bounded static category tables; portable CSV;'+(' outputs current' if args.check else ' outputs generated'))
 if __name__=='__main__':run()

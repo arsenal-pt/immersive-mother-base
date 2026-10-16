@@ -1,6 +1,16 @@
+# Current asset-library plan - 16 October 2026
+
+The reviewed library now has 10 parent models and 19 actual preview views: original three seating families/all12LODviews, plus five user-generated and two earlier shelf references at LOD0. Higher native LOD inventory for the seven imports is metadata, not completed previews. All existing clean sources/media are preserved; no new extraction or rendering is required to publish this batch.
+
+Continue using the seven practical categories below, semantic search tags, plain-English descriptions, exact retained paths/hashes, central/detail credits, zero-image index, at most12static thumbnails/table page, and a single full GIF per selected detail view. Native model components must not be described as complete assembled or interactive objects without evidence.
+
+The new whole-game goal supersedes the earlier parked status: first catalogue the as-installed archive/member metadata with explicit known/unknown paths/types and membership, then join native dependencies and process user-sized preview batches. Catalogue coverage and preview/assembly coverage must remain separate. Source API/read-only feasibility research precedes implementation approval. No full-game unpack/render has begun. The current local automatic queue still covers149retained versions only.
+
+## Original bounded pilot plan (historical scope)
+
 # Asset reference library plan
 
-Status: three selected Furniture > Seating reference entries prepared and reviewed offline (16 October 2026); category completeness is not established. This is a visual reference library, not a downloadable asset pack. The separate full-game catalogue/project remains parked.
+Status: three selected Furniture > Seating reference entries prepared and reviewed offline (16 October 2026); category completeness is not established. This is a visual reference library, not a downloadable asset pack. The separate full-game catalogue was parked at this pilot checkpoint; the current plan above supersedes that status.
 
 ## Scope and working order
 

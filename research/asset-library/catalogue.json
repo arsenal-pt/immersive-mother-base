@@ -1770,6 +1770,1093 @@
         ],
         "provenance": "quality-provenance.json"
       }
+    },
+    {
+      "id": "mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a",
+      "title": "Ladder section",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "tags": [
+        "ladder",
+        "access",
+        "metal",
+        "mother-base"
+      ],
+      "description": "A vertical metal ladder section. This reference is one native model variant; placement, climbing and complete assembly are untested.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "mother_base",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/mother_base/ladder/mtbs_lddr001/scenes/mtbs_lddr001_vrtn002.fmdl",
+        "nativeSha256": "ff0e0462d63af0984397392031b18ebadca85403a28de90530a7cee5185feadb",
+        "stableIdentity": "/assets/tpp/environ/object/mother_base/ladder/mtbs_lddr001/scenes/mtbs_lddr001_vrtn002.fmdl#ff0e0462d63af0984397392031b18ebadca85403a28de90530a7cee5185feadb",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+          "sha256": "662115b68ff93858ee4f10865936b08e60923f9517bc824245c046e5409a551c",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 7,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/ladder/mtbs_lddr001/scenes/mtbs_lddr001_vrtn002.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 236,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1542922407453283634",
+          "nativeVirtualPath": null,
+          "ddsSha256": "8a421f0fdeb624ac6e6f36dc69d7cef2dc28d452acd08e24ec45a6b09acae770",
+          "dimensions": [
+            512,
+            128
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a.png",
+            "sha256": "99ea3a89afd2cd88a19f19345b2992ac86f1481c239be79b4294b83e3b38f0a1",
+            "bytes": 326859
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a-360.gif",
+            "sha256": "7b84bcf27d5d7a51d29909385933111053223c196f08451633727703b744d59c",
+            "bytes": 1149854
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a-thumb.png",
+            "sha256": "024b71a38e91b99ca5d70e9862bcd13d5860f5c1988e96df7ad8760e5a9b0478",
+            "bytes": 10674
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          512,
+          128
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "1d4051b3d41ac883cea2c19a67468953506c11b35ea982186e0443ca1dbf9f36",
+            "nativeLod": 0,
+            "triangles": 236
+          },
+          {
+            "indicesSha256": "015e2116c308447c466b85fb01377fc64c681fb724a8a9211a0e341e9e666f54",
+            "nativeLod": 1,
+            "triangles": 212
+          },
+          {
+            "indicesSha256": "4bf2704d95b5b6ceea84b8f50aeae770f45bc0182aa539a10d83e81a9f7c1cd8",
+            "nativeLod": 2,
+            "triangles": 198
+          },
+          {
+            "indicesSha256": "0499287e2f3a50d0c9ff6bf6d6096577e50d7d15ab4faf2f94634c72118e2a3a",
+            "nativeLod": 3,
+            "triangles": 188
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 128; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54",
+      "title": "Emergency-stop / control switch panel",
+      "category": "Equipment",
+      "subcategory": "Controls and fixtures",
+      "tags": [
+        "switch",
+        "control-panel",
+        "emergency-stop",
+        "guantanamo-namespace"
+      ],
+      "description": "A small control panel with a red emergency-stop style switch. The model namespace is guantanamo; its retained occurrence is on Mother Base. No working interaction is claimed.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "guantanamo",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/guantanamo/switch/gntn_swtc001/scenes/gntn_swtc001_vrtn001.fmdl",
+        "nativeSha256": "2254517a6e54acff6679613ab4da0fc3b16a2245da763046ab7b387749fd4e3d",
+        "stableIdentity": "/assets/tpp/environ/object/guantanamo/switch/gntn_swtc001/scenes/gntn_swtc001_vrtn001.fmdl#2254517a6e54acff6679613ab4da0fc3b16a2245da763046ab7b387749fd4e3d",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_area/mtbs_area_ly003_cl02.fpk",
+          "sha256": "a8cab67888b906b8dbbb2866ef5dde1c95dd8b05c2ec2966722cb39e36134d3c",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 8,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/guantanamo/switch/gntn_swtc001/scenes/gntn_swtc001_vrtn001.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 32,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1542731748840806724",
+          "nativeVirtualPath": null,
+          "ddsSha256": "6286ca660bd6439b8baf920e6edf23dd683e97b50ca700c7fdbc0f1fecc06517",
+          "dimensions": [
+            512,
+            256
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54.png",
+            "sha256": "5f3030ae33b45a6f5b5ec0e8fa9cfb0173154b137b3caba15b82acfeed65c88a",
+            "bytes": 285091
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54-360.gif",
+            "sha256": "6e997b8226dd1836ad2c72ad3e208bc36afbcaf5fe00b24ac7c1dd123d4caa30",
+            "bytes": 1115586
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54-thumb.png",
+            "sha256": "ac4b90b0abb3d9135a80d97942d2104ea1e9f3e00805039111dd8ba921202a27",
+            "bytes": 12933
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 1,
+        "baseTextureDimensions": [
+          512,
+          256
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "4248c0b0faedad5fef0fc09d626fd1a6568ba28b9a1f5d12c86d8e4be32a7d31",
+            "nativeLod": 0,
+            "triangles": 32
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "4248c0b0faedad5fef0fc09d626fd1a6568ba28b9a1f5d12c86d8e4be32a7d31",
+            "nativeLod": 1,
+            "triangles": 32
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "4248c0b0faedad5fef0fc09d626fd1a6568ba28b9a1f5d12c86d8e4be32a7d31",
+            "nativeLod": 2,
+            "triangles": 32
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "4248c0b0faedad5fef0fc09d626fd1a6568ba28b9a1f5d12c86d8e4be32a7d31",
+            "nativeLod": 3,
+            "triangles": 32
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 256; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-mtbs_door006_door004-cc763ccaf47a",
+      "title": "Door panel",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "tags": [
+        "door",
+        "panel",
+        "mother-base",
+        "metal"
+      ],
+      "description": "An individual industrial door panel with its surface fittings. This is the panel model, not a complete installed doorway or proven working door.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "mother_base",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/mother_base/door/mtbs_door006/scenes/mtbs_door006_door004.fmdl",
+        "nativeSha256": "cc763ccaf47ad829dd7275349d0cb7aa39144e9dd4c059aa3754b747ba6a37df",
+        "stableIdentity": "/assets/tpp/environ/object/mother_base/door/mtbs_door006/scenes/mtbs_door006_door004.fmdl#cc763ccaf47ad829dd7275349d0cb7aa39144e9dd4c059aa3754b747ba6a37df",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0030.fpk",
+          "sha256": "60c224b72fd78d4ed9ca4968773e6eef0a4bb9b806b33d7f70b00a447b174e99",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 8,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/door/mtbs_door006/scenes/mtbs_door006_door004.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 10,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1542866609095518400",
+          "nativeVirtualPath": null,
+          "ddsSha256": "9885f18d45e872ea17337740e11d2b01dca2f0d06c7b62007ebea5731c8c7feb",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        },
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 1,
+          "nativePathHash": "1543545116049712726",
+          "nativeVirtualPath": null,
+          "ddsSha256": "88d3c8c7a79a1f222050e69baf4811b208952b3a051312d1e9a2d505dfdd76c5",
+          "dimensions": [
+            256,
+            128
+          ],
+          "mipCount": 7,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a.png",
+            "sha256": "287e61aba145ef24ad7d9a01dfafd21ee7c814e2f45285b011f08125644d85cb",
+            "bytes": 360224
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a-360.gif",
+            "sha256": "b6996cd098b4fe940f2e0c790911f8158be090331810cb2a55f2288bdd4fa8e8",
+            "bytes": 1244984
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a-thumb.png",
+            "sha256": "2806be71b45368df159d5a4011310c5fbb522bcec3bd88ab7cc59d1a8f3da4c7",
+            "bytes": 16374
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 1,
+        "baseTextureDimensions": [
+          512,
+          512
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "4926dcb70a21cb6ae4333076ccf230023d2c438c971fb978ce09ed47f59b85f1",
+            "nativeLod": 0,
+            "triangles": 10
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "4926dcb70a21cb6ae4333076ccf230023d2c438c971fb978ce09ed47f59b85f1",
+            "nativeLod": 1,
+            "triangles": 10
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "4926dcb70a21cb6ae4333076ccf230023d2c438c971fb978ce09ed47f59b85f1",
+            "nativeLod": 2,
+            "triangles": 10
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "4926dcb70a21cb6ae4333076ccf230023d2c438c971fb978ce09ed47f59b85f1",
+            "nativeLod": 3,
+            "triangles": 10
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 512; 8 native/DDS mips; 256 x 128; 7 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2",
+      "title": "Gate / shutter panel",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "tags": [
+        "gate",
+        "shutter",
+        "panel",
+        "mother-base"
+      ],
+      "description": "A large ribbed gate or shutter panel. The reference shows a native component; surrounding structure and opening behavior are not established.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "mother_base",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/mother_base/gate/mtbs_gate001/scenes/mtbs_gate001_vrtn001.fmdl",
+        "nativeSha256": "b30a73a378b25f575f65e5c24db7d2a8b8be2f770c21f734b860dca86a0aca5d",
+        "stableIdentity": "/assets/tpp/environ/object/mother_base/gate/mtbs_gate001/scenes/mtbs_gate001_vrtn001.fmdl#b30a73a378b25f575f65e5c24db7d2a8b8be2f770c21f734b860dca86a0aca5d",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+          "sha256": "8d0dbf7b3710768ba90f8b0efa820ee00f33181b7cfc465b67cf29eda9a1700d",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 7,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/gate/mtbs_gate001/scenes/mtbs_gate001_vrtn001.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 118,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1542942216061825639",
+          "nativeVirtualPath": null,
+          "ddsSha256": "54e77011469c3e4031130a922ed8a88b30b6c0c7b79076ebb63349bb118c0b7d",
+          "dimensions": [
+            256,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        },
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 1,
+          "nativePathHash": "1542796963953415591",
+          "nativeVirtualPath": null,
+          "ddsSha256": "ff0799f37522e387ec7ec8918710ed2b1566aedeaa3e90ff9592d4a3466e4313",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2.png",
+            "sha256": "c58bbfd6e9ccb10824e3456ac925327950a616a9194f68058dab2a962d7dcf63",
+            "bytes": 587412
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2-360.gif",
+            "sha256": "6e1ed880e75298583521840051b7f375529034bff431ca6494b4944bf7573fd4",
+            "bytes": 2447119
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2-thumb.png",
+            "sha256": "08895a087067778f0d0175753d925e1d78169e481997fcfceaf5cc5eb9540a8e",
+            "bytes": 20045
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          256,
+          512
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "81b2de6efeb047294b2da6c05b806609d051923cfa21dd18dbcffa18e9745b16",
+            "nativeLod": 0,
+            "triangles": 118
+          },
+          {
+            "indicesSha256": "b7abb74438e57634ba4c1235d9d9c62af60879c3930fb68ac705e9b63d41d22d",
+            "nativeLod": 1,
+            "triangles": 99
+          },
+          {
+            "indicesSha256": "909f94cf762e8296fb88af456b42da6d4c9e9fca21dfc2f324a26a1ab201f039",
+            "nativeLod": 2,
+            "triangles": 89
+          },
+          {
+            "indicesSha256": "43d9fbe641716292e53860602876004261d61ebfd121fb463db522e7df0b65b9",
+            "nativeLod": 3,
+            "triangles": 82
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "256 x 512; 8 native/DDS mips; 1024 x 1024; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0",
+      "title": "Duct section",
+      "category": "Architecture",
+      "subcategory": "Utility components",
+      "tags": [
+        "duct",
+        "ventilation",
+        "metal",
+        "mother-base"
+      ],
+      "description": "A metal duct section with bent connector geometry. This is a static native variant, not an assembled or functional ventilation system.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "mother_base",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/mother_base/duct/mtbs_duct002/scenes/mtbs_duct002_vrtn001.fmdl",
+        "nativeSha256": "729a38018dc08fb68bb29813fa50b2d38c0d4fac432780e22b712f3748ed9b0d",
+        "stableIdentity": "/assets/tpp/environ/object/mother_base/duct/mtbs_duct002/scenes/mtbs_duct002_vrtn001.fmdl#729a38018dc08fb68bb29813fa50b2d38c0d4fac432780e22b712f3748ed9b0d",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+          "sha256": "8d0dbf7b3710768ba90f8b0efa820ee00f33181b7cfc465b67cf29eda9a1700d",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 7,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/duct/mtbs_duct002/scenes/mtbs_duct002_vrtn001.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 38,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1543493658329268165",
+          "nativeVirtualPath": null,
+          "ddsSha256": "0c147e66620df71e7b5c8dcad4a6f47cf2ce20c838e06f37045c4b16b2cff97b",
+          "dimensions": [
+            512,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0.png",
+            "sha256": "a07c1c2a6ce820409d2784fad4372f3a063f22d4b58360f8927363af41bcac22",
+            "bytes": 290374
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0-360.gif",
+            "sha256": "83a5afef128f771ccb8f7a6e8e42553f44d860497cc7b506c49a48a09f787125",
+            "bytes": 962290
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0-thumb.png",
+            "sha256": "bc00bf7ec9e04c3a005019bb74251735f34ad02b876a9c032bbc295fa9ceb7e8",
+            "bytes": 12308
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 2,
+        "baseTextureDimensions": [
+          512,
+          1024
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "13cfc0721f290ee2c0bbf0c695d357b9010169e13c4863d0d314288258faf394",
+            "nativeLod": 0,
+            "triangles": 38
+          },
+          {
+            "indicesSha256": "d3bbcd4968e07cbfac4e9ee210eef74ad509c8d35d01d956f9875db052e09f98",
+            "nativeLod": 1,
+            "triangles": 37
+          },
+          {
+            "duplicateOf": 1,
+            "indicesSha256": "d3bbcd4968e07cbfac4e9ee210eef74ad509c8d35d01d956f9875db052e09f98",
+            "nativeLod": 2,
+            "triangles": 37
+          },
+          {
+            "duplicateOf": 1,
+            "indicesSha256": "d3bbcd4968e07cbfac4e9ee210eef74ad509c8d35d01d956f9875db052e09f98",
+            "nativeLod": 3,
+            "triangles": 37
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 1024; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150",
+      "title": "Shelf component / variant 002",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "tags": [
+        "shelf",
+        "storage",
+        "component",
+        "mother-base"
+      ],
+      "description": "A native metal shelf component or variant. The full assembled storage unit and interaction are not established.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "mother_base",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn002.fmdl",
+        "nativeSha256": "f2cf2c9091500cbf17911fc372b75d1c8a1b7bd8cc6dd3b851a94b91ce705ce9",
+        "stableIdentity": "/assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn002.fmdl#f2cf2c9091500cbf17911fc372b75d1c8a1b7bd8cc6dd3b851a94b91ce705ce9",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg00.fpk",
+          "sha256": "4ad3d31598aff8eff00f8d507f80e5b6e491c71c0bda03fb991391a2560453c9",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 6,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn002.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 240,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1543210546336962691",
+          "nativeVirtualPath": null,
+          "ddsSha256": "229a21460d3f6da1aca9664382a13afc3355d97b540d785e313334b6e69fd4f4",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        },
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 1,
+          "nativePathHash": "1543210546336962691",
+          "nativeVirtualPath": null,
+          "ddsSha256": "229a21460d3f6da1aca9664382a13afc3355d97b540d785e313334b6e69fd4f4",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150.png",
+            "sha256": "8516144a47be0baee9f6f4fcdbeb67d88d86cc0c146185762875ca069d93aef4",
+            "bytes": 327445
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150-360.gif",
+            "sha256": "d89ea461fcd4719766a8cdea9bc7f330139ca0effa3571cdf13d8a8118e69110",
+            "bytes": 1534724
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150-thumb.png",
+            "sha256": "1d2b8a94dffe1a97801f7180a09b8b7a0c83b96181e6bf9730e78762d9e5e50e",
+            "bytes": 16792
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          512,
+          512
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "17bf18617d592cd38f1fb0903db32c8a0cc0addb9b1ba3d693213d52bd9e1c3d",
+            "nativeLod": 0,
+            "triangles": 240
+          },
+          {
+            "indicesSha256": "efe0c224afe720114f0d21a8dc002579232fd93bc223b5e15078ffcc7b1f563d",
+            "nativeLod": 1,
+            "triangles": 174
+          },
+          {
+            "indicesSha256": "89a85acc35a472fe6f7c7cfe3d5297c03dc2c7f49e1eb3a82c7dbf9315e01ca6",
+            "nativeLod": 2,
+            "triangles": 140
+          },
+          {
+            "indicesSha256": "d06bc356a0084ab15b7b62954c374839c468c56ccb0872c459f435e9a74fbcb9",
+            "nativeLod": 3,
+            "triangles": 120
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 512; 8 native/DDS mips; 512 x 512; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c",
+      "title": "Shelf upright / frame component",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "tags": [
+        "shelf",
+        "upright",
+        "frame",
+        "storage",
+        "mother-base"
+      ],
+      "description": "An individual shelf upright or frame component, rather than a complete assembled shelf.",
+      "descriptionProvenance": "Authored summary from exact source identity and root-reviewed existing reference still; no interaction or complete assembly claim",
+      "batchImport": {
+        "schemaVersion": 1,
+        "provenance": "batch-provenance.json",
+        "exportCatalogueSha256": "40d2158f0d7fb021292b073744d6653258ce7e4c7e79ec7c36bcdcc2211b3573",
+        "upstreamPreparation": "Retained pre-extracted native FMDL/converted DDS; no converter invoked by this job"
+      },
+      "sourceNamespace": "mother_base",
+      "observedUse": "Retained Mother Base source/container occurrence; not exclusive original usage",
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn001.fmdl",
+        "nativeSha256": "026dfb56725cac8be0d8e0e303e289d84022219c663a1a406d8fa1e3ebf84aa9",
+        "stableIdentity": "/assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn001.fmdl#026dfb56725cac8be0d8e0e303e289d84022219c663a1a406d8fa1e3ebf84aa9",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+          "sha256": "8d0dbf7b3710768ba90f8b0efa820ee00f33181b7cfc465b67cf29eda9a1700d",
+          "status": "Retained member/source metadata joined and selected source bytes checked during pipeline job; container not freshly unpacked"
+        },
+        "historicalDatOrigin": null,
+        "locationStatus": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+        "currentInstalledDatVerified": false,
+        "evidence": {
+          "duplicateRetainedOccurrences": 7,
+          "exactMemberRecord": true,
+          "memberEvidence": "Retained member record joined by native SHA/path; selected raw hash rechecked. Archive not freshly unpacked.",
+          "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn001.fmdl",
+          "upstreamPreparation": "Already extracted native FMDL and converted DDS; GzsTool/FtexTool not invoked for this entry."
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 36,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Unknown sampler name (base binding)",
+          "materialIndex": 0,
+          "nativePathHash": "1543210546336962691",
+          "nativeVirtualPath": null,
+          "ddsSha256": "229a21460d3f6da1aca9664382a13afc3355d97b540d785e313334b6e69fd4f4",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c.png",
+        "turntable": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c-360.gif",
+        "thumbnail": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual retained base textures and UVs; approximate studio shading; other native shader channels not recreated",
+        "media": [
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c.png",
+            "sha256": "3722cb04364516acf4f2ba270ef86a6b6310ab61d2d87b7f482d0481de81fff7",
+            "bytes": 325841
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c-360.gif",
+            "sha256": "ddd857f8bc519b0c167f82e366743b80db44a3adb625d012cbc6cd2c91519146",
+            "bytes": 1181153
+          },
+          {
+            "path": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c-thumb.png",
+            "sha256": "b13417b4931d3270768b55bed1b07895559b8f071ed929ae0685b885759695f5",
+            "bytes": 12274
+          }
+        ]
+      },
+      "quality": {
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          512,
+          512
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "c202e513c9cadbc74cffdcd42a63821250da33e751c645baed4910d8e93e9920",
+            "nativeLod": 0,
+            "triangles": 36
+          },
+          {
+            "indicesSha256": "9a5f1e7e360fec30075c9861d370e3857d1a5151b7eae85b6f3487083868dc14",
+            "nativeLod": 1,
+            "triangles": 28
+          },
+          {
+            "indicesSha256": "1961dd4ed74b56a592990baad42e0adefc3eef5819767b749b00fd1701cd0f69",
+            "nativeLod": 2,
+            "triangles": 23
+          },
+          {
+            "indicesSha256": "d2a5ffde1f6352c29fea7ada9652b7223c62778b3b64dc7689012d81e536c72b",
+            "nativeLod": 3,
+            "triangles": 20
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 512; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within this selected retained FMDL only; no all-game maximum proof",
+        "decodedIndicesHashDerivation": "SHA256 of UTF-8 canonical JSON for decoded triangle-index lists grouped by mesh: json.dumps(level_faces, sort_keys=True, separators=(comma, colon), ensure_ascii=False). This is not a hash of the original packed index-buffer bytes."
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
     }
   ],
   "qualitySchemaVersion": 1

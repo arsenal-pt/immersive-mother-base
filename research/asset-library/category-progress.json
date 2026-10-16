@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "category": "Furniture",
   "subcategory": "Seating",
-  "scope": "Exactly three retained seating references expressly selected for this pilot; not all seating or all-game coverage",
+  "scope": "10 selected parent references,19 actual preview views; not complete categories or all-game",
   "selectedIds": [
     "mgsv-tpp-mtbs_char002-5f80c9bdacda",
     "mgsv-tpp-cypr_char001-af15e4cfc6f2",
@@ -18,7 +18,7 @@
   "wholeCategoryComplete": false,
   "allGameComplete": false,
   "owner": "asset_library_planning",
-  "nextAction": "Stop after root-reviewed publication/checkpoint; await next expressly assigned small batch. Broader category discovery and all-game catalogue remain unstarted.",
+  "nextAction": "Publish reviewed seven-record existing-media import. Whole-game metadata census is newly requested and in source/design reconnaissance; no broad extraction/render yet.",
   "qualityCoverage": {
     "scope": "exact existing3families/nativeLOD0-3 within retained inputs",
     "selectedParentIds": [
@@ -61,5 +61,17 @@
     "newLowerLodViews": 9,
     "wholeGameMaximumQualityProven": false,
     "nextAction": "Stop after reviewed publication/checkpoint; await next selected asset-family batch."
-  }
+  },
+  "importedBatch": {
+    "parents": 7,
+    "userRun": 5,
+    "priorShelfProofs": 2,
+    "selectedRenderedLod": 0,
+    "actualRenderedViews": 7,
+    "nativeLodRecords": 28,
+    "higherLodPreviewComplete": false,
+    "provenance": "batch-provenance.json"
+  },
+  "totalParentReferences": 10,
+  "totalRenderedViews": 19
 }

@@ -105,3 +105,10 @@ Do not publish raw FPK/FMDL/FTEX/DDS, decoded geometry/cache, game binaries/save
 Tests use tiny authored subprocess fixtures for failure, CLI cancellation/restart, completed-stage reuse, corrupt cache repair, metadata identity, sampler rejection, collision-safe export and sanitized public SQLite. No game files or large render is required by the unit suite. A real one-chair full48 E2E was separately run on retained private inputs; identical and metadata-only repeats used all five stage caches with zero new converter/render/encoder launches. Upstream preparation limits above still apply.
 
 Sources: [GzsTool — Atvaark](https://github.com/Atvaark/GzsTool), [FtexTool — Atvaark](https://github.com/Atvaark/FtexTool), [FMDL Studio v2 — BobDoleOwndU](https://github.com/BobDoleOwndU/FMDL-Studio-v2), [Blender](https://www.blender.org/), [Pillow](https://python-pillow.org/), and Konami for original MGSV assets.
+
+
+## Publish reviewed generated references
+
+Portable exports can be reviewed and merged into the public [asset reference library](../../research/asset-library/README.md) using its [import_batch.py](../../research/asset-library/import_batch.py) adapter. Select explicit IDs/media prefix and verify actual stills before publication. Reviewed labels can override metadata; unfamiliar valid assets retain sanitized exported titles/descriptions/categories/tags without per-entry code edits. Missing sampler names, object namespaces and retained-source receipts stay explicitly unknown. It reads portable metadata/PNG/GIF only; it does not decode or re-render native sources. Publishing is a separate review step, never an automatic upload by the local launcher.
+
+The current local automatic index has149retained model versions. A whole-game as-installed archive/member catalogue is now requested and under source/API design review; it is not yet implemented. Inventory counts, dependency support and successful assembled/rendered previews must be reported separately.
