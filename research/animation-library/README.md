@@ -52,7 +52,7 @@ The largest current animated page contains 3.00 MiB of thumbnail files. Separate
 
 ## Metadata columns
 
-Tables, JSON/CSV and detail pages separate **category**, **authored tags**, **virtual GANI directory/file**, **MTAR/container location**, **community source description** and **per-entry credits**. Existing title-based preview summaries are project-authored; missing external descriptions remain unavailable. The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).
+Browsing tables separate **category**, **semantic tags**, **virtual GANI directory/file**, **MTAR/container location** and **Description**. Credits remain central and per-entry in the detail/source data. Every entry has a concise action description; authored observations stay separate from attributed community descriptions and their exact-match status. The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).
 
 ## How to read the previews
 

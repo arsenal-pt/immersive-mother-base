@@ -26,3 +26,10 @@ LMG ready/reload candidates (`enetmgn`) are the tied smallest supported workbook
 Persist the active category and exact source/version/list, completed/pending/remaining IDs, exclusions and next cursor. Continue the same category in later expressly assigned batches while that coverage has remaining members; do not switch categories to fill a cap. This category is smaller than25 and now ends at2. Stop after this batch; root reviews and publishes. No second category, game launch/install, new repository or automatic next batch.
 
 Reuse existing hash-verified selected payloads or exact members from the retained private library ZIP by default. Fresh whole-container conversion is only needed for missing/unusable inputs; do not run a duplicate while a job is active. Keep one sample proof before batch integration. Preserve original25 records/media and the zero-image index, <=4-GIF tables, still alternatives and individual larger clip pages.
+
+
+## Persistent browsing and provenance rules - 16 October 2026
+
+Use the [current browsing and extraction-backed location rules](description-sources.md). Tables have Description and semantic search tags, with credits retained centrally and on detail/source pages. Supply a concise action description for every entry; keep source-match status and uncertainty out of the browsing tags/description filler. Source actor labels and weapon classes require source/preview evidence, and the preview mesh does not establish motion origin.
+
+Record actual location evidence as part of each future extraction: exact virtual DAT/FPK/MTAR/GANI paths where known, archive/version and content hashes, selected member hashes, tool/dictionary identity, retained index/log provenance and per-link verification status. Direct asset/index matches support a location; community description notes do not. Historical DAT/outer-package receipts require explicit limits unless the corresponding index/content was checked. Keep unknown locations null. This correction supersedes the earlier Credits browsing column and unavailable-description presentation; it grants no new clip, extraction, render or native task.

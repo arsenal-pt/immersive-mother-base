@@ -4,7 +4,7 @@ New animation research should be immediately understandable to people who do not
 
 ## Procedure
 
-1. Extract copies with the documented community tools. Preserve original packages, clip payloads, sidecars and layouts privately. Record exact clip identity, archive ownership, source hashes, tool versions and role confidence.
+1. Extract copies with the documented community tools. Preserve original packages, clip payloads, sidecars and layouts privately. Record exact clip identity, archive ownership/version, source hashes, tool versions and role confidence. Capture actual virtual DAT/FPK/MTAR/GANI locations, selected member hashes, tool/dictionary hashes and index/log receipts during extraction; mark each link verified, historical or unknown. Community description notes are not asset-location evidence.
 2. Establish one decoded-motion preview before a batch. Use a compatible rig, a full character mesh and a documented mapping. The project owner selected full-character previews after reviewing a skeleton sample; skeleton views remain diagnostics unless that preference changes. A dummy-track import or a plausible procedural movement is not a character animation preview.
 3. Record the rig's author and revision, mapping identity, imported frame range, chosen preview frame rate and root-motion treatment. Keep native timing unconfirmed until measured in game. An offline rig preview is separate evidence from native gameplay.
 4. Preserve clean source frames or video before adding text. Frame the whole action; keep camera, lighting and ground reference consistent across the set. Add a plain-English title and the exact clip identifier. Label attacker, receiver, transition and special-actor variants separately.
@@ -29,3 +29,10 @@ This workflow was requested by the project owner on 15 October 2026 as a standin
 ## Explicit one-category batch policy — batch002
 
 The latest expressly assigned batch allows up to25 NEW source clips in ONE category, superseding the earlier3–5 recommendation for that task. Persist a defined source-version/list and category progress with completed/pending/remaining IDs, exclusions and cursor; continue the category in later expressly assigned tasks until that scope is complete. Do not switch category to fill the cap or claim all-game completeness from a partial source list. Batch002 has only two LMG reload candidates and stops there. Reuse verified retained payloads/ZIP members; preserve all clean originals and prior records/media, prove one sample, keep actual thumbnail aspect ratios, a zero-image index and <=4-GIF table pages. Root reviews/publishes; no automatic future batch/native work is authorized.
+
+
+## Browsing correction and asset evidence - 16 October 2026
+
+The [persistent metadata rules](animation-library/description-sources.md) supersede the former Credits browsing column and missing-source-description filler. Use Description for a concise action summary on every row and semantic tags for supported actor type, action, weapon class and posture. Keep central/per-entry source credits, exact source-match status and observation/provenance details in detail/JSON data. Never turn the Ocelot reference mesh into motion-origin identity, or assign an unsupported Quiet/pistol origin.
+
+Prefer selective checks of retained package indexes and original bytes. A verified inner MTAR/GANI does not verify the current enclosing DAT. Record unsupported location fields as null/unverified and historical extraction origins explicitly; preserve stable IDs, originalRecords, all source files and media. No new extraction or native action is authorized by these instructions.

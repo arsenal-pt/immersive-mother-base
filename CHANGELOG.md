@@ -1,5 +1,11 @@
 # Development history
 
+## 2026-10-16 - animation browsing correction
+
+- Give all 27 entries concise action descriptions and semantic search tags; remove Credits from animated/still tables while preserving detail/source attribution.
+- Verify the three retained FPK member paths and all 27 selected GANI payloads directly against original asset bytes; qualify historical outer FPK/DAT origins and persist extraction-time provenance requirements.
+- Preserve all IDs, original records, media, release tags and runtime behavior.
+
 ## Unreleased — animation metadata columns and source provenance
 
 Added separate category, authored tags, virtual GANI directory/file, MTAR/container labels, community description status and per-entry credit fields to all 27 existing entries, tables, detail pages and JSON/CSV. The supplied BossQuiet2_layers notes match none of these entries; external description text/author remains unavailable, separate from useful project-authored preview labels. Recovered historical DAT/FPK/MTAR locations from retained hash-matched source receipts/logs; current DAT contents remain unverified, and unmatched locations stay unrecorded. Added pinned source/matching notes and a metadata-only rebuild that preserves all media. Stable IDs, nested original records, source inputs and release/runtime/native status stay unchanged.

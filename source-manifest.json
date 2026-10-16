@@ -146,7 +146,8 @@
     "animationLibraryCategoryProgress": "research/animation-library/category-progress.json",
     "animationMetadataSourceReview": "research/animation-library/metadata-source-review.json",
     "animationDescriptionSources": "research/animation-library/description-sources.md",
-    "animationContainerProvenance": "research/animation-library/container-provenance.json"
+    "animationContainerProvenance": "research/animation-library/container-provenance.json",
+    "animationBrowsingRules": "research/animation-library/description-sources.md"
   },
   "animationPreviewDocumentation": {
     "manifest": "media/animation-previews/2026-10-15/preview-manifest.json",

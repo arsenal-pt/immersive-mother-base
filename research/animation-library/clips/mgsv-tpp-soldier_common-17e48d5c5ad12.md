@@ -10,15 +10,17 @@ Click the image to open the original full-size GIF. Its visible character is a r
 
 ## Classification and descriptions
 
-**Category:** Special / zombie actor candidates. **Tags:** `offline-reference`, `source-Soldier2Common archive (membership does not prove actor use)`, `special-actor`, `zombie-namespace`, `punch-candidate`.
+**Category:** Special / zombie actor candidates. **Tags:** `zombie motion`, `punch`, `melee`, `enemy`.
 
-**Authored preview description:** Special/zombie punch - enemy phase 1 on an untextured reference character. Credit: arsenal-pt / OpenAI Codex. Previously reviewed titled offline preview; source meanings/native use remain unverified.
+**Description:** A punch from the enemy zombie-motion set.
+
+Description basis: project-authored action description; credit: arsenal-pt / OpenAI Codex. Retained source family/phase and already reviewed offline preview; native use remains unverified.
 
 **Community source description:** Unavailable. No verified exact source-description match for this entry. The reviewed BossQuiet2_layers list has zero matching paths among the current 27 clips.
 
 Match status: `unavailable-no-verified-exact-match`. [Description sources and matching rules](../description-sources.md).
 
-The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) joins retained FPK/MTAR hashes and historical extraction logs; recorded DAT origins do not verify current DAT contents.
+The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) records direct FPK index/member-byte and selected GANI content/path checks on our retained assets. Our extraction receipts/logs identify historical outer origins; community description notes were not used for these locations. Current DAT membership/content/version remains unverified.
 
 ## Technical data
 
@@ -27,7 +29,7 @@ The source directory is a virtual game-asset directory. The retained clip stem a
 | Game | Metal Gear Solid V: The Phantom Pain |
 | Library ID | `mgsv-tpp-soldier_common-17e48d5c5ad12` |
 | Category | Special / zombie actor candidates |
-| Tags (authored retrieval labels) | offline-reference, source-Soldier2Common archive (membership does not prove actor use), special-actor, zombie-namespace, punch-candidate |
+| Tags (authored retrieval labels) | zombie motion, punch, melee, enemy |
 | Source archive | `Soldier_common` |
 | Exact clip stem (retained) | `/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh` |
 | Virtual GANI file | `/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh.gani` |
@@ -37,9 +39,13 @@ The source directory is a virtual game-asset directory. The retained clip stem a
 | Virtual MTAR path | /Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar |
 | Virtual FPK path | /Assets/tpp/pack/soldier/common/Soldier2Common.fpk |
 | Recorded DAT origin | a_chunk7.dat |
-| DAT version limit | Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task |
+| DAT version limit | Unverified historical DAT name from our saved extraction receipt; current DAT/index/content/version not checked |
 | Clip hash ID | `17e48d5c5ad12` |
 | Original source role | Soldier2Common archive (membership does not prove actor use) |
+| Motion-origin label | enemy zombie-motion set |
+| Motion-origin basis | snapzmb/enetzmb namespace and retained source role; no specific original character identified |
+| MTAR path verification | verified-retained-FPK-index-and-contained-MTAR-bytes |
+| Outer FPK path verification | historical-first-party-extraction-receipt; enclosing DAT member/index not rechecked |
 | Role interpretation | special_actor_punch_candidate |
 | Family / phase | zombie_melee / None |
 | Raw source frames | 60 |
@@ -80,16 +86,21 @@ Historical extraction confidence fields below are unchanged. Original visualConf
     "label": "Special / zombie actor candidates"
   },
   "tags": [
-    "offline-reference",
-    "source-Soldier2Common archive (membership does not prove actor use)",
-    "special-actor",
-    "zombie-namespace",
-    "punch-candidate"
+    "zombie motion",
+    "punch",
+    "melee",
+    "enemy"
   ],
+  "motionOrigin": {
+    "actor": "enemy zombie-motion set",
+    "basis": "snapzmb/enetzmb namespace and retained source role; no specific original character identified",
+    "kind": "source-family interpretation",
+    "referenceModelIsMotionOrigin": false
+  },
   "classificationProvenance": {
     "kind": "project-authored",
     "credit": "arsenal-pt / OpenAI Codex",
-    "categoryAndCandidateTags": "Retained source namespace, role, family and phase metadata; interpretations remain candidates",
+    "categoryAndCandidateTags": "Semantic search terms from retained source namespace/role/family/phase and reviewed offline preview; confidence stays in detail data",
     "postureTags": null,
     "extractionRecordPath": "research/mtar-punch-combos/animations-metadata.json",
     "nativeGameplayProof": false
@@ -101,13 +112,35 @@ Historical extraction confidence fields below are unchanged. Original visualConf
     "recordedContainerLabel": "Soldier2Common",
     "archiveVirtualPath": "/Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar",
     "containerVirtualPath": "/Assets/tpp/pack/soldier/common/Soldier2Common.fpk",
-    "containerLocationStatus": "known historical virtual paths; exact retained FPK/MTAR hashes verified",
+    "containerLocationStatus": "verified-retained-FPK-index-and-contained-MTAR-bytes; outer FPK/DAT location is historical",
     "provenance": {
       "kind": "retained-extraction-record",
       "recordPath": "research/mtar-punch-combos/animations-metadata.json",
       "archiveSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
       "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
       "pathRule": "Exact resolved member stem plus the extracted .gani payload extension; no extraction ordinal used",
+      "directFpkIndexCheck": {
+        "status": "verified-retained-index-and-contained-bytes",
+        "memberVirtualPath": "/Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar",
+        "fileEntryCount": 10,
+        "indexRowOffset": 240,
+        "payloadOffset": 484768,
+        "payloadBytes": 15897168,
+        "payloadSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+        "matchesOriginalMtarBytes": true
+      },
+      "selectedClipCheck": {
+        "libraryId": "mgsv-tpp-soldier_common-17e48d5c5ad12",
+        "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh.gani",
+        "hashId": "17e48d5c5ad12",
+        "ganiSha256": "c8a81595aeb312f72b88d167586d51d585f9b6e77d69e4a3693556bd4e335b6a",
+        "payloadBytes": 9984,
+        "payloadOffsetInMtar": 14883456,
+        "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+        "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+        "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+        "status": "verified-selected-retained-payload-and-path"
+      },
       "containerReview": "research/animation-library/container-provenance.json",
       "containerEvidence": [
         {
@@ -130,18 +163,26 @@ Historical extraction confidence fields below are unchanged. Original visualConf
           "libraryZipSha256": "299795a7378d55f18d059f02a2946763d8c546c2a4db5da6bdb5baed84646c2d"
         }
       ],
-      "containerVerification": "Exact retained FPK and original MTAR member bytes match recorded hashes; pack label joins the successful extraction log. No new extraction or current DAT verification."
+      "containerVerification": "Original FPK index directly names this MTAR path; its byte range equals the retained MTAR and SHA256. Every selected GANI payload/hash matches bytes inside that MTAR plus the saved extraction XML path. Outer FPK/DAT origins remain qualified historical extraction evidence."
     },
     "datArchive": "a_chunk7.dat",
     "datArchiveSha256": null,
     "containerSha256": "7b44821cda5ecb657abb44fed05e856dbe99373cf7bfd53e9c1e126523d0be36",
-    "datOriginStatus": "Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task"
+    "datOriginStatus": "Unverified historical DAT name from our saved extraction receipt; current DAT/index/content/version not checked",
+    "archiveVirtualPathStatus": "verified-retained-FPK-index-and-contained-MTAR-bytes",
+    "containerVirtualPathStatus": "historical-first-party-extraction-receipt; enclosing DAT member/index not rechecked"
+  },
+  "description": {
+    "text": "A punch from the enemy zombie-motion set.",
+    "kind": "project-authored action description",
+    "credit": "arsenal-pt / OpenAI Codex",
+    "basis": "Retained source family/phase and already reviewed offline preview; native use remains unverified"
   },
   "authoredDescription": {
-    "text": "Special/zombie punch - enemy phase 1 on an untextured reference character.",
-    "kind": "project-authored preview summary",
+    "text": "A punch from the enemy zombie-motion set.",
+    "kind": "project-authored action description",
     "credit": "arsenal-pt / OpenAI Codex",
-    "basis": "Previously reviewed titled offline preview; source meanings/native use remain unverified"
+    "basis": "Retained source family/phase and already reviewed offline preview; native use remains unverified"
   },
   "sourceDescription": {
     "status": "unavailable-no-verified-exact-match",

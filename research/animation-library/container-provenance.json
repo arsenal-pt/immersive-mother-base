@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "task": "MB-ANIMATION-METADATA-001",
+  "task": "MB-ANIMATION-BROWSING-001",
   "reviewedDate": "2026-10-15",
-  "scope": "Portable historical DAT/FPK/MTAR location provenance for the three exact archive hashes already used by the 27 clips",
+  "scope": "Existing 27 clips only: direct retained FPK index/MTAR bytes and selected GANI content/path checks; historical outer source receipts retained separately",
   "matchPolicy": "Archive filename and content SHA256 must both match; GANI source path/hash remain separate identity fields",
   "archives": [
     {
@@ -14,7 +14,7 @@
       "containerSha256": "0e70cfcbe8273672e501d16349e001add83c8b28bf1d001292f6ea6ef9bfb0ff",
       "datArchive": "chunk0.dat",
       "datArchiveSha256": null,
-      "datOriginStatus": "Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task",
+      "datOriginStatus": "Unverified historical DAT name from our saved extraction receipt; current DAT/index/content/version not checked",
       "evidence": [
         {
           "kind": "source-provenance receipt",
@@ -36,7 +36,117 @@
           "libraryZipSha256": "299795a7378d55f18d059f02a2946763d8c546c2a4db5da6bdb5baed84646c2d"
         }
       ],
-      "verification": "Exact retained FPK and original MTAR member bytes match recorded hashes; pack label joins the successful extraction log. No new extraction or current DAT verification."
+      "verification": "Original FPK index directly names this MTAR path; its byte range equals the retained MTAR and SHA256. Every selected GANI payload/hash matches bytes inside that MTAR plus the saved extraction XML path. Outer FPK/DAT origins remain qualified historical extraction evidence.",
+      "directFpkIndexCheck": {
+        "status": "verified-retained-index-and-contained-bytes",
+        "memberVirtualPath": "/Assets/tpp/motion/mtar/player2/player2_cqc.mtar",
+        "fileEntryCount": 13,
+        "indexRowOffset": 240,
+        "payloadOffset": 2195280,
+        "payloadBytes": 881328,
+        "payloadSha256": "e75addc327f7602041f3e309317f5cc580be65189f31350bd9e3c45d1146aa85",
+        "matchesOriginalMtarBytes": true
+      },
+      "containerVirtualPathStatus": "historical-first-party-extraction-receipt; enclosing DAT member/index not rechecked",
+      "archiveVirtualPathStatus": "verified-retained-FPK-index-and-contained-MTAR-bytes",
+      "selectedClipChecks": [
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-16b0a2fb40a09",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_com_f1_ed.gani",
+          "hashId": "16b0a2fb40a09",
+          "ganiSha256": "4ee7d2b62c9dc5a63e91960dc781ffb1e6ca66279b0f68d0d06ede626eee1796",
+          "payloadBytes": 6704,
+          "payloadOffsetInMtar": 626368,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-e831dda3d332",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_com_st_mis_l.gani",
+          "hashId": "e831dda3d332",
+          "ganiSha256": "3c39793629d178a55b8b543d3b68faa9453488a325c3bf93f4cfc38fea1f3bc5",
+          "payloadBytes": 9872,
+          "payloadOffsetInMtar": 634320,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-2a144c68bf5f2",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_b2.gani",
+          "hashId": "2a144c68bf5f2",
+          "ganiSha256": "a2e41dd0a2b9dc64cddba8ba7594ee1011dba23c9708224f37db97990798db48",
+          "payloadBytes": 14768,
+          "payloadOffsetInMtar": 680128,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-102647d14d3f3",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_b3.gani",
+          "hashId": "102647d14d3f3",
+          "ganiSha256": "82216f953952a36e69fd0b8be93d754c085e212f6e334af98bb8552050f80675",
+          "payloadBytes": 17264,
+          "payloadOffsetInMtar": 697232,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-6b4ebb77250b",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f1.gani",
+          "hashId": "6b4ebb77250b",
+          "ganiSha256": "559f6489aa6b151cf396df38b41cde798b2b8e5aad52fabeb091a991bde8438a",
+          "payloadBytes": 9168,
+          "payloadOffsetInMtar": 717104,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-3a075aca6a734",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f2.gani",
+          "hashId": "3a075aca6a734",
+          "ganiSha256": "c0c88943e60826f9a3578f99da0f0c5af8a7490d306b08686ee54848a275b640",
+          "payloadBytes": 13248,
+          "payloadOffsetInMtar": 728192,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-138b1932095af",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f3.gani",
+          "hashId": "138b1932095af",
+          "ganiSha256": "579f9cc712f18c352ba34c620a5ca62b273aecc8ddeb1bc5cbdbbdb4666680b3",
+          "payloadBytes": 16592,
+          "payloadOffsetInMtar": 743776,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_cqc-2471f88c4999c",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f4.gani",
+          "hashId": "2471f88c4999c",
+          "ganiSha256": "a6d95a5d1bd3c3890aa35e7d244bee291b2644c57a9d988ff99750ce9eb05bd6",
+          "payloadBytes": 13936,
+          "payloadOffsetInMtar": 763088,
+          "retainedMtarXmlSha256": "b47a1ea3d0a04d43efb2d5ff232b7bff7cb3dfab7124cadeca1ad6c80455da69",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        }
+      ]
     },
     {
       "archiveFile": "player2_resident.mtar",
@@ -47,7 +157,7 @@
       "containerSha256": "22a6a75782f1b80978e5990211700a5f75e7496c2550ddf56450aed8236501a3",
       "datArchive": "a_chunk7.dat",
       "datArchiveSha256": null,
-      "datOriginStatus": "Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task",
+      "datOriginStatus": "Unverified historical DAT name from our saved extraction receipt; current DAT/index/content/version not checked",
       "evidence": [
         {
           "kind": "source-provenance receipt",
@@ -69,7 +179,93 @@
           "libraryZipSha256": "299795a7378d55f18d059f02a2946763d8c546c2a4db5da6bdb5baed84646c2d"
         }
       ],
-      "verification": "Exact retained FPK and original MTAR member bytes match recorded hashes; pack label joins the successful extraction log. No new extraction or current DAT verification."
+      "verification": "Original FPK index directly names this MTAR path; its byte range equals the retained MTAR and SHA256. Every selected GANI payload/hash matches bytes inside that MTAR plus the saved extraction XML path. Outer FPK/DAT origins remain qualified historical extraction evidence.",
+      "directFpkIndexCheck": {
+        "status": "verified-retained-index-and-contained-bytes",
+        "memberVirtualPath": "/Assets/tpp/motion/mtar/player2/player2_resident.mtar",
+        "fileEntryCount": 3,
+        "indexRowOffset": 144,
+        "payloadOffset": 1030464,
+        "payloadBytes": 9573536,
+        "payloadSha256": "18c4a35c524dcc46f19e712f61a261c94283720a0f119340cecc17eef37fc0d0",
+        "matchesOriginalMtarBytes": true
+      },
+      "containerVirtualPathStatus": "historical-first-party-extraction-receipt; enclosing DAT member/index not rechecked",
+      "archiveVirtualPathStatus": "verified-retained-FPK-index-and-contained-MTAR-bytes",
+      "selectedClipChecks": [
+        {
+          "libraryId": "mgsv-tpp-player2_resident-36c8fbcb8b28a",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_b1.gani",
+          "hashId": "36c8fbcb8b28a",
+          "ganiSha256": "f7e125ce5691396a5234a049322500c55f5f7fc697f14422a9656ec6638f7237",
+          "payloadBytes": 8928,
+          "payloadOffsetInMtar": 1761152,
+          "retainedMtarXmlSha256": "87501942b59005fdbb79ded80f4ec810d49628467bb30281e2a310855a1c2396",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_resident-4857fd9e7ebc",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f1_st.gani",
+          "hashId": "4857fd9e7ebc",
+          "ganiSha256": "b21e279f226b0eb59ea8fbc174c4b030e64e0cc16d51957399e5bd17edc48260",
+          "payloadBytes": 6176,
+          "payloadOffsetInMtar": 1772000,
+          "retainedMtarXmlSha256": "87501942b59005fdbb79ded80f4ec810d49628467bb30281e2a310855a1c2396",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_resident-1a1c4551b3706",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapcqc/snapcqc_s_new_com_asr_f5.gani",
+          "hashId": "1a1c4551b3706",
+          "ganiSha256": "959df67edf0edc1ed2e48df021ca164f78ab2d5921acf76a09c739c82993814a",
+          "payloadBytes": 21360,
+          "payloadOffsetInMtar": 1779232,
+          "retainedMtarXmlSha256": "87501942b59005fdbb79ded80f4ec810d49628467bb30281e2a310855a1c2396",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_resident-18dfe32fab367",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapzmb/snapzmb_s_atk_pnh.gani",
+          "hashId": "18dfe32fab367",
+          "ganiSha256": "85ad59d986378d24a531a24f8e86a4183c1a5df5aba469ca36df811c67f73383",
+          "payloadBytes": 8624,
+          "payloadOffsetInMtar": 9069712,
+          "retainedMtarXmlSha256": "87501942b59005fdbb79ded80f4ec810d49628467bb30281e2a310855a1c2396",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_resident-29553c4699ca8",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapzmb/snapzmb_s_atk_pnh2.gani",
+          "hashId": "29553c4699ca8",
+          "ganiSha256": "30f0aaad13eb97e979790384cfb9c27cbb451af07d1b360329ee8370d51ea645",
+          "payloadBytes": 5088,
+          "payloadOffsetInMtar": 9078528,
+          "retainedMtarXmlSha256": "87501942b59005fdbb79ded80f4ec810d49628467bb30281e2a310855a1c2396",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-player2_resident-34ff0e1541984",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapzmb/snapzmb_s_atk_pnh_ed.gani",
+          "hashId": "34ff0e1541984",
+          "ganiSha256": "abd860c6bcb69a6b46f73604870ab6492463c1350ca494ad2bdc82a67fae8ccf",
+          "payloadBytes": 3808,
+          "payloadOffsetInMtar": 9083712,
+          "retainedMtarXmlSha256": "87501942b59005fdbb79ded80f4ec810d49628467bb30281e2a310855a1c2396",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        }
+      ]
     },
     {
       "archiveFile": "Soldier_common.mtar",
@@ -80,7 +276,7 @@
       "containerSha256": "7b44821cda5ecb657abb44fed05e856dbe99373cf7bfd53e9c1e126523d0be36",
       "datArchive": "a_chunk7.dat",
       "datArchiveSha256": null,
-      "datOriginStatus": "Historical source-receipt origin; entire DAT content/version not rechecked by this metadata task",
+      "datOriginStatus": "Unverified historical DAT name from our saved extraction receipt; current DAT/index/content/version not checked",
       "evidence": [
         {
           "kind": "source-provenance receipt",
@@ -102,8 +298,178 @@
           "libraryZipSha256": "299795a7378d55f18d059f02a2946763d8c546c2a4db5da6bdb5baed84646c2d"
         }
       ],
-      "verification": "Exact retained FPK and original MTAR member bytes match recorded hashes; pack label joins the successful extraction log. No new extraction or current DAT verification."
+      "verification": "Original FPK index directly names this MTAR path; its byte range equals the retained MTAR and SHA256. Every selected GANI payload/hash matches bytes inside that MTAR plus the saved extraction XML path. Outer FPK/DAT origins remain qualified historical extraction evidence.",
+      "directFpkIndexCheck": {
+        "status": "verified-retained-index-and-contained-bytes",
+        "memberVirtualPath": "/Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar",
+        "fileEntryCount": 10,
+        "indexRowOffset": 240,
+        "payloadOffset": 484768,
+        "payloadBytes": 15897168,
+        "payloadSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+        "matchesOriginalMtarBytes": true
+      },
+      "containerVirtualPathStatus": "historical-first-party-extraction-receipt; enclosing DAT member/index not rechecked",
+      "archiveVirtualPathStatus": "verified-retained-FPK-index-and-contained-MTAR-bytes",
+      "selectedClipChecks": [
+        {
+          "libraryId": "mgsv-tpp-soldier_common-eb18706e40a",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_b1.gani",
+          "hashId": "eb18706e40a",
+          "ganiSha256": "1cdf99914b769209550fa4a3d9919d7d829f53ead46a16b86db6765f5d457552",
+          "payloadBytes": 14784,
+          "payloadOffsetInMtar": 1155104,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-3996cc2687e1f",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_b2.gani",
+          "hashId": "3996cc2687e1f",
+          "ganiSha256": "3f726e03a8295ab57a49977e87e3e5eead38d411c4230cc83894411c64a4b561",
+          "payloadBytes": 14432,
+          "payloadOffsetInMtar": 1170496,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-369dec61164bd",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_b3.gani",
+          "hashId": "369dec61164bd",
+          "ganiSha256": "f2ad1b1313a4a5bf306d94e3f389d9b11cbe5cf6795211be14e3c6d2f1ebc45a",
+          "payloadBytes": 19664,
+          "payloadOffsetInMtar": 1185840,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-2cf6595afc1aa",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f1.gani",
+          "hashId": "2cf6595afc1aa",
+          "ganiSha256": "d9b388178a1ccf8b56a7acadbd5f6da9cad8fd1754bc50da2d092a586ce7ba88",
+          "payloadBytes": 10672,
+          "payloadOffsetInMtar": 1207152,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-2fa7f3ebdc793",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f2.gani",
+          "hashId": "2fa7f3ebdc793",
+          "ganiSha256": "eb8590c384bdcdc1c719dbc9fe22f8ee5030714e3859a0fc4c638ed31fb87fbe",
+          "payloadBytes": 16288,
+          "payloadOffsetInMtar": 1218624,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-26966dd52b38f",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f3.gani",
+          "hashId": "26966dd52b38f",
+          "ganiSha256": "efe763d4bde4ae008046ef0b0ff17b5ee2b0621ea06be4dad9deaa0ac55d5cc0",
+          "payloadBytes": 14992,
+          "payloadOffsetInMtar": 1235920,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-2d551b46a321c",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f4.gani",
+          "hashId": "2d551b46a321c",
+          "ganiSha256": "579c52165299015fe149f278ce37732379efe1cf7efe7ee978a6d599fa9e9ef6",
+          "payloadBytes": 15024,
+          "payloadOffsetInMtar": 1252080,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-326a085b59184",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/enemasr_s_new_com_asr_f5.gani",
+          "hashId": "326a085b59184",
+          "ganiSha256": "285a9ce6b5ba99db09f067936c07ecd4c55193b1dd6ec5cc24c8f6bd40d1e4f6",
+          "payloadBytes": 20496,
+          "payloadOffsetInMtar": 1268240,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-17e48d5c5ad12",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh.gani",
+          "hashId": "17e48d5c5ad12",
+          "ganiSha256": "c8a81595aeb312f72b88d167586d51d585f9b6e77d69e4a3693556bd4e335b6a",
+          "payloadBytes": 9984,
+          "payloadOffsetInMtar": 14883456,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-244c2b65d1149",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh2.gani",
+          "hashId": "244c2b65d1149",
+          "ganiSha256": "05339d4f98c01ef68cdace9eda7db2dc1a9ca1f94a0bd9bd892159117b9d17d7",
+          "payloadBytes": 6512,
+          "payloadOffsetInMtar": 14893440,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-3f61b4434967",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetzmb/enetzmb_s_atk_pnh_ed.gani",
+          "hashId": "3f61b4434967",
+          "ganiSha256": "63afcbd0f9485e3097bd3a67a30abb26c9d48387a2205168df5b66ceff5d490f",
+          "payloadBytes": 3888,
+          "payloadOffsetInMtar": 14899952,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-313cdbcc7c1d9",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetmgn/enetmgn_q_rdy_rld.gani",
+          "hashId": "313cdbcc7c1d9",
+          "ganiSha256": "b72f17489ff8c8fa6fe18f0c93f02bc4162a6fc4bf553c21f26b1e4d92a6fae8",
+          "payloadBytes": 24880,
+          "payloadOffsetInMtar": 10442672,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        },
+        {
+          "libraryId": "mgsv-tpp-soldier_common-380f6573688d2",
+          "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetmgn/enetmgn_s_rdy_rld.gani",
+          "hashId": "380f6573688d2",
+          "ganiSha256": "d7f6ce2b28008468f5c1a643eef67ceaab47f2c3f7016ae999a850aa0f75d3d7",
+          "payloadBytes": 25760,
+          "payloadOffsetInMtar": 10470400,
+          "retainedMtarXmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e",
+          "pathMatch": "Exact saved Gzs/MtarTool XML directory and filename, removing only the tool-added four-digit filename prefix; payload SHA256 and original MTAR bytes both checked. No ordinal-only match.",
+          "dictionarySha256": "30c11a1f6478db700bdb7df5327ddf8a21bab35111c3aec01e84cf8572fad591",
+          "status": "verified-selected-retained-payload-and-path"
+        }
+      ]
     }
   ],
-  "limits": "Known virtual paths and historical DAT origins are reference locations, not deployment instructions or claims about current installed DAT contents. Unmatched locations remain null."
+  "limits": "Our saved extraction records/logs and retained asset bytes are first-party extraction evidence, independent of community description notes. MTAR-in-FPK and selected GANI payloads/paths are directly verified; the historical outer FPK path/DAT name does not verify current DAT membership, contents or version. No current DAT read or fresh extraction."
 }

@@ -65,28 +65,60 @@ def enrich_metadata(record, archive, source, source_path, review, container_revi
     """Keep authored labels, source locations and external descriptions distinct."""
     original = record["originalRecords"]["extraction"]
     category = dict(GROUPS)[record["group"]]
-    tags = ["offline-reference", "source-" + original["sourceRole"]]
+    # Retrieval tags describe meaning; confidence and provenance belong in detail data.
+    tags = []
     if record["group"] == "snake-cqc":
-        tags += ["cqc", "combo-candidate"]
+        tags = ["CQC", "Snake", "player", "combo"]
+        actor = "Snake / player"
+        actor_basis = "snapcqc source namespace and retained player role in player2_cqc"
         if original["sequenceFamily"] == "related_combo_transition":
-            tags += ["transition-candidate"]
+            tags += ["transition"]
     elif record["group"] == "npc-receivers":
-        tags += ["cqc", "receiver-candidate", "reaction-candidate"]
+        tags = ["CQC", "enemy soldier", "hit reaction", "combo"]
+        actor = "enemy soldier"
+        actor_basis = "enemasr source namespace and retained enemy role in Soldier_common; receiver/reaction family"
     elif record["group"] == "special-actors":
-        tags += ["special-actor", "zombie-namespace", "punch-candidate"]
+        tags = ["zombie motion", "punch", "melee"]
+        actor = "player zombie-motion set" if original["sourceRole"] == "player" else "enemy zombie-motion set"
+        tags += ["player" if original["sourceRole"] == "player" else "enemy"]
+        actor_basis = "snapzmb/enetzmb namespace and retained source role; no specific original character identified"
     elif record["group"] == "lmg-reloads":
-        tags += ["lmg", "reload-candidate"]
+        tags = ["enemy soldier", "light machine gun", "reload"]
+        actor = "enemy soldier"
+        actor_basis = "enetmgn source family in Soldier_common and selected workbook discovery; preview holds no weapon"
     else:
         raise ValueError("Unclassified library category: " + record["group"])
     if original["sequenceFamily"] in ("front", "back"):
-        tags += [original["sequenceFamily"] + "-family"]
+        tags += [original["sequenceFamily"]]
     if original.get("phase") is not None:
-        tags += ["phase-" + str(original["phase"])]
+        tags += ["phase " + str(original["phase"])]
     if original.get("phaseKind") in ("start", "ending"):
-        tags += [original["phaseKind"] + "-candidate"]
+        tags += [original["phaseKind"]]
     posture = next((x for x in ("kneeling", "standing") if x in record["title"].lower()), None)
     if posture:
         tags += [posture]
+    summaries = {
+        "snapcqc_s_com_f1_ed": "Short ending movement for the first front CQC combo segment.",
+        "snapcqc_s_com_st_mis_l": "Leftward start/miss transition for a CQC attack.",
+        "snapcqc_s_new_com_asr_f1_st": "Opening movement for the front CQC combo.",
+        "snapzmb_s_atk_pnh": "A punch from the player zombie-motion set.",
+        "snapzmb_s_atk_pnh2": "The second punch movement in the player zombie-motion set.",
+        "snapzmb_s_atk_pnh_ed": "Ending movement after the player zombie-style punch.",
+        "enetzmb_s_atk_pnh": "A punch from the enemy zombie-motion set.",
+        "enetzmb_s_atk_pnh2": "The second punch movement in the enemy zombie-motion set.",
+        "enetzmb_s_atk_pnh_ed": "Ending movement after the enemy zombie-style punch.",
+        "enetmgn_q_rdy_rld": "Kneeling light-machine-gun reload motion; the reference holds no weapon.",
+        "enetmgn_s_rdy_rld": "Standing light-machine-gun reload motion; the reference holds no weapon.",
+    }
+    authored_text = summaries.get(record["shortIdentifier"])
+    family, phase = original["sequenceFamily"], original.get("phase")
+    if authored_text is None and family in ("front", "back") and phase is not None:
+        if record["group"] == "snake-cqc":
+            authored_text = "Attack segment " + str(phase) + " of Snake's " + family + " CQC combo."
+        elif record["group"] == "npc-receivers":
+            authored_text = "Receiving/hit-reaction movement " + str(phase) + " in the " + family + " CQC combo."
+    if not authored_text:
+        raise ValueError("A reviewed action description is required: " + record["id"])
     dictionary = source.get("toolRuntimeHashes", {}).get("mtar", {}).get("mtar_dictionary.txt")
     if not dictionary:
         dictionary = next((x["sha256"] for x in source.get("provenance", {}).get("MtarToolRuntimeFileHashes", []) if x["path"] == "mtar_dictionary.txt"), None)
@@ -110,7 +142,15 @@ def enrich_metadata(record, archive, source, source_path, review, container_revi
         origin = origins[0]
         for key in ("archiveVirtualPath", "containerVirtualPath", "containerSha256", "datArchive", "datArchiveSha256", "datOriginStatus"):
             locations[key] = origin[key]
-        locations["containerLocationStatus"] = "known historical virtual paths; exact retained FPK/MTAR hashes verified"
+        locations["containerLocationStatus"] = origin["archiveVirtualPathStatus"] + "; outer FPK/DAT location is historical"
+        locations["archiveVirtualPathStatus"] = origin["archiveVirtualPathStatus"]
+        locations["containerVirtualPathStatus"] = origin["containerVirtualPathStatus"]
+        locations["provenance"]["directFpkIndexCheck"] = origin["directFpkIndexCheck"]
+        gani_hash = next(p["sha256"] for p in original["payloads"] if p["extension"] == ".gani")
+        checks = [c for c in origin["selectedClipChecks"] if c["ganiVirtualPath"] == locations["ganiVirtualPath"] and c["hashId"] == original["hashId"] and c["ganiSha256"] == gani_hash]
+        if len(checks) != 1:
+            raise ValueError("Missing/ambiguous direct selected-payload check: " + record["id"])
+        locations["provenance"]["selectedClipCheck"] = checks[0]
         locations["provenance"]["containerReview"] = CONTAINER_REVIEW
         locations["provenance"]["containerEvidence"] = origin["evidence"]
         locations["provenance"]["containerVerification"] = origin["verification"]
@@ -143,14 +183,20 @@ def enrich_metadata(record, archive, source, source_path, review, container_revi
     record.update(
         category={"id": record["group"], "label": category}, tags=list(dict.fromkeys(tags)),
         classificationProvenance={"kind": "project-authored", "credit": "arsenal-pt / OpenAI Codex",
-            "categoryAndCandidateTags": "Retained source namespace, role, family and phase metadata; interpretations remain candidates",
+            "categoryAndCandidateTags": "Semantic search terms from retained source namespace/role/family/phase and reviewed offline preview; confidence stays in detail data",
             "postureTags": "Previously reviewed offline preview title" if posture else None,
             "extractionRecordPath": source_path, "nativeGameplayProof": False},
         locations=locations,
-        authoredDescription={"text": record["title"] + " on an untextured reference character.",
-            "kind": "project-authored preview summary", "credit": "arsenal-pt / OpenAI Codex",
-            "basis": "Previously reviewed titled offline preview; source meanings/native use remain unverified"},
+        motionOrigin={"actor": actor, "basis": actor_basis, "kind": "source-family interpretation",
+            "referenceModelIsMotionOrigin": False},
+        authoredDescription={"text": authored_text,
+            "kind": "project-authored action description", "credit": "arsenal-pt / OpenAI Codex",
+            "basis": "Retained source family/phase and already reviewed offline preview; native use remains unverified"},
         sourceDescription=description, credits=credits)
+    record["description"] = {"text": description["text"] or authored_text,
+        "kind": "verified-external-source" if description["text"] else "project-authored action description",
+        "credit": description["credit"] or "arsenal-pt / OpenAI Codex",
+        "basis": "Exact source match" if description["text"] else record["authoredDescription"]["basis"]}
 
 
 def html_code(value):
@@ -168,7 +214,8 @@ def render_csv(entries):
               "containerLabel", "archiveVirtualPath", "containerVirtualPath", "datArchive", "datOriginStatus",
               "sourceDescriptionStatus", "sourceDescription", "sourceDescriptionCredit", "sourceDescriptionUrl",
               "authoredDescription", "classificationCredit", "discoveryCredit",
-              "tagProvenance", "locationProvenance", "sourceDescriptionReview", "credits"]
+              "tagProvenance", "locationProvenance", "sourceDescriptionReview", "credits",
+              "description", "descriptionCredit", "motionOriginActor", "motionOriginBasis"]
     writer = csv.DictWriter(stream, fieldnames=fields, lineterminator="\n")
     writer.writeheader()
     for e in entries:
@@ -193,6 +240,8 @@ def render_csv(entries):
             "tagProvenance": e["classificationProvenance"]["categoryAndCandidateTags"] + ("; posture: " + e["classificationProvenance"]["postureTags"] if e["classificationProvenance"]["postureTags"] else ""),
             "locationProvenance": loc["provenance"]["recordPath"], "sourceDescriptionReview": desc["reviewRecord"],
             "credits": ";".join(c["name"] + ": " + c["role"] for c in e["credits"]),
+            "description": e["description"]["text"], "descriptionCredit": e["description"]["credit"],
+            "motionOriginActor": e["motionOrigin"]["actor"], "motionOriginBasis": e["motionOrigin"]["basis"],
         })
     return stream.getvalue().encode("utf-8")
 
@@ -249,6 +298,10 @@ def render_page(record):
         ("DAT version limit", loc.get("datOriginStatus", "Unrecorded")),
         ("Clip hash ID", BT + record["source"]["hashId"] + BT),
         ("Original source role", extraction["sourceRole"]),
+        ("Motion-origin label", record["motionOrigin"]["actor"]),
+        ("Motion-origin basis", record["motionOrigin"]["basis"]),
+        ("MTAR path verification", loc.get("archiveVirtualPathStatus", "Unrecorded")),
+        ("Outer FPK path verification", loc.get("containerVirtualPathStatus", "Unrecorded")),
         ("Role interpretation", extraction["role"]),
         ("Family / phase", extraction["sequenceFamily"] + " / " + str(extraction["phase"])),
         ("Raw source frames", str(extraction["frameCount"])),
@@ -271,10 +324,11 @@ def render_page(record):
         "[Open full-size GIF](" + full + ") · [Still image](" + still + ")", "",
         "## Classification and descriptions", "",
         "**Category:** " + record["category"]["label"] + ". **Tags:** " + ", ".join(BT + x + BT for x in record["tags"]) + ".", "",
-        "**Authored preview description:** " + record["authoredDescription"]["text"] + " Credit: " + record["authoredDescription"]["credit"] + ". " + record["authoredDescription"]["basis"] + ".", "",
+        "**Description:** " + record["description"]["text"], "",
+        "Description basis: " + record["description"]["kind"] + "; credit: " + record["description"]["credit"] + ". " + record["description"]["basis"] + ".", "",
         "**Community source description:** " + description, "",
         "Match status: " + BT + desc["status"] + BT + ". [Description sources and matching rules](" + source_note + ").", "",
-        "The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) joins retained FPK/MTAR hashes and historical extraction logs; recorded DAT origins do not verify current DAT contents.", "",
+        "The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) records direct FPK index/member-byte and selected GANI content/path checks on our retained assets. Our extraction receipts/logs identify historical outer origins; community description notes were not used for these locations. Current DAT membership/content/version remains unverified.", "",
         "## Technical data", "", "| Field | Value |", "| --- | --- |"]
     lines += ["| " + k + " | " + v.replace("|", "&#124;") + " |" for k, v in rows]
     lines += ["", "## Credits and evidence", ""]
@@ -284,7 +338,7 @@ def render_page(record):
         "Preview speed is a presentation choice. Individual clips have no matched partner or held weapon. Labels alone do not prove native weapon handling, interaction contact or actor compatibility. Hair, scarf and holster motion uses mapped-ancestor fallbacks; native Fox cloth/twist and timing remain unverified.", "",
         "Historical extraction confidence fields below are unchanged. Original visualConfirmed=false predates the later offline preview; offline visualization and native gameplay proof remain separate fields.", "",
         "<details>", "<summary>Classification, location and description provenance</summary>", "", FENCE + "json",
-        json.dumps({k: record[k] for k in ("category", "tags", "classificationProvenance", "locations", "authoredDescription", "sourceDescription", "credits")}, indent=2, ensure_ascii=False),
+        json.dumps({k: record[k] for k in ("category", "tags", "motionOrigin", "classificationProvenance", "locations", "description", "authoredDescription", "sourceDescription", "credits")}, indent=2, ensure_ascii=False),
         FENCE, "", "</details>", "", "<details>", "<summary>Complete original extraction and preview records</summary>", "", FENCE + "json",
         json.dumps(record["originalRecords"], indent=2, ensure_ascii=False), FENCE, "", "</details>", "",
         "[Exact extraction catalogue](" + link_from(page, loc["provenance"]["recordPath"]) + ") · [Full-character recipe](../../mtar-punch-combos/full-character-preview-recipe.md) · [Credits](../../../CREDITS.md)", ""]
@@ -320,10 +374,10 @@ def render_table_page(page, stills=False):
         "[Library index](../README.md) · [Switch to " + ("animated previews" if stills else "still images") + "](" + link_from(current, sibling) + ")", "",
         "**" + mode + "** · " + str(len(page["entries"])) + " previews · " + f"{total / 1048576:.2f}" + " MiB of image files. Click a preview or title for its larger GIF and complete data.", "",
         "Pages: " + " · ".join(nav), "",
-        "Categories/tags are authored retrieval labels; candidate source roles and observed reference posture remain distinct. GANI paths are virtual asset locations. Recorded container chains are historical source locations; current DAT contents are unverified. [Description matching and credits](../description-sources.md) explain why a community description may be unavailable.", "",
-        "All clips are offline Ocelot reference previews. Native timing, weapon/contact, pairing and actor compatibility remain unverified; duration uses a chosen preview rate.", "",
-        "| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Community source description | Credits | Frames / data |",
-        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+        "Tags describe the source actor/family, action, weapon class and posture where supported. Descriptions are concise authored action summaries unless an exact source description is verified. Credits, confidence and source matching are retained on each detail page and in [source notes](../description-sources.md).", "",
+        "The visible Ocelot mesh is a reference model, separate from the motion origin. FPK member paths and selected clip bytes were checked directly against retained assets; outer FPK/DAT origins are historical and current DAT contents remain unverified. Native timing, held-weapon/contact, pairing and actor compatibility remain unverified.", "",
+        "| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- |"]
     for e in page["entries"]:
         detail = link_from(current, e["detailPage"])
         img = e["media"]["stillThumbnail" if stills else "animatedThumbnail"]["path"]
@@ -331,16 +385,10 @@ def render_table_page(page, stills=False):
         identity = "[" + e["title"].replace("|", "&#124;") + "](" + detail + ")<br>" + html_code(e["shortIdentifier"]) + "<br>Authored preview label"
         loc, desc = e["locations"], e["sourceDescription"]
         gani = html_code(loc["ganiDirectory"] + "/") + "<br>" + html_code(posixpath.basename(loc["ganiVirtualPath"]))
-        container = "DAT: " + html_code(loc["datArchive"]) + "<br>FPK: " + html_code(loc["containerVirtualPath"] or loc["recordedContainerLabel"]) + "<br>MTAR: " + html_code(loc["archiveVirtualPath"] or loc["archiveFile"]) + "<br>Historical source receipt"
-        description = html.escape(desc["text"], quote=True).replace("|", "&#124;") if desc["text"] is not None else "Unavailable: no verified exact source match."
-        if desc["credit"]:
-            description += "<br>" + html.escape(desc["credit"], quote=True)
-        credit = "Game: Konami / Kojima Productions<br>Labels: arsenal-pt / Codex"
-        if any(c["role"] == "selected workbook discovery" for c in e["credits"]):
-            credit += "<br>Discovery: KnochenGott (human supplied)"
-        credit += "<br>[Per-entry provenance](" + detail + "#credits-and-evidence)"
+        container = "DAT: " + html_code(loc["datArchive"]) + "<br>FPK: " + html_code(loc["containerVirtualPath"] or loc["recordedContainerLabel"]) + "<br>MTAR: " + html_code(loc["archiveVirtualPath"] or loc["archiveFile"]) + "<br>MTAR: verified FPK member; outer DAT/FPK origin: historical"
+        description = html.escape(e["description"]["text"], quote=True).replace("|", "&#124;")
         timing = str(e["rawFrameCount"]) + " raw<br>" + f'{e["previewDurationMilliseconds"]/1000:g}' + " s (chosen)<br>[Full data](" + detail + "#technical-data)"
-        cells = [image, identity, html.escape(e["category"]["label"]), "<br>".join(html_code(x) for x in e["tags"]), gani, container, description, credit, timing]
+        cells = [image, identity, html.escape(e["category"]["label"]), "<br>".join(html_code(x) for x in e["tags"]), gani, container, description, timing]
         lines.append("| " + " | ".join(cells) + " |")
     lines += ["", "Pages: " + " · ".join(nav), "", "[All data (JSON)](../catalogue.json) · [Spreadsheet data (CSV)](../catalogue.csv) · [Source review](../description-sources.md)", ""]
     return "\n".join(lines).encode("utf-8")
@@ -375,8 +423,8 @@ def render_readme(catalogue):
         lines += ["", "</details>", ""]
     lines += [
         "## Metadata columns", "",
-        "Tables, JSON/CSV and detail pages separate **category**, **authored tags**, **virtual GANI directory/file**, **MTAR/container location**, **community source description** and **per-entry credits**. "
-        "Existing title-based preview summaries are project-authored; missing external descriptions remain unavailable. "
+        "Browsing tables separate **category**, **semantic tags**, **virtual GANI directory/file**, **MTAR/container location** and **Description**. Credits remain central and per-entry in the detail/source data. "
+        "Every entry has a concise action description; authored observations stay separate from attributed community descriptions and their exact-match status. "
         "The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).", "",
         "## How to read the previews", "",
         "The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions. "
@@ -532,7 +580,7 @@ def build(root, metadata_only=False):
         "identityPolicy": "game + source archive + clip hash; extraction ordinals are historical only",
         "metadataSourceReview": {"path": METADATA_REVIEW, "sha256": sha(review_bytes)},
         "metadataContainerProvenance": {"path": CONTAINER_REVIEW, "sha256": sha(container_review_bytes)},
-        "metadataPolicy": "Authored categories/tags/preview summaries are separate from exact-match external descriptions and retained original records",
+        "metadataPolicy": "Semantic browsing tags and useful authored action descriptions; exact-match source descriptions, credits, asset verification and original records remain distinct in detail data",
         "sourceRecords": [record for batch in batch_records
                           for record in (batch["extraction"], batch["previews"])],
         "sourceBatches": batch_records,

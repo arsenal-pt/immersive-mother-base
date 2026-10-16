@@ -1,5 +1,19 @@
 # Verified animation source handoff
 
+## Browsing correction - 16 October 2026
+
+The browsing column is **Description**. Every current clip has a short useful action summary, authored from its retained source family/phase and already reviewed offline preview unless an exact verified external description exists. Community-source match status stays in detail/JSON data; a missing community match does not replace the browsing summary with unavailable filler. Browse tables omit the Credits column; central credits, per-entry detail credits and source attribution remain intact.
+
+Tags are semantic search terms, for example CQC, Snake, enemy soldier, light machine gun, reload and kneeling. Keep provenance, uncertainty and review status in separate fields. A source actor/family label is distinct from the stock Ocelot preview mesh. Do not invent a Quiet origin, named character or specific weapon from the reference model; unsupported actor/weapon identities remain unset.
+
+## Extraction-backed locations
+
+The [retained asset map](container-provenance.json) now checks each of the three original FPK indexes directly: the declared MTAR path points to bytes identical to the retained MTAR and its SHA256. All 27 selected GANI payload hashes match bytes within their exact MTAR; saved extraction XML paths (only the tool-added four-digit prefix removed) and retained dictionary identity support the virtual names. No ordinal-only identity is used.
+
+Our saved Gzs/MtarTool outputs and source bytes are first-party extraction evidence. Community descriptions are separate interpretation sources and are not location evidence. The outer FPK virtual path and DAT name remain historical saved-extraction origins: the enclosing DAT index, current contents and current version were not checked. Keep those fields explicitly qualified, and leave unsupported locations null.
+
+For every future extraction, capture this provenance during extraction: source archive/version and content hash, exact outer DAT/FPK and inner MTAR/GANI paths where actually evidenced, tool/dictionary revision and hash, selected member/payload hashes, index/log receipt hashes and an explicit verification status for each link. Reuse exact retained bytes where possible. Check a selective retained index/member; do not launch a whole DAT extraction merely to fill a label.
+
 Reviewed 15 October 2026 for the existing 27 library clips and MGSV MCP documentation. The author documentation below has not been tested in this review.
 
 ## Sources and credits
