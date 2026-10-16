@@ -1,0 +1,868 @@
+{
+  "schemaVersion": 1,
+  "task": "MB-ASSET-QUALITY-002",
+  "date": "2026-10-16",
+  "scope": "Existing three exact asset families in retained main/special-room/full-source-census indexes only; not all-game coverage",
+  "nativeGeometryInspection": "Original FMDL LOD tables/index-buffer ranges directly read and all12face sets exactly match retained native perLOD caches; original model bytes match source SHA256",
+  "dedupe": "Identical native model path/content is recorded once with duplicate retained member mappings; all4LODface sets per model have distinct native index bytes",
+  "textureInspection": "Actual FTEX and DDS headers agree;12selected sampler content hashes checked. Three retained material manifests plus raw-header indexes expose one base content version per asset, with no larger retained alternative found",
+  "referenceFmdlReader": "https://github.com/BobDoleOwndU/FMDL-Studio-v2/blob/d580b94215cc007df6c38bdb0bfce6a0f30e4701/FMDL-Studio-v2/Assets/Fmdl%20Studio/Scripts/Classes/Fmdl.cs",
+  "models": [
+    {
+      "parentAssetId": "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+      "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+      "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+      "modelContentVersionsInRetainedFamily": 1,
+      "duplicateSourceOccurrences": [
+        {
+          "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+          "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+          "containerPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg00.fpk",
+          "evidenceIndex": "Special-Rooms/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+          "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+          "containerPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg01.fpk",
+          "evidenceIndex": "Special-Rooms/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+          "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+          "containerPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg02.fpk",
+          "evidenceIndex": "Special-Rooms/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+          "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+          "containerPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg03.fpk",
+          "evidenceIndex": "Special-Rooms/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+          "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+          "containerPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg04.fpk",
+          "evidenceIndex": "Special-Rooms/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+          "nativeSha256": "5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43",
+          "containerPath": "/Assets/tpp/pack/mission2/free/f30050/f30050_hanger_btg05.fpk",
+          "evidenceIndex": "Special-Rooms/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        }
+      ],
+      "nativeLodTableCount": 4,
+      "highestTriangleDetailNativeLod": 0,
+      "lods": [
+        {
+          "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod0",
+          "level": 0,
+          "triangles": 358,
+          "nativeIndicesSha256": "17454f7ec6beae5602cb56acd330967c74cca3290b59f35ce83b9345a905408d",
+          "sourceCacheExact": true,
+          "state": "complete-offline-reused-original",
+          "qualityLabel": "Highest retained geometric detail"
+        },
+        {
+          "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1",
+          "level": 1,
+          "triangles": 270,
+          "nativeIndicesSha256": "17a1b8cbdc6104d97f4acb46331d8c5cb5e3ac7c3379dceafb920096336d4dd9",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 1"
+        },
+        {
+          "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2",
+          "level": 2,
+          "triangles": 196,
+          "nativeIndicesSha256": "5d530af7f733a4525c866a8202d60326784ceeb3d2d7fbc1ea5dcfe8c1f7fb29",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 2"
+        },
+        {
+          "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3",
+          "level": 3,
+          "triangles": 150,
+          "nativeIndicesSha256": "3e9724ebf2920878de47a759ea0a8e514f405c46746bf65c5f5c0767a29882b6",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 3"
+        }
+      ],
+      "textures": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "nativePathHash": "1542935154948558078",
+          "nativeTexturePath": null,
+          "dimensions": [
+            512,
+            256
+          ],
+          "nativeMipCount": 8,
+          "ddsMipCount": 8,
+          "ddsSha256": "105362d96275cb39c12d25ece58841b1a7dfe89c2628d1e85559acd1b9f67c7f",
+          "ftexHeaderSha256": "00b2be3ee7ac7055decb6759231cbba92de4ed017e21d9886698980b3e056171",
+          "nativeMipDimensionsFromHeader": [
+            [
+              512,
+              256
+            ],
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": true,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "NormalMap_Tex_NRM",
+          "nativePathHash": "1543544073143106902",
+          "nativeTexturePath": null,
+          "dimensions": [
+            512,
+            256
+          ],
+          "nativeMipCount": 8,
+          "ddsMipCount": 8,
+          "ddsSha256": "e05db30fb6e7a68d664599b7734b5848fd3929e6a5136f4d5a3adc96b32187d5",
+          "ftexHeaderSha256": "9a17a8c2996404a8e7a2ca2794d035d878c5c7e9b6f3b5faffdea3ac9565cd2c",
+          "nativeMipDimensionsFromHeader": [
+            [
+              512,
+              256
+            ],
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "SpecularMap_Tex_LIN",
+          "nativePathHash": "1542766372082993548",
+          "nativeTexturePath": null,
+          "dimensions": [
+            512,
+            256
+          ],
+          "nativeMipCount": 8,
+          "ddsMipCount": 8,
+          "ddsSha256": "7af34bf62110276d1692eb94d0e9901aed9b4d27a1a1d1603fea54e4202c6505",
+          "ftexHeaderSha256": "d374d4132ebe1fb303f48b2c859cb95c6df7bc63ef9d6471f3ff152a71e54b58",
+          "nativeMipDimensionsFromHeader": [
+            [
+              512,
+              256
+            ],
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "MatParamMap_Tex_LIN",
+          "nativePathHash": "1542914060993304892",
+          "nativeTexturePath": null,
+          "dimensions": [
+            512,
+            256
+          ],
+          "nativeMipCount": 8,
+          "ddsMipCount": 8,
+          "ddsSha256": "cbc88981516d43e65c57e26504284d6694169be0d56d5a3be9a2195b51aff6e8",
+          "ftexHeaderSha256": "ca2a4acc68a9f34035d0596768d14888c51ddb01605a2deb909966f8ad9d02cd",
+          "nativeMipDimensionsFromHeader": [
+            [
+              512,
+              256
+            ],
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        }
+      ],
+      "largerRetainedBaseTextureFound": false,
+      "shaderFidelity": "Actual base-color DDS and UVs; approximate studio Principled shading. Normal/specular/material-map channels recorded but not used; no FOX shader recreation.",
+      "runtimeLodSelectionVerified": false,
+      "normalizedLookupKey": "/assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl#5f80c9bdacdab46673a783adc5bd997618f1a13738e2f4401f99b799974eab43"
+    },
+    {
+      "parentAssetId": "mgsv-tpp-cypr_char001-af15e4cfc6f2",
+      "nativePath": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+      "nativeSha256": "af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128",
+      "modelContentVersionsInRetainedFamily": 1,
+      "duplicateSourceOccurrences": [
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+          "nativeSha256": "af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128",
+          "containerPath": "/Assets/tpp/pack/location/mbqf/pack_common/mbqf_common.fpk",
+          "evidenceIndex": "Source-Manifest.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+          "nativeSha256": "af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128",
+          "containerPath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0040.fpk",
+          "evidenceIndex": "Source-Manifest.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+          "nativeSha256": "af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128",
+          "containerPath": "/Assets/tpp/pack/location/mbqf/pack_common/mbqf_common.fpk",
+          "evidenceIndex": "Full-Source-Census/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+          "nativeSha256": "af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128",
+          "containerPath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0040.fpk",
+          "evidenceIndex": "Full-Source-Census/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        }
+      ],
+      "nativeLodTableCount": 4,
+      "highestTriangleDetailNativeLod": 0,
+      "lods": [
+        {
+          "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod0",
+          "level": 0,
+          "triangles": 196,
+          "nativeIndicesSha256": "e1c35dcb4bf6d7a3fa2ae3b47befc3848a8132b1c7cf73ae23cbb274f201f2bf",
+          "sourceCacheExact": true,
+          "state": "complete-offline-reused-original",
+          "qualityLabel": "Highest retained geometric detail"
+        },
+        {
+          "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1",
+          "level": 1,
+          "triangles": 160,
+          "nativeIndicesSha256": "81130df7c30a815db1f9d787e3582202aa0e1b8d00fff7c59fb6c16222aba6b6",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 1"
+        },
+        {
+          "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2",
+          "level": 2,
+          "triangles": 140,
+          "nativeIndicesSha256": "1c5bd699c7dd2b2d3e5cf5014f4dcc3dfcc4591b9d904b36ae7775a0d115a62d",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 2"
+        },
+        {
+          "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3",
+          "level": 3,
+          "triangles": 128,
+          "nativeIndicesSha256": "e3ea05cb33f31af5e6a0951da4c41a61fb41b39f1c90c04b7d1ab8de593147b2",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 3"
+        }
+      ],
+      "textures": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "nativePathHash": "1542909980015461867",
+          "nativeTexturePath": null,
+          "dimensions": [
+            256,
+            128
+          ],
+          "nativeMipCount": 7,
+          "ddsMipCount": 7,
+          "ddsSha256": "ca87c815ea318972b4399ff99437d6c223497aca1cd4c9e59e1929deb0aefffd",
+          "ftexHeaderSha256": "dcdefdf1a4d8030b7e722e627d04fb20b0ec3480de62de949b7be51c6e0f5fe2",
+          "nativeMipDimensionsFromHeader": [
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": true,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "NormalMap_Tex_NRM",
+          "nativePathHash": "1542783776467754232",
+          "nativeTexturePath": null,
+          "dimensions": [
+            256,
+            128
+          ],
+          "nativeMipCount": 7,
+          "ddsMipCount": 7,
+          "ddsSha256": "abc11422a47f210a1ccdf9b5cdb2e79d33f7eaf43cef1930d303d7a973f71bf7",
+          "ftexHeaderSha256": "e981f1fd4f521d841fec43d00844b2d8edb8433f8cf1b0ed1b24df0249a5a3a1",
+          "nativeMipDimensionsFromHeader": [
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "SpecularMap_Tex_LIN",
+          "nativePathHash": "1542816710267766770",
+          "nativeTexturePath": null,
+          "dimensions": [
+            256,
+            128
+          ],
+          "nativeMipCount": 7,
+          "ddsMipCount": 7,
+          "ddsSha256": "6c4c5ef0f67fdd20ea6748886664f403450a5e2243bf560d2bec79aa5db1476f",
+          "ftexHeaderSha256": "1305129a7f828d0415c1b1a216f9b608018562bb99199797b0edc2d0ed5de97c",
+          "nativeMipDimensionsFromHeader": [
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "MatParamMap_Tex_LIN",
+          "nativePathHash": "1543086025496588626",
+          "nativeTexturePath": null,
+          "dimensions": [
+            256,
+            128
+          ],
+          "nativeMipCount": 7,
+          "ddsMipCount": 7,
+          "ddsSha256": "f1fed95e73fae34e5d42ca5e0fc267a2c94d91c19d56274291b2320f84405a32",
+          "ftexHeaderSha256": "56f27bedd6ec73d3d48a205193322d2cae34588c52befbf99e27d2df627e330a",
+          "nativeMipDimensionsFromHeader": [
+            [
+              256,
+              128
+            ],
+            [
+              128,
+              64
+            ],
+            [
+              64,
+              32
+            ],
+            [
+              32,
+              16
+            ],
+            [
+              16,
+              8
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        }
+      ],
+      "largerRetainedBaseTextureFound": false,
+      "shaderFidelity": "Actual base-color DDS and UVs; approximate studio Principled shading. Normal/specular/material-map channels recorded but not used; no FOX shader recreation.",
+      "runtimeLodSelectionVerified": false,
+      "normalizedLookupKey": "/assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl#af15e4cfc6f2ef15b7fb4c310157deeb3c23236d9956abb5ce62d2eb48ca9128"
+    },
+    {
+      "parentAssetId": "mgsv-tpp-cypr_whch001-68d6a4c0c875",
+      "nativePath": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+      "nativeSha256": "68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441",
+      "modelContentVersionsInRetainedFamily": 1,
+      "duplicateSourceOccurrences": [
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+          "nativeSha256": "68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441",
+          "containerPath": "/Assets/tpp/pack/location/mbqf/pack_common/mbqf_common.fpk",
+          "evidenceIndex": "Source-Manifest.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+          "nativeSha256": "68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441",
+          "containerPath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0040.fpk",
+          "evidenceIndex": "Source-Manifest.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+          "nativeSha256": "68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441",
+          "containerPath": "/Assets/tpp/pack/location/mbqf/pack_common/mbqf_common.fpk",
+          "evidenceIndex": "Full-Source-Census/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        },
+        {
+          "nativePath": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+          "nativeSha256": "68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441",
+          "containerPath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0040.fpk",
+          "evidenceIndex": "Full-Source-Census/Pack-Members.json",
+          "evidenceLevel": "retained extraction member record; not fresh installed DAT proof"
+        }
+      ],
+      "nativeLodTableCount": 4,
+      "highestTriangleDetailNativeLod": 0,
+      "lods": [
+        {
+          "id": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod0",
+          "level": 0,
+          "triangles": 1588,
+          "nativeIndicesSha256": "da8982e48a06b28ae8b92e673e69561189d4944e8e59a14c32bfd60bb044683e",
+          "sourceCacheExact": true,
+          "state": "complete-offline-reused-original",
+          "qualityLabel": "Highest retained geometric detail"
+        },
+        {
+          "id": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1",
+          "level": 1,
+          "triangles": 1452,
+          "nativeIndicesSha256": "79862d7dbbabd48a80ee2f4bc269fe2c997950f3025c9758728d1f3f36b37c74",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 1"
+        },
+        {
+          "id": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2",
+          "level": 2,
+          "triangles": 1384,
+          "nativeIndicesSha256": "d734daf9d5868bd66f94485c8e1a49fa2086e1558b2bc7b8c3a6678ca4343120",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 2"
+        },
+        {
+          "id": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3",
+          "level": 3,
+          "triangles": 1344,
+          "nativeIndicesSha256": "fdf6901544e403ac01f6454b2409bcb582446c2105afdd519b302696c96ff778",
+          "sourceCacheExact": true,
+          "state": "complete-offline-new-reference",
+          "qualityLabel": "Reduced geometric detail 3"
+        }
+      ],
+      "textures": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "nativePathHash": "1542794976997329743",
+          "nativeTexturePath": null,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "nativeMipCount": 9,
+          "ddsMipCount": 9,
+          "ddsSha256": "60edb4993e25dd7a2d22ccc7c9845601be9236ca6f60d33f52a84a8aad457f40",
+          "ftexHeaderSha256": "7ae7cc1700220f981de9ac4fe9721c916ce5a9b95f0403d02f71cd85acf57568",
+          "nativeMipDimensionsFromHeader": [
+            [
+              1024,
+              1024
+            ],
+            [
+              512,
+              512
+            ],
+            [
+              256,
+              256
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              32,
+              32
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "usedInPreview": true,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "NormalMap_Tex_NRM",
+          "nativePathHash": "1542752255105725688",
+          "nativeTexturePath": null,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "nativeMipCount": 9,
+          "ddsMipCount": 9,
+          "ddsSha256": "b51262b24200a77a9cdb0fd16733bf43fd3f8c84c5f2850f94b44001660009c5",
+          "ftexHeaderSha256": "c4feaa4749e6495ebb19570c45199a5ff005d9934e5df93554286fb4bc8b3306",
+          "nativeMipDimensionsFromHeader": [
+            [
+              1024,
+              1024
+            ],
+            [
+              512,
+              512
+            ],
+            [
+              256,
+              256
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              32,
+              32
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "SpecularMap_Tex_LIN",
+          "nativePathHash": "1542548934547970504",
+          "nativeTexturePath": null,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "nativeMipCount": 9,
+          "ddsMipCount": 9,
+          "ddsSha256": "1a058399ed921f5c57770ed9b4a7c844d3f08233666449bdb861748a5253bba5",
+          "ftexHeaderSha256": "df36a60256a61a18462132e894d3ccac84d0d8c54c3c9f6059cc351cd27507d4",
+          "nativeMipDimensionsFromHeader": [
+            [
+              1024,
+              1024
+            ],
+            [
+              512,
+              512
+            ],
+            [
+              256,
+              256
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              32,
+              32
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        },
+        {
+          "sampler": "MatParamMap_Tex_LIN",
+          "nativePathHash": "1542754739783832592",
+          "nativeTexturePath": null,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "nativeMipCount": 9,
+          "ddsMipCount": 9,
+          "ddsSha256": "a68d3563596aab885f962266eebdbe1d4477ab09da98e26bd0eea7d452828b3d",
+          "ftexHeaderSha256": "1ed6fd0342d1315dd436f8295e56078a78a1f8045b2ffdad2d56f8072b16afed",
+          "nativeMipDimensionsFromHeader": [
+            [
+              1024,
+              1024
+            ],
+            [
+              512,
+              512
+            ],
+            [
+              256,
+              256
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              32,
+              32
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "usedInPreview": false,
+          "note": "Mip dimensions derived from actual native/DDS header counts; retained chain preserved privately; no mip-level comparison renders"
+        }
+      ],
+      "largerRetainedBaseTextureFound": false,
+      "shaderFidelity": "Actual base-color DDS and UVs; approximate studio Principled shading. Normal/specular/material-map channels recorded but not used; no FOX shader recreation.",
+      "runtimeLodSelectionVerified": false,
+      "normalizedLookupKey": "/assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl#68d6a4c0c87566273d3281c7059fbeddf9b6d55252b37eea77495cc338648441"
+    }
+  ],
+  "excludedWork": [
+    "No new extraction/download/new-model batch",
+    "No synthetic upscale/subdivision or invented high-detail mesh",
+    "No LOD-by-mip Cartesian product; base texture held constant at highest verified retained size",
+    "No shader recreation or native runtime threshold test",
+    "No original model/texture/archive/cache/Blender redistribution"
+  ],
+  "status": "Twelve nativeLODviews complete offline; three originals reused unchanged, nine lower-LOD references added"
+}

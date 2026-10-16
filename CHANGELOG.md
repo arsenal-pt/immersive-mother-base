@@ -1,5 +1,10 @@
 # Development history
 
+## 2026-10-16 - native asset quality references
+
+Added the nine lower native LOD views for the existing folding chair, rolling stool and wheelchair, preserving originalLOD0IDs/media. The three selected models now expose all twelve distinct native face sets through static comparisons and individually loaded turntables. Quality/LOD/triangle and actual base texture pixels/native mip fields are separate. Retained duplicate models/texture contents map once; no higher retained mesh/base texture version was found in this bounded source scope. No new model family, extraction, mip cross-product, upscaling, shader recreation, game/native test, release/version or tag change.
+
+
 ## 2026-10-16 - asset reference starter
 
 Added a bounded asset-reference library with three retained Furniture > Seating examples: folding chair, rolling stool and wheelchair. Each has a clean textured still, a48-frame full360-degree camera turntable and a small static thumbnail. A zero-image index, static-only category table, detailed JSON/CSV/source identities, credits and category/workflow plan keep browsing lightweight. Retained FPK/model bytes and texture identities were checked; current DAT contents and native FOX shader/gameplay equivalence remain unverified. No original models/textures/archives, new extraction, game/native change, release archive, tag or version change.

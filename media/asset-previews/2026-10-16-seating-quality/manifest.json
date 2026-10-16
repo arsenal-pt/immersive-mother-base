@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "task": "MB-ASSET-QUALITY-002",
+  "kind": "new lowerLODvisual references and static comparisons; no original game assets",
+  "parents": 3,
+  "totalNativeLodViews": 12,
+  "originalLod0MediaReusedUnchanged": true,
+  "newLowerLodViewSets": 9,
+  "comparisonImages": 3,
+  "frameCountEach": 48,
+  "frameDelayMs": 100,
+  "nativeAnimation": false,
+  "nativeShaderEquivalent": false,
+  "texturePolicy": "Each model uses same highest verified retained base DDS for every LOD; no mip-level renders/upscales",
+  "files": [
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1.png",
+      "sha256": "25c59360c65d5d07a8d08687a921034f886f51759394ec575fdee74ef72b1a3c",
+      "bytes": 185756,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1-360.gif",
+      "sha256": "05b111997dc3923be907d631dbb2c992171d5696e29bc035e4ec684470e5c3a7",
+      "bytes": 1184000,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1-thumb.png",
+      "sha256": "1cfd3a538cc958cddfe89bff6469daac3cd25ca9bdec5ed5e028ecb06520483c",
+      "bytes": 13513,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2.png",
+      "sha256": "83d5b09149402404675368c303cbaff4a181978a939b9e4dd83bc88b21752e51",
+      "bytes": 181845,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2-360.gif",
+      "sha256": "d9382f960435e222818d515e21582617a0fe576cb3b56addcf4205cd5f3b5f6c",
+      "bytes": 1145104,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2-thumb.png",
+      "sha256": "523caca96487457d3c4eeb3f7c0a9a40fdaac5e0d3d4bbcfb2a55fa350b3bdb4",
+      "bytes": 13226,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3.png",
+      "sha256": "56103532aa81a186d9112997f8a460f61c0ab2adbb1dae5adf2773b7ca7b475a",
+      "bytes": 171759,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3-360.gif",
+      "sha256": "211ff47cd06e2faaadddbd60da9d1a37a47bd5176ee5748f71027bd23749f439",
+      "bytes": 1069842,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3-thumb.png",
+      "sha256": "17cf839a6e0b1fae8ce47dd5ede3733689cc71433a1d43e48f0051d608545f05",
+      "bytes": 12775,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod-comparison.png",
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod-comparison.png",
+      "sha256": "9ab77fdc67f8e66805e480f44b567ecbecf0a7ed0c9dd6480ed1da9150190faf",
+      "bytes": 106894
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1.png",
+      "sha256": "66dabb389546bd2c7c04f6a044feb73578318ac139b33b31e581e7d27d042c9f",
+      "bytes": 131632,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1-360.gif",
+      "sha256": "694299b199436d94bd9c0dc816dbbe0007a6b684bbd1cac8c8ef1004ac5f3bd6",
+      "bytes": 744215,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1-thumb.png",
+      "sha256": "9c8f35c985ffd4988d3e577ef0f4cc28da0b693b85a9a596c1f811a59a916f5e",
+      "bytes": 8613,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2.png",
+      "sha256": "7724ee42b868cee4726dbbc444af6bbae3c3c6b71e730e70eae1bf15d50e5313",
+      "bytes": 130121,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2-360.gif",
+      "sha256": "d119a2ebe42905520d115f3e4141a3555bc5733c34206cefa78626106670da37",
+      "bytes": 736706,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2-thumb.png",
+      "sha256": "bdd84db18e875fa50c23d071741d30e98e0e7918df4a7d14c2daaa60ca4d9634",
+      "bytes": 8603,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3.png",
+      "sha256": "755745f5fbcf829d004d372bf92ef996ca4b8797929e1bc77da1c22bd01b45a8",
+      "bytes": 125419,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3-360.gif",
+      "sha256": "992ba5d44a8a7d8dfe055199de6c548c9c73f2dc6901a8def668e795c563ae7f",
+      "bytes": 719020,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3-thumb.png",
+      "sha256": "a574363513153870a3c7b1eb7b8f014e9ffdbb846668233126d1145f012899e8",
+      "bytes": 8314,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod-comparison.png",
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod-comparison.png",
+      "sha256": "570830ef52f92e9e0d203354f635e179ad6345f3a84ff00c90d8319e44fa1bb2",
+      "bytes": 57405
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1.png",
+      "sha256": "7e021abc6ea078959a7623c7b480664146158e246353c54baa7d10b707aa7376",
+      "bytes": 203784,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1-360.gif",
+      "sha256": "4350bcee776a9839dfabe142d33c7a8e681e3846d33bb54b1850a6aca80861c0",
+      "bytes": 1209182,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1-thumb.png",
+      "sha256": "62b8a88f270d813cb5780987b40ad1afb1c26f78f9b8a03e273e136f15c97dcc",
+      "bytes": 14928,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2.png",
+      "sha256": "104b3f461edd50c3c4f4c723036e1e5beb4832f8d51c395eef2b964aa9611c17",
+      "bytes": 203101,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2-360.gif",
+      "sha256": "215c5f6b9e6cf98c640f169939854bd8519d8cade0b91725597f6f8cc57dfc86",
+      "bytes": 1206101,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2-thumb.png",
+      "sha256": "ec2ab3c9070dda71a9208e132386220ddd541eb49ace6d94ef36d32a071e1092",
+      "bytes": 14865,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3.png",
+      "sha256": "ba54d293c9a3a50ad13221280ccbf6f43dafe23ea6a50a11579eb04495cc7cba",
+      "bytes": 202510,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3-360.gif",
+      "sha256": "cfb6c9a7589f2b3a861ec3985103ae58c7f618d06747ca6698ab4d836908bba6",
+      "bytes": 1220592,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3-360.gif"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3-thumb.png",
+      "sha256": "0b3805dfcb53d45d1a8f007304bda4827c7b04d9374218b3a0a7391f4f284776",
+      "bytes": 14825,
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3-thumb.png"
+    },
+    {
+      "name": "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod-comparison.png",
+      "path": "media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_whch001-68d6a4c0c875-lod-comparison.png",
+      "sha256": "c124def9dabb4cebb0877c4fb64b625b8ed60fc8b22042e2ffe837c95a93471e",
+      "bytes": 79318
+    }
+  ]
+}

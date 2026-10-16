@@ -43,6 +43,32 @@ Bindings below are source metadata. Only the actual base-color texture drives th
 | SpecularMap_Tex_LIN | `1542816710267766770` | Unknown; hash identity retained | `6c4c5ef0f67fdd20ea6748886664f403450a5e2243bf560d2bec79aa5db1476f` | 256x128 |
 | MatParamMap_Tex_LIN | `1543086025496588626` | Unknown; hash identity retained | `f1fed95e73fae34e5d42ca5e0fc267a2c94d91c19d56274291b2320f84405a32` | 256x128 |
 
+## Native LOD comparison
+
+All four native face sets use the same source bounds, framing and highest verified retained base-color texture. LOD0 has the most triangles for this model in these retained inputs. Mesh detail is separate from texture resolution and approximate studio shading. No larger retained base version was found; this does not establish absence elsewhere in the game.
+
+![Rolling stool - four native LODs compared](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod-comparison.png)
+
+| Preview | Native LOD | Geometric detail | Triangles | Base texture | Open selected view |
+|---|---|---|---:|---|---|
+| [![Rolling stool LOD0](../../../media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_char001-af15e4cfc6f2-thumb.png)](#still-reference) | LOD0 | Highest retained geometric detail | 196 | 256x128; 7 mips | [Existing original reference](#still-reference) |
+| [![Rolling stool LOD1](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1-thumb.png)](mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1.md) | LOD1 | Reduced geometric detail 1 | 160 | 256x128; 7 mips | [Still and 360-degree view](mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1.md) |
+| [![Rolling stool LOD2](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2-thumb.png)](mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2.md) | LOD2 | Reduced geometric detail 2 | 140 | 256x128; 7 mips | [Still and 360-degree view](mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2.md) |
+| [![Rolling stool LOD3](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3-thumb.png)](mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3.md) | LOD3 | Reduced geometric detail 3 | 128 | 256x128; 7 mips | [Still and 360-degree view](mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3.md) |
+
+### Texture channels and mip counts
+
+These native/DDS header sizes are separate from geometric LOD. Only the base map is used in the studio preview; other channels are catalogued rather than treated as engine-perfect shading.
+
+| Channel | Pixels | Native/DDS mip levels | Used in preview |
+|---|---|---:|---|
+| Base_Tex_SRGB | 256x128 | 7 | Base color only |
+| NormalMap_Tex_NRM | 256x128 | 7 | Recorded, not applied |
+| SpecularMap_Tex_LIN | 256x128 | 7 | Recorded, not applied |
+| MatParamMap_Tex_LIN | 256x128 | 7 | Recorded, not applied |
+
+[Exact native LOD/deduplicated source mappings, texture hashes and declared mip dimensions](../quality-provenance.json). No original textures or geometry are included.
+
 ## Attribution and limits
 
 Game model and textures: Konami. Reference preparation is AI/LLM-authored using the established community tool pipeline; see [central credits](../sources-and-credits.md). The repository owner is arsenal-pt. Game artwork is not covered by the original-code license.

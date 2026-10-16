@@ -21,6 +21,7 @@ def run():
     ap = argparse.ArgumentParser()
     ap.add_argument('--config', type=Path, required=True)
     ap.add_argument('--asset', required=True)
+    ap.add_argument('--lod', type=int, default=0)
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument('--sample', action='store_true')
     mode.add_argument('--full', action='store_true')
@@ -37,7 +38,10 @@ def run():
     if cache['sha256'] != asset['sha256']:
         raise ValueError('Retained decoded cache identity differs')
     lod = json.loads(zlib.decompress((root / asset['lodFacesCache']).read_bytes()))
-    face_sets = {x['meshIndex']: x['faces'] for x in lod if x['level'] == 0}
+    face_sets = {x['meshIndex']: x['faces'] for x in lod if x['level'] == a.lod}
+    if not face_sets:
+        raise ValueError('Selected native LOD is absent; no synthetic fallback')
+    variant_id = entry['id'] if a.lod == 0 else entry['id'] + '-lod' + str(a.lod)
     bpy.ops.wm.read_factory_settings(use_empty=True)
     sc = bpy.context.scene; sc.render.engine = 'BLENDER_EEVEE'
     sc.render.image_settings.file_format = 'PNG'; sc.render.image_settings.color_mode = 'RGBA'
@@ -81,7 +85,7 @@ def run():
     objects=[]; topology=[]
     lo,hi = asset['bounds']; center=((lo[0]+hi[0])/2,(lo[2]+hi[2])/2,lo[1])
     for i,m in enumerate(cache['meshes']):
-        faces=face_sets[i]; mesh=bpy.data.meshes.new('Retained LOD0')
+        faces=face_sets[i]; mesh=bpy.data.meshes.new('Retained LOD'+str(a.lod))
         verts=[(v[0]-center[0],-v[2]+center[1],v[1]-center[2]) for v in m['vertices']]
         mesh.from_pydata(verts,[],[(f[0],f[2],f[1]) for f in faces]); mesh.update()
         if mesh.validate(verbose=False): raise ValueError('Mesh needed repair; stop')
@@ -92,7 +96,7 @@ def run():
             mesh.normals_split_custom_set_from_vertices([(v[0],-v[2],v[1]) for v in m['attributes']['2']])
         mesh.materials.append(mats[m['material']])
         obj=bpy.data.objects.new('Preview '+str(i),mesh);sc.collection.objects.link(obj);objects.append(obj)
-        topology.append({'meshIndex':i,'vertices':len(verts),'lod':0,'triangles':len(faces),
+        topology.append({'meshIndex':i,'vertices':len(verts),'lod':a.lod,'triangles':len(faces),
             'UV0Loops':len(mesh.loops),'nativeGeometryEdited':False})
     width=hi[0]-lo[0]; depth=hi[2]-lo[2]; height=hi[1]-lo[1]
     scale=max(height*1.35,math.hypot(width,depth)*1.4)
@@ -108,7 +112,7 @@ def run():
         ob=bpy.data.objects.new(name,data);sc.collection.objects.link(ob);ob.location=loc;aim(ob,target)
     camdata=bpy.data.cameras.new('Reference orbit camera');camdata.type='ORTHO';camdata.ortho_scale=scale
     camera=bpy.data.objects.new('Reference orbit camera',camdata);sc.collection.objects.link(camera);sc.camera=camera
-    out=Path(cfg['outputRoot'])/entry['id'];out.mkdir(parents=True,exist_ok=True)
+    out=Path(cfg['outputRoot'])/variant_id;out.mkdir(parents=True,exist_ok=True)
     def render(angle,size,path):
         radius=5*scale;rad=math.radians(angle)
         camera.location=(radius*math.sin(rad),-radius*math.cos(rad),height*.5+radius*.45)
@@ -121,13 +125,13 @@ def run():
     for i,angle in enumerate(frame_angles):
         path=directory/f'{i:03d}.png'
         if not path.exists():render(angle,240 if a.sample else cfg['settings']['gifSize'],path)
-    receipt={'assetId':entry['id'],'nativeFmdlPath':asset['nativeFmdlPath'],'nativeSha256':asset['sha256'],
+    receipt={'assetId':entry['id'],'variantId':variant_id,'selectedNativeLod':a.lod,'nativeFmdlPath':asset['nativeFmdlPath'],'nativeSha256':asset['sha256'],
         'blenderVersion':bpy.app.version_string,'stage':'sample' if a.sample else 'full',
-        'rotation':'camera orbit only; static retained LOD0 geometry; not native animation',
+        'rotation':'camera orbit only; static retained native LOD geometry; not native animation',
         'anglesDegrees':frame_angles,'baseColorTextures':texture_receipts,'topology':topology,
         'nativeShaderEquivalent':False,'materials':'actual base-color texture; approximate Principled diffuse; no FOX shader/packed material reconstruction',
         'images':[{'file':p.relative_to(out).as_posix(),'sha256':sha(p),'bytes':p.stat().st_size} for p in [still,*sorted(directory.glob('*.png'))]]}
     (out/('sample-receipt.json' if a.sample else 'render-receipt.json')).write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
-    print('ASSET_REFERENCE_COMPLETE '+entry['id'],flush=True)
+    print('ASSET_REFERENCE_COMPLETE '+variant_id,flush=True)
 
 if __name__=='__main__':run()

@@ -12,3 +12,11 @@ Dedicated subsystem owner: the asset-library research subagent (`asset_library_p
 8. Exclude rendered media from software/release inventories; keep its own provenance manifest. Freeze scoped authored changes for root review before publication. Save canonical plan/task/decisions/devlog/memory plus exact private mirrors and a scoped local authored commit. Raw sources and clean frames stay private. Stop at the selected batch boundary.
 
 See [the plan](RESEARCH-PLAN.md) for taxonomy, coverage limits and starter settings. A future separate reference project is possible but is not created here.
+
+## Source quality and duplicate handling
+
+For each future expressly selected asset family, inventory actual retained/native model versions, native LOD face groups, texture dimensions and declared mip counts while reading its source. Record exact native paths/content hashes, LOD index identities/triangle counts and texture/header/DDS hashes. Compare actual source buffers before calling a level highest or reduced detail; do not assume every asset uses the same LOD numbering or that more triangles imply a better texture. Keep missing/unresolved variants explicit.
+
+Deduplicate identical native model/geometry/texture content with source/LOD mappings rather than redundant renders. Show every distinct supported native geometric LOD in a small static comparison and lazy individual reference page; preserve accepted original previews and stable parent IDs. Hold verified base texture/camera/framing constant across mesh comparisons. Keep Quality/LOD and actual Base texture pixels/native mips as separate browsing columns and numeric fields in portable data. Record normal/specular/material channels separately from what the approximate preview shader actually uses.
+
+Highest retained is a scoped finding, not an all-game maximum claim. Never fabricate higher quality through subdivision/upscaling or present invented downsampled maps as native alternatives. Preserve real native mip chains privately and catalogue them; do not render the Cartesian product of geometry LODs and texture mips. Runtime thresholds/native shaders require independent proof and are not recreated by a reference-catalogue task. Finish an expressly selected quality scope before silently starting other model families.

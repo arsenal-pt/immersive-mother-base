@@ -152,7 +152,9 @@
     "assetLibraryJson": "research/asset-library/catalogue.json",
     "assetLibraryCsv": "research/asset-library/catalogue.csv",
     "assetLibraryPlan": "research/asset-library/RESEARCH-PLAN.md",
-    "assetReferenceWorkflow": "research/asset-library/workflow.md"
+    "assetReferenceWorkflow": "research/asset-library/workflow.md",
+    "assetQualityProvenance": "research/asset-library/quality-provenance.json",
+    "assetQualityVariantCsv": "research/asset-library/quality-variants.csv"
   },
   "animationPreviewDocumentation": {
     "manifest": "media/animation-previews/2026-10-15/preview-manifest.json",
@@ -169,6 +171,11 @@
     "changesNativeAcceptance": false,
     "originalGameAssetsIncluded": false,
     "selectedReferences": 3,
-    "wholeCategoryComplete": false
+    "wholeCategoryComplete": false,
+    "supplementaryManifests": [
+      "media/asset-previews/2026-10-16-seating-quality/manifest.json"
+    ],
+    "nativeLodViews": 12,
+    "originalLod0MediaUnchanged": true
   }
 }

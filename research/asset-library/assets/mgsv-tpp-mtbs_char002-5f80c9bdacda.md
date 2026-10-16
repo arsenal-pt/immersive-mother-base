@@ -43,6 +43,32 @@ Bindings below are source metadata. Only the actual base-color texture drives th
 | SpecularMap_Tex_LIN | `1542766372082993548` | Unknown; hash identity retained | `7af34bf62110276d1692eb94d0e9901aed9b4d27a1a1d1603fea54e4202c6505` | 512x256 |
 | MatParamMap_Tex_LIN | `1542914060993304892` | Unknown; hash identity retained | `cbc88981516d43e65c57e26504284d6694169be0d56d5a3be9a2195b51aff6e8` | 512x256 |
 
+## Native LOD comparison
+
+All four native face sets use the same source bounds, framing and highest verified retained base-color texture. LOD0 has the most triangles for this model in these retained inputs. Mesh detail is separate from texture resolution and approximate studio shading. No larger retained base version was found; this does not establish absence elsewhere in the game.
+
+![Folding chair - four native LODs compared](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod-comparison.png)
+
+| Preview | Native LOD | Geometric detail | Triangles | Base texture | Open selected view |
+|---|---|---|---:|---|---|
+| [![Folding chair LOD0](../../../media/asset-previews/2026-10-16-seating/mgsv-tpp-mtbs_char002-5f80c9bdacda-thumb.png)](#still-reference) | LOD0 | Highest retained geometric detail | 358 | 512x256; 8 mips | [Existing original reference](#still-reference) |
+| [![Folding chair LOD1](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1-thumb.png)](mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1.md) | LOD1 | Reduced geometric detail 1 | 270 | 512x256; 8 mips | [Still and 360-degree view](mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1.md) |
+| [![Folding chair LOD2](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2-thumb.png)](mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2.md) | LOD2 | Reduced geometric detail 2 | 196 | 512x256; 8 mips | [Still and 360-degree view](mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2.md) |
+| [![Folding chair LOD3](../../../media/asset-previews/2026-10-16-seating-quality/mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3-thumb.png)](mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3.md) | LOD3 | Reduced geometric detail 3 | 150 | 512x256; 8 mips | [Still and 360-degree view](mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3.md) |
+
+### Texture channels and mip counts
+
+These native/DDS header sizes are separate from geometric LOD. Only the base map is used in the studio preview; other channels are catalogued rather than treated as engine-perfect shading.
+
+| Channel | Pixels | Native/DDS mip levels | Used in preview |
+|---|---|---:|---|
+| Base_Tex_SRGB | 512x256 | 8 | Base color only |
+| NormalMap_Tex_NRM | 512x256 | 8 | Recorded, not applied |
+| SpecularMap_Tex_LIN | 512x256 | 8 | Recorded, not applied |
+| MatParamMap_Tex_LIN | 512x256 | 8 | Recorded, not applied |
+
+[Exact native LOD/deduplicated source mappings, texture hashes and declared mip dimensions](../quality-provenance.json). No original textures or geometry are included.
+
 ## Attribution and limits
 
 Game model and textures: Konami. Reference preparation is AI/LLM-authored using the established community tool pipeline; see [central credits](../sources-and-credits.md). The repository owner is arsenal-pt. Game artwork is not covered by the original-code license.

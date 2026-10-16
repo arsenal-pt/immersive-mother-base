@@ -18,5 +18,48 @@
   "wholeCategoryComplete": false,
   "allGameComplete": false,
   "owner": "asset_library_planning",
-  "nextAction": "Stop after root-reviewed publication/checkpoint; await next expressly assigned small batch. Broader category discovery and all-game catalogue remain unstarted."
+  "nextAction": "Stop after root-reviewed publication/checkpoint; await next expressly assigned small batch. Broader category discovery and all-game catalogue remain unstarted.",
+  "qualityCoverage": {
+    "scope": "exact existing3families/nativeLOD0-3 within retained inputs",
+    "selectedParentIds": [
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875"
+    ],
+    "selectedVariantIds": [
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod0",
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1",
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2",
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod0",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod0",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3"
+    ],
+    "completedVariantIds": [
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod0",
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod1",
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod2",
+      "mgsv-tpp-mtbs_char002-5f80c9bdacda-lod3",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod0",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod1",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod2",
+      "mgsv-tpp-cypr_char001-af15e4cfc6f2-lod3",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod0",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod1",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod2",
+      "mgsv-tpp-cypr_whch001-68d6a4c0c875-lod3"
+    ],
+    "pendingVariantIds": [],
+    "remaining": 0,
+    "nextCursor": null,
+    "reusedOriginalLod0Views": 3,
+    "newLowerLodViews": 9,
+    "wholeGameMaximumQualityProven": false,
+    "nextAction": "Stop after reviewed publication/checkpoint; await next selected asset-family batch."
+  }
 }

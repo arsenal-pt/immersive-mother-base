@@ -44,3 +44,11 @@ The public format should remain portable JSON/CSV/Markdown so it can later move 
 ## Completion checks
 
 Verify exactly three selected identities, original/retained-input hashes unchanged, texture content/UV mapping, expected LOD0 counts, clean still/frame hashes, full orbit/loop/frame timing, readable thumbnails, every relative link, UTF8/JSON consistency and absence of raw asset files/private paths. Check software build inventories exclude preview media without rebuilding releases. Review source/preview claims separately from native gameplay acceptance; no game launch, install or native model modification belongs to this task.
+
+## Existing-three quality continuation -16October2026
+
+This selected continuation adds all9lower native LOD references for the existing three asset identities, reuses their accepted LOD0media unchanged and completes12nativeLODviews. It does not start a new asset family. Per asset: static four-LOD comparison, separately linked still/360GIF for each distinct native face set, Quality/LOD/triangle annotations and actual texture pixels/native mips. Hold source bounds/camera/base texture fixed so the comparison isolates geometry. No new extraction, synthetic higher detail, upscaling, mip Cartesian product or shader recreation.
+
+Measured scope: chair358/270/196/150triangles; stool196/160/140/128; wheelchair1588/1452/1384/1344. Each family has one retained native model content identity despite duplicate source records; all fourLODface sets differ. Retained base maps are512x256/8mips,256x128/7mips and1024x1024/9mips respectively. Source headers/LODs were checked directly and exact retained mappings are in quality-provenance.json. No larger retained alternative was found within these inspected inputs. Whole-game completeness and native runtime selection remain unverified.
+
+The default index remains image-free; category table still loads only3static parent thumbnails. Parent detail pages show a static comparison/table and only their existing LOD0GIF; each lower-LOD child page loads its own selected GIF. New assets wait until this exact selected quality scope is finished or explicitly reprioritized.
