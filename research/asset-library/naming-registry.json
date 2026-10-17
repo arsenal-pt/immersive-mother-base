@@ -1,0 +1,1171 @@
+{
+  "schemaVersion": 1,
+  "description": "Separate reviewed display metadata; never processing identity",
+  "overrides": {
+    "mgsv-tpp-mtbs_char002-5f80c9bdacda": {
+      "display_name": "Folding chair",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "description": "A weathered blue folding chair with a white metal frame, suitable as a visual reference for hangar, office or rest-area seating.",
+      "tags": [
+        "chair",
+        "folding-chair",
+        "seating",
+        "furniture",
+        "metal-frame",
+        "blue-upholstery",
+        "hangar",
+        "mother-base"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-seating/mgsv-tpp-mtbs_char002-5f80c9bdacda.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-cypr_char001-af15e4cfc6f2": {
+      "display_name": "Rolling stool",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "description": "A round padded stool on a five-caster base, shown as a static reference for medical or workshop seating.",
+      "tags": [
+        "stool",
+        "rolling-stool",
+        "seating",
+        "furniture",
+        "medical",
+        "casters",
+        "paz-room",
+        "cyprus"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_char001-af15e4cfc6f2.png",
+        "native_path": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-cypr_whch001-68d6a4c0c875": {
+      "display_name": "Wheelchair",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "description": "A blue wheelchair with large rear wheels, push handles and front footrests, shown as a static medical-furniture reference.",
+      "tags": [
+        "wheelchair",
+        "medical",
+        "seating",
+        "mobility",
+        "blue-upholstery",
+        "paz-room",
+        "cyprus"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_whch001-68d6a4c0c875.png",
+        "native_path": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a": {
+      "display_name": "Ladder section",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "description": "A vertical metal ladder section. This reference is one native model variant; placement, climbing and complete assembly are untested.",
+      "tags": [
+        "ladder",
+        "access",
+        "metal",
+        "mother-base"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/ladder/mtbs_lddr001/scenes/mtbs_lddr001_vrtn002.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54": {
+      "display_name": "Emergency-stop / control switch panel",
+      "category": "Equipment",
+      "subcategory": "Controls and fixtures",
+      "description": "A small control panel with a red emergency-stop style switch. The model namespace is guantanamo; its retained occurrence is on Mother Base. No working interaction is claimed.",
+      "tags": [
+        "switch",
+        "control-panel",
+        "emergency-stop",
+        "guantanamo-namespace"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54.png",
+        "native_path": "/Assets/tpp/environ/object/guantanamo/switch/gntn_swtc001/scenes/gntn_swtc001_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mtbs_door006_door004-cc763ccaf47a": {
+      "display_name": "Door panel",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "description": "An individual industrial door panel with its surface fittings. This is the panel model, not a complete installed doorway or proven working door.",
+      "tags": [
+        "door",
+        "panel",
+        "mother-base",
+        "metal"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/door/mtbs_door006/scenes/mtbs_door006_door004.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2": {
+      "display_name": "Gate / shutter panel",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "description": "A large ribbed gate or shutter panel. The reference shows a native component; surrounding structure and opening behavior are not established.",
+      "tags": [
+        "gate",
+        "shutter",
+        "panel",
+        "mother-base"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/gate/mtbs_gate001/scenes/mtbs_gate001_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0": {
+      "display_name": "Duct section",
+      "category": "Architecture",
+      "subcategory": "Utility components",
+      "description": "A metal duct section with bent connector geometry. This is a static native variant, not an assembled or functional ventilation system.",
+      "tags": [
+        "duct",
+        "ventilation",
+        "metal",
+        "mother-base"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/duct/mtbs_duct002/scenes/mtbs_duct002_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150": {
+      "display_name": "Shelf component / variant 002",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "description": "A native metal shelf component or variant. The full assembled storage unit and interaction are not established.",
+      "tags": [
+        "shelf",
+        "storage",
+        "component",
+        "mother-base"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn002.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c": {
+      "display_name": "Shelf upright / frame component",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "description": "An individual shelf upright or frame component, rather than a complete assembled shelf.",
+      "tags": [
+        "shelf",
+        "upright",
+        "frame",
+        "storage",
+        "mother-base"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      }
+    },
+    "mgsv-tpp-mgoa_lght001-301caaa81e632bd6": {
+      "display_name": "Light pole and cable component",
+      "category": "Equipment",
+      "subcategory": "Lighting",
+      "description": "A slender light-pole component with a cable extending to one side.",
+      "tags": [
+        "light",
+        "light-pole",
+        "cable",
+        "fixture",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001-301caaa81e632bd6.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/light/mgoa_lght001/scenes/mgoa_lght001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. The light family is recorded in /light/; the visible cable/end pieces are not assumed to be a complete installed lighting assembly."
+      }
+    },
+    "mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e": {
+      "display_name": "Light pole with cable-end fixture",
+      "category": "Equipment",
+      "subcategory": "Lighting",
+      "description": "A slender pole and cable with a separate box-like end fixture and a base patch.",
+      "tags": [
+        "light",
+        "light-pole",
+        "cable",
+        "fixture",
+        "base",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/light/mgoa_lght001/scenes/mgoa_lght001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. The light family is recorded in /light/; the visible cable/end pieces are not assumed to be a complete installed lighting assembly."
+      }
+    },
+    "mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047": {
+      "display_name": "Rock cluster",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "description": "A cluster of irregular boulders with a rough rock surface.",
+      "tags": [
+        "rock",
+        "boulder",
+        "rock-cluster",
+        "terrain",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock002/scenes/mgoa_rock002_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgoa_tlbx001-182d0f4047008baa": {
+      "display_name": "Equipment case",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "description": "A rectangular equipment case with a paneled lid and reinforcing ribs.",
+      "tags": [
+        "case",
+        "equipment-case",
+        "storage",
+        "toolbox",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001-182d0f4047008baa.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28": {
+      "display_name": "Equipment case with labeled end panel",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "description": "A ribbed equipment case with side handles and a labeled panel at one end.",
+      "tags": [
+        "case",
+        "equipment-case",
+        "storage",
+        "handles",
+        "panel",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef": {
+      "display_name": "Equipment case with instrument end panel",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "description": "A ribbed case with side handles and instrument-style panels at one end.",
+      "tags": [
+        "case",
+        "equipment-case",
+        "storage",
+        "handles",
+        "instrument-panel",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_arpl001-655817d897e46fba": {
+      "display_name": "Fixed-wing aircraft",
+      "category": "Vehicles",
+      "subcategory": "Aircraft",
+      "description": "A fixed-wing aircraft model with broad wings, paired engine nacelles and a tail.",
+      "tags": [
+        "aircraft",
+        "airplane",
+        "fixed-wing",
+        "engine-nacelles",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_arpl001-655817d897e46fba.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/airplane/mgom_arpl001/scenes/mgom_arpl001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5": {
+      "display_name": "Wooden platform with floor opening",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A raised plank platform on numerous posts, with a small rectangular opening in the deck.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "floor-opening",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e": {
+      "display_name": "Wooden platform with steps",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A broad raised wooden deck with support posts, short steps and partial edge rails.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "steps",
+        "railing",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba": {
+      "display_name": "Wooden platform and wall section",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "An irregular wooden deck section with short vertical plank walls beneath part of its edge.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "planks",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn004.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440": {
+      "display_name": "Wooden platform with opening and wall",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A wooden deck section with a small floor opening and a partial wall along one edge.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "floor-opening",
+        "wall",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn006.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635": {
+      "display_name": "Wooden platform with partial enclosure",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "An elevated wooden platform with long posts and a partial plank enclosure beneath one end.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "wall",
+        "enclosure",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn008.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7": {
+      "display_name": "Wooden platform with stairs",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "An elevated plank platform with a stairway and several support posts.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn009.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6": {
+      "display_name": "Wooden platform with railings and stairs",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A raised wooden deck with partial railings, support posts and a short stairway.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "railing",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn010.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1": {
+      "display_name": "Wooden platform with partial walls",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A compact wooden deck section edged by partial plank walls and a small set of steps.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "steps",
+        "planks",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn011.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa": {
+      "display_name": "Wooden platform with stairs",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A rectangular raised plank platform with a projecting stairway and open sides.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn012.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f": {
+      "display_name": "Long wooden platform section",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A long, open-sided plank platform with rows of support posts underneath.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "long-section",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn013.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323": {
+      "display_name": "Wooden platform with tall wall panels",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A plank platform section with tall vertical wall panels and an adjoining sloped piece.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "planks",
+        "slope",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn014.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478": {
+      "display_name": "Wooden platform with railing",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A raised plank deck section with support posts and a short railing along one end.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "railing",
+        "posts",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn015.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0": {
+      "display_name": "Wooden platform and wall section",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A long plank platform with partial wall panels and supports below its deck.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "posts",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn016.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8": {
+      "display_name": "Raised wooden platform with stairs",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "description": "A broad elevated wooden deck with many slender posts and a stairway at one end.",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn017.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9": {
+      "display_name": "Timber support frame",
+      "category": "Infrastructure",
+      "subcategory": "Bridge components",
+      "description": "A tall open timber frame with cross-bracing and a small plank cap; its native path is in the bridge family.",
+      "tags": [
+        "wood",
+        "timber",
+        "frame",
+        "support",
+        "cross-bracing",
+        "bridge-component",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/bridge/mgom_brdg002/scenes/mgom_brdg002_vrtn004.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a": {
+      "display_name": "Cliff section",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "description": "A tall rock-face section with an irregular upper ledge.",
+      "tags": [
+        "cliff",
+        "rock-face",
+        "ledge",
+        "terrain",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff003/scenes/mgom_clff003_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701": {
+      "display_name": "Low cliff section",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "description": "An elongated low rock-face section with an uneven top ledge.",
+      "tags": [
+        "cliff",
+        "rock-face",
+        "ledge",
+        "terrain",
+        "low-section",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff003/scenes/mgom_clff003_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6": {
+      "display_name": "Vegetated terrain section",
+      "category": "Terrain",
+      "subcategory": "Terrain sections",
+      "description": "An irregular terrain section with a raised rock edge and vegetation-like cards on its surface.",
+      "tags": [
+        "terrain",
+        "rock",
+        "vegetation",
+        "ground",
+        "cliff-component",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff007/scenes/mgom_clff007_rock001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_clod001-32f447f6cdc76e3b": {
+      "display_name": "Ground-cover patch",
+      "category": "Terrain",
+      "subcategory": "Ground cover",
+      "description": "A low irregular patch with ground and twig-like textures; its exact intended use is unverified.",
+      "tags": [
+        "ground-cover",
+        "ground",
+        "twigs",
+        "terrain",
+        "patch",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clod001-32f447f6cdc76e3b.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/clod/mgom_clod001/scenes/mgom_clod001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. Broad ground-cover label only; native abbreviation clod is not expanded. A more specific identification may be reviewed later without affecting processing."
+      }
+    },
+    "mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c": {
+      "display_name": "Shipping container",
+      "category": "Equipment",
+      "subcategory": "Cargo containers",
+      "description": "A corrugated shipping-container model with paired end doors and corner fittings.",
+      "tags": [
+        "container",
+        "shipping-container",
+        "cargo",
+        "corrugated",
+        "doors",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001_vrtn_001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7": {
+      "display_name": "Shipping container",
+      "category": "Equipment",
+      "subcategory": "Cargo containers",
+      "description": "A corrugated shipping-container model with paired end doors and corner fittings.",
+      "tags": [
+        "container",
+        "shipping-container",
+        "cargo",
+        "corrugated",
+        "doors",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001_vrtn_002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4": {
+      "display_name": "Wooden fence section",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "description": "A straight plank fence section with horizontal rails and upright boards.",
+      "tags": [
+        "wood",
+        "fence",
+        "barrier",
+        "planks",
+        "rails",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    },
+    "mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16": {
+      "display_name": "Wooden fence corner section",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "description": "Two adjoining wooden fence sections forming a corner.",
+      "tags": [
+        "wood",
+        "fence",
+        "barrier",
+        "planks",
+        "rails",
+        "corner",
+        "mgo"
+      ],
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      }
+    }
+  },
+  "path_overrides": {},
+  "rules": [
+    {
+      "path_component": "chair",
+      "display_name": "Chair component",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "tags": [
+        "seating",
+        "component"
+      ],
+      "description": "A native chair model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "chair",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "wheelchair",
+      "display_name": "Wheelchair component",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "tags": [
+        "wheelchair",
+        "component"
+      ],
+      "description": "A native wheelchair model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "wheelchair",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "light",
+      "display_name": "Light component",
+      "category": "Equipment",
+      "subcategory": "Lighting",
+      "tags": [
+        "lighting",
+        "component"
+      ],
+      "description": "A native light model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "light",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "toolbox",
+      "display_name": "Equipment case component",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "tags": [
+        "equipment case",
+        "component"
+      ],
+      "description": "A native toolbox model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "toolbox",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "airplane",
+      "display_name": "Aircraft component",
+      "category": "Vehicles",
+      "subcategory": "Aircraft",
+      "tags": [
+        "aircraft",
+        "component"
+      ],
+      "description": "A native airplane model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "airplane",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "base",
+      "display_name": "Structural component",
+      "category": "Architecture",
+      "subcategory": "Structural components",
+      "tags": [
+        "structure",
+        "component"
+      ],
+      "description": "A native base model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "base",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "bridge",
+      "display_name": "Bridge component",
+      "category": "Infrastructure",
+      "subcategory": "Bridge components",
+      "tags": [
+        "bridge",
+        "component"
+      ],
+      "description": "A native bridge model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "bridge",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "cliff",
+      "display_name": "Cliff component",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "rock",
+      "display_name": "Rock component",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "tags": [
+        "rock",
+        "component"
+      ],
+      "description": "A native rock model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "rock",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "container",
+      "display_name": "Container component",
+      "category": "Equipment",
+      "subcategory": "Cargo containers",
+      "tags": [
+        "container",
+        "component"
+      ],
+      "description": "A native container model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "container",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "fence",
+      "display_name": "Fence component",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "fence",
+        "component"
+      ],
+      "description": "A native fence model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "fence",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "door",
+      "display_name": "Door component",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "door",
+        "component"
+      ],
+      "description": "A native door model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "door",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "ladder",
+      "display_name": "Ladder component",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "ladder",
+        "component"
+      ],
+      "description": "A native ladder model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "ladder",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "duct",
+      "display_name": "Duct component",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "duct",
+        "component"
+      ],
+      "description": "A native duct model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "duct",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "shelf",
+      "display_name": "Shelf component",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "tags": [
+        "shelf",
+        "component"
+      ],
+      "description": "A native shelf model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "shelf",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    },
+    {
+      "path_component": "switch",
+      "display_name": "Switch component",
+      "category": "Equipment",
+      "subcategory": "Controls and fixtures",
+      "tags": [
+        "switch",
+        "component"
+      ],
+      "description": "A native switch model component. Its specific form and assembly have not been visually reviewed.",
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "switch",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      }
+    }
+  ]
+}

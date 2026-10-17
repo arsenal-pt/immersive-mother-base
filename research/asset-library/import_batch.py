@@ -132,52 +132,9 @@ def table_slug(category):
  return slug+'-batch'
 
 def generated(records):
- outputs={};groups={}
- for a in records:groups.setdefault(a['category'],[]).append(a)
- for category,assets in groups.items():
-  for start in range(0,len(assets),PAGE_SIZE):
-   page=start//PAGE_SIZE+1;table=['# '+category+' references - imported batch page '+str(page),'','Static thumbnails only (at most12/page). Open one entry for its full still/360GIF. Native LOD inventory is separate from rendered coverage.','',
-    '[Library](../README.md) | [Credits](../sources-and-credits.md) | [Batch provenance](../batch-provenance.json)','',
-    '| Preview | Asset | Category | Tags | Description | Quality / LOD | Base texture | Model location | Container location |','|---|---|---|---|---|---|---|---|---|']
-   for a in assets[start:start+PAGE_SIZE]:
-    page_link='../assets/'+a['id']+'.md';q=a['quality'];s=a['source'];p=a['preview']
-    table.append('| [!['+a['title']+'](../../../'+p['thumbnail']+')]('+page_link+') | ['+a['title']+']('+page_link+') | '+a['category']+' > '+a['subcategory']+' | '+', '.join(a['tags'])+' | '+cell(a['description'])+' | LOD'+str(a['geometry']['lod'])+'; '+str(a['geometry']['triangles'])+' triangles; '+str(len(q['nativeLods']))+' native levels inventoried; only selectedLOD rendered | '+cell(q['baseTextureSummary'])+' | `'+s['nativePath']+'` | `'+s['container']['nativePath']+'` (retained occurrence) |')
-   table+=['','Pages: '+' | '.join('['+str(n)+']('+table_slug(category)+'-'+str(n)+'.md)' for n in range(1,(len(assets)+PAGE_SIZE-1)//PAGE_SIZE+1)),''];outputs['tables/'+table_slug(category)+'-'+str(page)+'.md']='\n'.join(table)
- for a in records:
-  q=a['quality'];s=a['source'];p=a['preview'];detail=['# '+a['title'],'',a['description'],'',
-   '['+a['category']+' table](../tables/'+table_slug(a['category'])+'-1.md) | [Library](../README.md) | [Credits](../sources-and-credits.md) | [Batch source data](../batch-provenance.json)','',
-   '## Still reference','','!['+a['title']+'](../../../'+p['still']+')','',
-   '## 360-degree reference','','!['+a['title']+' camera orbit](../../../'+p['turntable']+')','',
-   'Static model;48camera views,100ms/frame,4.8-second loop. This is a reference-camera orbit, not native animation. Actual retained base textures/UVs use approximate studio lighting. FOX shader, collision, interactions and complete assembly are untested.','',
-   '## Identity and source','','| Field | Value |','|---|---|',
-   '| Category | '+a['category']+' > '+a['subcategory']+' |','| Tags | '+', '.join(a['tags'])+' |','| Native model | `'+s['nativePath']+'` |','| Native SHA256 | `'+s['nativeSha256']+'` |',
-   '| Retained container | `'+s['container']['nativePath']+'` |','| Retained container SHA256 | `'+s['container']['sha256']+'` |','| Location evidence | '+s['locationStatus']+' |',
-   '| Current installed DAT / priority | Not verified; outer DAT unknown for this record |','| Upstream preparation | '+a['batchImport']['upstreamPreparation']+' |','',
-   'Source namespace is a path identity, not exclusive original use. Lowercased lookup keys are separate from the exact retained member spelling.','',
-   '## Quality and native LOD inventory','','Texture pixels/mips, geometric detail and approximate studio shader fidelity are separate. OnlyLOD0was rendered for this imported batch. Other levels are inventoried, not newly previewed; identical decoded index sets map to their recorded counterpart. The decoded-indices hash uses UTF-8 canonical JSON of triangle-index lists grouped by mesh, not the original packed index-buffer bytes. No upscaling or invented geometry.','',
-   '| Native LOD | Triangles | Decoded indices SHA256 | Duplicate mapping | Preview status |','|---|---:|---|---|---|']
-  for v in q['nativeLods']:
-   status='Rendered above' if v['nativeLod'] in q['renderedNativeLods'] else ('Same index set as LOD'+str(v['duplicateOf'])+'; no separate preview' if 'duplicateOf' in v else 'Not rendered')
-   detail.append('| '+str(v['nativeLod'])+' | '+str(v['triangles'])+' | `'+v['indicesSha256']+'` | '+('LOD'+str(v['duplicateOf']) if 'duplicateOf' in v else 'Distinct within retained model')+' | '+status+' |')
-  detail+=['','## Base textures','','| Material | Native sampler / path hash | Pixels | Mip levels | Retained DDS SHA256 |','|---|---|---|---|---|']
-  for t in a['materials']:
-   detail.append('| '+str(t['materialIndex'])+' | '+t['sampler']+' / `'+t['nativePathHash']+'` | '+str(t['dimensions'][0])+' x '+str(t['dimensions'][1])+' | '+str(t['mipCount'])+(' native/header verified' if t['nativeMipCountVerified'] else ' DDS only; native header not rechecked')+' | `'+t['ddsSha256']+'` |')
-  detail+=['','Texture virtual filenames are unknown where only native hashes are available. Larger native textures elsewhere in the game were not searched. Only actual base-color maps are applied; normal/specular/packed shader channels are not recreated.','',
-   '## Attribution and limits','','Game models/textures: Konami. Project owner: arsenal-pt. Authored importer/metadata/reference work: OpenAI Codex (AI/LLM). [Community tools and detailed credits](../sources-and-credits.md). No endorsement is implied. Game artwork is outside the original-code license.','',
-   'Only rendered references and descriptive metadata are distributed. Raw assets, native files, textures, decoded geometry, Blender scenes, private source paths and clean frame caches remain private. [Catalogue](../catalogue.json) and [batch provenance](../batch-provenance.json) preserve identity and media hashes.','']
-  outputs['assets/'+a['id']+'.md']='\n'.join(detail).replace('OnlyLOD0was','Only LOD0 was').replace('48camera','48 camera').replace('model;48','model; 48').replace(',100ms',', 100ms')
- # New installed-source text never changes old accepted detail pages.
- installed=[a for a in records if a.get('batchImport',{}).get('sourceMode')=='installed']
- if installed:
-  from installed_import import installed_detail
-  for a in installed:
-   key='assets/'+a['id']+'.md';outputs[key]=installed_detail(outputs[key],a)
-  for category in {a['category'] for a in installed}:
-   if all(a.get('batchImport',{}).get('sourceMode')=='installed' for a in groups[category]):
-    for key in list(outputs):
-     if key.startswith('tables/'+table_slug(category)+'-'):
-      outputs[key]=outputs[key].replace('(retained occurrence)','(captured source occurrence)')
- return outputs
+ from presentation_public import generated as display_generated
+ return display_generated({'assets': records}, include_legacy=False)
+
 
 def run():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('export',type=Path);ap.add_argument('--ids',nargs='+',required=True);ap.add_argument('--media-prefix',required=True);args=ap.parse_args()

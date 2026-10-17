@@ -1,0 +1,12 @@
+# Equipment &gt; Lighting - page 1
+
+[Library](../README.md) | [Source / advanced data](../catalogue.json) | [Credits](../sources-and-credits.md)
+
+Static thumbnails only. Open a name or preview for its full still and 360-degree camera reference.
+
+| Preview | Name | Game filename | Description | Tags | Variant / LOD |
+|---|---|---|---|---|---|
+| [![Light pole and cable component](../../../media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001-301caaa81e632bd6-thumb.png)](../assets/mgsv-tpp-mgoa_lght001-301caaa81e632bd6.md) | [Light pole and cable component](../assets/mgsv-tpp-mgoa_lght001-301caaa81e632bd6.md) | mgoa_lght001.fmdl | A slender light-pole component with a cable extending to one side. | light, light-pole, cable, fixture, mgo | Variant: No explicit variant token; LOD0; 86 triangles |
+| [![Light pole with cable-end fixture](../../../media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e-thumb.png)](../assets/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e.md) | [Light pole with cable-end fixture](../assets/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e.md) | mgoa_lght001_vrtn002.fmdl | A slender pole and cable with a separate box-like end fixture and a base patch. | light, light-pole, cable, fixture, base, mgo | Variant: vrtn002; LOD0; 118 triangles |
+
+Pages: [1](lighting-1.md)

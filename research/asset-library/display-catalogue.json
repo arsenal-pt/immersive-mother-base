@@ -1,0 +1,1200 @@
+{
+  "schemaVersion": 1,
+  "description": "Presentation overlay only; catalogue.json retains immutable original records",
+  "assets": [
+    {
+      "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2",
+      "display_name": "Rolling stool",
+      "native_filename": "cypr_char001.fmdl",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "tags": [
+        "stool",
+        "rolling-stool",
+        "seating",
+        "furniture",
+        "medical",
+        "casters",
+        "paz-room",
+        "cyprus"
+      ],
+      "description": "A round padded stool on a five-caster base, shown as a static reference for medical or workshop seating.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 196,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "7451e997cbf8a71737c67332a81f3c2f3f58d426fde2f9ff61501a6209e8eb04",
+      "native_path": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_char001-af15e4cfc6f2.png",
+        "native_path": "/Assets/tpp/environ/object/cyprus/chair/cypr_char001/scenes/cypr_char001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-cypr_whch001-68d6a4c0c875",
+      "display_name": "Wheelchair",
+      "native_filename": "cypr_whch001.fmdl",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "tags": [
+        "wheelchair",
+        "medical",
+        "seating",
+        "mobility",
+        "blue-upholstery",
+        "paz-room",
+        "cyprus"
+      ],
+      "description": "A blue wheelchair with large rear wheels, push handles and front footrests, shown as a static medical-furniture reference.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 1588,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "06f64b0bdcdff32e2ba05fc1e55fea4ca4cdcd51c20da43a92aa9630a315491e",
+      "native_path": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-seating/mgsv-tpp-cypr_whch001-68d6a4c0c875.png",
+        "native_path": "/Assets/tpp/environ/object/cyprus/wheelchair/cypr_whch001/scenes/cypr_whch001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54",
+      "display_name": "Emergency-stop / control switch panel",
+      "native_filename": "gntn_swtc001_vrtn001.fmdl",
+      "category": "Equipment",
+      "subcategory": "Controls and fixtures",
+      "tags": [
+        "switch",
+        "control-panel",
+        "emergency-stop",
+        "guantanamo-namespace"
+      ],
+      "description": "A small control panel with a red emergency-stop style switch. The model namespace is guantanamo; its retained occurrence is on Mother Base. No working interaction is claimed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 32,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "8e9ef1e855e6313e763fafc689e537e8264eb4d318ee6ccc21bbb1f04aaca1f0",
+      "native_path": "/Assets/tpp/environ/object/guantanamo/switch/gntn_swtc001/scenes/gntn_swtc001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54.png",
+        "native_path": "/Assets/tpp/environ/object/guantanamo/switch/gntn_swtc001/scenes/gntn_swtc001_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgoa_lght001-301caaa81e632bd6",
+      "display_name": "Light pole and cable component",
+      "native_filename": "mgoa_lght001.fmdl",
+      "category": "Equipment",
+      "subcategory": "Lighting",
+      "tags": [
+        "light",
+        "light-pole",
+        "cable",
+        "fixture",
+        "mgo"
+      ],
+      "description": "A slender light-pole component with a cable extending to one side.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 86,
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "raw_record_sha256": "9b2c39b4fb42a40a3111654093d51f2e34d001680757bac9e67a8d0ecf85fe3f",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/light/mgoa_lght001/scenes/mgoa_lght001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001-301caaa81e632bd6.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/light/mgoa_lght001/scenes/mgoa_lght001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. The light family is recorded in /light/; the visible cable/end pieces are not assumed to be a complete installed lighting assembly."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e",
+      "display_name": "Light pole with cable-end fixture",
+      "native_filename": "mgoa_lght001_vrtn002.fmdl",
+      "category": "Equipment",
+      "subcategory": "Lighting",
+      "tags": [
+        "light",
+        "light-pole",
+        "cable",
+        "fixture",
+        "base",
+        "mgo"
+      ],
+      "description": "A slender pole and cable with a separate box-like end fixture and a base patch.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 118,
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "raw_record_sha256": "2981d60aef8d8405e9a9d25ff490d0b7207db1fba2b7b1a766b6b95d6572987f",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/light/mgoa_lght001/scenes/mgoa_lght001_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/light/mgoa_lght001/scenes/mgoa_lght001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. The light family is recorded in /light/; the visible cable/end pieces are not assumed to be a complete installed lighting assembly."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047",
+      "display_name": "Rock cluster",
+      "native_filename": "mgoa_rock002_vrtn002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "tags": [
+        "rock",
+        "boulder",
+        "rock-cluster",
+        "terrain",
+        "mgo"
+      ],
+      "description": "A cluster of irregular boulders with a rough rock surface.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 988,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "a99cd3ec9914afe9a42fe63249ab9dd0fcd5ecb3af2ffe81198ca6ae0225c5a4",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock002/scenes/mgoa_rock002_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock002/scenes/mgoa_rock002_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgoa_tlbx001-182d0f4047008baa",
+      "display_name": "Equipment case",
+      "native_filename": "mgoa_tlbx001.fmdl",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "tags": [
+        "case",
+        "equipment-case",
+        "storage",
+        "toolbox",
+        "mgo"
+      ],
+      "description": "A rectangular equipment case with a paneled lid and reinforcing ribs.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 210,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "85d2dd9a1c8b4eb6a7da331c35356b089eba133a1aa3caccd259487ca2081aef",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001-182d0f4047008baa.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28",
+      "display_name": "Equipment case with labeled end panel",
+      "native_filename": "mgoa_tlbx001_vrtn001.fmdl",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "tags": [
+        "case",
+        "equipment-case",
+        "storage",
+        "handles",
+        "panel",
+        "mgo"
+      ],
+      "description": "A ribbed equipment case with side handles and a labeled panel at one end.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 932,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "65a25a3f55e82ddfb59cd1810dbe2ca088e06e4e76ad389273b2e37bc2f82f7a",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef",
+      "display_name": "Equipment case with instrument end panel",
+      "native_filename": "mgoa_tlbx001_vrtn002.fmdl",
+      "category": "Equipment",
+      "subcategory": "Cases and storage",
+      "tags": [
+        "case",
+        "equipment-case",
+        "storage",
+        "handles",
+        "instrument-panel",
+        "mgo"
+      ],
+      "description": "A ribbed case with side handles and instrument-style panels at one end.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 928,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "39ca2a3d9785aa01ef5eaff19722966b566c0b62d88f8f452be1969fc6509600",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_afgh/toolbox/mgoa_tlbx001/scenes/mgoa_tlbx001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_arpl001-655817d897e46fba",
+      "display_name": "Fixed-wing aircraft",
+      "native_filename": "mgom_arpl001.fmdl",
+      "category": "Vehicles",
+      "subcategory": "Aircraft",
+      "tags": [
+        "aircraft",
+        "airplane",
+        "fixed-wing",
+        "engine-nacelles",
+        "mgo"
+      ],
+      "description": "A fixed-wing aircraft model with broad wings, paired engine nacelles and a tail.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 2217,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "a4bcc3b4c3c6895418f78bfc8204377057bf948a8828b5a6088e4c7ac1486fea",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/airplane/mgom_arpl001/scenes/mgom_arpl001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_arpl001-655817d897e46fba.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/airplane/mgom_arpl001/scenes/mgom_arpl001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5",
+      "display_name": "Wooden platform with floor opening",
+      "native_filename": "mgom_base001_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "floor-opening",
+        "mgo"
+      ],
+      "description": "A raised plank platform on numerous posts, with a small rectangular opening in the deck.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 1460,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "f681e469252b2f0dfe33990338ac0c1a2e3468b35e7c9f0ad7b0bd19ed45619d",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e",
+      "display_name": "Wooden platform with steps",
+      "native_filename": "mgom_base001_vrtn002.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "steps",
+        "railing",
+        "mgo"
+      ],
+      "description": "A broad raised wooden deck with support posts, short steps and partial edge rails.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 3366,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "e1671f68563b027b52a6c078a76710488e43b2bf8590409c3d0710b15de790aa",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba",
+      "display_name": "Wooden platform and wall section",
+      "native_filename": "mgom_base001_vrtn004.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "planks",
+        "mgo"
+      ],
+      "description": "An irregular wooden deck section with short vertical plank walls beneath part of its edge.",
+      "variant": "vrtn004",
+      "lod": 0,
+      "triangles": 980,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "7a0f84d309e07285eada9365c18ee9e6c29941dca87f0edb731d2ea0ae8cb8db",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn004.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn004.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440",
+      "display_name": "Wooden platform with opening and wall",
+      "native_filename": "mgom_base001_vrtn006.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "floor-opening",
+        "wall",
+        "mgo"
+      ],
+      "description": "A wooden deck section with a small floor opening and a partial wall along one edge.",
+      "variant": "vrtn006",
+      "lod": 0,
+      "triangles": 396,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "a0e25a490f212e66d6ee39c4c32e24e09671a4a862133479c732d833761916ac",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn006.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn006.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635",
+      "display_name": "Wooden platform with partial enclosure",
+      "native_filename": "mgom_base001_vrtn008.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "wall",
+        "enclosure",
+        "mgo"
+      ],
+      "description": "An elevated wooden platform with long posts and a partial plank enclosure beneath one end.",
+      "variant": "vrtn008",
+      "lod": 0,
+      "triangles": 656,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "4184b73de406b7bf6d348baabe2ffd3dcd606d8de6a1a4318f95984c2da48c81",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn008.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn008.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7",
+      "display_name": "Wooden platform with stairs",
+      "native_filename": "mgom_base001_vrtn009.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "description": "An elevated plank platform with a stairway and several support posts.",
+      "variant": "vrtn009",
+      "lod": 0,
+      "triangles": 984,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "34e3af142c0a211514872c5cf9cd4b8ff56712c319ef9a1c7ccb86eed50493ae",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn009.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn009.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6",
+      "display_name": "Wooden platform with railings and stairs",
+      "native_filename": "mgom_base001_vrtn010.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "railing",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "description": "A raised wooden deck with partial railings, support posts and a short stairway.",
+      "variant": "vrtn010",
+      "lod": 0,
+      "triangles": 620,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "f9874b178e37fea1ea262eadfdb10df1a97553797ab8dacd02604a297d0ea285",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn010.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn010.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1",
+      "display_name": "Wooden platform with partial walls",
+      "native_filename": "mgom_base001_vrtn011.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "steps",
+        "planks",
+        "mgo"
+      ],
+      "description": "A compact wooden deck section edged by partial plank walls and a small set of steps.",
+      "variant": "vrtn011",
+      "lod": 0,
+      "triangles": 1446,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "423c9373ae2ced22b29f8c2aa5982dcc968ce08f0ffdf8a4c80dc2df086001fb",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn011.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn011.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa",
+      "display_name": "Wooden platform with stairs",
+      "native_filename": "mgom_base001_vrtn012.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "description": "A rectangular raised plank platform with a projecting stairway and open sides.",
+      "variant": "vrtn012",
+      "lod": 0,
+      "triangles": 424,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "7fd7e4f91aaa6e8ee6da0211f423f8e3e18ded456d27285bdf036c30e103a2fc",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn012.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn012.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f",
+      "display_name": "Long wooden platform section",
+      "native_filename": "mgom_base001_vrtn013.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "posts",
+        "long-section",
+        "mgo"
+      ],
+      "description": "A long, open-sided plank platform with rows of support posts underneath.",
+      "variant": "vrtn013",
+      "lod": 0,
+      "triangles": 324,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "ae3704cf50acb0491d846283b08165deda01eb31c2a25376640a177dc59a2dd4",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn013.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn013.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323",
+      "display_name": "Wooden platform with tall wall panels",
+      "native_filename": "mgom_base001_vrtn014.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "planks",
+        "slope",
+        "mgo"
+      ],
+      "description": "A plank platform section with tall vertical wall panels and an adjoining sloped piece.",
+      "variant": "vrtn014",
+      "lod": 0,
+      "triangles": 878,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "782001db309a7d78724a6b95f59ec52784d9885bb0ffce69683bdd79726177ee",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn014.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn014.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478",
+      "display_name": "Wooden platform with railing",
+      "native_filename": "mgom_base001_vrtn015.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "railing",
+        "posts",
+        "mgo"
+      ],
+      "description": "A raised plank deck section with support posts and a short railing along one end.",
+      "variant": "vrtn015",
+      "lod": 0,
+      "triangles": 616,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "1e59cbd54ffec64ea4b6d16e28fbbfb877996c23c54b972a072ac7f91bea95ed",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn015.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn015.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0",
+      "display_name": "Wooden platform and wall section",
+      "native_filename": "mgom_base001_vrtn016.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "wall",
+        "posts",
+        "mgo"
+      ],
+      "description": "A long plank platform with partial wall panels and supports below its deck.",
+      "variant": "vrtn016",
+      "lod": 0,
+      "triangles": 1360,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "e3e966535b18053473177767fff99b750c54e861ab16bce7ae16e36b652e6830",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn016.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn016.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8",
+      "display_name": "Raised wooden platform with stairs",
+      "native_filename": "mgom_base001_vrtn017.fmdl",
+      "category": "Architecture",
+      "subcategory": "Wooden platforms",
+      "tags": [
+        "wood",
+        "platform",
+        "deck",
+        "stairs",
+        "posts",
+        "mgo"
+      ],
+      "description": "A broad elevated wooden deck with many slender posts and a stairway at one end.",
+      "variant": "vrtn017",
+      "lod": 0,
+      "triangles": 1246,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "53002a2b34631d5b1b6d2cf8f1a175033fa549ff2e9e8a1bdc311a32dd4ea166",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn017.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/base/mgom_base001/scenes/mgom_base001_vrtn017.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9",
+      "display_name": "Timber support frame",
+      "native_filename": "mgom_brdg002_vrtn004.fmdl",
+      "category": "Infrastructure",
+      "subcategory": "Bridge components",
+      "tags": [
+        "wood",
+        "timber",
+        "frame",
+        "support",
+        "cross-bracing",
+        "bridge-component",
+        "mgo"
+      ],
+      "description": "A tall open timber frame with cross-bracing and a small plank cap; its native path is in the bridge family.",
+      "variant": "vrtn004",
+      "lod": 0,
+      "triangles": 348,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "e0d6af2c7126300b623e43d1b6b6ce8f951b532d571fd7d0956d9d6c01b3d7c5",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/bridge/mgom_brdg002/scenes/mgom_brdg002_vrtn004.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/bridge/mgom_brdg002/scenes/mgom_brdg002_vrtn004.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a",
+      "display_name": "Cliff section",
+      "native_filename": "mgom_clff003_vrtn001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "rock-face",
+        "ledge",
+        "terrain",
+        "mgo"
+      ],
+      "description": "A tall rock-face section with an irregular upper ledge.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 733,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "767b08df94ffd4458ebc4b5adfcf451eef3e11f7fa1664dc56965523ae85b8ee",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff003/scenes/mgom_clff003_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff003/scenes/mgom_clff003_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701",
+      "display_name": "Low cliff section",
+      "native_filename": "mgom_clff003_vrtn002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "rock-face",
+        "ledge",
+        "terrain",
+        "low-section",
+        "mgo"
+      ],
+      "description": "An elongated low rock-face section with an uneven top ledge.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 666,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "751067a428215cf9917b6493ace4514a89433299de239f19969c687c1967157b",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff003/scenes/mgom_clff003_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff003/scenes/mgom_clff003_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6",
+      "display_name": "Vegetated terrain section",
+      "native_filename": "mgom_clff007_rock001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Terrain sections",
+      "tags": [
+        "terrain",
+        "rock",
+        "vegetation",
+        "ground",
+        "cliff-component",
+        "mgo"
+      ],
+      "description": "An irregular terrain section with a raised rock edge and vegetation-like cards on its surface.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 664,
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "raw_record_sha256": "fe532ac1577d37f933348f8a874f8296657a4a055bda55444fb34fcc55fe92e0",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff007/scenes/mgom_clff007_rock001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff007/scenes/mgom_clff007_rock001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_clod001-32f447f6cdc76e3b",
+      "display_name": "Ground-cover patch",
+      "native_filename": "mgom_clod001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Ground cover",
+      "tags": [
+        "ground-cover",
+        "ground",
+        "twigs",
+        "terrain",
+        "patch",
+        "mgo"
+      ],
+      "description": "A low irregular patch with ground and twig-like textures; its exact intended use is unverified.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 228,
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "raw_record_sha256": "c2dd1cf1735b6ec08e955a57462ee8260aa04a336579dcf108b17f6f390e4a07",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/clod/mgom_clod001/scenes/mgom_clod001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clod001-32f447f6cdc76e3b.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/clod/mgom_clod001/scenes/mgom_clod001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. Broad ground-cover label only; native abbreviation clod is not expanded. A more specific identification may be reviewed later without affecting processing."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c",
+      "display_name": "Shipping container",
+      "native_filename": "mgom_cntn001_vrtn_001.fmdl",
+      "category": "Equipment",
+      "subcategory": "Cargo containers",
+      "tags": [
+        "container",
+        "shipping-container",
+        "cargo",
+        "corrugated",
+        "doors",
+        "mgo"
+      ],
+      "description": "A corrugated shipping-container model with paired end doors and corner fittings.",
+      "variant": "vrtn_001",
+      "lod": 0,
+      "triangles": 482,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "2f50a7701784b75d6e957266b229754467580af5be72e41a8f37cb00dbc68877",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001_vrtn_001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001_vrtn_001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7",
+      "display_name": "Shipping container",
+      "native_filename": "mgom_cntn001_vrtn_002.fmdl",
+      "category": "Equipment",
+      "subcategory": "Cargo containers",
+      "tags": [
+        "container",
+        "shipping-container",
+        "cargo",
+        "corrugated",
+        "doors",
+        "mgo"
+      ],
+      "description": "A corrugated shipping-container model with paired end doors and corner fittings.",
+      "variant": "vrtn_002",
+      "lod": 0,
+      "triangles": 482,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "6492e3216a3f1f701f0f7a8d301ee50d557dd868fc1b9f28fbc0a88b341562a3",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001_vrtn_002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001_vrtn_002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4",
+      "display_name": "Wooden fence section",
+      "native_filename": "mgom_fenc001_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wood",
+        "fence",
+        "barrier",
+        "planks",
+        "rails",
+        "mgo"
+      ],
+      "description": "A straight plank fence section with horizontal rails and upright boards.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 384,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "2c0ea20a1adaa894911af59afd8cc07e8f944fe9b399ae5a10bc94d44036d26f",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn001.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16",
+      "display_name": "Wooden fence corner section",
+      "native_filename": "mgom_fenc001_vrtn002.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wood",
+        "fence",
+        "barrier",
+        "planks",
+        "rails",
+        "corner",
+        "mgo"
+      ],
+      "description": "Two adjoining wooden fence sections forming a corner.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 768,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "953587ecee075562e95b2a662a90e511520e015d47bad1a907b3b9e6bea64ba3",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16.png",
+        "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn002.fmdl",
+        "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda",
+      "display_name": "Folding chair",
+      "native_filename": "mtbs_char002.fmdl",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "tags": [
+        "chair",
+        "folding-chair",
+        "seating",
+        "furniture",
+        "metal-frame",
+        "blue-upholstery",
+        "hangar",
+        "mother-base"
+      ],
+      "description": "A weathered blue folding chair with a white metal frame, suitable as a visual reference for hangar, office or rest-area seating.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 358,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "db75d82516e917e5be1ac0a8b7ed244ff29630fd0a36bb81e46b4eb0e6b697be",
+      "native_path": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-seating/mgsv-tpp-mtbs_char002-5f80c9bdacda.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/chair/mtbs_char002/scenes/mtbs_char002.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_door006_door004-cc763ccaf47a",
+      "display_name": "Door panel",
+      "native_filename": "mtbs_door006_door004.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "tags": [
+        "door",
+        "panel",
+        "mother-base",
+        "metal"
+      ],
+      "description": "An individual industrial door panel with its surface fittings. This is the panel model, not a complete installed doorway or proven working door.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 10,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "9106436d5917ffccc2ca61efa250c97fdbb49a60fccb4bd2f27b95475e349fdd",
+      "native_path": "/Assets/tpp/environ/object/mother_base/door/mtbs_door006/scenes/mtbs_door006_door004.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_door006_door004-cc763ccaf47a.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/door/mtbs_door006/scenes/mtbs_door006_door004.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0",
+      "display_name": "Duct section",
+      "native_filename": "mtbs_duct002_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Utility components",
+      "tags": [
+        "duct",
+        "ventilation",
+        "metal",
+        "mother-base"
+      ],
+      "description": "A metal duct section with bent connector geometry. This is a static native variant, not an assembled or functional ventilation system.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 38,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "1638a0a96f792131f182fca16afce3ef0fa323965f10231d0cda4721c640ac66",
+      "native_path": "/Assets/tpp/environ/object/mother_base/duct/mtbs_duct002/scenes/mtbs_duct002_vrtn001.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_duct002_vrtn001-729a38018dc0.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/duct/mtbs_duct002/scenes/mtbs_duct002_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2",
+      "display_name": "Gate / shutter panel",
+      "native_filename": "mtbs_gate001_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "tags": [
+        "gate",
+        "shutter",
+        "panel",
+        "mother-base"
+      ],
+      "description": "A large ribbed gate or shutter panel. The reference shows a native component; surrounding structure and opening behavior are not established.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 118,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "2469d0027df7c40ad960ebaf46f1f473692d3cc633364e53a968d1be30fd2c2b",
+      "native_path": "/Assets/tpp/environ/object/mother_base/gate/mtbs_gate001/scenes/mtbs_gate001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_gate001_vrtn001-b30a73a378b2.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/gate/mtbs_gate001/scenes/mtbs_gate001_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a",
+      "display_name": "Ladder section",
+      "native_filename": "mtbs_lddr001_vrtn002.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access components",
+      "tags": [
+        "ladder",
+        "access",
+        "metal",
+        "mother-base"
+      ],
+      "description": "A vertical metal ladder section. This reference is one native model variant; placement, climbing and complete assembly are untested.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 236,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "775102bf1816a7489794899f95a05f5e307d57d6ed04c45e2da58874114c975a",
+      "native_path": "/Assets/tpp/environ/object/mother_base/ladder/mtbs_lddr001/scenes/mtbs_lddr001_vrtn002.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_lddr001_vrtn002-ff0e0462d63a.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/ladder/mtbs_lddr001/scenes/mtbs_lddr001_vrtn002.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c",
+      "display_name": "Shelf upright / frame component",
+      "native_filename": "mtbs_shlf007_vrtn001.fmdl",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "tags": [
+        "shelf",
+        "upright",
+        "frame",
+        "storage",
+        "mother-base"
+      ],
+      "description": "An individual shelf upright or frame component, rather than a complete assembled shelf.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 36,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "4a8b1b162d7fa320b14c471c3ff8f770c10f30c1aa3f562d5cb6d7be9baea607",
+      "native_path": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn001.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn001-026dfb56725c.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn001.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150",
+      "display_name": "Shelf component / variant 002",
+      "native_filename": "mtbs_shlf007_vrtn002.fmdl",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "tags": [
+        "shelf",
+        "storage",
+        "component",
+        "mother-base"
+      ],
+      "description": "A native metal shelf component or variant. The full assembled storage unit and interaction are not established.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 240,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "2c24567c7a58f56b5dd76076804490944638f92a7c4d3c7f7d435d13212923d2",
+      "native_path": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn002.fmdl",
+      "evidence": {
+        "kind": "accepted-existing",
+        "source": "media/asset-previews/2026-10-16-retained-batch/mgsv-tpp-mtbs_shlf007_vrtn002-f2cf2c909150.png",
+        "native_path": "/Assets/tpp/environ/object/mother_base/shelf/mtbs_shlf007/scenes/mtbs_shlf007_vrtn002.fmdl",
+        "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
+      },
+      "metadata_review": false
+    }
+  ]
+}
