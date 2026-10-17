@@ -166,6 +166,17 @@ def generated(records):
    '## Attribution and limits','','Game models/textures: Konami. Project owner: arsenal-pt. Authored importer/metadata/reference work: OpenAI Codex (AI/LLM). [Community tools and detailed credits](../sources-and-credits.md). No endorsement is implied. Game artwork is outside the original-code license.','',
    'Only rendered references and descriptive metadata are distributed. Raw assets, native files, textures, decoded geometry, Blender scenes, private source paths and clean frame caches remain private. [Catalogue](../catalogue.json) and [batch provenance](../batch-provenance.json) preserve identity and media hashes.','']
   outputs['assets/'+a['id']+'.md']='\n'.join(detail).replace('OnlyLOD0was','Only LOD0 was').replace('48camera','48 camera').replace('model;48','model; 48').replace(',100ms',', 100ms')
+ # New installed-source text never changes old accepted detail pages.
+ installed=[a for a in records if a.get('batchImport',{}).get('sourceMode')=='installed']
+ if installed:
+  from installed_import import installed_detail
+  for a in installed:
+   key='assets/'+a['id']+'.md';outputs[key]=installed_detail(outputs[key],a)
+  for category in {a['category'] for a in installed}:
+   if all(a.get('batchImport',{}).get('sourceMode')=='installed' for a in groups[category]):
+    for key in list(outputs):
+     if key.startswith('tables/'+table_slug(category)+'-'):
+      outputs[key]=outputs[key].replace('(retained occurrence)','(captured source occurrence)')
  return outputs
 
 def run():

@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "source": "Existing completed references; no new rendering",
+  "records": 30,
+  "files": [
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001-301caaa81e632bd6.png",
+      "bytes": 37649,
+      "sha256": "410d2ada04a04f4f17b29e72ec9e71e2cdee35d8884fd618282fba79711e6973"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001-301caaa81e632bd6-360.gif",
+      "bytes": 218779,
+      "sha256": "614517fe34b04be96203f83657d57af74f0eafc05f69583a4b9485e4cc3b5945"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001-301caaa81e632bd6-thumb.png",
+      "bytes": 2896,
+      "sha256": "5701b602d3ae969f290eecd096e19b2d204dc8c3dd44a60c6802a119adf946b9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e.png",
+      "bytes": 58012,
+      "sha256": "bc0f96a750e06bc27ab8d97df0407d0cfc633856e5646e541ca482af92d59fc1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e-360.gif",
+      "bytes": 399043,
+      "sha256": "1cfab6ee5275d2bc91de2c21188028fa9ed243dbdf5d33bce212e0c90d581d95"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_lght001_vrtn002-ddd9ab7715b7ed2e-thumb.png",
+      "bytes": 4212,
+      "sha256": "102015eec0e64ef5dde602e242fd6770db8c2e65f9c7eec98eb9b4a498c9edad"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047.png",
+      "bytes": 538969,
+      "sha256": "d447f199821c9e708997474eff07d59c6aa026889130a05c7288f3201ef2bb07"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047-360.gif",
+      "bytes": 2260978,
+      "sha256": "6d785848d865b380537a6efb3a1d16a0fd6faf0e375cc187407a41922aa93388"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047-thumb.png",
+      "bytes": 18909,
+      "sha256": "e0b44dd9f737fde0dccb80cc0e00fea2c901759f647b6a8de9aa77d61e94d614"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001-182d0f4047008baa.png",
+      "bytes": 193530,
+      "sha256": "7afdbecb5a7c654341cff726c399f614ef73b5622b04ba08e22ad1e34f3814e1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001-182d0f4047008baa-360.gif",
+      "bytes": 994489,
+      "sha256": "3a31eb5c2a2b7efa2a9b264166852b2e89ad8420c10719b7c3f12005ba26d4b2"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001-182d0f4047008baa-thumb.png",
+      "bytes": 11766,
+      "sha256": "aaf9c3abc9e4eb67151b4927e329bffea00b42b14dfb41db9eef5e88a463454b"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28.png",
+      "bytes": 224423,
+      "sha256": "3da6a9958360a02e51418b49a4d6f07e080ee46d4b88cdf7e81383ec8914f205"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28-360.gif",
+      "bytes": 1131798,
+      "sha256": "e471eb3385288cb917ec5653663fa016ac820db5135557a091ac751734821536"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn001-cda41f8220639e28-thumb.png",
+      "bytes": 13255,
+      "sha256": "2ab8bfcd4ae6b02bd6cec45c56d7f54b943aefe266bb38e7580390033648e9b4"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef.png",
+      "bytes": 221415,
+      "sha256": "70b6f059a08a800b544aaa87674d4760d26772214e0ec53ddb095bde48e7fabb"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef-360.gif",
+      "bytes": 1158120,
+      "sha256": "1efb6c66c9b04be75aa8ec88369ddc07f045363be83ebd691083e260227c2f98"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgoa_tlbx001_vrtn002-4241b9bf3571c2ef-thumb.png",
+      "bytes": 13068,
+      "sha256": "996faf8cc5a28e06091eb60b75fc1ae2750287139283fda31d452da3241d60e3"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_arpl001-655817d897e46fba.png",
+      "bytes": 561421,
+      "sha256": "0f3ef5800d73af47beff47360343b6686caa37ce9bbcce777b0aa46494a4cfe9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_arpl001-655817d897e46fba-360.gif",
+      "bytes": 1145092,
+      "sha256": "733b8ad956d5612316db517216e9f309586f137a042227adadc2d45b2856dc1c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_arpl001-655817d897e46fba-thumb.png",
+      "bytes": 5899,
+      "sha256": "c1d58442ae5e03313ebb02e579edc364e009155a26a0995c35e0404152952e02"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5.png",
+      "bytes": 625068,
+      "sha256": "60518210aa1a8849a200ae42b093da4c362013a6db601159002825d8c1d65075"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5-360.gif",
+      "bytes": 2289770,
+      "sha256": "d8e69d8d51e8a3ce2ef7a83d5f469b58859d3dcf7c5b4a06a94b8d68748a29eb"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn001-3b02f7cb69db29a5-thumb.png",
+      "bytes": 16242,
+      "sha256": "7ec6a8171b5fa57e0e39d508a55e949e2cb906483dae31de8e39fa80126a9577"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e.png",
+      "bytes": 586904,
+      "sha256": "245066ff9c2a9676d45b93988f9808a89c506e7c96cc1fc223cb5282842be76e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e-360.gif",
+      "bytes": 1401092,
+      "sha256": "3a329f97cf60eadd757f940de543098ccbfed10e00e771741b877e621a6b32d1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn002-93517b1b5460eb4e-thumb.png",
+      "bytes": 8222,
+      "sha256": "9c6f6a01bcf9630a02957d7e05c7d15887c2ce2d1b9fff3b6ad86404f106f2a9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba.png",
+      "bytes": 581674,
+      "sha256": "9b61abfa3e88f95a7ac5cf46960afcaec27ce7059ec20b9cb74e46b9fb4429e7"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba-360.gif",
+      "bytes": 1511443,
+      "sha256": "834c9fae5bbfb0927a713c3ff7c92353f2f3b6f50243aed929a54d0e79e23fb1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn004-351e059ecdea78ba-thumb.png",
+      "bytes": 7873,
+      "sha256": "16ad371c31774419790c9cb6e401828d7564e8b6d963717c60bcbb4a6a099141"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440.png",
+      "bytes": 615668,
+      "sha256": "6876f537aaf86c60633f344078adc2bfde333ed83fa7f0e1b25789286628ab67"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440-360.gif",
+      "bytes": 2140334,
+      "sha256": "1a17c49fb3b3c24a6548feff172f48bdd419993984d1edb97c483b5a1d0948fb"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn006-273208faf22b7440-thumb.png",
+      "bytes": 14462,
+      "sha256": "aa935d129470bcad4422efabc203009b7fc94a249e2871f5f680dffb0c5f4b93"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635.png",
+      "bytes": 617870,
+      "sha256": "dfbbfbbcc92dbffff3155ef1c95d292a9b01951e461d922f08079dab754c9598"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635-360.gif",
+      "bytes": 2329629,
+      "sha256": "9a54df8509e1a442ae494c9c3d58b993f6c1472975005074215b6450c8614f4c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn008-586318fa73b1c635-thumb.png",
+      "bytes": 20189,
+      "sha256": "4565d703586615a8d254e80c805cd7e26140f7361c7cbcce62876fa7bf323f53"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7.png",
+      "bytes": 595415,
+      "sha256": "32c98b1fe6bd51da0a6a79943f1a7a44b5c89b9c5d16cdcb49c9fb24be9a457e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7-360.gif",
+      "bytes": 1595958,
+      "sha256": "5a32f59fb207bc727adba5cb41f1b8ebe7ef3ed98efc2787ef9f2e804c41bb11"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn009-a8607d32047da4a7-thumb.png",
+      "bytes": 11594,
+      "sha256": "388158814d4171aa5f5177c76ed1156ae4480e7c2a21f340cab0bfb5a710d1a9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6.png",
+      "bytes": 620066,
+      "sha256": "0b402e68000e63d62f5baa4b833f67e49612bce1c61a695b936e25d902711ccb"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6-360.gif",
+      "bytes": 2151300,
+      "sha256": "55ab0b7b325e19910c5f081c5ea4f2e92ef6058ad2aaa959f50fdf047e33528a"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn010-cda347ad2b6a5fd6-thumb.png",
+      "bytes": 18539,
+      "sha256": "b7d6259127c743dc5819fddb547fe09eb9433bec431bda136deec55b94fa5191"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1.png",
+      "bytes": 598837,
+      "sha256": "4ff93c3daf9ece9d5209492b4ee135148ed1b74e9d4f822f1aa016e271f2c788"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1-360.gif",
+      "bytes": 1897646,
+      "sha256": "6b90e4058684d42b12d79ac53f78a80b4dec9949ef70909059a9567034c0f852"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn011-40c306de2ff431b1-thumb.png",
+      "bytes": 11223,
+      "sha256": "c0b35986dacbab0b8cf2c593ea7c2b8071da6553b51080abe048b3fec5c93d01"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa.png",
+      "bytes": 620163,
+      "sha256": "4e286eef569c8b1b117503adcabedde994043763ffeed89521eb6c5004541cfa"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa-360.gif",
+      "bytes": 2061953,
+      "sha256": "1573ad16739b1478fd6e510b8c57701f50e8a71cf501e817f80b607b3660b986"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn012-3a62e68bc499deaa-thumb.png",
+      "bytes": 16193,
+      "sha256": "5a1a7ed14c2ee2de2ef276d7e669001bf5be227cd6904b8362d0f7e36dd01675"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f.png",
+      "bytes": 583228,
+      "sha256": "9b6eab8ac073c3577b3582f7d6e0c0d008e1dae4fba41adb816208ac22e145fe"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f-360.gif",
+      "bytes": 2133176,
+      "sha256": "62a00f5f98191fb5a417e68712d56d3c03ae0de5510ac08601b13fd4559e1974"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn013-25d809b7bfa8034f-thumb.png",
+      "bytes": 17918,
+      "sha256": "3a2dc943496f8c15ad7011ad092f81031fbe9aaf1fc3dbd437996ae6bd8aae35"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323.png",
+      "bytes": 605922,
+      "sha256": "9613b93c2baf5b99ea50abc00f3b84ecec3266fe6a3f976d36ce49ba661c2d3c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323-360.gif",
+      "bytes": 2335109,
+      "sha256": "ae558448ecdb2a426caf48e59be6cd759771140cabf3810ee500c0f9b8807e5f"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn014-1529a7ce15567323-thumb.png",
+      "bytes": 17021,
+      "sha256": "d26e73e2e61493d5962604a9301e8fa183c3d9d2b2a5ad96fe12f4224d98fc89"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478.png",
+      "bytes": 618076,
+      "sha256": "fe077c8ce10dd9ef21b64312695912658e4f32090bfacd402e9be0a6b2ba021e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478-360.gif",
+      "bytes": 2325608,
+      "sha256": "43f784e0d647aaff441c51f117a452599938585a0025d47a0ab56259639a8532"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn015-1a5682dc04fda478-thumb.png",
+      "bytes": 16758,
+      "sha256": "294c4060ca7ec2da21b2bddb58733c4f5c5c89fb3009ce690d6c925c4a4b583f"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0.png",
+      "bytes": 607673,
+      "sha256": "9dacb649c6faaa983856f8501aa719e8872e47ed745e5fd14658fdc3348492bc"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0-360.gif",
+      "bytes": 1711317,
+      "sha256": "d715862b3f3bcbabb376526118608f98b7ab213c0b7b5eb43757dd5c9d73f7ad"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn016-038dba72899b46c0-thumb.png",
+      "bytes": 11452,
+      "sha256": "5e033d8c856a788001c777563c506c7b59c1bda0c592d5f9b4e85ea9aa6dd410"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8.png",
+      "bytes": 607310,
+      "sha256": "2b63b1984e50a2ca4f3cef18843ff400928b5d6b8635e699db27fa598cce9e7e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8-360.gif",
+      "bytes": 1709119,
+      "sha256": "799f9beb64fcdfa9a7548435452c8eb6388f5170aae21ca782569ead65a73f90"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_base001_vrtn017-16a6f0f245019be8-thumb.png",
+      "bytes": 11522,
+      "sha256": "585e7e5f526a19076877543e4c7cf06406268201da8bf3380fa3e301c9305a39"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9.png",
+      "bytes": 615836,
+      "sha256": "562ddbfce68c0901a94bf87571dbd27ecd7fd7240a6b56bbcb2fcec37b714064"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9-360.gif",
+      "bytes": 2467576,
+      "sha256": "bf3dee8481a91e79b2d90945a58d35ac75ff06f6ec135bae771fe89bfde4503a"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_brdg002_vrtn004-7850f0d9723d92b9-thumb.png",
+      "bytes": 22104,
+      "sha256": "b709929c317235fc39f095c3220fce184da57acf857dea7d775fd7adc6381f2e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a.png",
+      "bytes": 694571,
+      "sha256": "6b9bb795b294e241afe9f63693d559715cbdfd9824cfd514b0144b5b82fd74c1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a-360.gif",
+      "bytes": 2364764,
+      "sha256": "59a864d4ad4e5b98579b19d2f6db6326e7d56f7c70aeffbc0e7e9bd6646ab69c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a-thumb.png",
+      "bytes": 16921,
+      "sha256": "9b3ab9aca386fcf66397dc1c6be762cf22bc77dd80791fe5e999472a4ea88f7a"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701.png",
+      "bytes": 648486,
+      "sha256": "8e56350cdcd61edcdd127c6d13ee1d9b9f2c3f6f4c1454e4b14e6540099bedb8"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701-360.gif",
+      "bytes": 2034022,
+      "sha256": "1bae7aae67ccfbf72a14a44eb9549c2158954ee4a3c270350555ec7818cc626c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff003_vrtn002-825030200fd1d701-thumb.png",
+      "bytes": 13189,
+      "sha256": "60f02d02bb7c10a0cd51942cd5bd349e398525b96330020ab830823c03c490fc"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6.png",
+      "bytes": 528557,
+      "sha256": "e80011be30870752893f337cd785787afe0aff5668583e85df8284c0e16d8494"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6-360.gif",
+      "bytes": 1339861,
+      "sha256": "c91e7442e4aae42d23c7491193a00932af36287e5dd60a30aa0b04ae0c4ae82b"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6-thumb.png",
+      "bytes": 11294,
+      "sha256": "cc4f98de65f70e7f661760689807b50393133f2f6246b4442931eca08c4c49cc"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clod001-32f447f6cdc76e3b.png",
+      "bytes": 446741,
+      "sha256": "64dce2ec1e4d06adff2b38f099c8264fa9b0f27f7dc84046cb397ebb5e8759d9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clod001-32f447f6cdc76e3b-360.gif",
+      "bytes": 1991729,
+      "sha256": "2685ccefbae596e7d2c699ed512b34faeaae26101719d7d36ed72927ba563b58"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_clod001-32f447f6cdc76e3b-thumb.png",
+      "bytes": 16695,
+      "sha256": "304bddc0a7347057641ba69ef35e408677872d2c6e5c68695962929a1431f64c"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c.png",
+      "bytes": 493027,
+      "sha256": "1e98f213dbb347e7d85524007b3680f0ad8170b3f4cf0a32bcbb6cfa355a4794"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c-360.gif",
+      "bytes": 2482073,
+      "sha256": "4edc834b9534279b34c5feb09e8c8986775fc31db442494f6ddcb7c92d7dc2da"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c-thumb.png",
+      "bytes": 20171,
+      "sha256": "d11bdcba7308566637fb0b1308b52d4a3f1ec8713ca50b72df70ac1fb163c537"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7.png",
+      "bytes": 517500,
+      "sha256": "09f00d5caaa8cf522dac170e080b82d5e8f1d5b6ef2f197769926cb074415b9e"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7-360.gif",
+      "bytes": 2805182,
+      "sha256": "19eb5ea30c9ff05ca41aa278e19d6d227a466d2039c113b3089a343d642e897d"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_cntn001_vrtn_002-c26f90c1e8a462c7-thumb.png",
+      "bytes": 21405,
+      "sha256": "13133c02fd239334c1bd783b44761915e10df6ceff367f4e51a53f68bde1fd9b"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4.png",
+      "bytes": 296255,
+      "sha256": "e19053e9a76e4a5c2a7d2e3cdbaa1bb0711db331dfd030296312cfa484871ad0"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4-360.gif",
+      "bytes": 1379108,
+      "sha256": "90f33d8166a2f6e6cf81f3dd51b1476d0716143a7db589faef44a43122c2cc5a"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn001-de17f122cd8013e4-thumb.png",
+      "bytes": 12449,
+      "sha256": "3896644ce272595e05a0f195184dc0fb825b5141c1ed66d6f36ec2e25e87b439"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16.png",
+      "bytes": 370187,
+      "sha256": "b3beda8436ee6c81652762d5679b75c1b4324b805f0cf820767b6d1d1f29847d"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16-360.gif",
+      "bytes": 1698714,
+      "sha256": "804a2d3e7e57dfa0baae240d1ae054099da24863c9c9f0e21ea9c81dd061b2f2"
+    },
+    {
+      "path": "media/asset-previews/2026-10-16-installed-completions/mgsv-tpp-mgom_fenc001_vrtn002-40b809f19715bf16-thumb.png",
+      "bytes": 14785,
+      "sha256": "f3fa43d42d956727b52b94d48dcc55efe2ba110f812e7706749648cada49f96d"
+    }
+  ]
+}
