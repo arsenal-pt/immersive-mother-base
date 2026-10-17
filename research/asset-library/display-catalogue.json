@@ -996,6 +996,318 @@
       "metadata_review": false
     },
     {
+      "id": "mgsv-tpp-mgom_fenc001_vrtn003-ebf344d4a60e32fc",
+      "display_name": "Wooden fence corner section",
+      "native_filename": "mgom_fenc001_vrtn003.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wooden fence",
+        "corner",
+        "panel"
+      ],
+      "description": "Two joined wooden fence panels form a corner, shown as a static construction component.",
+      "variant": "vrtn003",
+      "lod": 0,
+      "triangles": 1248,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "666eb55db1c90cf487600ec21624456e84616e7e5da192e2fa9a423ed1d8ff03",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn003.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn003-ebf344d4a60e32fc.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc001_vrtn004-03b6cbdc5a2aec18",
+      "display_name": "Wooden fence panel",
+      "native_filename": "mgom_fenc001_vrtn004.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wooden fence",
+        "panel",
+        "barrier"
+      ],
+      "description": "A straight wooden board fence panel with upright posts, shown as a separate component.",
+      "variant": "vrtn004",
+      "lod": 0,
+      "triangles": 656,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "06ff54d2784444119c1974d58bc22bdd583046d5139b42e4b4f7820d1e3a19c9",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn004.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn004-03b6cbdc5a2aec18.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc001_vrtn005-f43755cff5150410",
+      "display_name": "Wooden fence panel",
+      "native_filename": "mgom_fenc001_vrtn005.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wooden fence",
+        "panel",
+        "barrier"
+      ],
+      "description": "A long straight wooden board fence panel with upright posts, shown as a separate component.",
+      "variant": "vrtn005",
+      "lod": 0,
+      "triangles": 984,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "4363e2ae045bce1ae1228a3ab3094cc53a926f45d92235f0815c6f8393161576",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc001/scenes/mgom_fenc001_vrtn005.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn005-f43755cff5150410.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc004_vrtn001-20533870403bda8c",
+      "display_name": "Panel fence section",
+      "native_filename": "mgom_fenc004_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "panel fence",
+        "barrier",
+        "posts"
+      ],
+      "description": "A straight row of flat fence panels with narrow upright posts.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 574,
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "raw_record_sha256": "00734461bb77f82a5b557e979c08a7f69d568adeb3a480748a64e7fea3bc8f45",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc004/scenes/mgom_fenc004_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn001-20533870403bda8c.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc004_vrtn002-174a403c8d528bff",
+      "display_name": "Panel fence section",
+      "native_filename": "mgom_fenc004_vrtn002.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "panel fence",
+        "barrier",
+        "posts"
+      ],
+      "description": "A straight row of flat fence panels with narrow upright posts, retained as its own native variant.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 748,
+      "naming_status": "reviewed",
+      "confidence": "medium",
+      "raw_record_sha256": "bb61530e66a749e6cf26f02a49d6745b1c65b1d0796cb71b9e839aefc9852494",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc004/scenes/mgom_fenc004_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn002-174a403c8d528bff.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc005_vrtn001-451a9a26961b1c0f",
+      "display_name": "Wooden rail fence section",
+      "native_filename": "mgom_fenc005_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wooden fence",
+        "rails",
+        "posts"
+      ],
+      "description": "An open fence section built from horizontal wooden rails and upright supports.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 272,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "0f6c21531a62133df54ea4a33e3b8b9874233607c3764a34fe02e034ce0457cb",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc005/scenes/mgom_fenc005_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn001-451a9a26961b1c0f.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fenc005_vrtn002-d7f864821c05612d",
+      "display_name": "Wooden rail fence section",
+      "native_filename": "mgom_fenc005_vrtn002.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "wooden fence",
+        "rails",
+        "posts"
+      ],
+      "description": "An open fence section built from horizontal wooden rails and upright supports, retained as its own native variant.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 252,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "d7117dd6f7df2ef54022c2dbfb6917ac3445cee0d4e496a4659f7fb79db424bd",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc005/scenes/mgom_fenc005_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn002-d7f864821c05612d.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fndt001_grvl001-50ed22e76a794a1c",
+      "display_name": "Gravel ground patch",
+      "native_filename": "mgom_fndt001_grvl001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Ground patches",
+      "tags": [
+        "gravel",
+        "ground",
+        "terrain patch"
+      ],
+      "description": "A flat square ground patch with a gravel-like surface and a dark outer edge.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 2,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "3de25887bd44892fbbdbc916e123742d0388f8d3df2b0b05911413e1630b3c30",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/foundation/mgom_fndt001/scenes/mgom_fndt001_grvl001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl001-50ed22e76a794a1c.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fndt001_grvl002-cc8fb28e005dfc1b",
+      "display_name": "Gravel ground patch",
+      "native_filename": "mgom_fndt001_grvl002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Ground patches",
+      "tags": [
+        "gravel",
+        "ground",
+        "terrain patch"
+      ],
+      "description": "A flat square ground patch with a mottled gravel-like surface and a dark outer edge.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 2,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "5f86b8d87a58be40cacd96d78cf2c28fcc676230192e3171d53434bb2070c684",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/foundation/mgom_fndt001/scenes/mgom_fndt001_grvl002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl002-cc8fb28e005dfc1b.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_hous004_vrtn001-a91d44227f3b916e",
+      "display_name": "Thatched shelter with partial walls",
+      "native_filename": "mgom_hous004_vrtn001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Shelters",
+      "tags": [
+        "thatched roof",
+        "shelter",
+        "partial walls"
+      ],
+      "description": "A thatched roof over wooden supports and partial low walls. This reference does not establish a complete enclosed house.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 1562,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "a6ab712b2a12212025db6a574074b1144cb9a89a6736874c4e78aeeebef45c1f",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/house/mgom_hous004/scenes/mgom_hous004_vrtn001.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn001-a91d44227f3b916e.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_hous004_vrtn002-1d5bb3a1f1be9939",
+      "display_name": "Open-sided thatched shelter",
+      "native_filename": "mgom_hous004_vrtn002.fmdl",
+      "category": "Architecture",
+      "subcategory": "Shelters",
+      "tags": [
+        "thatched roof",
+        "shelter",
+        "posts"
+      ],
+      "description": "A thatched roof held above upright wooden supports, shown without a fully enclosed set of walls.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 622,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "2e54a4541800ec490df53ab295c9174e0a8557094b52b00b0d8c14843d16d3a7",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/house/mgom_hous004/scenes/mgom_hous004_vrtn002.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn002-1d5bb3a1f1be9939.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_hous004_vrtn003-4be2f5136018956a",
+      "display_name": "Open-sided thatched shelter",
+      "native_filename": "mgom_hous004_vrtn003.fmdl",
+      "category": "Architecture",
+      "subcategory": "Shelters",
+      "tags": [
+        "thatched roof",
+        "shelter",
+        "posts"
+      ],
+      "description": "A thatched roof and upright wooden supports, shown as an open-sided shelter variant.",
+      "variant": "vrtn003",
+      "lod": 0,
+      "triangles": 686,
+      "naming_status": "reviewed",
+      "confidence": "high",
+      "raw_record_sha256": "4a30c4ee9bd3ae31226e97afff8ee01dc1408a4196d4c4b85edd301854d1417e",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/house/mgom_hous004/scenes/mgom_hous004_vrtn003.fmdl",
+      "evidence": {
+        "kind": "reviewed-preview",
+        "source": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn003-4be2f5136018956a.png",
+        "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
+      },
+      "metadata_review": false
+    },
+    {
       "id": "mgsv-tpp-mtbs_char002-5f80c9bdacda",
       "display_name": "Folding chair",
       "native_filename": "mtbs_char002.fmdl",

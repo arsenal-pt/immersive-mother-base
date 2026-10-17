@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-17",
+  "references": 12,
+  "source": "Validated existing completed media; no new processing",
+  "files": [
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn002-174a403c8d528bff.png",
+      "bytes": 530757,
+      "sha256": "fd7b06c4ae341928d30756aa562f4d836bd822a85a9476af54ee9d97fcf55038"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn002-174a403c8d528bff-360.gif",
+      "bytes": 1372886,
+      "sha256": "d3c3b34e61c11ebf0dfaaa94756c69c6d6fc907072f2fc0e831fabb59ee42b78"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn002-174a403c8d528bff-thumb.png",
+      "bytes": 12034,
+      "sha256": "0a8f7704a0b7a5cd7587e551c8662b5b93df8b16d7bb3041d7af439fd7fe2d5a"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn001-a91d44227f3b916e.png",
+      "bytes": 654474,
+      "sha256": "d0bfacdd81111433e8f83577f79e4099528cbbbf466d3f8d2ae906b63040fae0"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn001-a91d44227f3b916e-360.gif",
+      "bytes": 2217921,
+      "sha256": "09c5bb83990de66bc131df5dd2a0c0af162f6358895037b7b3756d1a92b1f807"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn001-a91d44227f3b916e-thumb.png",
+      "bytes": 15206,
+      "sha256": "414e23da48ef1aec7b43f191738d9ecf85982e16c9170428a99b1b30249ba122"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl002-cc8fb28e005dfc1b.png",
+      "bytes": 364883,
+      "sha256": "8b3a7b68c4b3ff10234558c2d147d4ff28d565cf6cebd2da80f9923cdba779bd"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl002-cc8fb28e005dfc1b-360.gif",
+      "bytes": 1539062,
+      "sha256": "caffa6a865a60f19f5ce8f4b585cb9aa782474afe1f86e1f75d77989a6d94825"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl002-cc8fb28e005dfc1b-thumb.png",
+      "bytes": 14550,
+      "sha256": "482d873e693442164d80a861385a047fb1522443843569bd3d463f4b91f5dca9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn003-4be2f5136018956a.png",
+      "bytes": 620209,
+      "sha256": "78418d6627783de7a86b49036649f7203ecf04005ca4aaf4e5c65304f632735f"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn003-4be2f5136018956a-360.gif",
+      "bytes": 2465882,
+      "sha256": "0eaa2a607b44baacbd48eec5629d5e2eff067b085829fc423f6208a0739171fa"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn003-4be2f5136018956a-thumb.png",
+      "bytes": 18547,
+      "sha256": "fe2310779959459745133622673010dcc463b761a6ab602ba238e56fe48c5412"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn001-451a9a26961b1c0f.png",
+      "bytes": 516310,
+      "sha256": "daeb3cce79fac3612d44ecc319c37232fc79ba5a270dad400dbe222b035f41e9"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn001-451a9a26961b1c0f-360.gif",
+      "bytes": 1594066,
+      "sha256": "5472441f075b3d9dc62ddc5767bb2882cc99672b3c9db8326a4c08b42df31af5"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn001-451a9a26961b1c0f-thumb.png",
+      "bytes": 14182,
+      "sha256": "27df973a94e9b579aa0517ecb213bb3cf5da774ae56656d33dab1645283cac16"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn004-03b6cbdc5a2aec18.png",
+      "bytes": 391822,
+      "sha256": "8cce164bf9663ab6b7af76ef84ba37e92d28df876d7577d94d8da1c8b9960503"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn004-03b6cbdc5a2aec18-360.gif",
+      "bytes": 1802342,
+      "sha256": "e45671bf897c9a818d1c739c35cce000ed2b88ce91860ddccbb0fef6e88596b0"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn004-03b6cbdc5a2aec18-thumb.png",
+      "bytes": 13866,
+      "sha256": "9b8758fb3498fd2dbf5c59a1151ee84f3a25fbe2ff38b060a70311293d91fdfc"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn002-d7f864821c05612d.png",
+      "bytes": 508480,
+      "sha256": "882f734694dcfe7cd59a4cc70923c80de2143a5a608607b692d5350053030dc1"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn002-d7f864821c05612d-360.gif",
+      "bytes": 1575125,
+      "sha256": "6ce5b45405a868892695d675c5640377d312409efcc0285b0000fb48331b3bf7"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc005_vrtn002-d7f864821c05612d-thumb.png",
+      "bytes": 14154,
+      "sha256": "73f49b59fdb9f2db98d379c8530dc6a818a4aafa8b1e4afe24df6c51fc4f747d"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn002-1d5bb3a1f1be9939.png",
+      "bytes": 615420,
+      "sha256": "d58c28d9ce8b9f029e823876a73db2417c055b8e48c176cfb8ffa896ce0c9d33"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn002-1d5bb3a1f1be9939-360.gif",
+      "bytes": 2437629,
+      "sha256": "408e04a8afe6d1d18bcd438eaea0f5ecabd540198faf62ed5bd1f2e4f88fc9e2"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_hous004_vrtn002-1d5bb3a1f1be9939-thumb.png",
+      "bytes": 18127,
+      "sha256": "59ec53bbfadcef1461379ef932ac1e6367859c6e126c1a953c443c6d97cdf448"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn005-f43755cff5150410.png",
+      "bytes": 470844,
+      "sha256": "0ced386cfc74e2f5ba44b55bfbc8bfc0638ac8209fefca424a2ae3c45f141e25"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn005-f43755cff5150410-360.gif",
+      "bytes": 1739207,
+      "sha256": "6c2924739ccf1a296d92e72b30ba6aab59d2d2ab310cd50698dd3f3ef1efbb6d"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn005-f43755cff5150410-thumb.png",
+      "bytes": 14204,
+      "sha256": "dd84e5b0551d62cb21efabc39ce6c37101828ea642db28b03e4417b04933e6d8"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl001-50ed22e76a794a1c.png",
+      "bytes": 383621,
+      "sha256": "6ec8dde7edcd8c65a5a5a850b694fd6656aa5e4fa481f9de0c37cbcbbf469804"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl001-50ed22e76a794a1c-360.gif",
+      "bytes": 1562238,
+      "sha256": "305b24db844bd1d42d1a385d600cdef56bdf052e42a285cf57826195d150c526"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fndt001_grvl001-50ed22e76a794a1c-thumb.png",
+      "bytes": 15561,
+      "sha256": "6a6fd045e7fc6a502345edd44a4eeef4609907c7fa2cc88c8d317a76d40ee1ef"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn001-20533870403bda8c.png",
+      "bytes": 517600,
+      "sha256": "9409d7d939a52cc4e702a5d1468b8e7ca0a37d8ed14f434c05c83f91963cd6de"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn001-20533870403bda8c-360.gif",
+      "bytes": 1734201,
+      "sha256": "1f3aa8fa3a8dadcd3587b5914b25a1e3818613ae3cb749dd006c2c3ba6d2dfd4"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc004_vrtn001-20533870403bda8c-thumb.png",
+      "bytes": 15160,
+      "sha256": "0836a129359ea67a3a2a5bce0e5432854259f9e6f05f26b10499fdf68ef3c234"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn003-ebf344d4a60e32fc.png",
+      "bytes": 490106,
+      "sha256": "9181e03242ef3b23b925795cc28eea0bbab69a7768249507e50eae13639bfe92"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn003-ebf344d4a60e32fc-360.gif",
+      "bytes": 1880908,
+      "sha256": "db1f2da4e144dbd7c5e1a1bd21e7512dd34d40aac144c815a5289f17e5ba8c05"
+    },
+    {
+      "path": "media/asset-previews/2026-10-17-completed-references/mgsv-tpp-mgom_fenc001_vrtn003-ebf344d4a60e32fc-thumb.png",
+      "bytes": 15849,
+      "sha256": "20928c0b58b21436638f8c4c76d6dba0fa271494abcb28ab9f99bdb6e26264e8"
+    }
+  ]
+}
