@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "game": "Metal Gear Solid V: The Phantom Pain",
   "date": "2026-10-16",
-  "status": "199 reference parents; rendered views and source LOD inventory remain separate.",
+  "status": "204 reference parents; rendered views and source LOD inventory remain separate.",
   "publicAssetPayloads": false,
   "assets": [
     {
@@ -138933,6 +138933,2425 @@
           0
         ],
         "baseTextureSummary": "512 x 256; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51",
+      "title": "cm mtbs dc sign002 vrtn001",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "cm_mtbs_dc_sign002_vrtn001"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "Unknown (no object namespace)",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "6593b03114295fbae6a4a381c7bafc9a215667ffcae66c0001640beb99dfb257",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "cecae2de072deb4f2f55db8578c48c9bec581908eb81d744f2858d1ac857e42a",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+        "nativeSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+        "stableIdentity": "/assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl#da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510#6593b03114295fbae6a4a381c7bafc9a215667ffcae66c0001640beb99dfb257",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+          "sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 976,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+              "depth": 1,
+              "id": "c3ab5fa547baaffedfde55b3ee16e80d27d1292dbcd112cdacf9f6df9636fa05",
+              "index_sha256": "928b49f622f602c9f072128a474d48284d69db58dcefe051f7208d409d281da8",
+              "kind": "fpk",
+              "name": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+              "parent_occurrence": "b1758feccee5d490a240d2195c2364fd70bf1375302a76cb3fd5e1d2a4af2c77"
+            }
+          ],
+          "contentSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+          "member": {
+            "actual_size": 976,
+            "compressed_size": null,
+            "content_sha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "declared_size": 976,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "name_origin": "embedded",
+            "offset": 605280,
+            "ordinal": 8,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+          "occurrence_id": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 2,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543047693483595629",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "026774371d2cc5112dd9adc765bb9a2002212b5df357024570fff01983a431b2",
+            "height": 256,
+            "materialIndex": 0,
+            "mipCount": 8,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543047693483595629",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 256,
+              "metadataBytes": 192,
+              "mipCount": 8,
+              "mips": [
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 50688,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 14192,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 2,
+                  "offset": 1880,
+                  "storedBytes": 3920,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 3,
+                  "offset": 672,
+                  "storedBytes": 1200,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 4,
+                  "offset": 248,
+                  "storedBytes": 416,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 5,
+                  "offset": 96,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 6,
+                  "offset": 40,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 16,
+                  "mip": 7,
+                  "offset": 0,
+                  "storedBytes": 32,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "37d35477ea366db37f7bf91fa574b398",
+              "nrtFlag": 2,
+              "pixelFormat": 4,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 512
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "84a692ece9bff1e4741b8cdf85daf9d84eef410417cb1dd2bf4bea50b73d0fd9",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 192,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "9f6c6ee1900bd18819f9a2b4fb7b7f8423f181206c78aeb685e6748c0cd64e19",
+                "member": {
+                  "actual_size": 192,
+                  "compressed_size": 192,
+                  "content_sha256": "9f6c6ee1900bd18819f9a2b4fb7b7f8423f181206c78aeb685e6748c0cd64e19",
+                  "declared_size": 192,
+                  "extension": "ftex",
+                  "hash_hex": "156a01b3a993576d",
+                  "name": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.ftex",
+                  "name_origin": "dictionary",
+                  "offset": 823999520,
+                  "ordinal": 7054,
+                  "path_hash": "201b3a993576d",
+                  "resolved": 1
+                },
+                "occurrenceId": "213eb95368640cc692d304230e211347abcc8b2bb46cd6f713ba2246be5372da",
+                "occurrence_id": "213eb95368640cc692d304230e211347abcc8b2bb46cd6f713ba2246be5372da",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 5808,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "75083e70cc919ed2f5163cd3a95da31e7c269380aa79774834ed6edc1b270f1b",
+                "member": {
+                  "actual_size": 5808,
+                  "compressed_size": 5808,
+                  "content_sha256": "75083e70cc919ed2f5163cd3a95da31e7c269380aa79774834ed6edc1b270f1b",
+                  "declared_size": 5808,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c201b3a993576d",
+                  "name": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.1.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 823927840,
+                  "ordinal": 7051,
+                  "path_hash": "201b3a993576d",
+                  "resolved": 1
+                },
+                "occurrenceId": "8fe4191369907947d3ce4c9785c15d501a8c4c8b24b7ea2a292c8d5db57804e8",
+                "occurrence_id": "8fe4191369907947d3ce4c9785c15d501a8c4c8b24b7ea2a292c8d5db57804e8",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 14208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "8f6ec69f27e01f62016a174c53afa483a7ecf4a217baace607a0fb1d38e67bee",
+                "member": {
+                  "actual_size": 14208,
+                  "compressed_size": 14208,
+                  "content_sha256": "8f6ec69f27e01f62016a174c53afa483a7ecf4a217baace607a0fb1d38e67bee",
+                  "declared_size": 14208,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b57201b3a993576d",
+                  "name": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.2.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 823933984,
+                  "ordinal": 7052,
+                  "path_hash": "201b3a993576d",
+                  "resolved": 1
+                },
+                "occurrenceId": "466eca285a4f13129970de7eb520c1e6af0175de86008987b8c633d5bee734e7",
+                "occurrence_id": "466eca285a4f13129970de7eb520c1e6af0175de86008987b8c633d5bee734e7",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 50752,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "8df6d4ac967d17e4558ad30dbb055f17699f1d4496429875b74b7fde60655d03",
+                "member": {
+                  "actual_size": 50752,
+                  "compressed_size": 50752,
+                  "content_sha256": "8df6d4ac967d17e4558ad30dbb055f17699f1d4496429875b74b7fde60655d03",
+                  "declared_size": 50752,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571a01b3a993576d",
+                  "name": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.3.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 2855516192,
+                  "ordinal": 10726,
+                  "path_hash": "201b3a993576d",
+                  "resolved": 1
+                },
+                "occurrenceId": "1d8a9bd6f5cc9dde5fb5877abefeeaa4e395611fb18d9b7ae68d26dfd3644a52",
+                "occurrence_id": "1d8a9bd6f5cc9dde5fb5877abefeeaa4e395611fb18d9b7ae68d26dfd3644a52",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/sourceimages/cm_mtbs_dc_sign002_va_bsm_alp.3.ftexs"
+              }
+            ],
+            "width": 512
+          },
+          "ddsSha256": "84a692ece9bff1e4741b8cdf85daf9d84eef410417cb1dd2bf4bea50b73d0fd9",
+          "dimensions": [
+            512,
+            256
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51.png",
+        "turntable": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51-360.gif",
+        "thumbnail": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51.png",
+            "sha256": "8f44640c1f43fdd0ca81ddd34fadb8f1a751a45d7ed8b7dfcc907a8a3a81b6ea",
+            "bytes": 83053
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51-360.gif",
+            "sha256": "f672044f10b987e441e3c178d5636428849b12c5e97596813540647f1f77197f",
+            "bytes": 430110
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51-thumb.png",
+            "sha256": "51819804cf6a2ad88728c9de3b32d8685da3044af2a37eb443b5985fc815814a",
+            "bytes": 6198
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 1,
+        "baseTextureDimensions": [
+          512,
+          256
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 0,
+            "triangles": 2
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 1,
+            "triangles": 2
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 2,
+            "triangles": 2
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 3,
+            "triangles": 2
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 256; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9",
+      "title": "cm mtbs wall008 pipe001",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "cm_mtbs_wall008_pipe001"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "Unknown (no object namespace)",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "599cccd714663f5e4d22c6009ef36e2cf4ad329105694bec644ad9be8256721f",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "445cca84956a398aae16856fad175632303753ed743a5de5a6d1e63717a5227f",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+        "nativeSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+        "stableIdentity": "/assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl#b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253#599cccd714663f5e4d22c6009ef36e2cf4ad329105694bec644ad9be8256721f",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+          "sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 976,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+              "depth": 1,
+              "id": "c3ab5fa547baaffedfde55b3ee16e80d27d1292dbcd112cdacf9f6df9636fa05",
+              "index_sha256": "928b49f622f602c9f072128a474d48284d69db58dcefe051f7208d409d281da8",
+              "kind": "fpk",
+              "name": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+              "parent_occurrence": "b1758feccee5d490a240d2195c2364fd70bf1375302a76cb3fd5e1d2a4af2c77"
+            }
+          ],
+          "contentSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+          "member": {
+            "actual_size": 976,
+            "compressed_size": null,
+            "content_sha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "declared_size": 976,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "name_origin": "embedded",
+            "offset": 604304,
+            "ordinal": 7,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+          "occurrence_id": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 2,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543587292648113409",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "b5461f2b74b12a23db6f4a7f2d573fa1190efe4cea0f7a2733663d29f8fbe797",
+            "height": 512,
+            "materialIndex": 0,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543587292648113409",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 512,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 151344,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 41216,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 5968,
+                  "storedBytes": 11904,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 2120,
+                  "storedBytes": 3840,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 736,
+                  "storedBytes": 1376,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 248,
+                  "storedBytes": 480,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 96,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 40,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 16,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 32,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "a783c402574ec89828d7cd1bb9307b01",
+              "nrtFlag": 2,
+              "pixelFormat": 4,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "efcf657e5b26cfd93c0d664a3920bd9a23af190357d87275308d60e612b53e33",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "6aea39202ff53b3519cbd2f5a77373304de841bd721620450d039dc5ebb64a97",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": 208,
+                  "content_sha256": "6aea39202ff53b3519cbd2f5a77373304de841bd721620450d039dc5ebb64a97",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "156bec76e2190501",
+                  "name": "3ec76e2190501.ftex",
+                  "name_origin": "hash_fallback",
+                  "offset": 749622304,
+                  "ordinal": 5849,
+                  "path_hash": "3ec76e2190501",
+                  "resolved": 0
+                },
+                "occurrenceId": "2f1a720b4445bbfb4eb787b5fdce43521d30ad8ba975229e2d6882db280d9f77",
+                "occurrence_id": "2f1a720b4445bbfb4eb787b5fdce43521d30ad8ba975229e2d6882db280d9f77",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "3ec76e2190501.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 17888,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "3fc5483c1b59ec686fd93ae8c7ef432a95e38edecd9aab1c5f3eafa695840a58",
+                "member": {
+                  "actual_size": 17888,
+                  "compressed_size": 17888,
+                  "content_sha256": "3fc5483c1b59ec686fd93ae8c7ef432a95e38edecd9aab1c5f3eafa695840a58",
+                  "declared_size": 17888,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c3ec76e2190501",
+                  "name": "3ec76e2190501.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 749409312,
+                  "ordinal": 5846,
+                  "path_hash": "3ec76e2190501",
+                  "resolved": 0
+                },
+                "occurrenceId": "bab3086c2b7f526fad651d0c9a1e481805d280802aa1614f651762bf45ea379b",
+                "occurrence_id": "bab3086c2b7f526fad651d0c9a1e481805d280802aa1614f651762bf45ea379b",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "3ec76e2190501.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 41280,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "3e7807eb7ee0a7ca081c7fdee3ce80560f9a20b59b8debe8d1f7b0c96098c02b",
+                "member": {
+                  "actual_size": 41280,
+                  "compressed_size": 41280,
+                  "content_sha256": "3e7807eb7ee0a7ca081c7fdee3ce80560f9a20b59b8debe8d1f7b0c96098c02b",
+                  "declared_size": 41280,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b573ec76e2190501",
+                  "name": "3ec76e2190501.2.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 2765846560,
+                  "ordinal": 10238,
+                  "path_hash": "3ec76e2190501",
+                  "resolved": 0
+                },
+                "occurrenceId": "5954e3e2b20c495748567589ceae5fe350ddb8ec5274bf14c6b73bbfc8df7e1d",
+                "occurrence_id": "5954e3e2b20c495748567589ceae5fe350ddb8ec5274bf14c6b73bbfc8df7e1d",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "3ec76e2190501.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 151600,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "380be113a130c2e56aea9c9998ba11a4e65d3924c27350fe5a8a41b0d1ae0e5f",
+                "member": {
+                  "actual_size": 151600,
+                  "compressed_size": 151600,
+                  "content_sha256": "380be113a130c2e56aea9c9998ba11a4e65d3924c27350fe5a8a41b0d1ae0e5f",
+                  "declared_size": 151600,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571bec76e2190501",
+                  "name": "3ec76e2190501.3.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 2765888544,
+                  "ordinal": 10239,
+                  "path_hash": "3ec76e2190501",
+                  "resolved": 0
+                },
+                "occurrenceId": "4f9fa0854c9209c657a65af7db1cd63392e31b58995f94759090a7e6b2b934fb",
+                "occurrence_id": "4f9fa0854c9209c657a65af7db1cd63392e31b58995f94759090a7e6b2b934fb",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "3ec76e2190501.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "efcf657e5b26cfd93c0d664a3920bd9a23af190357d87275308d60e612b53e33",
+          "dimensions": [
+            1024,
+            512
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9.png",
+        "turntable": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9-360.gif",
+        "thumbnail": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9.png",
+            "sha256": "0d6d915e75858d69e424f2c02cfab1605c47e26b4266ff7f719c22e05ed925d0",
+            "bytes": 306272
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9-360.gif",
+            "sha256": "ed56aa8d43d5d8b071e9ca2d8e84720caae22d17c36df7641052059fd3bb42f6",
+            "bytes": 1452089
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9-thumb.png",
+            "sha256": "506057a969c52d2a00c8de8fecaa441178ed46556d60d2978fae4ae33239604e",
+            "bytes": 16209
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 1,
+        "baseTextureDimensions": [
+          1024,
+          512
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 0,
+            "triangles": 2
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 1,
+            "triangles": 2
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 2,
+            "triangles": 2
+          },
+          {
+            "duplicateOf": 0,
+            "indicesSha256": "6e8424247aea3e20f2c18eb6253a587a5e0647a3e218bd42725ba78248f1c44e",
+            "nativeLod": 3,
+            "triangles": 2
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "1024 x 512; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-fxm_fragment02-82289c702f858ba5",
+      "title": "fxm fragment02",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "fxm_fragment02"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "Unknown (no object namespace)",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "3c6c084aaf5aa428885b976f41ad237e54ebf799bc45bd2c08dfb30d6a328d53",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "b7f49719a20db1d693582e72fed3b9f3cc3ee576ed845c4c4d86e8d6f541e891",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/effect/vfx_model/fxm_fragment/scenes/fxm_fragment02.fmdl",
+        "nativeSha256": "7ba39ca1abc94aa92926a604a106df45f6b91b45ed3e50d65d37368ea7203163",
+        "stableIdentity": "/assets/tpp/effect/vfx_model/fxm_fragment/scenes/fxm_fragment02.fmdl#7ba39ca1abc94aa92926a604a106df45f6b91b45ed3e50d65d37368ea7203163#3c6c084aaf5aa428885b976f41ad237e54ebf799bc45bd2c08dfb30d6a328d53",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+          "sha256": "f7ddb798a4e23e5f2a9196adb3076b6c3733fcc3e4186fd7216535320d726248",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 1472,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "f7ddb798a4e23e5f2a9196adb3076b6c3733fcc3e4186fd7216535320d726248",
+              "depth": 1,
+              "id": "efc8f460b89e5e96c5422338b8a6dafb50a683d9e36c78a2faa275a72a81085b",
+              "index_sha256": "3867a5c7a682f09a97afaf0cb3933f6e768d1740e37520d50f52e5ad7b9f80ff",
+              "kind": "fpk",
+              "name": "/Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk",
+              "parent_occurrence": "5fbc20a41a9a3388b41626d6a767d7ecc7ab903d9e3e6dd13cc306ec816d763a"
+            }
+          ],
+          "contentSha256": "7ba39ca1abc94aa92926a604a106df45f6b91b45ed3e50d65d37368ea7203163",
+          "member": {
+            "actual_size": 1472,
+            "compressed_size": null,
+            "content_sha256": "7ba39ca1abc94aa92926a604a106df45f6b91b45ed3e50d65d37368ea7203163",
+            "declared_size": 1472,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/effect/vfx_model/fxm_fragment/scenes/fxm_fragment02.fmdl",
+            "name_origin": "embedded",
+            "offset": 454880,
+            "ordinal": 26,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "79b997160cf1caf987a66efff4dcd0452c1da1876d327d994e5a070e63faaf8c",
+          "occurrence_id": "79b997160cf1caf987a66efff4dcd0452c1da1876d327d994e5a070e63faaf8c",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/effect/vfx_model/fxm_fragment/scenes/fxm_fragment02.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 14,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543544404298840377",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "2dc4caeb7dfe2c4e88a8bdc88261a7f9dce5e96368690c1270db173e6e732cf3",
+            "height": 128,
+            "materialIndex": 0,
+            "mipCount": 6,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543544404298840377",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 0,
+              "depth": 1,
+              "ftexsFileCount": 1,
+              "height": 128,
+              "metadataBytes": 160,
+              "mipCount": 6,
+              "mips": [
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 0,
+                  "offset": 2520,
+                  "storedBytes": 6128,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 1,
+                  "offset": 752,
+                  "storedBytes": 1760,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 2,
+                  "offset": 232,
+                  "storedBytes": 512,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 3,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 4,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 5,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "2e7bdb83cbb3462f3b133ab591fe8037",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 128
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "2c104ee7dab3e814ec8c21b56b9ccd29aa0af04b695ce2062b9caea23b899179",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 160,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "ed06436b87a33093d4ecc183bbe92a4270efb3b69334c9f78610d9c26d72543e",
+                    "index_sha256": "cbeecab235114828cf8a954288095c1e2547bfa06667c7b1e0b45c19774105d1",
+                    "kind": "qar",
+                    "name": "master/texture0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "e395282b5259da4250bf7cd13cb92228669691d8339965fd7cdc7e7ff5301253",
+                "member": {
+                  "actual_size": 160,
+                  "compressed_size": 160,
+                  "content_sha256": "e395282b5259da4250bf7cd13cb92228669691d8339965fd7cdc7e7ff5301253",
+                  "declared_size": 160,
+                  "extension": "ftex",
+                  "hash_hex": "156bc57529463939",
+                  "name": "3c57529463939.ftex",
+                  "name_origin": "hash_fallback",
+                  "offset": 2442845216,
+                  "ordinal": 12114,
+                  "path_hash": "3c57529463939",
+                  "resolved": 0
+                },
+                "occurrenceId": "c4125c288cf323fc14fdb56962a2d33326b8598d13c30e3eecff7603d28fd5a8",
+                "occurrence_id": "c4125c288cf323fc14fdb56962a2d33326b8598d13c30e3eecff7603d28fd5a8",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7bfac7ec2859af21676ae22ed9ddff5e6d4adaddf146059b0948f2ab8ef9e2f4",
+                "source_path": "master/texture0.dat",
+                "source_snapshot": "{\"bytes\":3527175168,\"device\":621747392682911458,\"file_id\":562949953639624,\"header_sha256\":\"be81f77de9943687926d5790cc5a960e18e93064af4db3c3c35dabc542fee1ed\",\"mtime_ns\":1791224675560236900}",
+                "virtualPath": "3c57529463939.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 8656,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "ed06436b87a33093d4ecc183bbe92a4270efb3b69334c9f78610d9c26d72543e",
+                    "index_sha256": "cbeecab235114828cf8a954288095c1e2547bfa06667c7b1e0b45c19774105d1",
+                    "kind": "qar",
+                    "name": "master/texture0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "8e2abc8085d3ed36ac24e5b2f7b260fff934fd41d9c41d58b8a5d4113c4e27e9",
+                "member": {
+                  "actual_size": 8656,
+                  "compressed_size": 8656,
+                  "content_sha256": "8e2abc8085d3ed36ac24e5b2f7b260fff934fd41d9c41d58b8a5d4113c4e27e9",
+                  "declared_size": 8656,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c3c57529463939",
+                  "name": "3c57529463939.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 2442836000,
+                  "ordinal": 12113,
+                  "path_hash": "3c57529463939",
+                  "resolved": 0
+                },
+                "occurrenceId": "77c6280f573d09fd13923bedc872f306f7921baa2611f7a32be76bb481a1d398",
+                "occurrence_id": "77c6280f573d09fd13923bedc872f306f7921baa2611f7a32be76bb481a1d398",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7bfac7ec2859af21676ae22ed9ddff5e6d4adaddf146059b0948f2ab8ef9e2f4",
+                "source_path": "master/texture0.dat",
+                "source_snapshot": "{\"bytes\":3527175168,\"device\":621747392682911458,\"file_id\":562949953639624,\"header_sha256\":\"be81f77de9943687926d5790cc5a960e18e93064af4db3c3c35dabc542fee1ed\",\"mtime_ns\":1791224675560236900}",
+                "virtualPath": "3c57529463939.1.ftexs"
+              }
+            ],
+            "width": 128
+          },
+          "ddsSha256": "2c104ee7dab3e814ec8c21b56b9ccd29aa0af04b695ce2062b9caea23b899179",
+          "dimensions": [
+            128,
+            128
+          ],
+          "mipCount": 6,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-fxm_fragment02-82289c702f858ba5.png",
+        "turntable": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-fxm_fragment02-82289c702f858ba5-360.gif",
+        "thumbnail": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-fxm_fragment02-82289c702f858ba5-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-fxm_fragment02-82289c702f858ba5.png",
+            "sha256": "2931a8c9252969516ba87587dd53a3d0c755d19ab0583fb71aba66d49c0cd322",
+            "bytes": 184342
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-fxm_fragment02-82289c702f858ba5-360.gif",
+            "sha256": "6368a6dd6e36c1a00dbf19e28ee266bece3cfce34d8f8808c79e298ab099c620",
+            "bytes": 1109301
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-fxm_fragment02-82289c702f858ba5-thumb.png",
+            "sha256": "036b20d82c6858136478640e399e3f8269741c64cb2f37bb99e590e7c9741216",
+            "bytes": 11370
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          128,
+          128
+        ],
+        "baseTextureNativeMipCount": 6,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "ca74fa256f8ba6a364c3effb10e50b9875fd9e3eaab596d70516e27acb7832ea",
+            "nativeLod": 0,
+            "triangles": 14
+          },
+          {
+            "indicesSha256": "f5ca860cbd2fad83df375e219f3c642db02f8bc4600e9593f06a60e6864bc003",
+            "nativeLod": 1,
+            "triangles": 8
+          },
+          {
+            "indicesSha256": "e93493b4a964b0ac38c5b46af4235ef7581bc44a22b7ebf2852bea7f118d117d",
+            "nativeLod": 2,
+            "triangles": 4
+          },
+          {
+            "indicesSha256": "2a27815227296b1132325991652e399715383262a9767afa5e40f6767c004d96",
+            "nativeLod": 3,
+            "triangles": 2
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "128 x 128; 6 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583",
+      "title": "cm mtbs htch002",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "cm_mtbs_htch002"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "Unknown (no object namespace)",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "2d20ed2a663f6ed461276349903f50fcf9dbc2cb5f8c1686e236747c15ae93de",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "97799a660bb09ba78265e3d4dec8a8d13a0953593724394dc750707142381d09",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_htch002/scenes/cm_mtbs_htch002.fmdl",
+        "nativeSha256": "523cf8c49f49f1e28f7e4659b7ad04068a3ff9818313b3c2f420ee011c119f98",
+        "stableIdentity": "/assets/tpp/common_source/environ/mother_base/cm_mtbs_htch002/scenes/cm_mtbs_htch002.fmdl#523cf8c49f49f1e28f7e4659b7ad04068a3ff9818313b3c2f420ee011c119f98#2d20ed2a663f6ed461276349903f50fcf9dbc2cb5f8c1686e236747c15ae93de",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+          "sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 3040,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "05e9eb2302282ce7adea2eba11e56c0491ec126d7ec1b048b5bb0e53b15ea973",
+              "depth": 1,
+              "id": "c3ab5fa547baaffedfde55b3ee16e80d27d1292dbcd112cdacf9f6df9636fa05",
+              "index_sha256": "928b49f622f602c9f072128a474d48284d69db58dcefe051f7208d409d281da8",
+              "kind": "fpk",
+              "name": "/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_unique_0000.fpk",
+              "parent_occurrence": "b1758feccee5d490a240d2195c2364fd70bf1375302a76cb3fd5e1d2a4af2c77"
+            }
+          ],
+          "contentSha256": "523cf8c49f49f1e28f7e4659b7ad04068a3ff9818313b3c2f420ee011c119f98",
+          "member": {
+            "actual_size": 3040,
+            "compressed_size": null,
+            "content_sha256": "523cf8c49f49f1e28f7e4659b7ad04068a3ff9818313b3c2f420ee011c119f98",
+            "declared_size": 3040,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_htch002/scenes/cm_mtbs_htch002.fmdl",
+            "name_origin": "embedded",
+            "offset": 601264,
+            "ordinal": 6,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "83c3fd61a51aeb241cf63598237528324dc590c2751a6fac69d04055a2a870a5",
+          "occurrence_id": "83c3fd61a51aeb241cf63598237528324dc590c2751a6fac69d04055a2a870a5",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_htch002/scenes/cm_mtbs_htch002.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 56,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543125936188490038",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "d8f6798404aa69d2e2b9802b4c23e95544562a7c5981987fdcda2cfd3aef70f8",
+            "height": 512,
+            "materialIndex": 0,
+            "mipCount": 8,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543125936188490038",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 512,
+              "metadataBytes": 192,
+              "mipCount": 8,
+              "mips": [
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 77904,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 19312,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 2,
+                  "offset": 1912,
+                  "storedBytes": 4752,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 3,
+                  "offset": 624,
+                  "storedBytes": 1280,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 4,
+                  "offset": 216,
+                  "storedBytes": 400,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 5,
+                  "offset": 80,
+                  "storedBytes": 128,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 6,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 7,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "8ded4cde8533e79d88f3907434d8e346",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 512
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "bce455e563bcac214c5308aa7196e62418626c648855b3e399ae2c7bcb0a7376",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 192,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "59965b27a7a48c37f17b482fac6c995f5e7dbff03d2e94bf61ea5d00d324a545",
+                "member": {
+                  "actual_size": 192,
+                  "compressed_size": 192,
+                  "content_sha256": "59965b27a7a48c37f17b482fac6c995f5e7dbff03d2e94bf61ea5d00d324a545",
+                  "declared_size": 192,
+                  "extension": "ftex",
+                  "hash_hex": "156a48dcf6350136",
+                  "name": "248dcf6350136.ftex",
+                  "name_origin": "hash_fallback",
+                  "offset": 645358624,
+                  "ordinal": 3899,
+                  "path_hash": "248dcf6350136",
+                  "resolved": 0
+                },
+                "occurrenceId": "1ead007ea8d2ca89d580aca7d3264a759629ed39121af5a286a3db6cc403ee03",
+                "occurrence_id": "1ead007ea8d2ca89d580aca7d3264a759629ed39121af5a286a3db6cc403ee03",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "248dcf6350136.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 6672,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "bbbcb13a0b40e3fbd3e575d38a10c746d7f268a98ae6c58503630f5682ecafa8",
+                "member": {
+                  "actual_size": 6672,
+                  "compressed_size": 6672,
+                  "content_sha256": "bbbcb13a0b40e3fbd3e575d38a10c746d7f268a98ae6c58503630f5682ecafa8",
+                  "declared_size": 6672,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c248dcf6350136",
+                  "name": "248dcf6350136.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 645253152,
+                  "ordinal": 3896,
+                  "path_hash": "248dcf6350136",
+                  "resolved": 0
+                },
+                "occurrenceId": "5896b290120044e79aa09343a1f20061371efb4c141aa4b15d6160d836359c80",
+                "occurrence_id": "5896b290120044e79aa09343a1f20061371efb4c141aa4b15d6160d836359c80",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "248dcf6350136.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 19328,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "56be6dbe03a98e50c850bc15e8b309eba841fdf985c98a149cce251bb97e9158",
+                "member": {
+                  "actual_size": 19328,
+                  "compressed_size": 19328,
+                  "content_sha256": "56be6dbe03a98e50c850bc15e8b309eba841fdf985c98a149cce251bb97e9158",
+                  "declared_size": 19328,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b57248dcf6350136",
+                  "name": "248dcf6350136.2.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 2713560096,
+                  "ordinal": 9801,
+                  "path_hash": "248dcf6350136",
+                  "resolved": 0
+                },
+                "occurrenceId": "88f176b392b18945d10e5e10fc823acbe264e6272241d5cb27b5c61e2d601125",
+                "occurrence_id": "88f176b392b18945d10e5e10fc823acbe264e6272241d5cb27b5c61e2d601125",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "248dcf6350136.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 77968,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "06035c7f54d1fe3fde25c93eb85d5278f37457e9730b7b0dc0553ea567520e6d",
+                    "index_sha256": "be525e8d33187ab76b3f97935035faac60a4c7ca7fcff3401a0ce712f03c285e",
+                    "kind": "qar",
+                    "name": "master/texture3.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "fe4cee498432be243806847bb95f0206892d73a80a7e4cba88a41d656e369151",
+                "member": {
+                  "actual_size": 77968,
+                  "compressed_size": 77968,
+                  "content_sha256": "fe4cee498432be243806847bb95f0206892d73a80a7e4cba88a41d656e369151",
+                  "declared_size": 77968,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571a48dcf6350136",
+                  "name": "248dcf6350136.3.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 645279776,
+                  "ordinal": 3898,
+                  "path_hash": "248dcf6350136",
+                  "resolved": 0
+                },
+                "occurrenceId": "239cc0cf6f9754b0716e85c32cdec44add7343733d96a4b1af551bf90282ac86",
+                "occurrence_id": "239cc0cf6f9754b0716e85c32cdec44add7343733d96a4b1af551bf90282ac86",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "8d93a1c4a39e41ca988ccdecf8dbaa5fa7e6f9f82b75bea9a691d2b01de50ef8",
+                "source_path": "master/texture3.dat",
+                "source_snapshot": "{\"bytes\":1297381376,\"device\":621747392682911458,\"file_id\":562949953639627,\"header_sha256\":\"55c07d7fb3cb3498d10fa3bed93a81ce330553a903fff3222b5bf307bcc7ef0c\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "248dcf6350136.3.ftexs"
+              }
+            ],
+            "width": 512
+          },
+          "ddsSha256": "bce455e563bcac214c5308aa7196e62418626c648855b3e399ae2c7bcb0a7376",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583.png",
+        "turntable": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583-360.gif",
+        "thumbnail": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583.png",
+            "sha256": "923a169bd1144abe272acd46c6a1e841bdd0ac7af3d4cc389eef2dded00e4304",
+            "bytes": 230583
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583-360.gif",
+            "sha256": "46c6ff6fa6ad0e2ce86f8b1d66e1ee2f6cce6b71668b9ecfb25f9d6571f41157",
+            "bytes": 927784
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583-thumb.png",
+            "sha256": "dd388641520d9dcf406eafc1275cf54f48d8c16053b8b52f78bea3b5602f7770",
+            "bytes": 9520
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          512,
+          512
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "53b1bedbe5667aa84b3298ac1e8a8b05c3db2c784e46167cd80b3f0d6f6a1346",
+            "nativeLod": 0,
+            "triangles": 56
+          },
+          {
+            "indicesSha256": "ae65d1159604442eb69c36bc033d039d970388dfbff6d3fd16f2412416738427",
+            "nativeLod": 1,
+            "triangles": 44
+          },
+          {
+            "indicesSha256": "6c2398e5e5cbbc9c858745e809e22211c3bcb54a483d32bb109db438f44ca710",
+            "nativeLod": 2,
+            "triangles": 38
+          },
+          {
+            "indicesSha256": "3da53317df1670e13fd74332d414ad968f42fafcb7605176da1b5946193e1e9f",
+            "nativeLod": 3,
+            "triangles": 32
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 512; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a",
+      "title": "mgoa brdg002 vtrn002",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "mgoa_brdg002_vtrn002"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "mgo_afgh",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "5560fe099f0f01c610201465e31effdf254db83c9f75d4413b0542b1fc672881",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "7c3fd027a77cfec664ef600074b69b6cd2c6d60830a4f6431f1d5e6be2bbd16e",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/mgo/environ/object/mgo_afgh/bridge/mgoa_brdg002/scenes/mgoa_brdg002_vtrn002.fmdl",
+        "nativeSha256": "f5eba1b61d13dfbcaf342eb93d5e83e748d2db5120e1c26b96eca49a6a2b8ac9",
+        "stableIdentity": "/assets/mgo/environ/object/mgo_afgh/bridge/mgoa_brdg002/scenes/mgoa_brdg002_vtrn002.fmdl#f5eba1b61d13dfbcaf342eb93d5e83e748d2db5120e1c26b96eca49a6a2b8ac9#5560fe099f0f01c610201465e31effdf254db83c9f75d4413b0542b1fc672881",
+        "container": {
+          "nativePath": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+          "sha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 19536,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+              "depth": 1,
+              "id": "cff1104ad9341561c9113491a97f31e7dddfa63604f4b3a1dd4e8fafa96f0d61",
+              "index_sha256": "7bc2d3ca93cb2ad04aa26e68299971918cd410ce9c990329e0d9f3b834923fab",
+              "kind": "fpk",
+              "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+              "parent_occurrence": "e354af6a735cde8714338920a5ddd0fe4b043fa04de93ea8fff8b6b954cb965b"
+            }
+          ],
+          "contentSha256": "f5eba1b61d13dfbcaf342eb93d5e83e748d2db5120e1c26b96eca49a6a2b8ac9",
+          "member": {
+            "actual_size": 19536,
+            "compressed_size": null,
+            "content_sha256": "f5eba1b61d13dfbcaf342eb93d5e83e748d2db5120e1c26b96eca49a6a2b8ac9",
+            "declared_size": 19536,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/mgo/environ/object/mgo_afgh/bridge/mgoa_brdg002/scenes/mgoa_brdg002_vtrn002.fmdl",
+            "name_origin": "embedded",
+            "offset": 1385456,
+            "ordinal": 49,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "95589ad140b7cfc491c903cee30c4e1295b04f162b67d5f5b3e025a2444a7ad4",
+          "occurrence_id": "95589ad140b7cfc491c903cee30c4e1295b04f162b67d5f5b3e025a2444a7ad4",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/mgo/environ/object/mgo_afgh/bridge/mgoa_brdg002/scenes/mgoa_brdg002_vtrn002.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 240,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543077998539863552",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "c9d484f7d0a487a64f7770b6e64a22037023d0890deb142ee0bed3625eca8b13",
+            "height": 1024,
+            "materialIndex": 0,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543077998539863552",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 1024,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 364144,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 98544,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 9216,
+                  "storedBytes": 25584,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 2520,
+                  "storedBytes": 6688,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 752,
+                  "storedBytes": 1760,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 232,
+                  "storedBytes": 512,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "92a4fe57d0c647d17c9e881dcac2ec7f",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "c12db310c265d1685a225d95ce4cec0a126417a00c78a0b6f4ec55e18fa7d4a8",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "921941592922f3e933b08baab3c3acf4fbea35e5ce058343dc868a9ac3e9333b",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": 208,
+                  "content_sha256": "921941592922f3e933b08baab3c3acf4fbea35e5ce058343dc868a9ac3e9333b",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "156a1d439bb07600",
+                  "name": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.ftex",
+                  "name_origin": "dictionary",
+                  "offset": 1289879584,
+                  "ordinal": 7292,
+                  "path_hash": "21d439bb07600",
+                  "resolved": 1
+                },
+                "occurrenceId": "12d9ffde85c0dfc0822c09eb9d78d3557852d1880d1ec101f460b274c412da9d",
+                "occurrence_id": "12d9ffde85c0dfc0822c09eb9d78d3557852d1880d1ec101f460b274c412da9d",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 34816,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "167e11344ee0a02ded8b26a45cb6480ddf92a616de7d65fad35071bc3969984d",
+                "member": {
+                  "actual_size": 34816,
+                  "compressed_size": 34816,
+                  "content_sha256": "167e11344ee0a02ded8b26a45cb6480ddf92a616de7d65fad35071bc3969984d",
+                  "declared_size": 34816,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c21d439bb07600",
+                  "name": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.1.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 1289379872,
+                  "ordinal": 7289,
+                  "path_hash": "21d439bb07600",
+                  "resolved": 1
+                },
+                "occurrenceId": "6851f3fc5fc1b24bfafa9b4c9c7fcd9f92e7cba8e76605f27c3eb7c7fb0b4331",
+                "occurrence_id": "6851f3fc5fc1b24bfafa9b4c9c7fcd9f92e7cba8e76605f27c3eb7c7fb0b4331",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 98608,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "9cc19a793d2f2bb9fdfae95696877026ef7ab4fe5ea99ad44b1e3a420441a982",
+                "member": {
+                  "actual_size": 98608,
+                  "compressed_size": 98608,
+                  "content_sha256": "9cc19a793d2f2bb9fdfae95696877026ef7ab4fe5ea99ad44b1e3a420441a982",
+                  "declared_size": 98608,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b5721d439bb07600",
+                  "name": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.2.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 1289415712,
+                  "ordinal": 7290,
+                  "path_hash": "21d439bb07600",
+                  "resolved": 1
+                },
+                "occurrenceId": "9a60d66202d859da52899e13357b932de1545e8a599232d5fe6ffe4d9d2f01ea",
+                "occurrence_id": "9a60d66202d859da52899e13357b932de1545e8a599232d5fe6ffe4d9d2f01ea",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 364400,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "e73d96973ade76f7a00afdbea486dd110896ace97da0791f56899647de46f210",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "mgo/texture0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "90b5289ca1ff093faac97788515f23ad41f9ff3ab1fd830c4beaa960d021ec38",
+                "member": {
+                  "actual_size": 364400,
+                  "compressed_size": 364400,
+                  "content_sha256": "90b5289ca1ff093faac97788515f23ad41f9ff3ab1fd830c4beaa960d021ec38",
+                  "declared_size": 364400,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571a1d439bb07600",
+                  "name": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.3.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 3080098848,
+                  "ordinal": 11815,
+                  "path_hash": "21d439bb07600",
+                  "resolved": 1
+                },
+                "occurrenceId": "3d4f2d377c67b1db01bb2a009905e3d16292fd58214a8f282fc575f76453b826",
+                "occurrence_id": "3d4f2d377c67b1db01bb2a009905e3d16292fd58214a8f282fc575f76453b826",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "03f5942f0e1af8040ae05b95c43716d75f5933971d78324bf7cfea291297f3f4",
+                "source_path": "mgo/texture0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":562949953639631,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/bridge/afgh_brdg003/sourceimages/afgh_brdg003_bsm.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "c12db310c265d1685a225d95ce4cec0a126417a00c78a0b6f4ec55e18fa7d4a8",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a.png",
+        "turntable": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a-360.gif",
+        "thumbnail": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a.png",
+            "sha256": "fb60e997cd6c35e01155cb7391274933bac5e99fa67fabb1f53a0b839c5ff193",
+            "bytes": 516611
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a-360.gif",
+            "sha256": "0e3ae9c5575748421932e789f831568d57b7784fab3d569801e5cc35e17c4e10",
+            "bytes": 2121487
+          },
+          {
+            "path": "media/asset-previews/auto-346b68d64e89cbf68040815f/mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a-thumb.png",
+            "sha256": "d0c2b3bcc9265fc3df662c779d3ecb9ece5f68c0ce95c573cce081185a7c93bb",
+            "bytes": 16961
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          1024,
+          1024
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "9930270e2f5da19c47c7b3b4043120f7edfb2d6ad8cd6adaf46d8060a9d0a779",
+            "nativeLod": 0,
+            "triangles": 240
+          },
+          {
+            "indicesSha256": "e95c9a4876595c249662f45e19d952499bd0693cb02b0ef49ce2a81c82c58557",
+            "nativeLod": 1,
+            "triangles": 216
+          },
+          {
+            "indicesSha256": "ee3a86f115de7cfb7b6b6029b65fd013b7e7ecfbc2f6bd79f3adb690f141d82d",
+            "nativeLod": 2,
+            "triangles": 202
+          },
+          {
+            "indicesSha256": "928fb15588bb17c60094cab7e8925d87d35f807233735c405c288e4bdbc4bc78",
+            "nativeLod": 3,
+            "triangles": 192
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "1024 x 1024; 9 native/DDS mips",
         "highestDetailScope": "Triangle-count comparison within captured FMDL only"
       },
       "credits": {

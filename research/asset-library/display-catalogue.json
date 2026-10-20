@@ -262,6 +262,60 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-cm_mtbs_dc_sign002_vrtn001-ead5c71f481c2c51",
+      "display_name": "Unidentified model (cm_mtbs_dc_sign002_vrtn001)",
+      "native_filename": "cm_mtbs_dc_sign002_vrtn001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 2,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "08731b68d19f5f44dda24b3db205fb8a663d4ea74577e853537460ea6ecfd876",
+      "native_path": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-cm_mtbs_htch002-84bc1e26bdffa583",
+      "display_name": "Unidentified model (cm_mtbs_htch002)",
+      "native_filename": "cm_mtbs_htch002.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 56,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "9ca906e82559ba242b258f0223ab892b020f4610981c5358dd6d86cdab2e9f55",
+      "native_path": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_htch002/scenes/cm_mtbs_htch002.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-cm_mtbs_wall008_pipe001-7e542dc13bdbf4b9",
+      "display_name": "Unidentified model (cm_mtbs_wall008_pipe001)",
+      "native_filename": "cm_mtbs_wall008_pipe001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 2,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "200663ac492c735ae4ff55196b7a2c2467d3bd8bb331e18ac68239b52a483df1",
+      "native_path": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-cypr_char001-af15e4cfc6f2",
       "display_name": "Rolling stool",
       "native_filename": "cypr_char001.fmdl",
@@ -323,6 +377,24 @@
         "note": "Original accepted display name, category, subcategory, description and tags retained exactly; no relabeling."
       },
       "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-fxm_fragment02-82289c702f858ba5",
+      "display_name": "Unidentified model (fxm_fragment02)",
+      "native_filename": "fxm_fragment02.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 14,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "4d2ddd7213796a423d19b5ac76a809cc290662ca5798367bca7900be0f8a310a",
+      "native_path": "/Assets/tpp/effect/vfx_model/fxm_fragment/scenes/fxm_fragment02.fmdl",
+      "evidence": {},
+      "metadata_review": true
     },
     {
       "id": "mgsv-tpp-gntn_pllt002_vrtn001-4009be9852b8f0dd",
@@ -2834,6 +2906,31 @@
       "raw_record_sha256": "cfc72e404128bb23bd5140fbbb5fd10199305cd40b91a9807f2a44b5f804e540",
       "native_path": "/Assets/tpp/environ/object/middle_africa/water_tower/mafr_wttw004/scenes/mafr_wttw004.fmdl",
       "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mgoa_brdg002_vtrn002-21465535c52a862a",
+      "display_name": "Bridge component",
+      "native_filename": "mgoa_brdg002_vtrn002.fmdl",
+      "category": "Infrastructure",
+      "subcategory": "Bridge components",
+      "tags": [
+        "bridge",
+        "component"
+      ],
+      "description": "A native bridge model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 240,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "b6e7a5a619e74f7ec3baa881c80ccc7c6f11f52409472439bbe0b35e33c655a5",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/bridge/mgoa_brdg002/scenes/mgoa_brdg002_vtrn002.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "bridge",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
       "metadata_review": true
     },
     {
