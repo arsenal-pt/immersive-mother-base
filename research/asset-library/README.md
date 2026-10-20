@@ -2,7 +2,7 @@
 
 [Source / advanced data](catalogue.json) | [Credits](sources-and-credits.md)
 
-211 reference entries. This index loads no images. Category pages show at most twelve static thumbnails; open one reference for its full still and 360-degree view.
+217 reference entries. This index loads no images. Category pages show at most twelve static thumbnails; open one reference for its full still and 360-degree view.
 
 | Category | References | Browse |
 |---|---:|---|
@@ -12,7 +12,7 @@
 | Architecture &gt; Shelters | 3 | [Browse](tables/shelters-1.md) |
 | Architecture &gt; Utility components | 1 | [Browse](tables/utility-components-1.md) |
 | Architecture &gt; Wooden platforms | 14 | [Browse](tables/wooden-platforms-1.md) |
-| Equipment &gt; Cargo containers | 2 | [Browse](tables/cargo-containers-1.md) |
+| Equipment &gt; Cargo containers | 3 | [Browse](tables/cargo-containers-1.md) |
 | Equipment &gt; Cases and storage | 3 | [Browse](tables/cases-and-storage-1.md) |
 | Equipment &gt; Controls and fixtures | 1 | [Browse](tables/controls-and-fixtures-1.md) |
 | Equipment &gt; Lighting | 2 | [Browse](tables/lighting-1.md) |
@@ -24,7 +24,7 @@
 | Terrain &gt; Ground patches | 2 | [Browse](tables/ground-patches-1.md) |
 | Terrain &gt; Rocks | 8 | [Browse](tables/rocks-1.md) |
 | Terrain &gt; Terrain sections | 1 | [Browse](tables/terrain-sections-1.md) |
-| Unclassified &gt; Unclassified components | 120 | [Browse](tables/unclassified-components-1.md) |
+| Unclassified &gt; Unclassified components | 125 | [Browse](tables/unclassified-components-1.md) |
 | Vehicles &gt; Aircraft | 1 | [Browse](tables/aircraft-1.md) |
 
 Readable names and descriptions are a separate display registry. Game filenames, Library IDs, genuine variants, source records and media remain unchanged. Naming review never changes processing completion.
@@ -33,7 +33,7 @@ Readable names and descriptions are a separate display registry. Game filenames,
 
 ## Quality and source scope
 
-211 parent references and 220 rendered views. Original seating families retain their native LOD comparison pages. Other native levels are inventoried separately from rendered coverage. Model components are not asserted to be complete assembled or interactive objects.
+217 parent references and 226 rendered views. Original seating families retain their native LOD comparison pages. Other native levels are inventoried separately from rendered coverage. Model components are not asserted to be complete assembled or interactive objects.
 
 Exact native paths, captured container/texture chains, texture pixels/mips, hashes, provenance, Library IDs and naming evidence are in detail/technical views. Source namespaces include MGO references found in as-installed archives; vanilla-install status, exhaustive alternatives and effective runtime priority remain unresolved. Original retained-only records do not claim a current DAT check.
 
