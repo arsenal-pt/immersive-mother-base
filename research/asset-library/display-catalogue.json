@@ -715,6 +715,181 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-mafr_clff004_grnd001-7891521f973d3afe",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff004_grnd001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 494,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "c21f6d121c1573a5980ddebde97512cdc84b84013e1c7d8713d66f164aa4649e",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff004/scenes/mafr_clff004_grnd001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mafr_clff004_grnd003-1a917f10246db408",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff004_grnd003.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 300,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "5e99af2d616f4690591df9f33bee21891e904dd9d10160cf1d5a32a9b0a92957",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff004/scenes/mafr_clff004_grnd003.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mafr_clff004_rock002-b155ebfe4d90c57d",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff004_rock002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 676,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "e75e08089d3306dcffb209f224dc420d46fdf7b72e14a381031ee8fe7ddd6d42",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff004/scenes/mafr_clff004_rock002.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mafr_clff007_vrtn001-16a58b9c8aa3771a",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff007_vrtn001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 968,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "7a3f234320e7b1da38f606ec0fade1ddc7bda0028836cbfcbbc4cc5b607e84be",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff007/scenes/mafr_clff007_vrtn001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mafr_clff007_vrtn002-4a58b67fea9e076e",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff007_vrtn002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 875,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "2ae88f86411a5e34e4d652cf9fa1506547368acffc8be3d2cb83858470113b2c",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff007/scenes/mafr_clff007_vrtn002.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mafr_clff008_wall004-48e9d166745badfc",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff008_wall004.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 521,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "978dea9c25968ed6df0d58e544731bf713119c3e30c6385cf7696b43d9b9c01e",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff008/scenes/mafr_clff008_wall004.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mafr_clff015_wall002-16fd0d0468233411",
+      "display_name": "Cliff component",
+      "native_filename": "mafr_clff015_wall002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 1379,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "c541587fc79a32f9cc0a86a63767c7badb2cdd4b0f90f8e945cbae95fcc8a423",
+      "native_path": "/Assets/tpp/environ/object/middle_africa/cliff/mafr_clff015/scenes/mafr_clff015_wall002.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mafr_crto001-47e1d0ebb2d32923",
       "display_name": "Unidentified model (mafr_crto001)",
       "native_filename": "mafr_crto001.fmdl",

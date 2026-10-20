@@ -2,7 +2,7 @@
 
 [Source / advanced data](catalogue.json) | [Credits](sources-and-credits.md)
 
-93 reference entries. This index loads no images. Category pages show at most twelve static thumbnails; open one reference for its full still and 360-degree view.
+100 reference entries. This index loads no images. Category pages show at most twelve static thumbnails; open one reference for its full still and 360-degree view.
 
 | Category | References | Browse |
 |---|---:|---|
@@ -18,7 +18,7 @@
 | Furniture &gt; Seating | 6 | [Browse](tables/seating-1.md) |
 | Furniture &gt; Storage components | 3 | [Browse](tables/storage-components-1.md) |
 | Infrastructure &gt; Bridge components | 6 | [Browse](tables/bridge-components-1.md) |
-| Terrain &gt; Cliffs | 2 | [Browse](tables/cliffs-1.md) |
+| Terrain &gt; Cliffs | 9 | [Browse](tables/cliffs-1.md) |
 | Terrain &gt; Ground cover | 1 | [Browse](tables/ground-cover-1.md) |
 | Terrain &gt; Ground patches | 2 | [Browse](tables/ground-patches-1.md) |
 | Terrain &gt; Rocks | 1 | [Browse](tables/rocks-1.md) |
@@ -32,7 +32,7 @@ Readable names and descriptions are a separate display registry. Game filenames,
 
 ## Quality and source scope
 
-93 parent references and 102 rendered views. Original seating families retain their native LOD comparison pages. Other native levels are inventoried separately from rendered coverage. Model components are not asserted to be complete assembled or interactive objects.
+100 parent references and 109 rendered views. Original seating families retain their native LOD comparison pages. Other native levels are inventoried separately from rendered coverage. Model components are not asserted to be complete assembled or interactive objects.
 
 Exact native paths, captured container/texture chains, texture pixels/mips, hashes, provenance, Library IDs and naming evidence are in detail/technical views. Source namespaces include MGO references found in as-installed archives; vanilla-install status, exhaustive alternatives and effective runtime priority remain unresolved. Original retained-only records do not claim a current DAT check.
 
