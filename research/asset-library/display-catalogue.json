@@ -2934,6 +2934,49 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-mgoa_brdg004-1fa3fab1b02fff44",
+      "display_name": "Bridge component",
+      "native_filename": "mgoa_brdg004.fmdl",
+      "category": "Infrastructure",
+      "subcategory": "Bridge components",
+      "tags": [
+        "bridge",
+        "component"
+      ],
+      "description": "A native bridge model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 611,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "1450d77fc5e28201c48b892e68a576c94a1cd2958c02bdea7d459b09372cd3bf",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/bridge/mgoa_brdg004/scenes/mgoa_brdg004.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "bridge",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mgoa_buld002_wndw001-8c45a8c4a74d9705",
+      "display_name": "Unidentified model (mgoa_buld002_wndw001)",
+      "native_filename": "mgoa_buld002_wndw001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 18,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "a10ebc4bb2a30864ab4db2645f8275431b2557dda8ee24be7211858a3cc795b3",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/building/mgoa_buld002/scenes/mgoa_buld002_wndw001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgoa_lght001-301caaa81e632bd6",
       "display_name": "Light pole and cable component",
       "native_filename": "mgoa_lght001.fmdl",
