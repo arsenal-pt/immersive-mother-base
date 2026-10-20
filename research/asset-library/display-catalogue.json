@@ -5975,6 +5975,31 @@
       "metadata_review": false
     },
     {
+      "id": "mgsv-tpp-mgom_clff005-bff6a21865b6fdca",
+      "display_name": "Cliff component",
+      "native_filename": "mgom_clff005.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 446,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "c92dc560af048aee3f0b5fa66ec2d63ef04aaea86786132578385a0dc3707dc1",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff005/scenes/mgom_clff005.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgom_clff007_rock001-984ec2d37c6b72f6",
       "display_name": "Vegetated terrain section",
       "native_filename": "mgom_clff007_rock001.fmdl",
@@ -6033,6 +6058,31 @@
         "note": "Appearance reviewed from existing still; recorded native path provides family context. Label does not establish interaction, collision, complete assembly, runtime placement or native shader equivalence. Broad ground-cover label only; native abbreviation clod is not expanded. A more specific identification may be reviewed later without affecting processing."
       },
       "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_cntn001-ea64a2d0aab50cfa",
+      "display_name": "Container component",
+      "native_filename": "mgom_cntn001.fmdl",
+      "category": "Equipment",
+      "subcategory": "Cargo containers",
+      "tags": [
+        "container",
+        "component"
+      ],
+      "description": "A native container model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 482,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "cd471f979160c8012ce0512dff67f7f5d1f72d2fe80bb82dd12559c59055ff8d",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/container/mgom_cntn001/scenes/mgom_cntn001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "container",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
     },
     {
       "id": "mgsv-tpp-mgom_cntn001_vrtn_001-6ea1a1783ed1e48c",
