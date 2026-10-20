@@ -5891,6 +5891,31 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-mgom_clff002-8507025696ae1264",
+      "display_name": "Cliff component",
+      "native_filename": "mgom_clff002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 882,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "5c64c2e433aa08c513af2309f2f4ec2602ddeb5c7460ccc8516be1307a10d8f5",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/cliff/mgom_clff002/scenes/mgom_clff002.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgom_clff003_vrtn001-40ec5f006305113a",
       "display_name": "Cliff section",
       "native_filename": "mgom_clff003_vrtn001.fmdl",
