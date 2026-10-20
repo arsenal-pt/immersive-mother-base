@@ -325,6 +325,49 @@
       "metadata_review": false
     },
     {
+      "id": "mgsv-tpp-gntn_pllt002_vrtn001-4009be9852b8f0dd",
+      "display_name": "Unidentified model (gntn_pllt002_vrtn001)",
+      "native_filename": "gntn_pllt002_vrtn001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 406,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "982de30980c39a790b713af92df21711d37b77f34e15d05086d7ad8732884ac8",
+      "native_path": "/Assets/tpp/environ/object/guantanamo/pallet/gntn_pllt002/scenes/gntn_pllt002_vrtn001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-gntn_shlf001_vrtn001-169fdea969dc1e98",
+      "display_name": "Shelf component",
+      "native_filename": "gntn_shlf001_vrtn001.fmdl",
+      "category": "Furniture",
+      "subcategory": "Storage components",
+      "tags": [
+        "shelf",
+        "component"
+      ],
+      "description": "A native shelf model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 144,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "deb3ee0a021cea996ca65a6575508dffac263bdda2ba459ffd217a63c1103e4e",
+      "native_path": "/Assets/tpp/environ/object/guantanamo/shelf/gntn_shlf001/scenes/gntn_shlf001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "shelf",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-gntn_swtc001_vrtn001-2254517a6e54",
       "display_name": "Emergency-stop / control switch panel",
       "native_filename": "gntn_swtc001_vrtn001.fmdl",
