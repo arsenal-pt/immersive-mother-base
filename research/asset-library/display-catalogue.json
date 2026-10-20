@@ -4036,6 +4036,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-mgoa_rbbl001-c5770d59506b0e11",
+      "display_name": "Unidentified model (mgoa_rbbl001)",
+      "native_filename": "mgoa_rbbl001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 116,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "8002f89834be4f60e6724ca80d58d0122d2d3599678267af647de58ccfab329d",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/rubble/mgoa_rbbl001/scenes/mgoa_rbbl001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgoa_road001_vrtn001-9010de23e36b4e42",
       "display_name": "Unidentified model (mgoa_road001_vrtn001)",
       "native_filename": "mgoa_road001_vrtn001.fmdl",
