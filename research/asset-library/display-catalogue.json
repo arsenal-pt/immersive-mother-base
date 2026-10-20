@@ -4108,6 +4108,106 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-mgoa_rock001_vrtn001-eae162e02b1d4a44",
+      "display_name": "Rock component",
+      "native_filename": "mgoa_rock001_vrtn001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "tags": [
+        "rock",
+        "component"
+      ],
+      "description": "A native rock model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 1024,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "f8b6bf91832225681cd5a99f106b02a880a3a29280f6b9f2b80c737cd46b2f55",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock001/scenes/mgoa_rock001_vrtn001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "rock",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mgoa_rock001_vrtn002-33968ab3c15eb625",
+      "display_name": "Rock component",
+      "native_filename": "mgoa_rock001_vrtn002.fmdl",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "tags": [
+        "rock",
+        "component"
+      ],
+      "description": "A native rock model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn002",
+      "lod": 0,
+      "triangles": 1058,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "8c506df6d5ca039b1e21210920481ae792e5377cd3b365fd6d2f7f729b6ba088",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock001/scenes/mgoa_rock001_vrtn002.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "rock",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mgoa_rock001_vrtn003-a73426fd1e7ecc57",
+      "display_name": "Rock component",
+      "native_filename": "mgoa_rock001_vrtn003.fmdl",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "tags": [
+        "rock",
+        "component"
+      ],
+      "description": "A native rock model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn003",
+      "lod": 0,
+      "triangles": 474,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "57c6161a29901c3e762a8ef2c25983c13f32a6dc1cde9702d0d9b7c807af790b",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock001/scenes/mgoa_rock001_vrtn003.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "rock",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-mgoa_rock001_vrtn004-58acb38b9eb643e1",
+      "display_name": "Rock component",
+      "native_filename": "mgoa_rock001_vrtn004.fmdl",
+      "category": "Terrain",
+      "subcategory": "Rocks",
+      "tags": [
+        "rock",
+        "component"
+      ],
+      "description": "A native rock model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn004",
+      "lod": 0,
+      "triangles": 419,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "feade511f71555bf674de07af82a01cb96fd30580b1a795e2d1a0cc0845504ca",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/rock/mgoa_rock001/scenes/mgoa_rock001_vrtn004.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "rock",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgoa_rock002_vrtn002-2168cd665e51d047",
       "display_name": "Rock cluster",
       "native_filename": "mgoa_rock002_vrtn002.fmdl",
