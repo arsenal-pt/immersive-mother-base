@@ -7213,6 +7213,79 @@
       }
     },
     {
+      "occurrence_id": "7125ecd16c804f5c0aed90240bf0b78d34bbfb47fceadca168ae1336fff5d887",
+      "source": {
+        "source_path": "master/0/00.dat",
+        "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+      },
+      "result_fingerprint": "52ba4a935efb8cadce00bdce7f7f8ed0d83aa83582e8c7e97ed15a9d3ea9b4ff",
+      "result": {
+        "content_key": "d751837cdcf67f4a7367d8765be83e1dec924506aaf942e1cea5348177996b82",
+        "job_ids": [
+          "7a9f57c8fe2b87b39f5a98f2"
+        ],
+        "policy": "2305dac5436e799a48f8e98a3fd13a69f07bcf1cfeffdcf3d78560d3f98501d2",
+        "lods": [
+          0
+        ],
+        "records": [
+          {
+            "id": "mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a",
+            "sha256": "99579b84d6f18a23cf275f9fe188cb879cecdcc49b838c8e0cca55ff9f67b619",
+            "model_sha256": "c8e539556f9f73aee7d2485730558c86eb0c3b0a4d22501a4042433fc19dec59"
+          }
+        ],
+        "dependency_proofs_sha256": "1e8892b79fa4610788eda7261212da2f221d23c9a6f920191d32116034e90cb9",
+        "dependency_sources": [
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "master/texture5_mgo0.dat",
+            "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}"
+          },
+          {
+            "source_path": "master/texture5_mgo0.dat",
+            "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}"
+          }
+        ],
+        "artifacts": [
+          {
+            "name": "mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a-360.gif",
+            "sha256": "7e61367b05717ae926417463225a55e91d34bf6fc59248680b1cae20566f5ac1",
+            "bytes": 1364689
+          },
+          {
+            "name": "mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a-thumb.png",
+            "sha256": "6e271ec7871d5cb75871983207987c15a910675dac63bb49e189157ef58d6533",
+            "bytes": 10435
+          },
+          {
+            "name": "mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a.png",
+            "sha256": "396e197fe491066dc70a82b60b8d9efcf53fbda47105b7c3a36edc9080107863",
+            "bytes": 434801
+          }
+        ]
+      },
+      "links": {
+        "7a9f57c8fe2b87b39f5a98f2": {
+          "still": "media/asset-previews/auto-890188a1b95634b93e8c96a7/mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a.png",
+          "gif": "media/asset-previews/auto-890188a1b95634b93e8c96a7/mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a-360.gif",
+          "thumbnail": "media/asset-previews/auto-890188a1b95634b93e8c96a7/mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a-thumb.png",
+          "detail": "research/asset-library/assets/mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a.md"
+        }
+      }
+    },
+    {
       "occurrence_id": "7140ea9072e9c84eeeb99c0de4f58bdee6b7335ee1dff9ca14790309bb68b794",
       "source": {
         "source_path": "master/0/00.dat",

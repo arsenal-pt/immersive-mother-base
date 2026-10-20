@@ -2,11 +2,11 @@
 
 [Source / advanced data](catalogue.json) | [Credits](sources-and-credits.md)
 
-221 reference entries. This index loads no images. Category pages show at most twelve static thumbnails; open one reference for its full still and 360-degree view.
+222 reference entries. This index loads no images. Category pages show at most twelve static thumbnails; open one reference for its full still and 360-degree view.
 
 | Category | References | Browse |
 |---|---:|---|
-| Architecture &gt; Access and utility components | 1 | [Browse](tables/access-and-utility-components-1.md) |
+| Architecture &gt; Access and utility components | 2 | [Browse](tables/access-and-utility-components-1.md) |
 | Architecture &gt; Access components | 3 | [Browse](tables/access-components-1.md) |
 | Architecture &gt; Fences and barriers | 13 | [Browse](tables/fences-and-barriers-1.md) |
 | Architecture &gt; Shelters | 3 | [Browse](tables/shelters-1.md) |
@@ -33,7 +33,7 @@ Readable names and descriptions are a separate display registry. Game filenames,
 
 ## Quality and source scope
 
-221 parent references and 230 rendered views. Original seating families retain their native LOD comparison pages. Other native levels are inventoried separately from rendered coverage. Model components are not asserted to be complete assembled or interactive objects.
+222 parent references and 231 rendered views. Original seating families retain their native LOD comparison pages. Other native levels are inventoried separately from rendered coverage. Model components are not asserted to be complete assembled or interactive objects.
 
 Exact native paths, captured container/texture chains, texture pixels/mips, hashes, provenance, Library IDs and naming evidence are in detail/technical views. Source namespaces include MGO references found in as-installed archives; vanilla-install status, exhaustive alternatives and effective runtime priority remain unresolved. Original retained-only records do not claim a current DAT check.
 

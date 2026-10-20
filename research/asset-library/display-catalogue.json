@@ -3218,6 +3218,31 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-mgoa_door001_vrtn003-d751837cdcf67f4a",
+      "display_name": "Door component",
+      "native_filename": "mgoa_door001_vrtn003.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "door",
+        "component"
+      ],
+      "description": "A native door model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn003",
+      "lod": 0,
+      "triangles": 10,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "d9305b3c857fa8c999b41ac7626fbd6e43b13948a7c9274cfc0a5ce598799b0b",
+      "native_path": "/Assets/mgo/environ/object/mgo_afgh/door/mgoa_door001/scenes/mgoa_door001_vrtn003.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "door",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgoa_dtch001_vrtn001-83a5f38b284e8730",
       "display_name": "Unidentified model (mgoa_dtch001_vrtn001)",
       "native_filename": "mgoa_dtch001_vrtn001.fmdl",
