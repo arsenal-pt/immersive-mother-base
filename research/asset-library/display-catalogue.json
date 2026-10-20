@@ -6608,6 +6608,31 @@
       "metadata_review": false
     },
     {
+      "id": "mgsv-tpp-mgom_fenc003_vrtn005-d144b2f8222ee9da",
+      "display_name": "Fence component",
+      "native_filename": "mgom_fenc003_vrtn005.fmdl",
+      "category": "Architecture",
+      "subcategory": "Fences and barriers",
+      "tags": [
+        "fence",
+        "component"
+      ],
+      "description": "A native fence model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn005",
+      "lod": 0,
+      "triangles": 502,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "4f1d0cab59e519ff01486894ebcd399abeb39ce3574e7b52c4681dd0f7679e37",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/fence/mgom_fenc003/scenes/mgom_fenc003_vrtn005.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "fence",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-mgom_fenc004_vrtn001-20533870403bda8c",
       "display_name": "Panel fence section",
       "native_filename": "mgom_fenc004_vrtn001.fmdl",
@@ -6762,6 +6787,24 @@
         "note": "Root reviewed the existing thirteen-still contact; this entry is in the twelve-reference hard-surface selection. Native filename/variant remain independent; no interaction or assembly guarantee."
       },
       "metadata_review": false
+    },
+    {
+      "id": "mgsv-tpp-mgom_fndt001_mrkn003-5c0ab1387f541eb2",
+      "display_name": "Unidentified model (mgom_fndt001_mrkn003)",
+      "native_filename": "mgom_fndt001_mrkn003.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 2,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "5ba8a19856a1df8e6289e0b36573b1b784fd5869a3820fbef11c9f41a1c91c2d",
+      "native_path": "/Assets/mgo/environ/object/mgo_mafr/foundation/mgom_fndt001/scenes/mgom_fndt001_mrkn003.fmdl",
+      "evidence": {},
+      "metadata_review": true
     },
     {
       "id": "mgsv-tpp-mgom_hous004_vrtn001-a91d44227f3b916e",
