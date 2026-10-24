@@ -733,6 +733,181 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_clff022_vrtn008-31e09d2045a2d859",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff022_vrtn008.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn008",
+      "lod": 0,
+      "triangles": 929,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "9632323c10c2f41b0bb75bfd0009e504d1deae06a8da450ec350f0c2e8398071",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff022/scenes/afgh_clff022_vrtn008.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff024-163482dfdb5782d2",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff024.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 650,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "0cb414c0c85ae1ae6d302cf39826f2a8b3e4df2e2ae3e5bcc807974a758486f4",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff024/scenes/afgh_clff024.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff024_vrtn001-dabe27d69cfb5258",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff024_vrtn001.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 699,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "9a64ef710492dff07f7643f1a78e449d508dfd29cf479e81bbbde53e2c39d517",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff024/scenes/afgh_clff024_vrtn001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff030_vrtn007-65a74a7d39694917",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff030_vrtn007.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn007",
+      "lod": 0,
+      "triangles": 456,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "615b99a09ce60d2bd8ecab620c9d066693e8825f3d2d0b62a7032c816cd40893",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff030/scenes/afgh_clff030_vrtn007.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff030_vrtn011-667560e76570cdce",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff030_vrtn011.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn011",
+      "lod": 0,
+      "triangles": 456,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "90a7853ec9cc530c082fd504433264b40912beee8a710197ec2260d95afeaf86",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff030/scenes/afgh_clff030_vrtn011.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff032-aaee583d7d928844",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff032.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 1420,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "5a33242c715d0ab694e34f71bfada7517c0f4cfdc7df008e754d16afb24672e3",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff032/scenes/afgh_clff032.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff035_vrtn003-9d59bafe6274b8bc",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff035_vrtn003.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "vrtn003",
+      "lod": 0,
+      "triangles": 437,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "df7877dfb6ad4d396d906de723e97ef17cbd2a1c2bc4c4e30be8ae18af18389c",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff035/scenes/afgh_clff035_vrtn003.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_clth005_fl-55c86a008e45dfe2",
       "display_name": "Unidentified model (afgh_clth005_fl)",
       "native_filename": "afgh_clth005_fl.fmdl",
