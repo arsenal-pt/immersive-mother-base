@@ -604,6 +604,42 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_case001-013643ceab43e398",
+      "display_name": "Unidentified model (afgh_case001)",
+      "native_filename": "afgh_case001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 258,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "7790398befd248aa965329b1a4be8c61db603b88b7065615fbf6b88ce079fef2",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/case/afgh_case001/scenes/afgh_case001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_case001_vrtn001-3ffe1ec042662ff0",
+      "display_name": "Unidentified model (afgh_case001_vrtn001)",
+      "native_filename": "afgh_case001_vrtn001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 258,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "4f83d74c0a4ade25477b6c984921071009d43c4c79291b56ba15f4118f8ee7a7",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/case/afgh_case001/scenes/afgh_case001_vrtn001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_cbnt001_vrtn002-f1c3799b7ebc7c36",
       "display_name": "Unidentified model (afgh_cbnt001_vrtn002)",
       "native_filename": "afgh_cbnt001_vrtn002.fmdl",
@@ -647,6 +683,56 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_char003-b28756c2244e12cd",
+      "display_name": "Chair component",
+      "native_filename": "afgh_char003.fmdl",
+      "category": "Furniture",
+      "subcategory": "Seating",
+      "tags": [
+        "seating",
+        "component"
+      ],
+      "description": "A native chair model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 152,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "715d34eb0d058be8998b99a00da6de14cb0cef3b2e7f19e938108a2e58b08cd6",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/chair/afgh_char003/scenes/afgh_char003.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "chair",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff007-1c5dcb1bb2b666c1",
+      "display_name": "Cliff component",
+      "native_filename": "afgh_clff007.fmdl",
+      "category": "Terrain",
+      "subcategory": "Cliffs",
+      "tags": [
+        "cliff",
+        "component"
+      ],
+      "description": "A native cliff model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 294,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "a21e37701940a9c295487bb25b161fcb2ddba8008e0e863233b1d4f3798eef64",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff007/scenes/afgh_clff007.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "cliff",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_clth005_fl-55c86a008e45dfe2",
       "display_name": "Unidentified model (afgh_clth005_fl)",
       "native_filename": "afgh_clth005_fl.fmdl",
@@ -679,6 +765,42 @@
       "confidence": "unknown",
       "raw_record_sha256": "938b14a9cf30a86dcffcbe4ea90cdbdb53adab1cbaadcb173227110157284407",
       "native_path": "/Assets/tpp/environ/object/afghanistan/communicator/afgh_cmmn002/scenes/afgh_cmmn002_dbri001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_ctwk001_vrtn005-f8b0c2e0bc074c62",
+      "display_name": "Unidentified model (afgh_ctwk001_vrtn005)",
+      "native_filename": "afgh_ctwk001_vrtn005.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn005",
+      "lod": 0,
+      "triangles": 36,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "4751f87765dee2c6c3086413bee9c94d48c937f2a48c6a7d602440b7e9cd9a94",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cat_walk/afgh_ctwk001/scenes/afgh_ctwk001_vrtn005.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_ctwk001_vrtn006-ea4edd41538a0402",
+      "display_name": "Unidentified model (afgh_ctwk001_vrtn006)",
+      "native_filename": "afgh_ctwk001_vrtn006.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn006",
+      "lod": 0,
+      "triangles": 8,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "f7cd27ace5f51c7959ecfcd9f5ffd2ba25182b5a886e77f482dda5b4784ec6b4",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/cat_walk/afgh_ctwk001/scenes/afgh_ctwk001_vrtn006.fmdl",
       "evidence": {},
       "metadata_review": true
     },
