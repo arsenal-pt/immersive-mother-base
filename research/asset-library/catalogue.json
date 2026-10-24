@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "game": "Metal Gear Solid V: The Phantom Pain",
   "date": "2026-10-16",
-  "status": "445 reference parents; rendered views and source LOD inventory remain separate.",
+  "status": "450 reference parents; rendered views and source LOD inventory remain separate.",
   "publicAssetPayloads": false,
   "assets": [
     {
@@ -321398,6 +321398,2929 @@
           0
         ],
         "baseTextureSummary": "1024 x 1024; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7",
+      "title": "afgh clff041 vrtn001",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "afgh_clff041_vrtn001"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "afghanistan",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "fd185e6e321e70df319414b5db573c48a4d694e73ba34d80ef9cfe8686e27dc1",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "11eb7613dbcf639c45687945f7591012aa52f036fd3f8ebdf0e089314f251226",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn001.fmdl",
+        "nativeSha256": "7a8c352c1c5de30467bb024b502c0d753e3e4ceb8572359a9ffbb2b2a0718a0f",
+        "stableIdentity": "/assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn001.fmdl#7a8c352c1c5de30467bb024b502c0d753e3e4ceb8572359a9ffbb2b2a0718a0f#fd185e6e321e70df319414b5db573c48a4d694e73ba34d80ef9cfe8686e27dc1",
+        "container": {
+          "nativePath": "/Assets/tpp/pack/location/afgh/pack_common/afgh_common.fpk",
+          "sha256": "810fe68a28c81299da7ef00849d2905b640d0a2da970f1b312e953a2c7b5df48",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 7888,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "810fe68a28c81299da7ef00849d2905b640d0a2da970f1b312e953a2c7b5df48",
+              "depth": 1,
+              "id": "19e9adf189f5f5e9c624197357336d49999dc3525b83bd8c71cf525fcd2100e2",
+              "index_sha256": "924ec10c5736f8b618238e2523664271e558a6ad49aefdaf2473ccbad50f1231",
+              "kind": "fpk",
+              "name": "/Assets/tpp/pack/location/afgh/pack_common/afgh_common.fpk",
+              "parent_occurrence": "e35acf6999427a88778266baae8c014a0c20a82388f8ff04caca6a88d977a6d1"
+            }
+          ],
+          "contentSha256": "7a8c352c1c5de30467bb024b502c0d753e3e4ceb8572359a9ffbb2b2a0718a0f",
+          "member": {
+            "actual_size": 7888,
+            "compressed_size": null,
+            "content_sha256": "7a8c352c1c5de30467bb024b502c0d753e3e4ceb8572359a9ffbb2b2a0718a0f",
+            "declared_size": 7888,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn001.fmdl",
+            "name_origin": "embedded",
+            "offset": 2696672,
+            "ordinal": 51,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "0728868abbc9630f2a8f562e870f76a4deef0fdff1fdf803779167682da4af46",
+          "occurrence_id": "0728868abbc9630f2a8f562e870f76a4deef0fdff1fdf803779167682da4af46",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn001.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 247,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1542967869320013665",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "f7c8e502d465c551179f6d7b60fa96398d5920204147d712d4038c0d7fb71559",
+            "height": 1024,
+            "materialIndex": 0,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1542967869320013665",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 1024,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 223264,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 60976,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 6080,
+                  "storedBytes": 15792,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 1896,
+                  "storedBytes": 4176,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 656,
+                  "storedBytes": 1232,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 232,
+                  "storedBytes": 416,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "14422abb9228f21f9a9cd452c338c659",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "86c82b30274326481d20f0256d9a2404ef08fb932898d6340f4ebf4a9ede6f76",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "dc82a7b08ca812d8fd7fa4f9cbbcb531fcc88898d7e563b23b0f925f25b27244",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": 208,
+                  "content_sha256": "dc82a7b08ca812d8fd7fa4f9cbbcb531fcc88898d7e563b23b0f925f25b27244",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "1569b91a26a92761",
+                  "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v1_bsm.ftex",
+                  "name_origin": "dictionary",
+                  "offset": 1585113120,
+                  "ordinal": 9435,
+                  "path_hash": "1b91a26a92761",
+                  "resolved": 1
+                },
+                "occurrenceId": "51cfc70f7a5b23030363d50364827603613915453b3e920a785b31491c7a87a1",
+                "occurrence_id": "51cfc70f7a5b23030363d50364827603613915453b3e920a785b31491c7a87a1",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v1_bsm.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 21888,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+                    "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+                    "kind": "qar",
+                    "name": "master/0/00.dat",
+                    "parent_occurrence": null
+                  },
+                  {
+                    "content_sha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+                    "depth": 1,
+                    "id": "781fdb390fcb62560fac23f19318bc6caca329344eeb7291ba0508686536e328",
+                    "index_sha256": "dc5f40a4ac0c7a4290c3cccdaa7abd0c87f4b773f96508f9646721d00343f589",
+                    "kind": "pftxs",
+                    "name": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+                    "parent_occurrence": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905"
+                  }
+                ],
+                "contentSha256": "8363848b729ec826ffb7fb8b65106f3022556e0578ee4bf1402d61d8b4bff3e2",
+                "member": {
+                  "actual_size": 21888,
+                  "compressed_size": null,
+                  "content_sha256": "8363848b729ec826ffb7fb8b65106f3022556e0578ee4bf1402d61d8b4bff3e2",
+                  "declared_size": 21888,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c1b91a26a92761",
+                  "name": "b2c1b91a26a92761.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 15857136,
+                  "ordinal": 1115,
+                  "path_hash": null,
+                  "resolved": 0
+                },
+                "occurrenceId": "98f3fc4e4d3587bc7494e63e0090d4fe48de5e82e3112bb649bd7b72fd6b8046",
+                "occurrence_id": "98f3fc4e4d3587bc7494e63e0090d4fe48de5e82e3112bb649bd7b72fd6b8046",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+                "source_path": "master/0/00.dat",
+                "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+                "virtualPath": "b2c1b91a26a92761.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 61040,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "5da986dfa9bc2b60e14919c4ea77c1184f8368c8b9224d532ca466c2e1e17e74",
+                "member": {
+                  "actual_size": 61040,
+                  "compressed_size": 61040,
+                  "content_sha256": "5da986dfa9bc2b60e14919c4ea77c1184f8368c8b9224d532ca466c2e1e17e74",
+                  "declared_size": 61040,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b571b91a26a92761",
+                  "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v1_bsm.2.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 3242375200,
+                  "ordinal": 12398,
+                  "path_hash": "1b91a26a92761",
+                  "resolved": 1
+                },
+                "occurrenceId": "7c2f4562b28f5e182a76e1265e4e6a063e9cb12a50c1becb78507a06b50d3c6d",
+                "occurrence_id": "7c2f4562b28f5e182a76e1265e4e6a063e9cb12a50c1becb78507a06b50d3c6d",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v1_bsm.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 223520,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "72e786b2f17de534b70ab190f4edd21df9fb7d9b8616dbf0b27b06025929629f",
+                "member": {
+                  "actual_size": 223520,
+                  "compressed_size": 223520,
+                  "content_sha256": "72e786b2f17de534b70ab190f4edd21df9fb7d9b8616dbf0b27b06025929629f",
+                  "declared_size": 223520,
+                  "extension": "3.ftexs",
+                  "hash_hex": "5719b91a26a92761",
+                  "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v1_bsm.3.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 3242436640,
+                  "ordinal": 12399,
+                  "path_hash": "1b91a26a92761",
+                  "resolved": 1
+                },
+                "occurrenceId": "41a99dbf5de441298c78698a838a8cdd4b47c8d3f41eb30bcd219d08a43d6e53",
+                "occurrence_id": "41a99dbf5de441298c78698a838a8cdd4b47c8d3f41eb30bcd219d08a43d6e53",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v1_bsm.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "86c82b30274326481d20f0256d9a2404ef08fb932898d6340f4ebf4a9ede6f76",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7.png",
+        "turntable": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7-360.gif",
+        "thumbnail": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7.png",
+            "sha256": "64df6b32799c6acae37e1ad3010e02a59284be77898a5846dad6a7c210534280",
+            "bytes": 321785
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7-360.gif",
+            "sha256": "3bf75e6d2cb5b10a4136addc4b41d196d242bff1d1b092f492221c2e90eae818",
+            "bytes": 459460
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn001-d68f54510f48acc7-thumb.png",
+            "sha256": "b3d1e3e4991a64a827fdfd787cdbfcdaf505dbc5b3055758538ba1e99a1ece06",
+            "bytes": 2441
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          1024,
+          1024
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "5d6949d3b34c1dfb5099b847a1dfee49ee9e5e6690e1a7c25ef1450d3e5f38f1",
+            "nativeLod": 0,
+            "triangles": 247
+          },
+          {
+            "indicesSha256": "0f1cff31c0539242311087a84d5fcd9382a4d936717255b9fc3d10176b63cab7",
+            "nativeLod": 1,
+            "triangles": 143
+          },
+          {
+            "indicesSha256": "07186d0df2d561d19627a9420c05ffa4b3bdadab1a1237d26fc6be0833b18610",
+            "nativeLod": 2,
+            "triangles": 82
+          },
+          {
+            "indicesSha256": "6136d34008893b7a2587f7320ec930ac5b0dc135abe00e2945101bbc7897a508",
+            "nativeLod": 3,
+            "triangles": 49
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "1024 x 1024; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478",
+      "title": "afgh clff041 vrtn002",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "afgh_clff041_vrtn002"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "afghanistan",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "a414bc2779ccd99c5529a795ce53622f47bc1f9d2d6cd9f09b4e4e2aec6fd81b",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "48950d3f4b465080edee374c9e605194c6da7a7233f431c4f14a0d41ba7606d0",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn002.fmdl",
+        "nativeSha256": "8ded5e66d333a94e75911ce1abcce77960b612071a6630552cb17aa7fedfcfe5",
+        "stableIdentity": "/assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn002.fmdl#8ded5e66d333a94e75911ce1abcce77960b612071a6630552cb17aa7fedfcfe5#a414bc2779ccd99c5529a795ce53622f47bc1f9d2d6cd9f09b4e4e2aec6fd81b",
+        "container": {
+          "nativePath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+          "sha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 12400,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+              "depth": 1,
+              "id": "cdd16b801ab3d8abcb0eff58c5ffda33e686dfce824b125f6dae66b5b2538516",
+              "index_sha256": "b576db71a757f0e278c2d308819efc35b981eb97da938ab92207c1f37446927a",
+              "kind": "fpk",
+              "name": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+              "parent_occurrence": "629fd67dc6977d93ec9e65215d23dc6a6ff93ef5e14be9b3ffb02ad030ecfdde"
+            }
+          ],
+          "contentSha256": "8ded5e66d333a94e75911ce1abcce77960b612071a6630552cb17aa7fedfcfe5",
+          "member": {
+            "actual_size": 12400,
+            "compressed_size": null,
+            "content_sha256": "8ded5e66d333a94e75911ce1abcce77960b612071a6630552cb17aa7fedfcfe5",
+            "declared_size": 12400,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn002.fmdl",
+            "name_origin": "embedded",
+            "offset": 6519952,
+            "ordinal": 198,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "2bb566b3c8ce17ba67fd71425238ee204a2bfa96c4d0b7e7a7f43100a969c654",
+          "occurrence_id": "2bb566b3c8ce17ba67fd71425238ee204a2bfa96c4d0b7e7a7f43100a969c654",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/scenes/afgh_clff041_vrtn002.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 351,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543084777625899787",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "173c444fb898f9a3ef62d978049411b8753d05038063a5ec4a94d653fcb8ed66",
+            "height": 512,
+            "materialIndex": 0,
+            "mipCount": 8,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543084777625899787",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 512,
+              "metadataBytes": 192,
+              "mipCount": 8,
+              "mips": [
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 105296,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 26960,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 2,
+                  "offset": 2552,
+                  "storedBytes": 6800,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 3,
+                  "offset": 752,
+                  "storedBytes": 1792,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 4,
+                  "offset": 232,
+                  "storedBytes": 512,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 5,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 6,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 7,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "9c7859d5d0d6f1b335615fab207c8a95",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 512
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "e23aa157683393069337d363a2f4f974d033d684afe03c2acbcf1ff90193934f",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 192,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "39b8b4fabef7e684c39a3c32fc801ea17d3fc18579c96ee32d5f821b90ca197e",
+                "member": {
+                  "actual_size": 192,
+                  "compressed_size": 192,
+                  "content_sha256": "39b8b4fabef7e684c39a3c32fc801ea17d3fc18579c96ee32d5f821b90ca197e",
+                  "declared_size": 192,
+                  "extension": "ftex",
+                  "hash_hex": "156a236dfcb4530b",
+                  "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v2_bsm.ftex",
+                  "name_origin": "dictionary",
+                  "offset": 1586019360,
+                  "ordinal": 9447,
+                  "path_hash": "2236dfcb4530b",
+                  "resolved": 1
+                },
+                "occurrenceId": "3852ce8e18b0f1fe32d7503807c446e1d36b06d5260aee5c94aaa1be8a5ad92f",
+                "occurrence_id": "3852ce8e18b0f1fe32d7503807c446e1d36b06d5260aee5c94aaa1be8a5ad92f",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v2_bsm.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 9360,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+                    "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+                    "kind": "qar",
+                    "name": "master/0/00.dat",
+                    "parent_occurrence": null
+                  },
+                  {
+                    "content_sha256": "7784c61d48c2a829a8a3be8bea91819ed320466e84615e1196c12dc4390190ea",
+                    "depth": 1,
+                    "id": "a7374ee4090f72cbecb7df25f172141b83da2b51b8b38b375af7a4f0f577fc67",
+                    "index_sha256": "7f78072384a5e4f07d09223009a06931047d1b3d6ae36512b9bb7ef91d1fe958",
+                    "kind": "pftxs",
+                    "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.pftxs",
+                    "parent_occurrence": "e3bb44002c453c106548f7190291b4a4c22da16a7eebd82d6a8dac6ab3844ca7"
+                  }
+                ],
+                "contentSha256": "280ff2ab76ce57ba1c428a705009c97a68a3b18b983551b8eeebc557674d955f",
+                "member": {
+                  "actual_size": 9360,
+                  "compressed_size": null,
+                  "content_sha256": "280ff2ab76ce57ba1c428a705009c97a68a3b18b983551b8eeebc557674d955f",
+                  "declared_size": 9360,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c2236dfcb4530b",
+                  "name": "b2c2236dfcb4530b.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 19984208,
+                  "ordinal": 1515,
+                  "path_hash": null,
+                  "resolved": 0
+                },
+                "occurrenceId": "647a2eac53a136d4fade35d9b22acf4e4c30b663b42bf043997d89940c12872d",
+                "occurrence_id": "647a2eac53a136d4fade35d9b22acf4e4c30b663b42bf043997d89940c12872d",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+                "source_path": "master/0/00.dat",
+                "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+                "virtualPath": "b2c2236dfcb4530b.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 26976,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "289b7152a725299b7553b1f010ce0d594cfc7a7b8b831dd3706a374faa9345dc",
+                "member": {
+                  "actual_size": 26976,
+                  "compressed_size": 26976,
+                  "content_sha256": "289b7152a725299b7553b1f010ce0d594cfc7a7b8b831dd3706a374faa9345dc",
+                  "declared_size": 26976,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b572236dfcb4530b",
+                  "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v2_bsm.2.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 3243357216,
+                  "ordinal": 12404,
+                  "path_hash": "2236dfcb4530b",
+                  "resolved": 1
+                },
+                "occurrenceId": "3cfb4f9be31d180b9e6336d2380841667501e9c69a02bfebb234420d0dce79a1",
+                "occurrence_id": "3cfb4f9be31d180b9e6336d2380841667501e9c69a02bfebb234420d0dce79a1",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v2_bsm.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 105360,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "0633ba94305258036f06707ff553f43d17a5d39e905bd3c813a3b5e629c0f472",
+                "member": {
+                  "actual_size": 105360,
+                  "compressed_size": 105360,
+                  "content_sha256": "0633ba94305258036f06707ff553f43d17a5d39e905bd3c813a3b5e629c0f472",
+                  "declared_size": 105360,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571a236dfcb4530b",
+                  "name": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v2_bsm.3.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 1585913888,
+                  "ordinal": 9446,
+                  "path_hash": "2236dfcb4530b",
+                  "resolved": 1
+                },
+                "occurrenceId": "1805acba84ad69cc277cf765834a5bf2e38db6bda82bdb0a19fcadfce649e39a",
+                "occurrence_id": "1805acba84ad69cc277cf765834a5bf2e38db6bda82bdb0a19fcadfce649e39a",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/cliff/afgh_clff041/sourceimages/afgh_clff041_v2_bsm.3.ftexs"
+              }
+            ],
+            "width": 512
+          },
+          "ddsSha256": "e23aa157683393069337d363a2f4f974d033d684afe03c2acbcf1ff90193934f",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mipCount": 8,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478.png",
+        "turntable": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478-360.gif",
+        "thumbnail": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478.png",
+            "sha256": "4b7e409d64b28ffba5f093c014411ceeb09e87dcc00d02f10dc92238b3500d7c",
+            "bytes": 592117
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478-360.gif",
+            "sha256": "5c24d7354f1bcf1a0704100745aa76cf735f6c17902bf6fb950cfdfca68b4f5f",
+            "bytes": 1431817
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clff041_vrtn002-12ddd64948183478-thumb.png",
+            "sha256": "e2f8e0597c513ea2abb01259070b7cabe22ead07ce888153ba404d1444fa2bf1",
+            "bytes": 11309
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          512,
+          512
+        ],
+        "baseTextureNativeMipCount": 8,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "4e849e7b7327e6ab84f1b60ca346ed8a1fa458361efb8d91cc1e82f02d629698",
+            "nativeLod": 0,
+            "triangles": 351
+          },
+          {
+            "indicesSha256": "9161c5ffddca7d0e89169e96e1993c1c71d46dcaee44a752834064f945c7ddae",
+            "nativeLod": 1,
+            "triangles": 203
+          },
+          {
+            "indicesSha256": "d77d67db11eb8645dada54c8300ddadad42c0db7d6f774290da33c43cab7bb88",
+            "nativeLod": 2,
+            "triangles": 119
+          },
+          {
+            "indicesSha256": "874fa77954f0c7c17f5db215eb75c926e76b0891891ab7f35c05b645b795e8e4",
+            "nativeLod": 3,
+            "triangles": 69
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "512 x 512; 8 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-afgh_clod002-395f7cf0a85a7068",
+      "title": "afgh clod002",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "afgh_clod002"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "afghanistan",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "15a40eab116f29051870572cdbe9a67c74e7054e5748d049e39175e1a3de5741",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "81f2bdecccebc83c9c80a6922e2031e074e252642d28e7a0d62d6169adb49d29",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/scenes/afgh_clod002.fmdl",
+        "nativeSha256": "75d33e4fc15ade7c7774a772811a86e601e7437b1d698f6c11dc9da9f6565cbc",
+        "stableIdentity": "/assets/tpp/environ/object/afghanistan/clod/afgh_clod002/scenes/afgh_clod002.fmdl#75d33e4fc15ade7c7774a772811a86e601e7437b1d698f6c11dc9da9f6565cbc#15a40eab116f29051870572cdbe9a67c74e7054e5748d049e39175e1a3de5741",
+        "container": {
+          "nativePath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+          "sha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 7696,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+              "depth": 1,
+              "id": "cdd16b801ab3d8abcb0eff58c5ffda33e686dfce824b125f6dae66b5b2538516",
+              "index_sha256": "b576db71a757f0e278c2d308819efc35b981eb97da938ab92207c1f37446927a",
+              "kind": "fpk",
+              "name": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+              "parent_occurrence": "629fd67dc6977d93ec9e65215d23dc6a6ff93ef5e14be9b3ffb02ad030ecfdde"
+            }
+          ],
+          "contentSha256": "75d33e4fc15ade7c7774a772811a86e601e7437b1d698f6c11dc9da9f6565cbc",
+          "member": {
+            "actual_size": 7696,
+            "compressed_size": null,
+            "content_sha256": "75d33e4fc15ade7c7774a772811a86e601e7437b1d698f6c11dc9da9f6565cbc",
+            "declared_size": 7696,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/scenes/afgh_clod002.fmdl",
+            "name_origin": "embedded",
+            "offset": 6532352,
+            "ordinal": 199,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "39a9c1b751b8dd78c068f27829f950068183bc3b19e04c82b937f82c8a74723c",
+          "occurrence_id": "39a9c1b751b8dd78c068f27829f950068183bc3b19e04c82b937f82c8a74723c",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/scenes/afgh_clod002.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 234,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543390798606619986",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "e0e4bd1edc26b82caed765f873b7cfa763c952c5fc8ccd0c90be72c5144fb759",
+            "height": 1024,
+            "materialIndex": 0,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543390798606619986",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 1024,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 380752,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 96896,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 7952,
+                  "storedBytes": 23664,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 2104,
+                  "storedBytes": 5840,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 624,
+                  "storedBytes": 1472,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 216,
+                  "storedBytes": 400,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 80,
+                  "storedBytes": 128,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "3aa324385b23d0c27f086cca6880614d",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "398388b3ecacb9eb64f0cbcfbcaef49df663de6810253df9f52210d6c2cde48f",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "50237ea18ef0e9866e37afea8b6ed9440e43d04bf881ba90db7a1ecca05642ac",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": 208,
+                  "content_sha256": "50237ea18ef0e9866e37afea8b6ed9440e43d04bf881ba90db7a1ecca05642ac",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "156b39c10c8dd552",
+                  "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/sourceimages/afgh_clod002_gr_bsm.ftex",
+                  "name_origin": "dictionary",
+                  "offset": 1595421728,
+                  "ordinal": 9519,
+                  "path_hash": "339c10c8dd552",
+                  "resolved": 1
+                },
+                "occurrenceId": "7ceb8eac2e2ec0e7ff8639d2b11185a8d9ab3453c37af36f95bada9cc77300bc",
+                "occurrence_id": "7ceb8eac2e2ec0e7ff8639d2b11185a8d9ab3453c37af36f95bada9cc77300bc",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/sourceimages/afgh_clod002_gr_bsm.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 31632,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+                    "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+                    "kind": "qar",
+                    "name": "master/0/00.dat",
+                    "parent_occurrence": null
+                  },
+                  {
+                    "content_sha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+                    "depth": 1,
+                    "id": "781fdb390fcb62560fac23f19318bc6caca329344eeb7291ba0508686536e328",
+                    "index_sha256": "dc5f40a4ac0c7a4290c3cccdaa7abd0c87f4b773f96508f9646721d00343f589",
+                    "kind": "pftxs",
+                    "name": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+                    "parent_occurrence": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905"
+                  }
+                ],
+                "contentSha256": "f1423da2a7a9b38a327b572c1ab41073b89e657fbc3ccca4dd737fb0886eab3f",
+                "member": {
+                  "actual_size": 31632,
+                  "compressed_size": null,
+                  "content_sha256": "f1423da2a7a9b38a327b572c1ab41073b89e657fbc3ccca4dd737fb0886eab3f",
+                  "declared_size": 31632,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c339c10c8dd552",
+                  "name": "b2c339c10c8dd552.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 15941920,
+                  "ordinal": 1121,
+                  "path_hash": null,
+                  "resolved": 0
+                },
+                "occurrenceId": "778255347ef4c39758838c386ac316a06a4252d475565a499835983ac0e00c6c",
+                "occurrence_id": "778255347ef4c39758838c386ac316a06a4252d475565a499835983ac0e00c6c",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+                "source_path": "master/0/00.dat",
+                "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+                "virtualPath": "b2c339c10c8dd552.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 96960,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "45c4645442266a71238381209dd2b5f979bacd2b29c287e40a749b0494ec1990",
+                "member": {
+                  "actual_size": 96960,
+                  "compressed_size": 96960,
+                  "content_sha256": "45c4645442266a71238381209dd2b5f979bacd2b29c287e40a749b0494ec1990",
+                  "declared_size": 96960,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b57339c10c8dd552",
+                  "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/sourceimages/afgh_clod002_gr_bsm.2.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 1594942496,
+                  "ordinal": 9517,
+                  "path_hash": "339c10c8dd552",
+                  "resolved": 1
+                },
+                "occurrenceId": "6cfb485d22da7aa1bcc176ca173b58b1d4db1bd781f6947b45909015a0cd7ce0",
+                "occurrence_id": "6cfb485d22da7aa1bcc176ca173b58b1d4db1bd781f6947b45909015a0cd7ce0",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/sourceimages/afgh_clod002_gr_bsm.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 381008,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "858a3a6391dbdc794f32a90ed39c51e7febb4e970968e3c2c783661b1aaee82a",
+                "member": {
+                  "actual_size": 381008,
+                  "compressed_size": 381008,
+                  "content_sha256": "858a3a6391dbdc794f32a90ed39c51e7febb4e970968e3c2c783661b1aaee82a",
+                  "declared_size": 381008,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571b39c10c8dd552",
+                  "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/sourceimages/afgh_clod002_gr_bsm.3.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 1595039776,
+                  "ordinal": 9518,
+                  "path_hash": "339c10c8dd552",
+                  "resolved": 1
+                },
+                "occurrenceId": "0781cbef3ca97454ed73cfb2ce1acb7510880f4b6b8062131c5d4bd2dc42c8bc",
+                "occurrence_id": "0781cbef3ca97454ed73cfb2ce1acb7510880f4b6b8062131c5d4bd2dc42c8bc",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod002/sourceimages/afgh_clod002_gr_bsm.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "398388b3ecacb9eb64f0cbcfbcaef49df663de6810253df9f52210d6c2cde48f",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod002-395f7cf0a85a7068.png",
+        "turntable": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod002-395f7cf0a85a7068-360.gif",
+        "thumbnail": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod002-395f7cf0a85a7068-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod002-395f7cf0a85a7068.png",
+            "sha256": "7be5d541976e961c249d32e10c456af25bcbb3dcab539c1b911651db775e9b84",
+            "bytes": 529649
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod002-395f7cf0a85a7068-360.gif",
+            "sha256": "bb3905414f9dd0e2fc36e4d69db097444cef6f5fdd25ad5c03a880656c2d005d",
+            "bytes": 1958797
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod002-395f7cf0a85a7068-thumb.png",
+            "sha256": "215b17617e43c2004cb97b3a3f2bfd123a24614381177436e38de4fef2683c80",
+            "bytes": 16612
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          1024,
+          1024
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "ab953b4d17634b56c55c46c4ccf12f39db4dbf45e258f45995c425a8c942fc81",
+            "nativeLod": 0,
+            "triangles": 234
+          },
+          {
+            "indicesSha256": "d5bfed0804f4a6309616714978f2dc7cd476ed891fb47869bba41d2b1d139681",
+            "nativeLod": 1,
+            "triangles": 133
+          },
+          {
+            "indicesSha256": "14ce5a86d7de3c7a08b3ad20a1ee009dd15c4250730b10da3727aa9f8815e6ba",
+            "nativeLod": 2,
+            "triangles": 79
+          },
+          {
+            "indicesSha256": "759fe1c53cf73533bc2e7f67bfe4253bf1fcf2fcbc5fd5f46780c88fa162b521",
+            "nativeLod": 3,
+            "triangles": 46
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "1024 x 1024; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7",
+      "title": "afgh clod007 vrtn001",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "afgh_clod007_vrtn001"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "afghanistan",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "f279c8cf3d512985c9588276917f01a9e2800951684a5c701e41b726afb83952",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "92cd4a8c7a9f9e0b97ec903dc89ef3937236c2f80a61b147b947fccb09a0d78e",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/scenes/afgh_clod007_vrtn001.fmdl",
+        "nativeSha256": "8c2b69b4c4cbb46913725b43dbe3abcec23d5b934f4667457c3b50e5a6abb992",
+        "stableIdentity": "/assets/tpp/environ/object/afghanistan/clod/afgh_clod007/scenes/afgh_clod007_vrtn001.fmdl#8c2b69b4c4cbb46913725b43dbe3abcec23d5b934f4667457c3b50e5a6abb992#f279c8cf3d512985c9588276917f01a9e2800951684a5c701e41b726afb83952",
+        "container": {
+          "nativePath": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+          "sha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 20112,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+              "depth": 1,
+              "id": "cff1104ad9341561c9113491a97f31e7dddfa63604f4b3a1dd4e8fafa96f0d61",
+              "index_sha256": "7bc2d3ca93cb2ad04aa26e68299971918cd410ce9c990329e0d9f3b834923fab",
+              "kind": "fpk",
+              "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+              "parent_occurrence": "e354af6a735cde8714338920a5ddd0fe4b043fa04de93ea8fff8b6b954cb965b"
+            }
+          ],
+          "contentSha256": "8c2b69b4c4cbb46913725b43dbe3abcec23d5b934f4667457c3b50e5a6abb992",
+          "member": {
+            "actual_size": 20112,
+            "compressed_size": null,
+            "content_sha256": "8c2b69b4c4cbb46913725b43dbe3abcec23d5b934f4667457c3b50e5a6abb992",
+            "declared_size": 20112,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/scenes/afgh_clod007_vrtn001.fmdl",
+            "name_origin": "embedded",
+            "offset": 8666256,
+            "ordinal": 224,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "4c0cae874bbf2889b90bc3d40b76a9c43c7d137513b54259e7e14abb599dc07c",
+          "occurrence_id": "4c0cae874bbf2889b90bc3d40b76a9c43c7d137513b54259e7e14abb599dc07c",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/scenes/afgh_clod007_vrtn001.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 642,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1543463493242725435",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "f37986f120610678660d1e2767326e0efece8bec85da04201ba1d73abbc573f5",
+            "height": 1024,
+            "materialIndex": 0,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543463493242725435",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 1024,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 420592,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 107472,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 9344,
+                  "storedBytes": 26896,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 2552,
+                  "storedBytes": 6784,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 752,
+                  "storedBytes": 1792,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 232,
+                  "storedBytes": 512,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "d73a55941f8f3d139fac9dd213d25945",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "efab9f8df49c40f7f86ee564ae16355f4479c48c92d099abf66cf5777e90be2e",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+                    "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+                    "kind": "qar",
+                    "name": "master/0/00.dat",
+                    "parent_occurrence": null
+                  },
+                  {
+                    "content_sha256": "7784c61d48c2a829a8a3be8bea91819ed320466e84615e1196c12dc4390190ea",
+                    "depth": 1,
+                    "id": "a7374ee4090f72cbecb7df25f172141b83da2b51b8b38b375af7a4f0f577fc67",
+                    "index_sha256": "7f78072384a5e4f07d09223009a06931047d1b3d6ae36512b9bb7ef91d1fe958",
+                    "kind": "pftxs",
+                    "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.pftxs",
+                    "parent_occurrence": "e3bb44002c453c106548f7190291b4a4c22da16a7eebd82d6a8dac6ab3844ca7"
+                  }
+                ],
+                "contentSha256": "9e911b2584daa01745004ef4754816617f167e39e7d8abdfa900e0ca3fd1e9ac",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": null,
+                  "content_sha256": "9e911b2584daa01745004ef4754816617f167e39e7d8abdfa900e0ca3fd1e9ac",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "156b7bde9684243b",
+                  "name": "156b7bde9684243b.ftex",
+                  "name_origin": "hash_fallback",
+                  "offset": 20076816,
+                  "ordinal": 1522,
+                  "path_hash": null,
+                  "resolved": 0
+                },
+                "occurrenceId": "633ed69a85507b26278024e3caa0b1570067d7c6f80a9963addadac357bf516a",
+                "occurrence_id": "633ed69a85507b26278024e3caa0b1570067d7c6f80a9963addadac357bf516a",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+                "source_path": "master/0/00.dat",
+                "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+                "virtualPath": "156b7bde9684243b.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 36256,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+                    "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+                    "kind": "qar",
+                    "name": "master/0/00.dat",
+                    "parent_occurrence": null
+                  },
+                  {
+                    "content_sha256": "7784c61d48c2a829a8a3be8bea91819ed320466e84615e1196c12dc4390190ea",
+                    "depth": 1,
+                    "id": "a7374ee4090f72cbecb7df25f172141b83da2b51b8b38b375af7a4f0f577fc67",
+                    "index_sha256": "7f78072384a5e4f07d09223009a06931047d1b3d6ae36512b9bb7ef91d1fe958",
+                    "kind": "pftxs",
+                    "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.pftxs",
+                    "parent_occurrence": "e3bb44002c453c106548f7190291b4a4c22da16a7eebd82d6a8dac6ab3844ca7"
+                  }
+                ],
+                "contentSha256": "a8b764d022e4fc0cc4de85b9e3bc85c7c829cda29e273951156cb6beaea69ce8",
+                "member": {
+                  "actual_size": 36256,
+                  "compressed_size": null,
+                  "content_sha256": "a8b764d022e4fc0cc4de85b9e3bc85c7c829cda29e273951156cb6beaea69ce8",
+                  "declared_size": 36256,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c37bde9684243b",
+                  "name": "b2c37bde9684243b.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 20077024,
+                  "ordinal": 1523,
+                  "path_hash": null,
+                  "resolved": 0
+                },
+                "occurrenceId": "38760334283c1ac59ef1b8628a2c5057d4d87c923ccff1b7a72d9c34ee4be598",
+                "occurrence_id": "38760334283c1ac59ef1b8628a2c5057d4d87c923ccff1b7a72d9c34ee4be598",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+                "source_path": "master/0/00.dat",
+                "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+                "virtualPath": "b2c37bde9684243b.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 107536,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "e73d96973ade76f7a00afdbea486dd110896ace97da0791f56899647de46f210",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "mgo/texture0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "16d0080d715aca864350b02ba2df90c9c9b1bbd1c524bfa0e013615f23e7ce61",
+                "member": {
+                  "actual_size": 107536,
+                  "compressed_size": 107536,
+                  "content_sha256": "16d0080d715aca864350b02ba2df90c9c9b1bbd1c524bfa0e013615f23e7ce61",
+                  "declared_size": 107536,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b5737bde9684243b",
+                  "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/sourceimages/afgh_clod007_bsm.2.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 3254399008,
+                  "ordinal": 12430,
+                  "path_hash": "37bde9684243b",
+                  "resolved": 1
+                },
+                "occurrenceId": "0345289551cfba15a1535bc7694accfefaf3b5538bf7b714069fb890995e641d",
+                "occurrence_id": "0345289551cfba15a1535bc7694accfefaf3b5538bf7b714069fb890995e641d",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "03f5942f0e1af8040ae05b95c43716d75f5933971d78324bf7cfea291297f3f4",
+                "source_path": "mgo/texture0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":562949953639631,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/sourceimages/afgh_clod007_bsm.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 420848,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "973e860767e32ba04acbc51b85e31c95eb2f611a29a4e610b92585e23fd2b523",
+                "member": {
+                  "actual_size": 420848,
+                  "compressed_size": 420848,
+                  "content_sha256": "973e860767e32ba04acbc51b85e31c95eb2f611a29a4e610b92585e23fd2b523",
+                  "declared_size": 420848,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571b7bde9684243b",
+                  "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/sourceimages/afgh_clod007_bsm.3.ftexs",
+                  "name_origin": "dictionary",
+                  "offset": 3254507552,
+                  "ordinal": 12431,
+                  "path_hash": "37bde9684243b",
+                  "resolved": 1
+                },
+                "occurrenceId": "9003435b2ad4c4e0ea8445f60a06ddafc34464b9643bfc295077c23988db8577",
+                "occurrence_id": "9003435b2ad4c4e0ea8445f60a06ddafc34464b9643bfc295077c23988db8577",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod007/sourceimages/afgh_clod007_bsm.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "efab9f8df49c40f7f86ee564ae16355f4479c48c92d099abf66cf5777e90be2e",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7.png",
+        "turntable": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7-360.gif",
+        "thumbnail": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7.png",
+            "sha256": "80bd62ad9b15251dd2354ec257a26c63b966db6b011fbf1318be247a5d0e228d",
+            "bytes": 576474
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7-360.gif",
+            "sha256": "6a3f3881e4f585a4e71480364087167528b116517799a23de433c62ba47b7fbf",
+            "bytes": 1273182
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod007_vrtn001-805124d3357baaf7-thumb.png",
+            "sha256": "44f25123f75916cdb66b973c80330066942cbf08f63f893982c7407c7c37c397",
+            "bytes": 10887
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          1024,
+          1024
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "0b007f90ed719af5757109b6cb16560e849d981ff6af888380efae8cd7201ce9",
+            "nativeLod": 0,
+            "triangles": 642
+          },
+          {
+            "indicesSha256": "99b71b4211d7afba74bc58fc6972480f282b608f2cdea5855549f5549dbb52d5",
+            "nativeLod": 1,
+            "triangles": 371
+          },
+          {
+            "indicesSha256": "c902d6cf0a0b23a79e552f20229625759385ed763a71ca2f1d5d23966a56269b",
+            "nativeLod": 2,
+            "triangles": 217
+          },
+          {
+            "indicesSha256": "9e7288f0261bcf7a2fa8da64d6dc17ac425281535fa2f6cddbf0cfd467009ffe",
+            "nativeLod": 3,
+            "triangles": 128
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "1024 x 1024; 9 native/DDS mips",
+        "highestDetailScope": "Triangle-count comparison within captured FMDL only"
+      },
+      "credits": {
+        "gameModelAndTextures": "Konami",
+        "referenceOwner": "arsenal-pt",
+        "referenceImplementation": "OpenAI Codex, AI/LLM-authored",
+        "toolSources": "sources-and-credits.md"
+      }
+    },
+    {
+      "id": "mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd",
+      "title": "afgh clod008",
+      "category": "Discovered static models",
+      "subcategory": "Installed-source static components",
+      "tags": [
+        "static model",
+        "native model",
+        "afgh_clod008"
+      ],
+      "description": "Textured static native model reference; assembly and interactivity are not inferred.",
+      "descriptionProvenance": "Sanitized native filename/pipeline evidence; no invented interaction or assembly claim",
+      "sourceNamespace": "afghanistan",
+      "observedUse": "Selected as-installed source occurrence; placement/effective runtime priority unresolved",
+      "referenceIdentitySha256": "b1f51a3ffdf5223f1866fcb6a5a5dbbc26ff329ec620bbdca6fc3b75f7c3a313",
+      "batchImport": {
+        "schemaVersion": 2,
+        "sourceMode": "installed",
+        "provenance": "batch-provenance.json",
+        "sourceRecordSha256": "bac4682a8d402ccf93198b69b00459f032f2f97493b8bfedf264625c3d94faa7",
+        "upstreamPreparation": "Selective installed-archive staging by the credited GzsTool Core bridge; actual complete FTEX-family conversion by FtexTool; automatic native inspection and reference rendering."
+      },
+      "source": {
+        "nativePath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod008/scenes/afgh_clod008.fmdl",
+        "nativeSha256": "50ddcbc0684eef612f1fbd23f0609559379246b0517d5149d7f15d5ee65d01c9",
+        "stableIdentity": "/assets/tpp/environ/object/afghanistan/clod/afgh_clod008/scenes/afgh_clod008.fmdl#50ddcbc0684eef612f1fbd23f0609559379246b0517d5149d7f15d5ee65d01c9#b1f51a3ffdf5223f1866fcb6a5a5dbbc26ff329ec620bbdca6fc3b75f7c3a313",
+        "container": {
+          "nativePath": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+          "sha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+          "status": "Selected installed-source container/member chain captured by community reader"
+        },
+        "historicalDatOrigin": null,
+        "sourceArchiveAtCapture": "master/0/00.dat",
+        "locationStatus": "Selected native member/content and captured installed-source chain; full archive SHA/runtime priority unresolved",
+        "currentInstalledDatVerified": false,
+        "selectedInstalledMemberVerified": true,
+        "evidence": {
+          "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+          "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+          "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+          "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+          "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+          "archive_tool_and_dictionary_sha256": {
+            "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+            "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+            "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+            "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+            "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+            "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+          },
+          "bytes": 16496,
+          "container_chain": [
+            {
+              "content_sha256": null,
+              "depth": 0,
+              "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+              "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+              "kind": "qar",
+              "name": "master/0/00.dat",
+              "parent_occurrence": null
+            },
+            {
+              "content_sha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+              "depth": 1,
+              "id": "cff1104ad9341561c9113491a97f31e7dddfa63604f4b3a1dd4e8fafa96f0d61",
+              "index_sha256": "7bc2d3ca93cb2ad04aa26e68299971918cd410ce9c990329e0d9f3b834923fab",
+              "kind": "fpk",
+              "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+              "parent_occurrence": "e354af6a735cde8714338920a5ddd0fe4b043fa04de93ea8fff8b6b954cb965b"
+            }
+          ],
+          "contentSha256": "50ddcbc0684eef612f1fbd23f0609559379246b0517d5149d7f15d5ee65d01c9",
+          "member": {
+            "actual_size": 16496,
+            "compressed_size": null,
+            "content_sha256": "50ddcbc0684eef612f1fbd23f0609559379246b0517d5149d7f15d5ee65d01c9",
+            "declared_size": 16496,
+            "extension": "fmdl",
+            "hash_hex": null,
+            "name": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod008/scenes/afgh_clod008.fmdl",
+            "name_origin": "embedded",
+            "offset": 8686368,
+            "ordinal": 225,
+            "path_hash": null,
+            "resolved": 1
+          },
+          "occurrenceId": "ec5c2ae0345458a9cc153c34a6cc285b8bfe27f6bb12c55546673ad1f6de7a5a",
+          "occurrence_id": "ec5c2ae0345458a9cc153c34a6cc285b8bfe27f6bb12c55546673ad1f6de7a5a",
+          "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+          "source_adapter": "community_core_selective_export",
+          "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+          "source_path": "master/0/00.dat",
+          "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+          "virtualPath": "/Assets/tpp/environ/object/afghanistan/clod/afgh_clod008/scenes/afgh_clod008.fmdl"
+        }
+      },
+      "geometry": {
+        "lod": 0,
+        "triangles": 492,
+        "originalGeometryAndUvsUnchanged": true
+      },
+      "materials": [
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 0,
+          "nativePathHash": "1542839333223137905",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "72482ab14e0bac3985b3f4dcf825568a8b5ad47f541d9bbd992bbb6e4c06f969",
+            "height": 1024,
+            "materialIndex": 0,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1542839333223137905",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 1024,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 382544,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 100096,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 8976,
+                  "storedBytes": 25504,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 2504,
+                  "storedBytes": 6464,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 752,
+                  "storedBytes": 1744,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 232,
+                  "storedBytes": 512,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "c2ff9a7ea68ab81b4fc727854b4ac215",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "dd162c5b7a0ed86f7e8c0deb9d94d0ef795ca9e0b33bc344fe5055f0c0e22681",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "7924f505adfb74da6f0de0b507d5faff6632d2227a938505d0c388b84cb18c97",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": 208,
+                  "content_sha256": "7924f505adfb74da6f0de0b507d5faff6632d2227a938505d0c388b84cb18c97",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "1569443302440271",
+                  "name": "1443302440271.ftex",
+                  "name_origin": "hash_fallback",
+                  "offset": 1616234528,
+                  "ordinal": 9607,
+                  "path_hash": "1443302440271",
+                  "resolved": 0
+                },
+                "occurrenceId": "b2cda9c96d47a38defd730f6913a2e033a26fbdab8cf9040f4812b5dd5386a1a",
+                "occurrence_id": "b2cda9c96d47a38defd730f6913a2e033a26fbdab8cf9040f4812b5dd5386a1a",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "1443302440271.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 34496,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "e95e23c4592f051b8467737d7505239ea748d39b890c20bc8b20c7686a41d7c7",
+                "member": {
+                  "actual_size": 34496,
+                  "compressed_size": 34496,
+                  "content_sha256": "e95e23c4592f051b8467737d7505239ea748d39b890c20bc8b20c7686a41d7c7",
+                  "declared_size": 34496,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c1443302440271",
+                  "name": "1443302440271.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 1615716384,
+                  "ordinal": 9604,
+                  "path_hash": "1443302440271",
+                  "resolved": 0
+                },
+                "occurrenceId": "71153ce1e38a7d90b1fc23f0cd500dfbe5ac23d1d28bb00af4e8b96619435da1",
+                "occurrence_id": "71153ce1e38a7d90b1fc23f0cd500dfbe5ac23d1d28bb00af4e8b96619435da1",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "1443302440271.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 100160,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "63831e106bad47279cf8fc8ff6fbdbe6708322fa4f16e7fbe89576bd59b72770",
+                "member": {
+                  "actual_size": 100160,
+                  "compressed_size": 100160,
+                  "content_sha256": "63831e106bad47279cf8fc8ff6fbdbe6708322fa4f16e7fbe89576bd59b72770",
+                  "declared_size": 100160,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b571443302440271",
+                  "name": "1443302440271.2.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 3263768608,
+                  "ordinal": 12454,
+                  "path_hash": "1443302440271",
+                  "resolved": 0
+                },
+                "occurrenceId": "05bf23fe64073a727d05430fe6619ac3cf6681e8f1fa3e19b9ef1b3cfd49978e",
+                "occurrence_id": "05bf23fe64073a727d05430fe6619ac3cf6681e8f1fa3e19b9ef1b3cfd49978e",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "1443302440271.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 382800,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "627798a2d4b698c625d9e8faae24bb8359abbe9bcf01d8a309e71caa1575ce5b",
+                "member": {
+                  "actual_size": 382800,
+                  "compressed_size": 382800,
+                  "content_sha256": "627798a2d4b698c625d9e8faae24bb8359abbe9bcf01d8a309e71caa1575ce5b",
+                  "declared_size": 382800,
+                  "extension": "3.ftexs",
+                  "hash_hex": "5719443302440271",
+                  "name": "1443302440271.3.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 3263868960,
+                  "ordinal": 12455,
+                  "path_hash": "1443302440271",
+                  "resolved": 0
+                },
+                "occurrenceId": "a7d1bd4fa167a2f6d4214df3ea04ed8f5c749b39c8d33312b3472243aa879109",
+                "occurrence_id": "a7d1bd4fa167a2f6d4214df3ea04ed8f5c749b39c8d33312b3472243aa879109",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "1443302440271.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "dd162c5b7a0ed86f7e8c0deb9d94d0ef795ca9e0b33bc344fe5055f0c0e22681",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        },
+        {
+          "sampler": "Base_Tex_SRGB",
+          "materialIndex": 1,
+          "nativePathHash": "1543522466187308314",
+          "nativeVirtualPath": null,
+          "nativeBinding": {
+            "familyId": "283fece6760dab07a9b3d83e4deea3a12d86258f8b652c2cfd93fa48b84b68f4",
+            "height": 1024,
+            "materialIndex": 1,
+            "mipCount": 9,
+            "nativeMipCountVerified": true,
+            "nativePath": null,
+            "nativePathHash": "1543522466187308314",
+            "nativeTexture": {
+              "additionalFtexsFileCount": 2,
+              "depth": 1,
+              "ftexsFileCount": 3,
+              "height": 1024,
+              "metadataBytes": 208,
+              "mipCount": 9,
+              "mips": [
+                {
+                  "chunks": 32,
+                  "decodedBytes": 524288,
+                  "mip": 0,
+                  "offset": 0,
+                  "storedBytes": 380960,
+                  "streamNumber": 3
+                },
+                {
+                  "chunks": 8,
+                  "decodedBytes": 131072,
+                  "mip": 1,
+                  "offset": 0,
+                  "storedBytes": 99808,
+                  "streamNumber": 2
+                },
+                {
+                  "chunks": 2,
+                  "decodedBytes": 32768,
+                  "mip": 2,
+                  "offset": 8928,
+                  "storedBytes": 25424,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8192,
+                  "mip": 3,
+                  "offset": 2504,
+                  "storedBytes": 6416,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 2048,
+                  "mip": 4,
+                  "offset": 752,
+                  "storedBytes": 1744,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 512,
+                  "mip": 5,
+                  "offset": 232,
+                  "storedBytes": 512,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 128,
+                  "mip": 6,
+                  "offset": 80,
+                  "storedBytes": 144,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 32,
+                  "mip": 7,
+                  "offset": 24,
+                  "storedBytes": 48,
+                  "streamNumber": 1
+                },
+                {
+                  "chunks": 1,
+                  "decodedBytes": 8,
+                  "mip": 8,
+                  "offset": 0,
+                  "storedBytes": 16,
+                  "streamNumber": 1
+                }
+              ],
+              "nativeHeaderHash": "7509f1902b7567bc98852af5402d19cd",
+              "nrtFlag": 2,
+              "pixelFormat": 2,
+              "requiredStreamNumbers": [
+                1,
+                2,
+                3
+              ],
+              "textureType": 16777219,
+              "unknownFlags": 273,
+              "width": 1024
+            },
+            "samplerName": "Base_Tex_SRGB",
+            "samplerNameHash": "72475356961633",
+            "sha256": "6d67590f5efc1b2d72113a00486962fd417b8bcd9ea78cb9163d2a848728857d",
+            "sourceOccurrences": [
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 208,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "3f19555d27c2ebecdfbad26aadd88b9f62e9fb6092c04c712963ef73c67ccb42",
+                    "index_sha256": "9acd3675d6e1500e0e18430cba0fdc70a5718ad7d6b62f13905891a35d59f18a",
+                    "kind": "qar",
+                    "name": "master/0/00.dat",
+                    "parent_occurrence": null
+                  },
+                  {
+                    "content_sha256": "7784c61d48c2a829a8a3be8bea91819ed320466e84615e1196c12dc4390190ea",
+                    "depth": 1,
+                    "id": "a7374ee4090f72cbecb7df25f172141b83da2b51b8b38b375af7a4f0f577fc67",
+                    "index_sha256": "7f78072384a5e4f07d09223009a06931047d1b3d6ae36512b9bb7ef91d1fe958",
+                    "kind": "pftxs",
+                    "name": "/Assets/mgo/pack/location/afda/pack_common/afda_common.pftxs",
+                    "parent_occurrence": "e3bb44002c453c106548f7190291b4a4c22da16a7eebd82d6a8dac6ab3844ca7"
+                  }
+                ],
+                "contentSha256": "c1e179f5562b9cb148b6728bcb712f12e8a8d09e9231093c6ce3b44e0fd13e4c",
+                "member": {
+                  "actual_size": 208,
+                  "compressed_size": null,
+                  "content_sha256": "c1e179f5562b9cb148b6728bcb712f12e8a8d09e9231093c6ce3b44e0fd13e4c",
+                  "declared_size": 208,
+                  "extension": "ftex",
+                  "hash_hex": "156bb1814beded1a",
+                  "name": "156bb1814beded1a.ftex",
+                  "name_origin": "hash_fallback",
+                  "offset": 20478688,
+                  "ordinal": 1540,
+                  "path_hash": null,
+                  "resolved": 0
+                },
+                "occurrenceId": "1e6ca690ed8fe2ed5bb5daec079a3949df504070d167f96880154dc86010deba",
+                "occurrence_id": "1e6ca690ed8fe2ed5bb5daec079a3949df504070d167f96880154dc86010deba",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+                "source_path": "master/0/00.dat",
+                "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}",
+                "virtualPath": "156bb1814beded1a.ftex"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 34368,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "4f1c51b227a5db5efafdf2203e4f811792fb4a1c29fe7aa5e296ea612d200306",
+                "member": {
+                  "actual_size": 34368,
+                  "compressed_size": 34368,
+                  "content_sha256": "4f1c51b227a5db5efafdf2203e4f811792fb4a1c29fe7aa5e296ea612d200306",
+                  "declared_size": 34368,
+                  "extension": "1.ftexs",
+                  "hash_hex": "b2c3b1814beded1a",
+                  "name": "3b1814beded1a.1.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 1613989920,
+                  "ordinal": 9588,
+                  "path_hash": "3b1814beded1a",
+                  "resolved": 0
+                },
+                "occurrenceId": "2e0c887c0c627aa11ebad29e042f875ca472c1cc8e7b2c26db73864a35bab3d5",
+                "occurrence_id": "2e0c887c0c627aa11ebad29e042f875ca472c1cc8e7b2c26db73864a35bab3d5",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "3b1814beded1a.1.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 99872,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "0b473016351235050c2f6af21454bd979a0ad4602a9860137c807c894c5eba4d",
+                    "index_sha256": "ac9b4dae0dd0166db3a6ec8da18524dffebcbaf9004569af631de82913bf49a3",
+                    "kind": "qar",
+                    "name": "master/texture2.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "8ac4418fb8e4ac0da0083ca6472e858d77a6ad82b1a32f436b4872aeb271e45b",
+                "member": {
+                  "actual_size": 99872,
+                  "compressed_size": 99872,
+                  "content_sha256": "8ac4418fb8e4ac0da0083ca6472e858d77a6ad82b1a32f436b4872aeb271e45b",
+                  "declared_size": 99872,
+                  "extension": "2.ftexs",
+                  "hash_hex": "b573b1814beded1a",
+                  "name": "3b1814beded1a.2.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 1614024736,
+                  "ordinal": 9589,
+                  "path_hash": "3b1814beded1a",
+                  "resolved": 0
+                },
+                "occurrenceId": "33badd6f17de0602197ac0641044e06f65b6a107426eb9c75af4288354660db2",
+                "occurrence_id": "33badd6f17de0602197ac0641044e06f65b6a107426eb9c75af4288354660db2",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "85e8296057664cbc6ebaf6bd43d1c6d18528bbd8a6fae920bdf4d5eb69f6a93d",
+                "source_path": "master/texture2.dat",
+                "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}",
+                "virtualPath": "3b1814beded1a.2.ftexs"
+              },
+              {
+                "archive_helper_executable_sha256": "6f8e39a436af3b024bbd0504966ab3d5d9d0cb05d86689bf3e83d15e68df613f",
+                "archive_helper_source_sha256": "f662d3b63e066a0afc77ffe22ea0e564222d14469648300dba2c4f8e9b43446b",
+                "archive_index_recipe": "54acff767f08d76ad6056c5387328759bc883df507788f398de6c2c04fac12db",
+                "archive_reader": "Atvaark GzsTool.Core 0.5.3",
+                "archive_reader_core_sha256": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                "archive_tool_and_dictionary_sha256": {
+                  "CityHash.dll": "def6c4506d461b65e4059b2936b2cbd5f852ba5d1d8a1a527f1c0e6dc7008c8f",
+                  "GzsTool.Core.dll": "9da447ae3c375cce2e46744eeff6af50f1591062afdf479d1a0b49edb47daaa3",
+                  "GzsTool.exe": "1a9c5b11e2355383ff485aee7e86abc026f5c1fad729daf8c0fd15ee0aae1c10",
+                  "Zlib.Portable.dll": "fe84781ba35ca9cc5ff5f73fd08d2a66c59e5257b4573f5fe59743f30bf78e42",
+                  "fpk_dictionary.txt": "b82f9a8d6c10a68ba9471eca9d815c21355a53b5e68753d8ad7db7fd01bf401d",
+                  "qar_dictionary.txt": "1558c248ed0a4bb827888261563fbb91a2df4f03999682f85d637ff70d9d5fb2"
+                },
+                "bytes": 381216,
+                "container_chain": [
+                  {
+                    "content_sha256": null,
+                    "depth": 0,
+                    "id": "1cc220d9409d7163b6aca295ed89fd8c7befca6a8f849a8d5d09a2499724c863",
+                    "index_sha256": "5a818609a652a10d90fb90015661d0cb80898096bbb3aac36382172988d8736d",
+                    "kind": "qar",
+                    "name": "master/texture5_mgo0.dat",
+                    "parent_occurrence": null
+                  }
+                ],
+                "contentSha256": "7aadf73670e902d9a1b602fea7cb9ecbddcae0be9f26577735ec75978972f04f",
+                "member": {
+                  "actual_size": 381216,
+                  "compressed_size": 381216,
+                  "content_sha256": "7aadf73670e902d9a1b602fea7cb9ecbddcae0be9f26577735ec75978972f04f",
+                  "declared_size": 381216,
+                  "extension": "3.ftexs",
+                  "hash_hex": "571bb1814beded1a",
+                  "name": "3b1814beded1a.3.ftexs",
+                  "name_origin": "hash_fallback",
+                  "offset": 3262276640,
+                  "ordinal": 12447,
+                  "path_hash": "3b1814beded1a",
+                  "resolved": 0
+                },
+                "occurrenceId": "0b20472e011c7eb5b441cc3c069ef6f814a50141a30d28e71fdad87ccaeb489a",
+                "occurrence_id": "0b20472e011c7eb5b441cc3c069ef6f814a50141a30d28e71fdad87ccaeb489a",
+                "primary_source_revision": "fc4a8196555638c6cf8aa1b7c8dc34ccd5c69cb5",
+                "source_adapter": "community_core_selective_export",
+                "source_id": "24f8989ccaae47940dc20e54ba67442ad562ac0032ab6e3d475e927c81444b56",
+                "source_path": "master/texture5_mgo0.dat",
+                "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}",
+                "virtualPath": "3b1814beded1a.3.ftexs"
+              }
+            ],
+            "width": 1024
+          },
+          "ddsSha256": "6d67590f5efc1b2d72113a00486962fd417b8bcd9ea78cb9163d2a848728857d",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "mipCount": 9,
+          "nativeMipCountVerified": true,
+          "connectedInPreview": true
+        }
+      ],
+      "preview": {
+        "still": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd.png",
+        "turntable": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd-360.gif",
+        "thumbnail": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd-thumb.png",
+        "stillDimensions": [
+          768,
+          768
+        ],
+        "gifDimensions": [
+          480,
+          480
+        ],
+        "thumbnailDimensions": [
+          160,
+          160
+        ],
+        "gifFrames": 48,
+        "frameDelayMs": 100,
+        "durationMs": 4800,
+        "loop": 0,
+        "nativeAnimation": false,
+        "nativeShaderEquivalent": false,
+        "textureRendering": "Actual captured base textures/UVs; approximate studio shading",
+        "media": [
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd.png",
+            "sha256": "d0596b97314861fbf5017a4931b6c085fd347184c1ae7c2d1e751ecfa67cd95b",
+            "bytes": 561226
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd-360.gif",
+            "sha256": "35a467d8782c729eb05b72b3e3029101e2abd33e59634d27151d41a88eef7b5f",
+            "bytes": 1664676
+          },
+          {
+            "path": "media/asset-previews/auto-478c028f3679e7db8b2e25a1/mgsv-tpp-afgh_clod008-d97e498e8b7ef4dd-thumb.png",
+            "sha256": "e6f85265ccca3c01966c942cd53ae2d6ad56967624d2cb42e5402934eb77f9ce",
+            "bytes": 13839
+          }
+        ]
+      },
+      "quality": {
+        "decodedIndicesHashDerivation": "SHA256 of canonical UTF-8 JSON decoded triangle indices grouped by mesh; not packed buffer bytes",
+        "highestRetainedGeometricLod": 0,
+        "distinctNativeLods": 4,
+        "baseTextureDimensions": [
+          1024,
+          1024
+        ],
+        "baseTextureNativeMipCount": 9,
+        "largerRetainedBaseTextureFound": null,
+        "nativeLods": [
+          {
+            "indicesSha256": "759df0049d2bf3d1a4669d9b18476722f9aa25f9baf62bf8c76abfb7e8614391",
+            "nativeLod": 0,
+            "triangles": 492
+          },
+          {
+            "indicesSha256": "d4ac0b4239ecad42dbfdd377e741bb2a3519a3bb5e19cf1cfaccd35701b9e755",
+            "nativeLod": 1,
+            "triangles": 282
+          },
+          {
+            "indicesSha256": "585be3bf85da143dba5e61b55fccafd39fd57103dd230d0efba60d55df033c3c",
+            "nativeLod": 2,
+            "triangles": 165
+          },
+          {
+            "indicesSha256": "6d57492c4810298fae6c3ae71e3f086343b3faf8353ed6a24452a220bcbe3222",
+            "nativeLod": 3,
+            "triangles": 98
+          }
+        ],
+        "renderedNativeLods": [
+          0
+        ],
+        "baseTextureSummary": "1024 x 1024; 9 native/DDS mips; 1024 x 1024; 9 native/DDS mips",
         "highestDetailScope": "Triangle-count comparison within captured FMDL only"
       },
       "credits": {
