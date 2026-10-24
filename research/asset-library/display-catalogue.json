@@ -1210,6 +1210,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_dcmt002_vrtn001-d07ee5bbeea5fc19",
+      "display_name": "Unidentified model (afgh_dcmt002_vrtn001)",
+      "native_filename": "afgh_dcmt002_vrtn001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 226,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "0e283e3502e9e2de2c0ddce76048248117425e8e08ed738fccab29cbcffb0a76",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/documents/afgh_dcmt002/scenes/afgh_dcmt002_vrtn001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_dish002-73041d0c8132018a",
       "display_name": "Unidentified model (afgh_dish002)",
       "native_filename": "afgh_dish002.fmdl",
@@ -1224,6 +1242,124 @@
       "confidence": "unknown",
       "raw_record_sha256": "f11f0f16fe568145af37308116609ca317893103b97a5a98139c829bcc6b0de6",
       "native_path": "/Assets/tpp/environ/object/afghanistan/dish/afgh_dish002/scenes/afgh_dish002.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_door005_door001-2f6e23e02777f9f6",
+      "display_name": "Door component",
+      "native_filename": "afgh_door005_door001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "door",
+        "component"
+      ],
+      "description": "A native door model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 12,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "327b44015a1fe4694b361900f4388ce5e986d44eac2833beb4b3ee2e57f26abf",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/door/afgh_door005/scenes/afgh_door005_door001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "door",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_door005_drfr001-cfa0672d0e0f7566",
+      "display_name": "Door component",
+      "native_filename": "afgh_door005_drfr001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "door",
+        "component"
+      ],
+      "description": "A native door model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 36,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "9b57b3cfc2dbe18ff17050d9a3cbc7aedbbd80d2618622bdefb14aef1b35325f",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/door/afgh_door005/scenes/afgh_door005_drfr001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "door",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_door006_door001-0717949172c0975d",
+      "display_name": "Door component",
+      "native_filename": "afgh_door006_door001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "door",
+        "component"
+      ],
+      "description": "A native door model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 12,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "2190852cc5d99ef41bd4b46f920e3b29d8a74864508dcde2770307ab58893723",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/door/afgh_door006/scenes/afgh_door006_door001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "door",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_door006_drfr001-3ee016dda1937e06",
+      "display_name": "Door component",
+      "native_filename": "afgh_door006_drfr001.fmdl",
+      "category": "Architecture",
+      "subcategory": "Access and utility components",
+      "tags": [
+        "door",
+        "component"
+      ],
+      "description": "A native door model component. Its specific form and assembly have not been visually reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 36,
+      "naming_status": "path-derived",
+      "confidence": "medium",
+      "raw_record_sha256": "2db0382ae3a8e39039e39a6f341ed4da6adf2f49093b9459980c0ede1366d89a",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/door/afgh_door006/scenes/afgh_door006_drfr001.fmdl",
+      "evidence": {
+        "kind": "native-folder",
+        "source": "door",
+        "note": "Conservative folder dictionary; not visual identification, color, function or completeness proof"
+      },
+      "metadata_review": true
+    },
+    {
+      "id": "mgsv-tpp-afgh_drum004-2a872d67e63f6fdf",
+      "display_name": "Unidentified model (afgh_drum004)",
+      "native_filename": "afgh_drum004.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 60,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "e002633c5038d7f68599f73d58c1711cc1ad14ce3cbe4a86f30ee55b6aae527c",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/drum/afgh_drum004/scenes/afgh_drum004.fmdl",
       "evidence": {},
       "metadata_review": true
     },
