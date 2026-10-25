@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "kind": "segmentedBatchProvenance",
+  "legacy": {
+    "path": "batch-provenance.json",
+    "bytes": 68033544,
+    "sha256": "a232e81046225d4808c015ac985fd7f86b7f96b9596059335aa9ee4f7b54c0a7",
+    "gitBlobSha1": "bf8ce598e8b5bce95e39de35a20bcdbe283e0098"
+  },
+  "segments": [
+    {
+      "path": "batch-provenance-batches/7b89a0fbcf858bd13b6541da.json",
+      "bytes": 702155,
+      "sha256": "d2675b11fef2289ce438e89b95e9843fdf9492d79d1ca5316b8757e6a10be0ca",
+      "gitBlobSha1": "42498b62ed5fd0be73348c41a5ceeb3ee0694ea7"
+    }
+  ]
+}
