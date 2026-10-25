@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "records": [],
+  "automaticPublications": [
+    {
+      "batch": "691ca33d9edce9e2cebcdc19",
+      "newReferences": 0,
+      "sourceAliases": {
+        "mgsv-tpp-afgh_gate002-240842da7f575bb2": "mgsv-tpp-afgh_gate002-240842da7f575bb2"
+      },
+      "completionProof": "research/asset-library/completion-batches/691ca33d9edce9e2cebcdc19.json",
+      "nativePriorityOrGameplayVerified": false
+    }
+  ]
+}

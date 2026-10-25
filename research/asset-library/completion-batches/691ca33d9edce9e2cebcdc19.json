@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "completions": [
+    {
+      "occurrence_id": "88ca05ac3fc7631eb57e6888d2f8e6304f6866b150cb3ddde8044c2f4a718460",
+      "source": {
+        "source_path": "master/0/00.dat",
+        "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+      },
+      "result_fingerprint": "a3e65aba99d74870e15e6617f3d7f61cc4d98fb2f6070e858c629a7a397ca062",
+      "result": {
+        "content_key": "240842da7f575bb253b219dd87f392a46104f52a3a72b1033a5b9605a37e105e",
+        "job_ids": [
+          "7efa6e579b99e78ebc026dde"
+        ],
+        "policy": "2305dac5436e799a48f8e98a3fd13a69f07bcf1cfeffdcf3d78560d3f98501d2",
+        "lods": [
+          0
+        ],
+        "records": [
+          {
+            "id": "mgsv-tpp-afgh_gate002-240842da7f575bb2",
+            "sha256": "895724ed3c9ab8d1dda8dd648a708b0ea7ede7b267c8a268e620d17ad2a2b120",
+            "model_sha256": "4f7060ea29b31bc8ac0b5cbf7cdd4df6be33b50fa62e17f9735b067eacb9fecf"
+          }
+        ],
+        "dependency_proofs_sha256": "667e9ff16af2dc2d9733188fbefd71afbfd3d5469cabe4581a44e231148da9c8",
+        "dependency_sources": [
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "mgo/texture0.dat",
+            "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":562949953639631,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}"
+          },
+          {
+            "source_path": "master/texture5_mgo0.dat",
+            "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":13510798883237422,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}"
+          }
+        ],
+        "artifacts": [
+          {
+            "name": "mgsv-tpp-afgh_gate002-240842da7f575bb2-360.gif",
+            "sha256": "4c7595af3ff640fbb45069496a5567602db9d0cfdfd69a0c39727d10871dc2ae",
+            "bytes": 1614177
+          },
+          {
+            "name": "mgsv-tpp-afgh_gate002-240842da7f575bb2-thumb.png",
+            "sha256": "a5c4dc2003d4d7946d1f8707df5db3df046c35af53bfcbcc33a595a6e337f09c",
+            "bytes": 12026
+          },
+          {
+            "name": "mgsv-tpp-afgh_gate002-240842da7f575bb2.png",
+            "sha256": "5bf6b840aecacc331c0ae6550b237f0446727109e8fceb51c80b3230c72d95bf",
+            "bytes": 492555
+          }
+        ]
+      },
+      "links": {
+        "7efa6e579b99e78ebc026dde": {
+          "still": "media/asset-previews/auto-03f93eea00dde593a7dbfb46/mgsv-tpp-afgh_gate002-240842da7f575bb2.png",
+          "gif": "media/asset-previews/auto-03f93eea00dde593a7dbfb46/mgsv-tpp-afgh_gate002-240842da7f575bb2-360.gif",
+          "thumbnail": "media/asset-previews/auto-03f93eea00dde593a7dbfb46/mgsv-tpp-afgh_gate002-240842da7f575bb2-thumb.png",
+          "detail": "research/asset-library/assets/mgsv-tpp-afgh_gate002-240842da7f575bb2.md"
+        }
+      }
+    }
+  ]
+}
