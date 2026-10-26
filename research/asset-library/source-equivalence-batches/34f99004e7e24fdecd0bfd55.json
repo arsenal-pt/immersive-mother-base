@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "scope": "Exact decoded member subtree equivalence; historical source, result and receipt identities stay immutable. Whole-archive byte equality is not claimed.",
+  "completionProof": "research/asset-library/completion-batches/34f99004e7e24fdecd0bfd55.json",
+  "nativePriorityOrGameplayVerified": false,
+  "witnesses": [
+    {
+      "occurrenceId": "1716e940464a909d7c6f68dbab84f20f34c6f2cbd4ac36271e9df3cb72bc3f1c",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "629fd67dc6977d93ec9e65215d23dc6a6ff93ef5e14be9b3ffb02ad030ecfdde",
+        "currentRootOccurrenceId": "e76eeb80f1be4e0f9ba84848725567bd6344588a16cf642b674eb687bb83d7e6",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+        "decodedSha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "1716e940464a909d7c6f68dbab84f20f34c6f2cbd4ac36271e9df3cb72bc3f1c",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905",
+        "currentRootOccurrenceId": "0fa0b633e4204758a8ffeedab82ec53662b3cf8cc3db30d9d28608932403a2a1",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+        "decodedSha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "3ac8122ab2cb55df661cef0585b9e8c59ae6e5f6d938e1d637d6021f5fe704f2",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "629fd67dc6977d93ec9e65215d23dc6a6ff93ef5e14be9b3ffb02ad030ecfdde",
+        "currentRootOccurrenceId": "e76eeb80f1be4e0f9ba84848725567bd6344588a16cf642b674eb687bb83d7e6",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+        "decodedSha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "3ac8122ab2cb55df661cef0585b9e8c59ae6e5f6d938e1d637d6021f5fe704f2",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905",
+        "currentRootOccurrenceId": "0fa0b633e4204758a8ffeedab82ec53662b3cf8cc3db30d9d28608932403a2a1",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+        "decodedSha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "6fbad6a6a525958754f8284cc12949e18f273d4297a18c0302e16d6601e2354e",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "e35acf6999427a88778266baae8c014a0c20a82388f8ff04caca6a88d977a6d1",
+        "currentRootOccurrenceId": "0bf558247b7b51e5ee08defa3514fdce5034b2f3f09dd907eeb2ce2258cd5c59",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/tpp/pack/location/afgh/pack_common/afgh_common.fpk",
+        "decodedSha256": "810fe68a28c81299da7ef00849d2905b640d0a2da970f1b312e953a2c7b5df48",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "6fbad6a6a525958754f8284cc12949e18f273d4297a18c0302e16d6601e2354e",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905",
+        "currentRootOccurrenceId": "0fa0b633e4204758a8ffeedab82ec53662b3cf8cc3db30d9d28608932403a2a1",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+        "decodedSha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "883187d1c88dbb354507344d1fbe422f2dc594e5d9c4a785d8da9a285e44547d",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "e354af6a735cde8714338920a5ddd0fe4b043fa04de93ea8fff8b6b954cb965b",
+        "currentRootOccurrenceId": "3e6f38b455db4b0fb8bbd8716f1fd3b00ef1edf249125d5b901b6f2e32d855f1",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afda/pack_common/afda_common.fpk",
+        "decodedSha256": "19048457fb21b8b2d25f52c752a427fd9400056cf6565142a9dcc9ad8e637b14",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "883187d1c88dbb354507344d1fbe422f2dc594e5d9c4a785d8da9a285e44547d",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "629fd67dc6977d93ec9e65215d23dc6a6ff93ef5e14be9b3ffb02ad030ecfdde",
+        "currentRootOccurrenceId": "e76eeb80f1be4e0f9ba84848725567bd6344588a16cf642b674eb687bb83d7e6",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+        "decodedSha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "883187d1c88dbb354507344d1fbe422f2dc594e5d9c4a785d8da9a285e44547d",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905",
+        "currentRootOccurrenceId": "0fa0b633e4204758a8ffeedab82ec53662b3cf8cc3db30d9d28608932403a2a1",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+        "decodedSha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "95286dc7fc0e0dc43f71c58792b2661071f678547b35ae7567e3b8f8f10913b9",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "e35acf6999427a88778266baae8c014a0c20a82388f8ff04caca6a88d977a6d1",
+        "currentRootOccurrenceId": "0bf558247b7b51e5ee08defa3514fdce5034b2f3f09dd907eeb2ce2258cd5c59",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/tpp/pack/location/afgh/pack_common/afgh_common.fpk",
+        "decodedSha256": "810fe68a28c81299da7ef00849d2905b640d0a2da970f1b312e953a2c7b5df48",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "95286dc7fc0e0dc43f71c58792b2661071f678547b35ae7567e3b8f8f10913b9",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "629fd67dc6977d93ec9e65215d23dc6a6ff93ef5e14be9b3ffb02ad030ecfdde",
+        "currentRootOccurrenceId": "e76eeb80f1be4e0f9ba84848725567bd6344588a16cf642b674eb687bb83d7e6",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.fpk",
+        "decodedSha256": "793152d916d15d32b16935c3069b2171c7229092e9d1d3f1dd464e87ea95f415",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    },
+    {
+      "occurrenceId": "95286dc7fc0e0dc43f71c58792b2661071f678547b35ae7567e3b8f8f10913b9",
+      "witness": {
+        "schemaVersion": 1,
+        "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+        "historicalSourceNotes": [
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "6b4572174e73989d61c827a93dfa8830d1577f16cf003801ecc3e45ade944e51",
+            "logicalPath": "/Assets/tpp/common_source/environ/mother_base/cm_mtbs_wall008/scenes/cm_mtbs_wall008_pipe001.fmdl",
+            "historicalContentKey": "7e542dc13bdbf4b97c4727ef55501778b6215c1409f8d7fe0acc75591fa3cb1a",
+            "historicalResultFingerprint": "11f654be68f3824b1d7db8e4cacf9c2b78a8dd4307651ff96331884da65df201",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "b139528fa4333a44c6d62fddd3b506752a855a68599b0ad8790c4e692f81a253",
+            "currentDecodedSha256": "cf49eff71178c04430c7e969ff91912f1d7ce0d3da1f6364a51dcf519a457690",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          },
+          {
+            "sourceStatus": "historical-only",
+            "currentSourceVerified": false,
+            "occurrenceId": "1836625d7664cffb17a5dba31f2a0b5b1533782b89608f4fe74090ce53bb8c95",
+            "logicalPath": "/Assets/tpp/common_source/fmtr/decal/mother_base/cm_mtbs_dc_sign002/scenes/cm_mtbs_dc_sign002_vrtn001.fmdl",
+            "historicalContentKey": "ead5c71f481c2c515828c399390411ff8fea814b354d39e793e4bb82d280ea2b",
+            "historicalResultFingerprint": "06c0834abe814347c9ba4c9732c32f17b047e2600e4e7ec5062928e2957b4bdc",
+            "receiptSha256": "c58b606eeaa8ae9292d4eff40ecb1c327e2719143a0ab2ae148a5862d2907bce",
+            "repository": "arsenal-pt/immersive-mother-base",
+            "historicalCommit": "90983f2fd9a7130fde91e2362700f1187cad20e8",
+            "oldDecodedSha256": "da6f0d6979f294f6568050434bd73cdcce3f1bdf2e249762d3bc0760abf01510",
+            "currentDecodedSha256": "a59aeb69c25ace6e0265e4a9aec8e0bf30fbb75b420405e988aad80422607e61",
+            "sourceEpochManifestSha256": "d8c8f9c8b92e341021915c945cf2b41edf8528a5f934e4db0f31f1fa0081e425",
+            "inspectionManifestSha256": "3cd6312f90aa302450d21da899a00980a886084c17c72924b629e7ef5f7f5a48",
+            "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+            "countedTowardNewTarget": false,
+            "scope": "Published historical source version retained; this selected leaf changed and is excluded from current exports and new publication. Original result and receipt are unchanged."
+          }
+        ],
+        "historicalSourceId": "7f6bb743fb4c487f0e9522f9c7fac280c46cf6b1051e0fc75a93602c8eb451f0",
+        "historicalRootOccurrenceId": "2c020de573d8fb7e811508359bef43a77a42e08aaa94446a176f01bec1414905",
+        "currentRootOccurrenceId": "0fa0b633e4204758a8ffeedab82ec53662b3cf8cc3db30d9d28608932403a2a1",
+        "currentSourceSnapshot": {
+          "bytes": 768788480,
+          "mtime_ns": 1792834629443139800,
+          "device": 621747392682911458,
+          "file_id": 63894819714788748,
+          "header_sha256": "ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e"
+        },
+        "currentArchiveSha256": "eab24e0667fcaf3f3874f589bd7a3482da5ddcd82546a9eb5c2ef36c3ad9636c",
+        "currentRootIndexSha256": "c1df1700b5f7c2369539d4a1f3b6652d687d7606b6a109dc7ea9c9cda49d2aae",
+        "logicalPath": "/Assets/mgo/pack/location/afn0/pack_common/afn0_common.pftxs",
+        "decodedSha256": "2d231e65dd0e258bee24869e50bdc46f93eeb650bb81d42404c08a5376b9a1c2",
+        "equivalenceScope": "This exact decoded root-member subtree only; historical source/occurrence/receipt identities are unchanged."
+      }
+    }
+  ]
+}
