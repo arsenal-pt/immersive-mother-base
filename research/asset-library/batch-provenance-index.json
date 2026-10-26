@@ -133,6 +133,12 @@
       "bytes": 343288,
       "sha256": "9e155fbb9950bca316841bc6f43aaaf0e9fe84d15dc6ad6d9f6ee13ab09cb07c",
       "gitBlobSha1": "4e5a003f0936d7acee854057377408dde3cf64db"
+    },
+    {
+      "path": "batch-provenance-batches/d69a2801d165cd9542b0d92a.json",
+      "bytes": 120870,
+      "sha256": "888f17019b8c3b60d4483d3d1a0dcd6ceb815cfc3793a4df6854816f505e5e9f",
+      "gitBlobSha1": "58d47c7815282c14af713d8fb69a14321ea2e2a7"
     }
   ]
 }
