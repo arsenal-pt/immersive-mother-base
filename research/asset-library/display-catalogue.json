@@ -2048,6 +2048,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_hous007-c12cebf8d5241ed4",
+      "display_name": "Unidentified model (afgh_hous007)",
+      "native_filename": "afgh_hous007.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 488,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "63b8c578557cc254e5307a6113710935d8c8aa2d0a8fcb47270bde95e3c61a0a",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/house/afgh_hous007/scenes/afgh_hous007.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_pstr001_vrtn002-884df9f5ecdee5c4",
       "display_name": "Unidentified model (afgh_pstr001_vrtn002)",
       "native_filename": "afgh_pstr001_vrtn002.fmdl",
