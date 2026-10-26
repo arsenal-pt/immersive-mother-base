@@ -1444,6 +1444,79 @@
       }
     },
     {
+      "occurrence_id": "05c9915cc4ef6f02db567e080c0d47f4e276db89c27824537b730b143997a2d0",
+      "source": {
+        "source_path": "master/0/00.dat",
+        "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+      },
+      "result_fingerprint": "2b12edadbdda12ef427e6325c8e6cbc76243ad4052b83dc8d5d2c402a1c37026",
+      "result": {
+        "content_key": "9ec3b67801f0cd8f4f8a096fa8c13fa3b0ea01e54972f3740ba5c87f3ee35c94",
+        "job_ids": [
+          "4335877a36bdf8670cc604d1"
+        ],
+        "policy": "2305dac5436e799a48f8e98a3fd13a69f07bcf1cfeffdcf3d78560d3f98501d2",
+        "lods": [
+          0
+        ],
+        "records": [
+          {
+            "id": "mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f",
+            "sha256": "1cd79fb350b87da5c8b1904ef52a8ee6d42218204734a0bbe8508b2d28ca1792",
+            "model_sha256": "a4516577c2c1eea604b9b0e141c3087d641f46ec5d642b97e5b345f6440940bb"
+          }
+        ],
+        "dependency_proofs_sha256": "f0c6adba073135150eb80ed2fa38e509a04bfefef205aa749007d9f280563dae",
+        "dependency_sources": [
+          {
+            "source_path": "master/0/00.dat",
+            "source_snapshot": "{\"bytes\":768788480,\"device\":621747392682911458,\"file_id\":844424931596481,\"header_sha256\":\"ead50f0a9a37e4285323b9c6fa0ec75fe75e518c63147e63158eeb2892c6589e\",\"mtime_ns\":1791852224238580700}"
+          },
+          {
+            "source_path": "master/texture2.dat",
+            "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}"
+          },
+          {
+            "source_path": "master/texture2.dat",
+            "source_snapshot": "{\"bytes\":2920239104,\"device\":621747392682911458,\"file_id\":562949953639626,\"header_sha256\":\"72bfee707623afb5f3abd8382035d3d4258b4941ac583a56f5a447f47123dcab\",\"mtime_ns\":1791224675561235200}"
+          },
+          {
+            "source_path": "mgo/texture0.dat",
+            "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":562949953639631,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}"
+          },
+          {
+            "source_path": "mgo/texture0.dat",
+            "source_snapshot": "{\"bytes\":4492370944,\"device\":621747392682911458,\"file_id\":562949953639631,\"header_sha256\":\"6108fbacb65c84d041742c39e5ca630745240453b336f1059a13b91943f0b011\",\"mtime_ns\":1791224675562234400}"
+          }
+        ],
+        "artifacts": [
+          {
+            "name": "mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f-360.gif",
+            "sha256": "54486654dbfa14566f4a7b9a6fb1a80873e38d0aff0d671be1ebef0fd612b710",
+            "bytes": 999767
+          },
+          {
+            "name": "mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f-thumb.png",
+            "sha256": "8b1000d07277c180041fba3c2598d84f3ac9a73198110bf16e1b4dfde80aa4f2",
+            "bytes": 9641
+          },
+          {
+            "name": "mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f.png",
+            "sha256": "e7350344cd4dad267ef3a8eb40f3d328ebfbb3b415ec28661170a4dc1caf3b4b",
+            "bytes": 153471
+          }
+        ]
+      },
+      "links": {
+        "4335877a36bdf8670cc604d1": {
+          "still": "media/asset-previews/auto-8d8390af0b88916baa1c4882/mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f.png",
+          "gif": "media/asset-previews/auto-8d8390af0b88916baa1c4882/mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f-360.gif",
+          "thumbnail": "media/asset-previews/auto-8d8390af0b88916baa1c4882/mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f-thumb.png",
+          "detail": "research/asset-library/assets/mgsv-tpp-afgh_grss003_vrtn001-9ec3b67801f0cd8f.md"
+        }
+      }
+    },
+    {
       "occurrence_id": "0633192bcc9fb96aa14b99048ceff71c1a9402df9a932d8f943ddcf03ef5f83b",
       "source": {
         "source_path": "master/0/00.dat",
