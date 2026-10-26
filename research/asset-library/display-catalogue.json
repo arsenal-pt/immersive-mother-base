@@ -2451,6 +2451,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_pstr002_vrtn007-1694710ba5d831aa",
+      "display_name": "Unidentified model (afgh_pstr002_vrtn007)",
+      "native_filename": "afgh_pstr002_vrtn007.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn007",
+      "lod": 0,
+      "triangles": 24,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "ee07f677a678a1163a3ea2ef7dbf58bdb16d88e7ab5746fabdbde92be7b3df15",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/poster/afgh_pstr002/scenes/afgh_pstr002_vrtn007.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_sndb003_vrtn001-7b0c71e3412a9a4a",
       "display_name": "Unidentified model (afgh_sndb003_vrtn001)",
       "native_filename": "afgh_sndb003_vrtn001.fmdl",
