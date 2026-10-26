@@ -2163,6 +2163,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_msnr001_vrtn001-4017f4126a5cb15f",
+      "display_name": "Unidentified model (afgh_msnr001_vrtn001)",
+      "native_filename": "afgh_msnr001_vrtn001.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn001",
+      "lod": 0,
+      "triangles": 563,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "8b129407d611c1c3977566ca8aa298e26f6273f6d842fa5527307398a13c7791",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/masonry/afgh_msnr001/scenes/afgh_msnr001_vrtn001.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_pstr001_vrtn002-884df9f5ecdee5c4",
       "display_name": "Unidentified model (afgh_pstr001_vrtn002)",
       "native_filename": "afgh_pstr001_vrtn002.fmdl",
