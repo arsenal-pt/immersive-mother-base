@@ -2120,6 +2120,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_irpl003-6750baa9a60062e9",
+      "display_name": "Unidentified model (afgh_irpl003)",
+      "native_filename": "afgh_irpl003.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 30,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "14d51084a4955fcc639bc58b76aa77a3fbaa7f744d54d396505c9a2a9b1f1e8f",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/iron_plate/afgh_irpl003/scenes/afgh_irpl003.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_pstr001_vrtn002-884df9f5ecdee5c4",
       "display_name": "Unidentified model (afgh_pstr001_vrtn002)",
       "native_filename": "afgh_pstr001_vrtn002.fmdl",
