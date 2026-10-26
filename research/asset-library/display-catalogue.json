@@ -1760,6 +1760,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_grss022_vrtn003-8b3e95e3af9563db",
+      "display_name": "Unidentified model (afgh_grss022_vrtn003)",
+      "native_filename": "afgh_grss022_vrtn003.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "vrtn003",
+      "lod": 0,
+      "triangles": 34,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "b859558f3c701c5957786cc2da48510f1e8e542202620765f6df4cbf25bb333f",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/grass/afgh_grss022/scenes/afgh_grss022_vrtn003.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_gscy001_gm-f0f8623eb7f77d15",
       "display_name": "Unidentified model (afgh_gscy001_gm)",
       "native_filename": "afgh_gscy001_gm.fmdl",
