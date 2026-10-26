@@ -1,0 +1,11 @@
+# Unclassified &gt; Unclassified components - page 31
+
+[Library](../README.md) | [Source / advanced data](../catalogue.json) | [Credits](../sources-and-credits.md)
+
+Static thumbnails only. Open a name or preview for its full still and 360-degree camera reference.
+
+| Preview | Name | Game filename | Description | Tags | Variant / LOD |
+|---|---|---|---|---|---|
+| [![Unidentified model (mgom_wtct001_lddr001)](../../../media/asset-previews/auto-ff6b9f27f0179e68e72e63f3/mgsv-tpp-mgom_wtct001_lddr001-5ceb4add78347714-thumb.png)](../assets/mgsv-tpp-mgom_wtct001_lddr001-5ceb4add78347714.md) | [Unidentified model (mgom_wtct001_lddr001)](../assets/mgsv-tpp-mgom_wtct001_lddr001-5ceb4add78347714.md) (unidentified) | mgom_wtct001_lddr001.fmdl | Native model reference; a readable object identification has not been reviewed. |  | Variant: No explicit variant token; LOD0; 148 triangles |
+
+Pages: [1](unclassified-components-1.md) | [2](unclassified-components-2.md) | [3](unclassified-components-3.md) | [4](unclassified-components-4.md) | [5](unclassified-components-5.md) | [6](unclassified-components-6.md) | [7](unclassified-components-7.md) | [8](unclassified-components-8.md) | [9](unclassified-components-9.md) | [10](unclassified-components-10.md) | [11](unclassified-components-11.md) | [12](unclassified-components-12.md) | [13](unclassified-components-13.md) | [14](unclassified-components-14.md) | [15](unclassified-components-15.md) | [16](unclassified-components-16.md) | [17](unclassified-components-17.md) | [18](unclassified-components-18.md) | [19](unclassified-components-19.md) | [20](unclassified-components-20.md) | [21](unclassified-components-21.md) | [22](unclassified-components-22.md) | [23](unclassified-components-23.md) | [24](unclassified-components-24.md) | [25](unclassified-components-25.md) | [26](unclassified-components-26.md) | [27](unclassified-components-27.md) | [28](unclassified-components-28.md) | [29](unclassified-components-29.md) | [30](unclassified-components-30.md) | [31](unclassified-components-31.md)
