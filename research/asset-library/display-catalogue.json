@@ -1652,6 +1652,24 @@
       "metadata_review": true
     },
     {
+      "id": "mgsv-tpp-afgh_gate003-2c171611ee7abf22",
+      "display_name": "Unidentified model (afgh_gate003)",
+      "native_filename": "afgh_gate003.fmdl",
+      "category": "Unclassified",
+      "subcategory": "Unclassified components",
+      "tags": [],
+      "description": "Native model reference; a readable object identification has not been reviewed.",
+      "variant": "No explicit variant token",
+      "lod": 0,
+      "triangles": 564,
+      "naming_status": "unidentified",
+      "confidence": "unknown",
+      "raw_record_sha256": "a85cece4f63c96256fc8f3c952cc6aeac635db3428ff5a622e06a71645e1068b",
+      "native_path": "/Assets/tpp/environ/object/afghanistan/gate/afgh_gate003/scenes/afgh_gate003.fmdl",
+      "evidence": {},
+      "metadata_review": true
+    },
+    {
       "id": "mgsv-tpp-afgh_gscy001_gm-f0f8623eb7f77d15",
       "display_name": "Unidentified model (afgh_gscy001_gm)",
       "native_filename": "afgh_gscy001_gm.fmdl",
