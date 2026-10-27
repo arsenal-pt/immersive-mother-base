@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "mgsv-tpp-player2-resident-snapnon_s_idl_r-adapted-reference-r1",
+  "title": "Relaxed unarmed standing idle",
+  "classification": "experimental adapted reference",
+  "evidence": "offline visual evidence only",
+  "clip": "snapnon_s_idl_r",
+  "sourceArchive": "player2_resident",
+  "sourceIdentity": {
+    "canonicalVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/snap/snapnon/snapnon_s_idl_r.gani",
+    "retainedArchiveSha256": "299795a7378d55f18d059f02a2946763d8c546c2a4db5da6bdb5baed84646c2d",
+    "originalGaniSha256": "1a099c7e638b8c0e064837c020ae33bfd34afb1fce60fa182eb1eff3cc7cc956",
+    "adaptedGaniSha256": "3e5908d3fa1c71b56a32dec0bb440775689ace0d975e76edca9fddc9b7b18fbf",
+    "outerContainerQualification": "Historical retained extraction; no fresh DAT/FPK extraction for this preview"
+  },
+  "adaptation": {
+    "operation": "One root-vector VECTOR3 segment: 32-bit to 16-bit precision",
+    "otherSegmentPayloadsByteIdentical": 55,
+    "orderedBindingMatch": "retained Soldier layout",
+    "nativeCompatibilityEstablished": false
+  },
+  "preview": {
+    "rawFrameCount": 150,
+    "chosenSourceFramesPerSecond": 30,
+    "gifFramesPerSecond": 15,
+    "sampleStep": 2,
+    "durationMilliseconds": 5000,
+    "nativeFrameRate": null,
+    "referenceCharacter": "Full untextured stock Ocelot oce0_main0_def reference; does not identify source actor",
+    "referenceRigSha256": "c020ff7c2c39dd82b9b084999bcbdfa35c2d171d94552fe84696a90439c59445",
+    "mappingSha256": "2755175dc333ee1320e16d732e6c0707d5f266ff7f91e5b122ca1d4ad3f34a81",
+    "secondaryBoneAncestorFallbackCount": 18
+  },
+  "review": {
+    "status": "acceptable offline relaxed unarmed rest candidate",
+    "observations": [
+      "Complete character remains in view, upright with relaxed bent knees and both hands down by the sides.",
+      "No rifle-ready arm posture or bind pose in these offline views.",
+      "Small chest/hand sway through the cycle supports a breathing/rest motion; not a raised-fist guard.",
+      "Feet stay planted; frames148/150/0/2 appear continuous."
+    ],
+    "nativeGameplayProof": false,
+    "nativeSoldier2Compatibility": null,
+    "workingTrainingFix": false,
+    "earlierNativeTrials": "Two idle-transition probes rejected and rolled back; current preview remains source-only",
+    "independentProjectReview": "Root orchestration agent reviewed full-cycle and seam reference views; this is not a claim of human or native acceptance."
+  },
+  "media": {
+    "gif": {
+      "path": "media/animation-previews/2026-10-27/snapnon_s_idl_r.gif",
+      "bytes": 7693360,
+      "sha256": "c57cfc29416d73061fa0c11e574b18e19afb5e0c1f14ec4441bf400710699a77"
+    },
+    "thumbnail": {
+      "path": "media/animation-previews/2026-10-27/snapnon_s_idl_r.png",
+      "bytes": 49961,
+      "sha256": "61574d062afec39060d7bc97899e34fa664e56ea6b84fb6cdfd9d0d3fc99af35"
+    }
+  },
+  "limits": [
+    "Chosen preview speed is not measured native timing.",
+    "No native Soldier2 playback, duration, completion, transition, contact or looping proof.",
+    "No held weapon; relaxed rest is not a raised-fist guard.",
+    "Community rig fallback behavior does not reproduce native FOX cloth, twist or physics.",
+    "No complete cinematic choreography or Ground Zeroes nurse identification is established.",
+    "No source game payload, raw GANI/TRK, mesh, rig, scene, archive, native recording or save is distributed."
+  ],
+  "credits": [
+    {
+      "name": "mctrollin fox_engine_mtar_tools_blender",
+      "referenceRevision": "7fa90e589349ad4ba87102f0061a8d8d343a8bf4",
+      "url": "https://github.com/mctrollin/fox_engine_mtar_tools_blender/tree/7fa90e589349ad4ba87102f0061a8d8d343a8bf4"
+    },
+    {
+      "name": "BobDoleOwndU FMDL Studio v2; Atvaark GzsTool; BobDoleOwndU MtarTool; Blender Foundation; Pillow contributors"
+    },
+    {
+      "name": "Original MGSV content belongs to its rights holders; authored software license does not relicense game content"
+    },
+    {
+      "name": "Konami / Kojima Productions and original content rights holders"
+    },
+    {
+      "name": "arsenal-pt, project creator and maintainer; OpenAI Codex, authored research/curation under human direction"
+    }
+  ]
+}

@@ -48,3 +48,7 @@ The public repository owner and project creator is arsenal-pt. Original project 
 16. [MGSV Asset Reference Library](asset-library/README.md) - 10 selected parent models and19previewviews: original seatingLOD0-3 plus seven imported components/fixtures atLOD0, static thumbnails, separately loaded turntables, quality/texture columns and native source-backed metadata. See the [category plan](asset-library/RESEARCH-PLAN.md) and [standing workflow](asset-library/workflow.md); no downloadable game assets or all-game completeness claim.
 
 17. [Whole-game metadata catalogue](asset-library/whole-game-catalogue.md) - implemented local as-installed membership census beyond149retained models; source credits, actual offline coverage, limits and pending deterministic texture/preview bridge. No bulk game catalogue DB or native assets are distributed.
+
+## Training and walking staff research
+
+[Training animations and walking staff](training-and-staff/README.md) records the experimental adapted idle preview, native test failures and the remaining cutscene/staff work.
