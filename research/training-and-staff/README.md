@@ -4,7 +4,22 @@ This work is in progress. The goal is fluid unarmed practice, shooting with the 
 
 [Animation library](../animation-library/README.md) | [Asset library](../asset-library/README.md)
 
-## Training repair
+## Current mod priority — 27 October 2026
+
+Work is focused on the playable mod: CQC recovery, pistol shooting, a fighting circle, and walking medical and maintenance staff. These remain unfinished gameplay tasks.
+
+| Area | What has advanced | What still needs gameplay proof |
+| --- | --- | --- |
+| CQC recovery and spacing | The prepared route/archive correction and copied controller now support pausing after ordinary arrival, before the first training motion. The reviewed recording session can retain that inspection continuously on video. | Correct floor support, full-body spacing and fluid recovery in the prepared game build. The earlier 45-second trial acknowledged 36 neutral endings, but visible partner overlap remained. |
+| Fighting circle | A copied adapter correction checks both native and logical observer ownership. Independent focused tests confirm that a lost lease stops the session without restoring a foreign-owned actor; skipped cleanup is reported as incomplete. | Real route/point and floor bindings, spectator poses, role changes and native cleanup. This separate candidate is not installed or merged into the current test build. |
+| Pistol choreography | A source-supported equipment probe can request the exact handgun loadout. A real stock shooting-practice AI caller has been identified for a separately configured mission. | Ordinary Mother Base actor compatibility, attachment, draw/aim/fire/holster, targets and safe termination. An equipment query or a cinematic pose does not establish firing. |
+| Walking staff | The current manual pilot reuses existing adult Infinite Heaven actors rather than duplicating the doctors. An optional reviewed-route copy is being prepared to remove the fixed muster-point restriction. | Continuous visible locomotion and safe handback for the exact medical/maintenance actor. A body mapping alone is insufficient; the Ground Zeroes nurse remains unidentified. |
+
+The previous failing gameplay recording is retained for the development log. No new corrected gameplay recording is claimed by this update. Prepared source checks and package verification are separate from a successful installed-game test; automatic training remains off.
+
+The next acceptance test is recorded ordinary arrival and floor/spacing inspection, followed by bounded CQC playback and recovery. Pistol, circle and staff variants need their own reviewed bindings and recorded native evidence before they can be presented as working features.
+
+## Earlier training-repair evidence
 
 A recorded four-person test completed four rounds and two alternating role cycles. Completed initiator motions remained held for about 8.9-9.2 seconds while the other role recovered and the pair rested. This reproduces the visible frozen or leaning endpoints.
 
