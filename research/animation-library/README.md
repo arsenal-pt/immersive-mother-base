@@ -1,6 +1,6 @@
 # MGSV Animation Reference Library
 
-A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **27 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
+A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **28 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
 
 **This index loads no GIFs or thumbnails.** Expand a category and choose a table page. Each animated table loads **at most four small GIFs**; still-image pages run no animations. Click a preview or title to open one larger clip. No mod, dashboard or running game is needed.
 
@@ -50,13 +50,22 @@ The largest current animated page contains 3.00 MiB of thumbnail files. Separate
 
 </details>
 
+<details>
+<summary><strong>Ocelot-package locomotion references</strong> - 1 clips</summary>
+
+| Page | Clip range | Animated table | Still-image table |
+| --- | --- | --- | --- |
+| 1 | `oce0_s_wlk_a` | [Open 1 GIFs](tables/ocelot-locomotion-1.md) | [Open stills](tables/ocelot-locomotion-1-stills.md) |
+
+</details>
+
 ## Metadata columns
 
-Browsing tables separate **category**, **semantic tags**, **virtual GANI directory/file**, **MTAR/container location** and **Description**. Credits remain central and per-entry in the detail/source data. Every entry has a concise action description; authored observations stay separate from attributed community descriptions and their exact-match status. The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).
+Browsing tables separate **category**, **semantic tags**, **virtual GANI directory/file**, **MTAR/container location** and **Description**. Credits remain central and per-entry in the detail/source data. Every entry has a concise action description; authored observations stay separate from attributed community descriptions and their exact-match status. The reviewed BossQuiet2_layers notes match none of the original 27 paths. The walking reference uses a separately credited authored observation. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).
 
 ## How to read the previews
 
-The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions. All are **offline previews**. Durations use a chosen 30 source frames/s; native timing is unmeasured. Labels retain candidate, receiver, transition and special-actor distinctions. Individual clips have no matched partner or held weapon, and hair/clothing motion is approximate.
+The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions and the separately pinned Ocelot-package walking reference. All are **offline previews**. Durations use a chosen 30 source frames/s; native timing is unmeasured. Labels retain candidate, receiver, transition and special-actor distinctions. Individual clips have no matched partner or held weapon, and hair/clothing motion is approximate.
 
 Each detail page includes source archive and exact clip path, hash ID, frame counts, sidecar/payload hashes, role confidence, chosen preview timing and verification limits. Complete extraction/render records are in JSON; CSV supplies common searchable columns. Stable library IDs use game + archive + clip hash. Older extraction ordinals remain historical fields because repacking can renumber them. JSON media paths are relative to the repository root.
 

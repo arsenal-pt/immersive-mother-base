@@ -23,6 +23,7 @@ MANIFEST = "media/animation-previews/2026-10-15/preview-manifest.json"
 THUMBS = "media/animation-previews/library-thumbnails/2026-10-15"
 METADATA_REVIEW = LIB + "/metadata-source-review.json"
 CONTAINER_REVIEW = LIB + "/container-provenance.json"
+REVIEWED_REFERENCES = [LIB + "/reviewed/ocelot-walk-20261029.json"]
 BATCHES = [
     {"id": "cqc-starter", "source": SOURCE, "manifest": MANIFEST},
     {"id": "lmg-reloads-002", "source": "research/animation-batches/lmg-reloads/animations-metadata.json",
@@ -35,6 +36,7 @@ GROUPS = [
     ("npc-receivers", "NPC receiving and reaction candidates"),
     ("special-actors", "Special / zombie actor candidates"),
     ("lmg-reloads", "LMG ready/reload candidates"),
+    ("ocelot-locomotion", "Ocelot-package locomotion references"),
 ]
 
 
@@ -381,7 +383,7 @@ def render_table_page(page, stills=False):
     for e in page["entries"]:
         detail = link_from(current, e["detailPage"])
         img = e["media"]["stillThumbnail" if stills else "animatedThumbnail"]["path"]
-        image = '<a href="' + detail + '"><img src="' + link_from(current, img) + '" width="160" height="' + str(e["media"]["animatedThumbnail"]["height"]) + '" alt="' + html.escape(e["title"], quote=True) + '"></a>'
+        image = '<a href="' + detail + '"><img src="' + link_from(current, img) + '" width="160" height="' + str(round(e["media"]["animatedThumbnail"]["height"] * 160 / e["media"]["animatedThumbnail"]["width"])) + '" alt="' + html.escape(e["title"], quote=True) + '"></a>'
         identity = "[" + e["title"].replace("|", "&#124;") + "](" + detail + ")<br>" + html_code(e["shortIdentifier"]) + "<br>Authored preview label"
         loc, desc = e["locations"], e["sourceDescription"]
         gani = html_code(loc["ganiDirectory"] + "/") + "<br>" + html_code(posixpath.basename(loc["ganiVirtualPath"]))
@@ -425,9 +427,9 @@ def render_readme(catalogue):
         "## Metadata columns", "",
         "Browsing tables separate **category**, **semantic tags**, **virtual GANI directory/file**, **MTAR/container location** and **Description**. Credits remain central and per-entry in the detail/source data. "
         "Every entry has a concise action description; authored observations stay separate from attributed community descriptions and their exact-match status. "
-        "The reviewed BossQuiet2_layers notes match none of the current 27 paths. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).", "",
+        "The reviewed BossQuiet2_layers notes match none of the original 27 paths. The walking reference uses a separately credited authored observation. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).", "",
         "## How to read the previews", "",
-        "The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions. "
+        "The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions and the separately pinned Ocelot-package walking reference. "
         "All are **offline previews**. Durations use a chosen 30 source frames/s; native timing is unmeasured. "
         "Labels retain candidate, receiver, transition and special-actor distinctions. Individual clips have no "
         "matched partner or held weapon, and hair/clothing motion is approximate.", "",
@@ -475,6 +477,63 @@ def render_readme(catalogue):
         "[GPL-3.0-only](../../LICENSE); rendered game-derived media retains its [asset scope](../../LICENSE-SCOPE.md). "
         "No raw model, rig scene or animation payload is included.", "",
     ]
+    return "\n".join(lines).encode("utf-8")
+
+
+def load_reviewed_reference(root, path):
+    """Load already accepted exact media/metadata; no rendering or new encoding."""
+    data = (root / path).read_bytes()
+    doc = json.loads(data)
+    record = doc["entry"]
+    if doc["acceptance"]["status"] != "ROOT_ACCEPTED_OFFLINE_REFERENCE_FOR_TABLE_PROMOTION_NOT_NATIVE":
+        raise ValueError("Reference lacks exact root visual acceptance")
+    if record["id"] != "mgsv-tpp-ocelot2_layers-payloadsha256-" + record["source"]["payloadSha256"]:
+        raise ValueError("Reference payload identity mismatch")
+    if doc["acceptance"]["sourcePayloadSha256"] != record["source"]["payloadSha256"]:
+        raise ValueError("Acceptance source mismatch")
+    for media in record["media"].values():
+        raw = (root / media["path"]).read_bytes()
+        if len(raw) != media["bytes"] or sha(raw) != media["sha256"]:
+            raise ValueError("Accepted reference media changed")
+    if record["nativeFrameRate"] is not None or record["evidence"]["nativeGameplay"]:
+        raise ValueError("Offline reference cannot assert native proof")
+    return record, {"path": path, "sha256": sha(data)}
+
+
+def render_reviewed_reference(record):
+    page = record["detailPage"]
+    full = link_from(page, record["media"]["fullGif"]["path"])
+    still = link_from(page, record["media"]["stillThumbnail"]["path"])
+    preview = record["originalRecords"]["preview"]
+    loc = record["locations"]
+    lines = ["# " + record["title"], "",
+        "[Library index](../README.md) · [Complete catalogue](../catalogue.json)", "",
+        record["description"]["text"], "",
+        "[![" + record["title"] + " - offline full-character reference](" + full + ")](" + full + ")", "",
+        "[Full GIF](" + full + ") · [Still image](" + still + ")", "",
+        "**Exact identifier:** " + BT + record["shortIdentifier"] + BT + ". **Tags:** " + ", ".join(record["tags"]) + ".", "",
+        "Observed action is authored from root-reviewed samples; no community description, native actor/weapon compatibility or continuous human review is asserted.", "",
+        "## Source and preview data", "", "| Field | Value |", "| --- | --- |"]
+    rows = [("Virtual GANI", loc["ganiVirtualPath"]), ("MTAR", loc["archiveVirtualPath"]),
+        ("Historical FPK", loc["containerVirtualPath"]), ("Historical DAT", loc["datArchive"]),
+        ("Source archive SHA256", record["source"]["archiveSha256"]), ("GANI SHA256", record["source"]["payloadSha256"]),
+        ("Source identity limit", "Payload SHA256 identity; name PathCode64 not independently recomputed; exporter prefix is not an ordinal"),
+        ("Source header / decoded body tracks / raw frames", "16 / 18 / 96"),
+        ("Chosen source rate / native rate", "30 source frames/s / unknown"),
+        ("GIF frames / duration", "48 / 3200 ms; separate endpoint96 excluded"),
+        ("Reference character", preview["referenceCharacter"]),
+        ("Actual reference scene SHA256", preview["referenceCharacterBlendSha256"]),
+        ("Weight audit", str(preview["actualWeightAuditSummary"]["meshCount"]) + " meshes; max per-vertex sum error " + str(preview["actualWeightAuditSummary"]["maxPerVertexWeightSumError"])),
+        ("Secondary ancestor fallbacks", str(len(preview["actualSecondaryBoneAncestorFallbacks"])) + "; hair/cloth/holster are approximate"),
+        ("Root motion", preview["rootMotion"]), ("Root visual QA", preview["rootReviewScope"]),
+        ("DAT limit", loc["datOriginStatus"])]
+    lines += ["| " + k + " | " + v.replace("|", "&#124;") + " |" for k, v in rows]
+    lines += ["", "Native timing, floor/contact, paired motion, cloth/twist and arbitrary actor compatibility remain unverified. This is not a training-posture fix.", "",
+        "## Credits", ""]
+    lines += ["- " + c["name"] + ": " + c["role"] + "." for c in record["credits"]]
+    lines += ["", "[Full credits](../../../CREDITS.md) · [License scope](../../../LICENSE-SCOPE.md) · [Exact reviewed source/provenance](../reviewed/ocelot-walk-20261029.json)", "",
+        "<details>", "<summary>Complete source and preview provenance</summary>", "", FENCE + "json",
+        json.dumps(record, indent=2, ensure_ascii=False), FENCE, "", "</details>", ""]
     return "\n".join(lines).encode("utf-8")
 
 
@@ -568,6 +627,16 @@ def build(root, metadata_only=False):
             enrich_metadata(record, archive, source, source_path, description_review, container_review)
             entries.append(record)
             outputs[record["detailPage"]] = render_page(record)
+    legacy_entries = list(entries)
+    reviewed_sources = []
+    for path in REVIEWED_REFERENCES:
+        record, provenance = load_reviewed_reference(root, path)
+        if record["id"] in identities:
+            raise ValueError("Duplicate reviewed identity")
+        identities.add(record["id"])
+        entries.append(record)
+        reviewed_sources.append(provenance)
+        outputs[record["detailPage"]] = render_reviewed_reference(record)
     manifest = manifests[0]  # Preserve the starter's legacy shared reference fields.
     catalogue = {
         "schemaVersion": 1,
@@ -600,6 +669,9 @@ def build(root, metadata_only=False):
         "entryCount": len(entries),
         "entries": entries,
     }
+    catalogue["sourceRecords"] += reviewed_sources
+    catalogue["sourceBatches"] += [{"id": "ocelot-walk-reference-20261029", "entryCount": 1, "extraction": p, "previews": p} for p in reviewed_sources]
+    catalogue["reviewedReferencePolicy"] = "Exact accepted media; each reference carries its own display/encoding/provenance metadata"
     outputs[LIB + "/catalogue.json"] = json_bytes(catalogue)
     outputs[LIB + "/catalogue.csv"] = render_csv(entries)
     outputs[LIB + "/README.md"] = render_readme(catalogue)
@@ -612,7 +684,7 @@ def build(root, metadata_only=False):
             "sourcePreviewManifests": [batch["previews"] for batch in batch_records],
             "generator": LIB + "/build-library.py", "pillowVersion": PILLOW_VERSION,
             "entries": [{"id": e["id"], "sourceFullGif": e["media"]["fullGif"],
-                         "animatedThumbnail": e["media"]["animatedThumbnail"]} for e in entries],
+                         "animatedThumbnail": e["media"]["animatedThumbnail"]} for e in legacy_entries],
         })
     return outputs, catalogue
 

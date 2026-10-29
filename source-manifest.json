@@ -190,7 +190,9 @@
     "assetLibraryPlan": "research/asset-library/RESEARCH-PLAN.md",
     "assetReferenceWorkflow": "research/asset-library/workflow.md",
     "assetQualityProvenance": "research/asset-library/quality-provenance.json",
-    "assetQualityVariantCsv": "research/asset-library/quality-variants.csv"
+    "assetQualityVariantCsv": "research/asset-library/quality-variants.csv",
+    "ocelotWalkingReference": "research/animation-library/reviewed/ocelot-walk-20261029.json",
+    "ocelotLocomotionTable": "research/animation-library/tables/ocelot-locomotion-1.md"
   },
   "animationPreviewDocumentation": {
     "manifest": "media/animation-previews/2026-10-15/preview-manifest.json",

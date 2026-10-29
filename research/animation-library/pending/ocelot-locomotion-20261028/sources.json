@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "batchId": "ocelot-locomotion-source-20261028",
-  "status": "metadata-consolidation-only-preview-pending",
+  "status": "three-retained-sources-preview-pending",
   "definedScope": "Four named Ocelot2_layers shared-body walk/transition identifiers retained from the October 26/27 source selection; not all Ocelot animations or all-game locomotion",
   "counts": {
-    "publishedDecodedBaseline": 27,
-    "selectedRetainedSources": 4,
+    "publishedDecodedBaseline": 28,
+    "selectedRetainedSources": 3,
     "newExtractions": 0,
     "newDecodedPreviews": 0,
     "newTitledGifs": 0,
@@ -62,44 +62,6 @@
     "No raw GANI, MTAR, FPK, scene, rig, model, save, private path or auth material is distributed"
   ],
   "entries": [
-    {
-      "id": "mgsv-tpp-ocelot2_layers-payloadsha256-27a37f57dc2ddbdaac20d0b5db6a0eac6827136555282e420187358674d7362e",
-      "exactClipName": "oce0_s_wlk_a",
-      "virtualGaniPath": "/Assets/tpp/motion/SI_game/fani/bodies/oce0/oce0/oce0_s_wlk_a.gani",
-      "category": "Ocelot-package locomotion source references",
-      "description": "Unpreviewed oce0_s_wlk_a motion; action interpretation not visually verified",
-      "descriptionAuthority": "authored pending-preview label; exact identifier only, no visually verified action interpretation",
-      "sourceArchive": "Ocelot2_layers.mtar",
-      "sourceArchiveSha256": "b8d40a45d7a89fd600a58c3f487cb6cb8e06cd3a9a9001a8f425854fafba59b7",
-      "payloadSha256": "27a37f57dc2ddbdaac20d0b5db6a0eac6827136555282e420187358674d7362e",
-      "payloadBytes": 10816,
-      "sidecars": [],
-      "exporterLabel": "0031_oce0_s_wlk_a",
-      "sourceArchiveOrdinal": null,
-      "ordinalCaution": "Numbered exporter label only; original ordinal not asserted because export ordering differs from pre-export console order.",
-      "rawFrameCount": null,
-      "frameCountStatus": "not parsed in this consolidation; no guessed header offset",
-      "nativeFrameRate": null,
-      "previewFrameRate": null,
-      "sourceSceneSpecific": false,
-      "visualConfirmed": false,
-      "nativePlaybackConfirmed": false,
-      "trainingCompatibilityConfirmed": false,
-      "status": "retained-source-hash-verified-preview-pending",
-      "media": {
-        "cleanSourceFramesOrVideo": null,
-        "titledGif": null,
-        "thumbnail": null,
-        "contactSheet": null
-      },
-      "requiredNextEvidence": [
-        "compatible documented full-character rig and mapping",
-        "one decoded sample with inspected motion",
-        "clean source frames/video",
-        "readable titled looping GIF and still thumbnail",
-        "contact-sheet visual review and exact tool/rig/frame/root-motion provenance"
-      ]
-    },
     {
       "id": "mgsv-tpp-ocelot2_layers-payloadsha256-e5e1e88d787f3f134ab51a7b3b8c1aa445ad8950a04d91c7ee6ec7acae274d52",
       "exactClipName": "oce0_s_wlk_st_f_r",
@@ -232,5 +194,12 @@
         "rawHeaderFrameCount": 100
       }
     }
-  ]
+  ],
+  "promotion": {
+    "id": "mgsv-tpp-ocelot2_layers-payloadsha256-27a37f57dc2ddbdaac20d0b5db6a0eac6827136555282e420187358674d7362e",
+    "reviewedRecord": "research/animation-library/reviewed/ocelot-walk-20261029.json",
+    "remainingPendingSources": 3,
+    "decodedCountAfterPublication": 28,
+    "scopeLimit": "One source promoted; other three header/source records unchanged; not all category/game coverage"
+  }
 }
