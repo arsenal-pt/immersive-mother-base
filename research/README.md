@@ -24,7 +24,7 @@ The published 0.1.0-alpha.1 source is a limited, resource-disabled alpha. Some r
 
 13. [Animation preview workflow](animation-preview-workflow.md) â€” full-character GIFs, plain-English titles, thumbnails, exact clip links and evidence limits for future animation research.
 
-14. [MGSV Animation Reference Library](animation-library/README.md) — 56 clips in paged animated/still tables, category/tag/source-location/description columns, with central/detail source credits, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
+14. [MGSV Animation Reference Library](animation-library/README.md) — 81 clips in paged animated/still tables, category/tag/source-location/description columns, with central/detail source credits, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
 
 15. [LMG ready/reload batch](animation-batches/lmg-reloads/README.md) — two new offline kneeling/standing candidates; [category progress](animation-library/category-progress.json) records 2/2 completed and zero remaining in the defined workbook plus stock-archive scope. No held weapon or native reload/timing/compatibility proof.
 

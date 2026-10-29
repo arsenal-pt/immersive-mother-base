@@ -23,7 +23,7 @@ MANIFEST = "media/animation-previews/2026-10-15/preview-manifest.json"
 THUMBS = "media/animation-previews/library-thumbnails/2026-10-15"
 METADATA_REVIEW = LIB + "/metadata-source-review.json"
 CONTAINER_REVIEW = LIB + "/container-provenance.json"
-REVIEWED_REFERENCES = ['research/animation-library/reviewed/ocelot-walk-20261029.json', 'research/animation-library/reviewed/ocelot-transitions-20261029.json', 'research/animation-library/reviewed/animation-500-6c1eb5cfa85644e3b998.json']
+REVIEWED_REFERENCES = ['research/animation-library/reviewed/ocelot-walk-20261029.json', 'research/animation-library/reviewed/ocelot-transitions-20261029.json', 'research/animation-library/reviewed/animation-500-6c1eb5cfa85644e3b998.json', 'research/animation-library/reviewed/animation-500-952c57d75440ad36a969.json']
 BATCHES = [
     {"id": "cqc-starter", "source": SOURCE, "manifest": MANIFEST},
     {"id": "lmg-reloads-002", "source": "research/animation-batches/lmg-reloads/animations-metadata.json",
