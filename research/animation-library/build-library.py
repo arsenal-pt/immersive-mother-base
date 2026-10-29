@@ -23,7 +23,7 @@ MANIFEST = "media/animation-previews/2026-10-15/preview-manifest.json"
 THUMBS = "media/animation-previews/library-thumbnails/2026-10-15"
 METADATA_REVIEW = LIB + "/metadata-source-review.json"
 CONTAINER_REVIEW = LIB + "/container-provenance.json"
-REVIEWED_REFERENCES = [LIB + "/reviewed/ocelot-walk-20261029.json", LIB + "/reviewed/ocelot-transitions-20261029.json"]
+REVIEWED_REFERENCES = ['research/animation-library/reviewed/ocelot-walk-20261029.json', 'research/animation-library/reviewed/ocelot-transitions-20261029.json', 'research/animation-library/reviewed/animation-500-6c1eb5cfa85644e3b998.json']
 BATCHES = [
     {"id": "cqc-starter", "source": SOURCE, "manifest": MANIFEST},
     {"id": "lmg-reloads-002", "source": "research/animation-batches/lmg-reloads/animations-metadata.json",
@@ -31,13 +31,7 @@ BATCHES = [
 ]
 BT = chr(96)
 FENCE = BT * 3
-GROUPS = [
-    ("snake-cqc", "Snake CQC combo and transition candidates"),
-    ("npc-receivers", "NPC receiving and reaction candidates"),
-    ("special-actors", "Special / zombie actor candidates"),
-    ("lmg-reloads", "LMG ready/reload candidates"),
-    ("ocelot-locomotion", "Ocelot-package locomotion references"),
-]
+GROUPS = [('snake-cqc', 'Snake CQC combo and transition candidates'), ('npc-receivers', 'NPC receiving and reaction candidates'), ('special-actors', 'Special / zombie actor candidates'), ('lmg-reloads', 'LMG ready/reload candidates'), ('ocelot-locomotion', 'Ocelot-package locomotion references'), ('stock-soldier', 'Stock Soldier_common motion references')]
 
 
 def sha(data):
@@ -332,7 +326,7 @@ def render_page(record):
         "Match status: " + BT + desc["status"] + BT + ". [Description sources and matching rules](" + source_note + ").", "",
         "The source directory is a virtual game-asset directory. The retained clip stem and the .gani file path are separate fields. [Container provenance](../container-provenance.json) records direct FPK index/member-byte and selected GANI content/path checks on our retained assets. Our extraction receipts/logs identify historical outer origins; community description notes were not used for these locations. Current DAT membership/content/version remains unverified.", "",
         "## Technical data", "", "| Field | Value |", "| --- | --- |"]
-    lines += ["| " + k + " | " + v.replace("|", "&#124;") + " |" for k, v in rows]
+    lines += ["| " + k + " | " + str(v if v is not None else "Unverified").replace("|", "&#124;") + " |" for k, v in rows]
     lines += ["", "## Credits and evidence", ""]
     lines += ["- **" + c["name"] + "** — " + c["role"] + ("; " + c["sourceCell"] if c.get("sourceCell") else "") + "." for c in record["credits"]]
     lines += ["", "Categories/tags and preview summaries are project-authored. Candidate roles/families come from retained naming metadata; posture labels come from the already reviewed offline preview. An unavailable community description has no attributed per-entry source author. [Full tool/model credits](../../../CREDITS.md).", "",
@@ -384,7 +378,7 @@ def render_table_page(page, stills=False):
         "**" + mode + "** · " + str(len(page["entries"])) + " previews · " + f"{total / 1048576:.2f}" + " MiB of image files. Click a preview or title for its larger GIF and complete data.", "",
         "Pages: " + " · ".join(nav), "",
         "Tags describe the source actor/family, action, weapon class and posture where supported. Descriptions are concise authored action summaries unless an exact source description is verified. Credits, confidence and source matching are retained on each detail page and in [source notes](../description-sources.md).", "",
-        "The visible Ocelot mesh is a reference model, separate from the motion origin. FPK member paths and selected clip bytes were checked directly against retained assets; outer FPK/DAT origins are historical and current DAT contents remain unverified. Native timing, held-weapon/contact, pairing and actor compatibility remain unverified.", "",
+        ("The visible Ocelot mesh is a reference model, separate from the motion origin. These stock entries bind exact retained MTAR/payload/header identities; FPK/DAT membership and arbitrary actor/weapon compatibility remain unverified. Per-clip visual review may be pending." if page["group"]=="stock-soldier" else "The visible Ocelot mesh is a reference model, separate from the motion origin. FPK member paths and selected clip bytes were checked directly against retained assets; outer FPK/DAT origins are historical and current DAT contents remain unverified. Native timing, held-weapon/contact, pairing and actor compatibility remain unverified."), "",
         "| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |",
         "| --- | --- | --- | --- | --- | --- | --- | --- |"]
     for e in page["entries"]:
@@ -394,7 +388,7 @@ def render_table_page(page, stills=False):
         identity = "[" + e["title"].replace("|", "&#124;") + "](" + detail + ")<br>" + html_code(e["shortIdentifier"]) + "<br>Authored preview label"
         loc, desc = e["locations"], e["sourceDescription"]
         gani = html_code(loc["ganiDirectory"] + "/") + "<br>" + html_code(posixpath.basename(loc["ganiVirtualPath"]))
-        container = "DAT: " + html_code(loc["datArchive"]) + "<br>FPK: " + html_code(loc["containerVirtualPath"] or loc["recordedContainerLabel"]) + "<br>MTAR: " + html_code(loc["archiveVirtualPath"] or loc["archiveFile"]) + "<br>MTAR: verified FPK member; outer DAT/FPK origin: historical"
+        container = ("DAT / FPK: unverified<br>MTAR: " + html_code(loc["archiveFile"]) + "<br>Exact retained archive/payload identity" if e["group"]=="stock-soldier" else "DAT: " + html_code(loc["datArchive"]) + "<br>FPK: " + html_code(loc["containerVirtualPath"] or loc["recordedContainerLabel"]) + "<br>MTAR: " + html_code(loc["archiveVirtualPath"] or loc["archiveFile"]) + "<br>MTAR: verified FPK member; outer DAT/FPK origin: historical")
         description = html.escape(e["description"]["text"], quote=True).replace("|", "&#124;")
         timing = str(e["rawFrameCount"]) + " raw<br>" + f'{e["previewDurationMilliseconds"]/1000:g}' + " s (chosen)<br>[Full data](" + detail + "#technical-data)"
         cells = [image, identity, html.escape(e["category"]["label"]), "<br>".join(html_code(x) for x in e["tags"]), gani, container, description, timing]
@@ -433,7 +427,7 @@ def render_readme(catalogue):
     lines += [
         "## Metadata columns", "",
         "Browsing tables separate **category**, **semantic tags**, **virtual GANI directory/file**, **MTAR/container location** and **Description**. Credits remain central and per-entry in the detail/source data. "
-        "Every entry has a concise action description; authored observations stay separate from attributed community descriptions and their exact-match status. "
+        "Descriptions distinguish authored observations from source-derived labels whose action interpretation and per-clip visual review may remain pending. "
         "The reviewed BossQuiet2_layers notes match none of the original 27 paths. The walking reference uses a separately credited authored observation. Read [description sources and matching rules](description-sources.md), the [machine-readable source review](metadata-source-review.json) and [retained container provenance](container-provenance.json).", "",
         "## How to read the previews", "",
         "The visible figure is untextured stock Ocelot, used as a full-character reference for original Snake/NPC source motions and the separately pinned Ocelot-package walking reference. "
@@ -526,7 +520,7 @@ def render_reviewed_reference(record):
         "[![" + record["title"] + " - offline full-character reference](" + full + ")](" + full + ")", "",
         "[Full GIF](" + full + ") · [Still image](" + still + ")", "",
         "**Exact identifier:** " + BT + record["shortIdentifier"] + BT + ". **Tags:** " + ", ".join(record["tags"]) + ".", "",
-        "Observed action is authored from root-reviewed samples; no community description, native actor/weapon compatibility or continuous human review is asserted.", "",
+        ("Source-derived motion label; shared pipeline approved. Per-clip visual review status is in provenance; no action or native compatibility is inferred." if record["group"]=="stock-soldier" else "Observed action is authored from root-reviewed samples; no community description, native actor/weapon compatibility or continuous human review is asserted."), "",
         ("## Technical data" if record.get("dedicatedTableSlug") else "## Source and preview data"), "", "| Field | Value |", "| --- | --- |"]
     rows = [("Virtual GANI", loc["ganiVirtualPath"]), ("MTAR", loc["archiveVirtualPath"]),
         ("Historical FPK", loc["containerVirtualPath"]), ("Historical DAT", loc["datArchive"]),
@@ -541,7 +535,7 @@ def render_reviewed_reference(record):
         ("Secondary ancestor fallbacks", str(len(preview["actualSecondaryBoneAncestorFallbacks"])) + "; hair/cloth/holster are approximate"),
         ("Root motion", preview["rootMotion"]), ("Root visual QA", preview["rootReviewScope"]),
         ("DAT limit", loc["datOriginStatus"])]
-    lines += ["| " + k + " | " + v.replace("|", "&#124;") + " |" for k, v in rows]
+    lines += ["| " + k + " | " + str(v if v is not None else "Unverified").replace("|", "&#124;") + " |" for k, v in rows]
     lines += ["", "Native timing, floor/contact, paired motion, cloth/twist and arbitrary actor compatibility remain unverified. This is not a training-posture fix.", "",
         "## Credits", ""]
     lines += ["- " + c["name"] + ": " + c["role"] + "." for c in record["credits"]]
@@ -739,3 +733,5 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+# Animation500 source-only display qualification
