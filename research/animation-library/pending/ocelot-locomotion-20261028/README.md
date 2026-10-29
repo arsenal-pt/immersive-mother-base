@@ -19,6 +19,18 @@ The retained `Ocelot2_layers.mtar` was rehashed to `b8d40a45d7a89fd600a58c3f487c
 
 These four payloads were already retained on October 26/27. This consolidation runs no new extractor, Blender, game, native probe, publication or cleanup job. All raw game payloads and rigs remain private. Hash verification is not motion decoding or a receipt of gameplay success.
 
+## Inspected source headers
+
+Three retained entries now have source-header identities below. These are **header-declared counts**, not decoded preview frames, measured native FPS or visual/action/actor compatibility. The JSON keeps its original `rawFrameCount` field null; the additive `sourceHeaderEvidence.rawHeaderFrameCount` and CSV `sourceRawHeaderFrameCount` are explicitly separate. All four GIFs remain pending and the decoded library count remains27.
+
+| Exact source identifier | MTAR header index | Header-declared frames |
+| --- | ---: | ---: |
+| `oce0_s_wlk_st_f_r` |27|103|
+| `oce0_s_wlk_ed2s_idl_f_l` |25|100|
+| `oce0_s_wlk_ed2s_idl_f_r` |1|100|
+
+Each full PathCode64 comes from the unique original MTAR table entry whose complete tracks block equals the retained GANI bytes and hash. The name-to-payload link remains retained metadata plus exact payload identity; the textual path hash was **not independently recomputed**. The full original MTAR and CommonInfo layout context are preserved. No motion decoder, rig, render, gameplay or new extraction was run for this metadata update. The first `oce0_s_wlk_a` record is unchanged by this three-entry update. Historical parent-FPK/outer-DAT/currentness qualifications above remain in force.
+
 ## Required visual handoff
 
 Each entry still needs one compatible, documented full-character rig/mapping sample before batching; clean frames/video; a readable titled looping GIF and still thumbnail; contact-sheet inspection; and exact importer/tool, frame range, chosen preview rate and root-motion notes. No existing isolated full-character previews for these four were found in their retained source lane. Rendering is deferred while the mod test and open editor retain resource priority. No skeleton-only substitute or guessed animation was published.

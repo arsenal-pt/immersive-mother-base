@@ -136,7 +136,13 @@
         "clean source frames/video",
         "readable titled looping GIF and still thumbnail",
         "contact-sheet visual review and exact tool/rig/frame/root-motion provenance"
-      ]
+      ],
+      "sourceHeaderEvidence": {
+        "headerIndex": 27,
+        "fullPathCode64": "0xfc534f5ca9b8f779",
+        "rendererBaseRelativeHashId": "34f5ca9b8f779",
+        "rawHeaderFrameCount": 103
+      }
     },
     {
       "id": "mgsv-tpp-ocelot2_layers-payloadsha256-2cf45c6fc1c77616e0c30f9b17abbe8a979557fa7a4cbf5314d96b00018e9dce",
@@ -174,7 +180,13 @@
         "clean source frames/video",
         "readable titled looping GIF and still thumbnail",
         "contact-sheet visual review and exact tool/rig/frame/root-motion provenance"
-      ]
+      ],
+      "sourceHeaderEvidence": {
+        "headerIndex": 25,
+        "fullPathCode64": "0xfc533f2e69e22e35",
+        "rendererBaseRelativeHashId": "33f2e69e22e35",
+        "rawHeaderFrameCount": 100
+      }
     },
     {
       "id": "mgsv-tpp-ocelot2_layers-payloadsha256-7dd141331aa8cc98e51d1cbf561f08594171903c7bad66e0cc17ec3523ff4290",
@@ -212,7 +224,13 @@
         "clean source frames/video",
         "readable titled looping GIF and still thumbnail",
         "contact-sheet visual review and exact tool/rig/frame/root-motion provenance"
-      ]
+      ],
+      "sourceHeaderEvidence": {
+        "headerIndex": 1,
+        "fullPathCode64": "0xfc50962aa642a83a",
+        "rendererBaseRelativeHashId": "962aa642a83a",
+        "rawHeaderFrameCount": 100
+      }
     }
   ]
 }
