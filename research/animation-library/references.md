@@ -32,3 +32,7 @@ The authorized next section matches only the supplied workbook's LMG cells Sheet
 Read [verified description sources and matching rules](description-sources.md) before enriching an entry. The supplied BobDoleOwndU BossQuiet2_layers notes have zero virtual-path or basename matches among the current 27 clips; community description text/author stays unavailable for those entries. Authored categories, retrieval tags and preview summaries are separately credited, with exact source GANI locations and recorded MTAR/pack labels. The [source-review registry](metadata-source-review.json) retains pinned source identity and the empty exact-match set; unknown full container paths stay unrecorded.
 
 The [container provenance map](container-provenance.json) records historical DAT origins and exact virtual FPK/MTAR paths for the three archive hashes used here, verified from retained source receipts, successful extraction logs and matching immutable ZIP members. These are source locations, not deployment instructions or current-install verification; missing evidence remains unrecorded.
+
+## Pending source previews — 28 October 2026
+
+[Four Ocelot-package locomotion source records](pending/ocelot-locomotion-20261028/README.md) consolidate exact retained payload identities and provenance for the next bounded preview set. These are pending full-character decoding and titled GIF/contact-sheet review; they are not four additional decoded entries or native choreography proof. The published decoded catalogue remains at 27 clips. Raw game payloads and rigs remain private.
