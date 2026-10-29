@@ -23,7 +23,7 @@ MANIFEST = "media/animation-previews/2026-10-15/preview-manifest.json"
 THUMBS = "media/animation-previews/library-thumbnails/2026-10-15"
 METADATA_REVIEW = LIB + "/metadata-source-review.json"
 CONTAINER_REVIEW = LIB + "/container-provenance.json"
-REVIEWED_REFERENCES = [LIB + "/reviewed/ocelot-walk-20261029.json"]
+REVIEWED_REFERENCES = [LIB + "/reviewed/ocelot-walk-20261029.json", LIB + "/reviewed/ocelot-transitions-20261029.json"]
 BATCHES = [
     {"id": "cqc-starter", "source": SOURCE, "manifest": MANIFEST},
     {"id": "lmg-reloads-002", "source": "research/animation-batches/lmg-reloads/animations-metadata.json",
@@ -353,13 +353,20 @@ PAGE_SIZE = 4
 def page_sets(catalogue):
     result = []
     for key, title in GROUPS:
-        selected = [e for e in catalogue["entries"] if e["group"] == key]
+        selected = [e for e in catalogue["entries"] if e["group"] == key and not e.get("dedicatedTableSlug")]
         chunks = [selected[i:i + PAGE_SIZE] for i in range(0, len(selected), PAGE_SIZE)]
         for index, entries in enumerate(chunks, 1):
             result.append({"group": key, "title": title, "index": index,
                            "count": len(chunks), "entries": entries,
                            "animated": LIB + "/tables/" + key + "-" + str(index) + ".md",
                            "stills": LIB + "/tables/" + key + "-" + str(index) + "-stills.md"})
+    for key, title in GROUPS:
+        selected = [e for e in catalogue["entries"] if e["group"] == key and e.get("dedicatedTableSlug")]
+        for position, entry in enumerate(selected, 2):
+            stem = LIB + "/tables/" + entry["dedicatedTableSlug"]
+            result.append({"group": key, "title": title + " - " + entry["title"],
+                "index": 1, "count": 1, "displayIndex": position, "entries": [entry],
+                "animated": stem + ".md", "stills": stem + "-stills.md"})
     return result
 
 
@@ -421,7 +428,7 @@ def render_readme(catalogue):
             first = page["entries"][0]["shortIdentifier"]
             last = page["entries"][-1]["shortIdentifier"]
             label = BT + first + BT + (" to " + BT + last + BT if first != last else "")
-            lines.append("| " + str(page["index"]) + " | " + label + " | [Open " + str(len(page["entries"])) + " GIFs](" + link_from(LIB + "/README.md", page["animated"]) + ") | [Open stills](" + link_from(LIB + "/README.md", page["stills"]) + ") |")
+            lines.append("| " + str(page.get("displayIndex", page["index"])) + " | " + label + " | [Open " + str(len(page["entries"])) + " GIFs](" + link_from(LIB + "/README.md", page["animated"]) + ") | [Open stills](" + link_from(LIB + "/README.md", page["stills"]) + ") |")
         lines += ["", "</details>", ""]
     lines += [
         "## Metadata columns", "",
@@ -480,24 +487,31 @@ def render_readme(catalogue):
     return "\n".join(lines).encode("utf-8")
 
 
-def load_reviewed_reference(root, path):
-    """Load already accepted exact media/metadata; no rendering or new encoding."""
+def load_reviewed_references(root, path):
+    """Ordinary list of at most25 exact root-reviewed rendered records."""
     data = (root / path).read_bytes()
     doc = json.loads(data)
-    record = doc["entry"]
+    records = doc["entries"] if "entries" in doc else [doc["entry"]]
+    if not 1 <= len(records) <= 25:
+        raise ValueError("Reviewed reference batch must contain1..25 actual records")
     if doc["acceptance"]["status"] != "ROOT_ACCEPTED_OFFLINE_REFERENCE_FOR_TABLE_PROMOTION_NOT_NATIVE":
-        raise ValueError("Reference lacks exact root visual acceptance")
-    if record["id"] != "mgsv-tpp-ocelot2_layers-payloadsha256-" + record["source"]["payloadSha256"]:
-        raise ValueError("Reference payload identity mismatch")
-    if doc["acceptance"]["sourcePayloadSha256"] != record["source"]["payloadSha256"]:
-        raise ValueError("Acceptance source mismatch")
-    for media in record["media"].values():
-        raw = (root / media["path"]).read_bytes()
-        if len(raw) != media["bytes"] or sha(raw) != media["sha256"]:
-            raise ValueError("Accepted reference media changed")
-    if record["nativeFrameRate"] is not None or record["evidence"]["nativeGameplay"]:
-        raise ValueError("Offline reference cannot assert native proof")
-    return record, {"path": path, "sha256": sha(data)}
+        raise ValueError("Reference batch lacks root sampled visual acceptance")
+    acceptance = doc["acceptance"]
+    accepted = acceptance.get("sourcePayloadSha256s", [acceptance.get("sourcePayloadSha256")])
+    for record in records:
+        source = record["source"]
+        payload = source["payloadSha256"]
+        archive = source["archive"].removesuffix(".mtar").lower()
+        suffix = "payloadsha256-" + payload if "-payloadsha256-" in record["id"] else source["hashId"]
+        if record["id"] != "mgsv-tpp-" + archive + "-" + suffix or payload not in accepted:
+            raise ValueError("Reference source identity mismatch")
+        for media in record["media"].values():
+            raw = (root / media["path"]).read_bytes()
+            if len(raw) != media["bytes"] or sha(raw) != media["sha256"]:
+                raise ValueError("Accepted reference media changed")
+        if record["nativeFrameRate"] is not None or record["evidence"]["nativeGameplay"]:
+            raise ValueError("Offline reference cannot assert native proof")
+    return records, {"path": path, "sha256": sha(data)}
 
 
 def render_reviewed_reference(record):
@@ -513,14 +527,14 @@ def render_reviewed_reference(record):
         "[Full GIF](" + full + ") · [Still image](" + still + ")", "",
         "**Exact identifier:** " + BT + record["shortIdentifier"] + BT + ". **Tags:** " + ", ".join(record["tags"]) + ".", "",
         "Observed action is authored from root-reviewed samples; no community description, native actor/weapon compatibility or continuous human review is asserted.", "",
-        "## Source and preview data", "", "| Field | Value |", "| --- | --- |"]
+        ("## Technical data" if record.get("dedicatedTableSlug") else "## Source and preview data"), "", "| Field | Value |", "| --- | --- |"]
     rows = [("Virtual GANI", loc["ganiVirtualPath"]), ("MTAR", loc["archiveVirtualPath"]),
         ("Historical FPK", loc["containerVirtualPath"]), ("Historical DAT", loc["datArchive"]),
         ("Source archive SHA256", record["source"]["archiveSha256"]), ("GANI SHA256", record["source"]["payloadSha256"]),
         ("Source identity limit", "Payload SHA256 identity; name PathCode64 not independently recomputed; exporter prefix is not an ordinal"),
-        ("Source header / decoded body tracks / raw frames", "16 / 18 / 96"),
+        ("Source header / decoded body tracks / raw frames", " / ".join(str(preview[k]) for k in ("sourceHeaderIndex", "decodedBodyTrackCount", "rawFrameCount"))),
         ("Chosen source rate / native rate", "30 source frames/s / unknown"),
-        ("GIF frames / duration", "48 / 3200 ms; separate endpoint96 excluded"),
+        ("GIF frames / duration", str(preview["gifMotionFrames"]) + " / " + str(preview["gifDurationMilliseconds"]) + " ms; separate endpoint" + str(preview["separateEndpointFrame"]) + " excluded"),
         ("Reference character", preview["referenceCharacter"]),
         ("Actual reference scene SHA256", preview["referenceCharacterBlendSha256"]),
         ("Weight audit", str(preview["actualWeightAuditSummary"]["meshCount"]) + " meshes; max per-vertex sum error " + str(preview["actualWeightAuditSummary"]["maxPerVertexWeightSumError"])),
@@ -531,7 +545,7 @@ def render_reviewed_reference(record):
     lines += ["", "Native timing, floor/contact, paired motion, cloth/twist and arbitrary actor compatibility remain unverified. This is not a training-posture fix.", "",
         "## Credits", ""]
     lines += ["- " + c["name"] + ": " + c["role"] + "." for c in record["credits"]]
-    lines += ["", "[Full credits](../../../CREDITS.md) · [License scope](../../../LICENSE-SCOPE.md) · [Exact reviewed source/provenance](../reviewed/ocelot-walk-20261029.json)", "",
+    lines += ["", "[Full credits](../../../CREDITS.md) · [License scope](../../../LICENSE-SCOPE.md) · [Exact reviewed source/provenance](" + link_from(page, loc["provenance"]["recordPath"]) + ")", "",
         "<details>", "<summary>Complete source and preview provenance</summary>", "", FENCE + "json",
         json.dumps(record, indent=2, ensure_ascii=False), FENCE, "", "</details>", ""]
     return "\n".join(lines).encode("utf-8")
@@ -628,15 +642,18 @@ def build(root, metadata_only=False):
             entries.append(record)
             outputs[record["detailPage"]] = render_page(record)
     legacy_entries = list(entries)
-    reviewed_sources = []
+    reviewed_sources, reviewed_batches = [], []
     for path in REVIEWED_REFERENCES:
-        record, provenance = load_reviewed_reference(root, path)
-        if record["id"] in identities:
-            raise ValueError("Duplicate reviewed identity")
-        identities.add(record["id"])
-        entries.append(record)
+        records, provenance = load_reviewed_references(root, path)
         reviewed_sources.append(provenance)
-        outputs[record["detailPage"]] = render_reviewed_reference(record)
+        reviewed_batches.append({"id": records[0]["sourceBatch"], "entryCount": len(records),
+            "extraction": provenance, "previews": provenance})
+        for record in records:
+            if record["id"] in identities:
+                raise ValueError("Duplicate reviewed identity")
+            identities.add(record["id"])
+            entries.append(record)
+            outputs[record["detailPage"]] = render_reviewed_reference(record)
     manifest = manifests[0]  # Preserve the starter's legacy shared reference fields.
     catalogue = {
         "schemaVersion": 1,
@@ -670,7 +687,7 @@ def build(root, metadata_only=False):
         "entries": entries,
     }
     catalogue["sourceRecords"] += reviewed_sources
-    catalogue["sourceBatches"] += [{"id": "ocelot-walk-reference-20261029", "entryCount": 1, "extraction": p, "previews": p} for p in reviewed_sources]
+    catalogue["sourceBatches"] += reviewed_batches
     catalogue["reviewedReferencePolicy"] = "Exact accepted media; each reference carries its own display/encoding/provenance metadata"
     outputs[LIB + "/catalogue.json"] = json_bytes(catalogue)
     outputs[LIB + "/catalogue.csv"] = render_csv(entries)

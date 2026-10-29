@@ -24,7 +24,7 @@ The published 0.1.0-alpha.1 source is a limited, resource-disabled alpha. Some r
 
 13. [Animation preview workflow](animation-preview-workflow.md) â€” full-character GIFs, plain-English titles, thumbnails, exact clip links and evidence limits for future animation research.
 
-14. [MGSV Animation Reference Library](animation-library/README.md) — 28 clips in paged animated/still tables, category/tag/source-location/description columns, with central/detail source credits, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
+14. [MGSV Animation Reference Library](animation-library/README.md) — 31 clips in paged animated/still tables, category/tag/source-location/description columns, with central/detail source credits, individual larger GIF pages and complete JSON/CSV provenance; [additional references and credits](animation-library/references.md) and a [bounded research plan](animation-library/RESEARCH-PLAN.md) for later selected batches.
 
 15. [LMG ready/reload batch](animation-batches/lmg-reloads/README.md) — two new offline kneeling/standing candidates; [category progress](animation-library/category-progress.json) records 2/2 completed and zero remaining in the defined workbook plus stock-archive scope. No held weapon or native reload/timing/compatibility proof.
 
@@ -53,4 +53,4 @@ The public repository owner and project creator is arsenal-pt. Original project 
 
 [Training animations and walking staff](training-and-staff/README.md) records the experimental adapted idle preview, native test failures and the remaining cutscene/staff work.
 
-The reviewed [forward-walking reference](animation-library/clips/mgsv-tpp-ocelot2_layers-payloadsha256-27a37f57dc2ddbdaac20d0b5db6a0eac6827136555282e420187358674d7362e.md) adds one Ocelot-package motion; [three source references remain pending](animation-library/pending/ocelot-locomotion-20261028/README.md). Native timing/compatibility remain unverified.
+The [four selected Ocelot-package locomotion references](animation-library/pending/ocelot-locomotion-20261028/README.md) are now available in the31-entry animation library; native timing and compatibility remain unverified.

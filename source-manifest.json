@@ -119,7 +119,7 @@
     "research/mtar-punch-combos/preview-tools/Import-Character-Collada.py": "ff7dce442d92194d0561c36e890391dbc5f1a2d4222896946090b3e2211a636c",
     "research/mtar-punch-combos/preview-tools/PreviewPartsExport.cs": "aba9f4450c97e09114a96f9e1c5a16fbef48bef749bb8c1b80090b8e117bfbc7",
     "research/mtar-punch-combos/preview-tools/Render-MtarCharacter.py": "13c2fe0cc9ba420c28e2ced10c2f3b6e230d473f7ae9b698d68703bfc305adf6",
-    "research/animation-library/build-library.py": "13c287fb36c51f396e751e19da8fe3142b7a864fd463809068c038b5cfbd469b",
+    "research/animation-library/build-library.py": "e28b902f25363f7239796df134441571f6bd9cb48ebdd5de2db7ce7466f10ae1",
     "research/animation-batches/lmg-reloads/Encode-LMG-Previews.py": "a2d7b08edd83e21d4f6d016d410a5cd87ad423d5488ad23f92d157399d89806d",
     "tools/asset-reference-pipeline/runtime.py": "d7d05b0abc831b5aced905b7d5148b0977141430bb7c31b035c7b12ee4d4add3",
     "tools/asset-reference-pipeline/native.py": "7e51d32e03ad8f88fe01dbcf24ccb929ba9dadad4a2f585dce47958de5a02e2d",
@@ -151,8 +151,8 @@
     "tools/whole-game-catalogue/catalogue.py": "9d97a627caf7126aeafcc8c20576f14a6c6f558eaeb2822848f98bad347dd52a",
     "tools/whole-game-catalogue/config.example.json": "41f2e3f2e34bb198b383ddfff7d0923a8a2bea51f0f48158e3bb633ae34efeaf",
     "tools/whole-game-catalogue/test_catalogue.py": "08bddaaad14b49deee56f1c858236eb1218a542a4bbe1722c150f2d9ec7df3df",
-    "README.md": "65a9e522a99fc2da0f4178d65a3b3c5f6c98c7d9c1b201c7dd178dacb83bb127",
-    "research/README.md": "9915e3bb359d16fd4ad873874a528f60cd8ece37d7dd0ea6827140ced354587e",
+    "README.md": "6822056e085378019955bbb42fc1dec914e81754f0ae6a9a883bca929f8f32e7",
+    "research/README.md": "40ece0d093149dadcd46477a8784ad9dca4f2f7a6009346838ade2fb5626988c",
     "research/asset-library/category-progress.json": "7682553a83c1d663528371739e48e699ee67dda4699cbee51414d26c0c470c6f",
     "research/asset-library/whole-game-catalogue.md": "0f1c0862bb9be422d05e00c80435b69c2e2f9d6f04cc32607a87b0a6405f930e",
     "tools/whole-game-catalogue/run_logging.py": "ab0dc0a750529ebe9cfdb86cb656133a7086a582673e4eb2f01df0e611b5b729",
@@ -192,7 +192,8 @@
     "assetQualityProvenance": "research/asset-library/quality-provenance.json",
     "assetQualityVariantCsv": "research/asset-library/quality-variants.csv",
     "ocelotWalkingReference": "research/animation-library/reviewed/ocelot-walk-20261029.json",
-    "ocelotLocomotionTable": "research/animation-library/tables/ocelot-locomotion-1.md"
+    "ocelotLocomotionTable": "research/animation-library/tables/ocelot-locomotion-1.md",
+    "ocelotLocomotionContinuation": "research/animation-library/reviewed/ocelot-transitions-20261029.json"
   },
   "animationPreviewDocumentation": {
     "manifest": "media/animation-previews/2026-10-15/preview-manifest.json",

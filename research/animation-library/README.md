@@ -1,6 +1,6 @@
 # MGSV Animation Reference Library
 
-A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **28 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
+A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **31 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
 
 **This index loads no GIFs or thumbnails.** Expand a category and choose a table page. Each animated table loads **at most four small GIFs**; still-image pages run no animations. Click a preview or title to open one larger clip. No mod, dashboard or running game is needed.
 
@@ -8,7 +8,7 @@ A visual reference for researching animations in **Metal Gear Solid V: The Phant
 
 ## Browse by section
 
-The largest current animated page contains 3.00 MiB of thumbnail files. Separate pages bound the number of animations loaded; collapsed HTML sections alone do not guarantee that images are deferred.
+The largest current animated page contains 3.20 MiB of thumbnail files. Separate pages bound the number of animations loaded; collapsed HTML sections alone do not guarantee that images are deferred.
 
 <details>
 <summary><strong>Snake CQC combo and transition candidates</strong> - 11 clips</summary>
@@ -51,11 +51,14 @@ The largest current animated page contains 3.00 MiB of thumbnail files. Separate
 </details>
 
 <details>
-<summary><strong>Ocelot-package locomotion references</strong> - 1 clips</summary>
+<summary><strong>Ocelot-package locomotion references</strong> - 4 clips</summary>
 
 | Page | Clip range | Animated table | Still-image table |
 | --- | --- | --- | --- |
 | 1 | `oce0_s_wlk_a` | [Open 1 GIFs](tables/ocelot-locomotion-1.md) | [Open stills](tables/ocelot-locomotion-1-stills.md) |
+| 2 | `oce0_s_wlk_st_f_r` | [Open 1 GIFs](tables/ocelot-locomotion-oce0_s_wlk_st_f_r.md) | [Open stills](tables/ocelot-locomotion-oce0_s_wlk_st_f_r-stills.md) |
+| 3 | `oce0_s_wlk_ed2s_idl_f_l` | [Open 1 GIFs](tables/ocelot-locomotion-oce0_s_wlk_ed2s_idl_f_l.md) | [Open stills](tables/ocelot-locomotion-oce0_s_wlk_ed2s_idl_f_l-stills.md) |
+| 4 | `oce0_s_wlk_ed2s_idl_f_r` | [Open 1 GIFs](tables/ocelot-locomotion-oce0_s_wlk_ed2s_idl_f_r.md) | [Open stills](tables/ocelot-locomotion-oce0_s_wlk_ed2s_idl_f_r-stills.md) |
 
 </details>
 
