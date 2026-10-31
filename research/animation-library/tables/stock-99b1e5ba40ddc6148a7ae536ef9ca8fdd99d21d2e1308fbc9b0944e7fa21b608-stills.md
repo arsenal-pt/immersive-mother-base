@@ -1,0 +1,19 @@
+# Stock Soldier_common motion references - Stock reference: enemasr_s_beh_l_cke_st_ef_l - page 1 of 1
+
+[Library index](../README.md) · [Switch to animated previews](stock-99b1e5ba40ddc6148a7ae536ef9ca8fdd99d21d2e1308fbc9b0944e7fa21b608.md)
+
+**Still-image mode (no GIFs loaded)** · 1 previews · 0.10 MiB of image files. Click a preview or title for its larger GIF and complete data.
+
+Pages: **1**
+
+Tags describe the source actor/family, action, weapon class and posture where supported. Descriptions are concise authored action summaries unless an exact source description is verified. Credits, confidence and source matching are retained on each detail page and in [source notes](../description-sources.md).
+
+The visible Ocelot mesh is a reference model, separate from the motion origin. These stock entries bind exact retained MTAR/payload/header identities; FPK/DAT membership and arbitrary actor/weapon compatibility remain unverified. Per-clip visual review may be pending.
+
+| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| <a href="../clips/mgsv-tpp-soldier_common-payloadsha256-99b1e5ba40ddc6148a7ae536ef9ca8fdd99d21d2e1308fbc9b0944e7fa21b608.md"><img src="../../../media/animation-previews/animation-post500-720-20261031/mgsv-tpp-soldier_common-payloadsha256-99b1e5ba40ddc6148a7ae536ef9ca8fdd99d21d2e1308fbc9b0944e7fa21b608.png" width="160" height="205" alt="Stock reference: enemasr_s_beh_l_cke_st_ef_l"></a> | [Stock reference: enemasr_s_beh_l_cke_st_ef_l](../clips/mgsv-tpp-soldier_common-payloadsha256-99b1e5ba40ddc6148a7ae536ef9ca8fdd99d21d2e1308fbc9b0944e7fa21b608.md)<br><code>enemasr_s_beh_l_cke_st_ef_l</code><br>Authored preview label | Stock Soldier_common motion references | <code>stock animation reference</code><br><code>Soldier_common</code><br><code>source-derived label</code><br><code>Ocelot reference mesh</code> | <code>/Assets/tpp/motion/SI_game/fani/bodies/enem/enemasr/</code><br><code>enemasr_s_beh_l_cke_st_ef_l.gani</code> | DAT / FPK: unverified<br>MTAR: <code>Soldier_common.mtar</code><br>Exact retained archive/payload identity | Decoded stock reference enemasr_s_beh_l_cke_st_ef_l; action interpretation unverified. | 31 raw<br>1.03 s (chosen)<br>[Full data](../clips/mgsv-tpp-soldier_common-payloadsha256-99b1e5ba40ddc6148a7ae536ef9ca8fdd99d21d2e1308fbc9b0944e7fa21b608.md#technical-data) |
+
+Pages: **1**
+
+[All data (JSON)](../catalogue.json) · [Spreadsheet data (CSV)](../catalogue.csv) · [Source review](../description-sources.md)
