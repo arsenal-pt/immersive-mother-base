@@ -1,6 +1,6 @@
 # MGSV Animation Reference Library
 
-A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **528 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
+A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **553 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
 
 **This index loads no GIFs or thumbnails.** Expand a category and choose a table page. Each animated table loads **at most four small GIFs**; still-image pages run no animations. Click a preview or title to open one larger clip. No mod, dashboard or running game is needed.
 
@@ -63,7 +63,7 @@ The largest current animated page contains 7.15 MiB of thumbnail files. Separate
 </details>
 
 <details>
-<summary><strong>Stock Soldier_common motion references</strong> - 497 clips</summary>
+<summary><strong>Stock Soldier_common motion references</strong> - 522 clips</summary>
 
 | Page | Clip range | Animated table | Still-image table |
 | --- | --- | --- | --- |
@@ -564,6 +564,31 @@ The largest current animated page contains 7.15 MiB of thumbnail files. Separate
 | 496 | `enetasr_s_run_f_l_st_l` | [Open 1 GIFs](tables/stock-862ff39d0b10f6c91f419bd2ffd45d4dcbcd9ec421b59fa31e1c0de03971ace3.md) | [Open stills](tables/stock-862ff39d0b10f6c91f419bd2ffd45d4dcbcd9ec421b59fa31e1c0de03971ace3-stills.md) |
 | 497 | `enetasr_slp_lad_fall_r` | [Open 1 GIFs](tables/stock-d485a759ce227b52918f7afe6dfcb5b7189cf26b909e91dc08e21c0919e2d7ab.md) | [Open stills](tables/stock-d485a759ce227b52918f7afe6dfcb5b7189cf26b909e91dc08e21c0919e2d7ab-stills.md) |
 | 498 | `enetvcl_fl_aft_spn_ed` | [Open 1 GIFs](tables/stock-098b63131e69599a9e275df80575d31729e96c33cc5e7b978ac761559bdf6689.md) | [Open stills](tables/stock-098b63131e69599a9e275df80575d31729e96c33cc5e7b978ac761559bdf6689-stills.md) |
+| 499 | `enethny_s_idle_a` | [Open 1 GIFs](tables/stock-426902ea03747677ccb1c0fcdd82ae0af299ca2e7ff63bcf1ea9dc85d954fcc3.md) | [Open stills](tables/stock-426902ea03747677ccb1c0fcdd82ae0af299ca2e7ff63bcf1ea9dc85d954fcc3-stills.md) |
+| 500 | `enetasr_q_cov_l_pep_bin_st` | [Open 1 GIFs](tables/stock-5251a23d5205b689892c5f56a2be3b06ddfaadb866eb04224620738601060d0b.md) | [Open stills](tables/stock-5251a23d5205b689892c5f56a2be3b06ddfaadb866eb04224620738601060d0b-stills.md) |
+| 501 | `enetnad_s_sit_ed` | [Open 1 GIFs](tables/stock-7c7b0a639d0b710210790af423db94645fe6d69150741b026cf88bb3469da1b7.md) | [Open stills](tables/stock-7c7b0a639d0b710210790af423db94645fe6d69150741b026cf88bb3469da1b7-stills.md) |
+| 502 | `enetasr_s_ntc_ner_st_r` | [Open 1 GIFs](tables/stock-ec0f310b6fd840ad94fb446b4f3fc2d5f389923cad033c8f7f85e436184bf8ec.md) | [Open stills](tables/stock-ec0f310b6fd840ad94fb446b4f3fc2d5f389923cad033c8f7f85e436184bf8ec-stills.md) |
+| 503 | `enetasr_s_mid_st_slw_l_hed` | [Open 1 GIFs](tables/stock-7f78876ba67e7bf97622992e3558359f5eea05f2569897dbeade6c85796a85a9.md) | [Open stills](tables/stock-7f78876ba67e7bf97622992e3558359f5eea05f2569897dbeade6c85796a85a9-stills.md) |
+| 504 | `enemasr_s_beh_l_thw_st_ef_l` | [Open 1 GIFs](tables/stock-802f133cb7eb5495031193e850e5d881a50f474772ead77cbd491f243d74a511.md) | [Open stills](tables/stock-802f133cb7eb5495031193e850e5d881a50f474772ead77cbd491f243d74a511-stills.md) |
+| 505 | `enetasr_s_mid_st_slw_fl_hed` | [Open 1 GIFs](tables/stock-2014df2bd0567253c911bba66466d43f7fdeab7f3c58fef763dea3f096cfe635.md) | [Open stills](tables/stock-2014df2bd0567253c911bba66466d43f7fdeab7f3c58fef763dea3f096cfe635-stills.md) |
+| 506 | `enetasr_s_mid_st_slw_br_hed` | [Open 1 GIFs](tables/stock-d179c69cc107c69f546389cd32bd5f9c9fd8dd3216ae38ec1540a6bb9692e50e.md) | [Open stills](tables/stock-d179c69cc107c69f546389cd32bd5f9c9fd8dd3216ae38ec1540a6bb9692e50e-stills.md) |
+| 507 | `enemasr_s_beh_r_thw_st_eb_l` | [Open 1 GIFs](tables/stock-207d0d3f5d064fad7268fec99bf7bd0060017cb73ec332e3ffd741c69101ad53.md) | [Open stills](tables/stock-207d0d3f5d064fad7268fec99bf7bd0060017cb73ec332e3ffd741c69101ad53-stills.md) |
+| 508 | `enemasr_s_beh_l_thw_st_eb_l` | [Open 1 GIFs](tables/stock-d51966fe87f2d7832404cbf3393d526bfe398b7150ab127a9538d2fba321d1d9.md) | [Open stills](tables/stock-d51966fe87f2d7832404cbf3393d526bfe398b7150ab127a9538d2fba321d1d9-stills.md) |
+| 509 | `enetsmg_s_dsh_r_st_r` | [Open 1 GIFs](tables/stock-6b38e9e60a8540b16e71ceff96754f4db576e5fb076d2016e7b9c33625453172.md) | [Open stills](tables/stock-6b38e9e60a8540b16e71ceff96754f4db576e5fb076d2016e7b9c33625453172-stills.md) |
+| 510 | `enetasr_s_dsh_r_st_r` | [Open 1 GIFs](tables/stock-85b449e9af84134b84485bda4e917090464d74c601ffde145a1eee54f6cf7baa.md) | [Open stills](tables/stock-85b449e9af84134b84485bda4e917090464d74c601ffde145a1eee54f6cf7baa-stills.md) |
+| 511 | `enetsmg_s_dsh_r_st_f` | [Open 1 GIFs](tables/stock-74539bc61ec5e84fa67c07a93c78fd114f5762c0b3e434bcce0ca9cbf433cf63.md) | [Open stills](tables/stock-74539bc61ec5e84fa67c07a93c78fd114f5762c0b3e434bcce0ca9cbf433cf63-stills.md) |
+| 512 | `enetasr_s_dsh_l_st_l` | [Open 1 GIFs](tables/stock-50905cd8837130db5391824544597a9a0a97618a0fbd52a6f0ab7b1a6838ca8e.md) | [Open stills](tables/stock-50905cd8837130db5391824544597a9a0a97618a0fbd52a6f0ab7b1a6838ca8e-stills.md) |
+| 513 | `enetsmg_s_dsh_l_st_l` | [Open 1 GIFs](tables/stock-e71bbd6826295a86a420175fd5c5c01c30641c9ba3571b16c63d655fed77a88e.md) | [Open stills](tables/stock-e71bbd6826295a86a420175fd5c5c01c30641c9ba3571b16c63d655fed77a88e-stills.md) |
+| 514 | `enetasr_s_dm_ele_shk_dwn_f` | [Open 1 GIFs](tables/stock-812c2482ee77afe52d88db0db1255a72efe8ae279cfadd375897726490ce754b.md) | [Open stills](tables/stock-812c2482ee77afe52d88db0db1255a72efe8ae279cfadd375897726490ce754b-stills.md) |
+| 515 | `enetasr_s_mid_st_slw_bl_hed` | [Open 1 GIFs](tables/stock-c279d1528f8e914afcb5928aebee7066050c09d91c2c67afa7ef2c588f7f7407.md) | [Open stills](tables/stock-c279d1528f8e914afcb5928aebee7066050c09d91c2c67afa7ef2c588f7f7407-stills.md) |
+| 516 | `enetasr_s_knife_mid_to_rdy` | [Open 1 GIFs](tables/stock-e81a29d21632099f349d37bcf562578ee3f49d355104a5ef19eedd33d1e562c5.md) | [Open stills](tables/stock-e81a29d21632099f349d37bcf562578ee3f49d355104a5ef19eedd33d1e562c5-stills.md) |
+| 517 | `enetasr_s_dm_ele_shk_dwn_b` | [Open 1 GIFs](tables/stock-c73f6349f1e23839793aacb23e4f5c8f244c25ca979b00f643d9256eca6a44ae.md) | [Open stills](tables/stock-c73f6349f1e23839793aacb23e4f5c8f244c25ca979b00f643d9256eca6a44ae-stills.md) |
+| 518 | `enetasr_s_dm_ele_shk_lp` | [Open 1 GIFs](tables/stock-48ff8a8958aeb612d1bf30666ccf96e3028ff4889488e958ff0d85b68efe4e93.md) | [Open stills](tables/stock-48ff8a8958aeb612d1bf30666ccf96e3028ff4889488e958ff0d85b68efe4e93-stills.md) |
+| 519 | `enetasr_s_mid_st_slw_r_hed` | [Open 1 GIFs](tables/stock-3e986e6cbb5cbcefd72d7c89646fb0f8762224f54bcf4be038383b357b6d7a25.md) | [Open stills](tables/stock-3e986e6cbb5cbcefd72d7c89646fb0f8762224f54bcf4be038383b357b6d7a25-stills.md) |
+| 520 | `enetsmw_s_knife_mid_to_rdy` | [Open 1 GIFs](tables/stock-bdfb90bc3cef905f7be8d7379618b7b49cb74a58064f92fdddf8d3d171bbdb85.md) | [Open stills](tables/stock-bdfb90bc3cef905f7be8d7379618b7b49cb74a58064f92fdddf8d3d171bbdb85-stills.md) |
+| 521 | `enetasr_strds_d_125` | [Open 1 GIFs](tables/stock-924616d83e69038d46b5116734437ffb77b59993822b3259ab426b51eefd612b.md) | [Open stills](tables/stock-924616d83e69038d46b5116734437ffb77b59993822b3259ab426b51eefd612b-stills.md) |
+| 522 | `enetasr_s_dy_f_rd_st` | [Open 1 GIFs](tables/stock-89331f60e9f8dc793c14f18005b34d99409853b519d9961889fee3840a436728.md) | [Open stills](tables/stock-89331f60e9f8dc793c14f18005b34d99409853b519d9961889fee3840a436728-stills.md) |
+| 523 | `enetasr_strrn_d_250` | [Open 1 GIFs](tables/stock-424b8cdc9d2ee1df9505be96e5fb757af541912f7d6a355149773a5b760eaf51.md) | [Open stills](tables/stock-424b8cdc9d2ee1df9505be96e5fb757af541912f7d6a355149773a5b760eaf51-stills.md) |
 
 </details>
 
