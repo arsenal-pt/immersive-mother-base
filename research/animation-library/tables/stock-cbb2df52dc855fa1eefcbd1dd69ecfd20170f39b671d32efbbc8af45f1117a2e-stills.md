@@ -1,0 +1,19 @@
+# Stock Soldier_common motion references - Stock reference: enetsmw_s_rdy_idl_w_aim_all_lf - page 1 of 1
+
+[Library index](../README.md) · [Switch to animated previews](stock-cbb2df52dc855fa1eefcbd1dd69ecfd20170f39b671d32efbbc8af45f1117a2e.md)
+
+**Still-image mode (no GIFs loaded)** · 1 previews · 0.08 MiB of image files. Click a preview or title for its larger GIF and complete data.
+
+Pages: **1**
+
+Tags describe the source actor/family, action, weapon class and posture where supported. Descriptions are concise authored action summaries unless an exact source description is verified. Credits, confidence and source matching are retained on each detail page and in [source notes](../description-sources.md).
+
+The visible Ocelot mesh is a reference model, separate from the motion origin. These stock entries bind exact retained MTAR/payload/header identities; FPK/DAT membership and arbitrary actor/weapon compatibility remain unverified. Per-clip visual review may be pending.
+
+| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| <a href="../clips/mgsv-tpp-soldier_common-payloadsha256-cbb2df52dc855fa1eefcbd1dd69ecfd20170f39b671d32efbbc8af45f1117a2e.md"><img src="../../../media/animation-previews/animation-post500-720-20261031/mgsv-tpp-soldier_common-payloadsha256-cbb2df52dc855fa1eefcbd1dd69ecfd20170f39b671d32efbbc8af45f1117a2e.png" width="160" height="205" alt="Stock reference: enetsmw_s_rdy_idl_w_aim_all_lf"></a> | [Stock reference: enetsmw_s_rdy_idl_w_aim_all_lf](../clips/mgsv-tpp-soldier_common-payloadsha256-cbb2df52dc855fa1eefcbd1dd69ecfd20170f39b671d32efbbc8af45f1117a2e.md)<br><code>enetsmw_s_rdy_idl_w_aim_all_lf</code><br>Authored preview label | Stock Soldier_common motion references | <code>stock animation reference</code><br><code>Soldier_common</code><br><code>source-derived label</code><br><code>Ocelot reference mesh</code> | <code>/Assets/tpp/motion/SI_game/fani/bodies/enet/enetsmw/</code><br><code>enetsmw_s_rdy_idl_w_aim_all_lf.gani</code> | DAT / FPK: unverified<br>MTAR: <code>Soldier_common.mtar</code><br>Exact retained archive/payload identity | Decoded stock reference enetsmw_s_rdy_idl_w_aim_all_lf; action interpretation unverified. | 8 raw<br>0.27 s (chosen)<br>[Full data](../clips/mgsv-tpp-soldier_common-payloadsha256-cbb2df52dc855fa1eefcbd1dd69ecfd20170f39b671d32efbbc8af45f1117a2e.md#technical-data) |
+
+Pages: **1**
+
+[All data (JSON)](../catalogue.json) · [Spreadsheet data (CSV)](../catalogue.csv) · [Source review](../description-sources.md)
