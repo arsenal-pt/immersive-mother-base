@@ -1,6 +1,6 @@
 # MGSV Animation Reference Library
 
-A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **1298 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
+A visual reference for researching animations in **Metal Gear Solid V: The Phantom Pain**. Browse **1299 decoded clips** across explicitly scoped categories, with exact source identities, larger GIF views and complete technical records.
 
 **This index loads no GIFs or thumbnails.** Expand a category and choose a table page. Each animated table loads **at most four small GIFs**; still-image pages run no animations. Click a preview or title to open one larger clip. No mod, dashboard or running game is needed.
 
@@ -63,7 +63,7 @@ The largest current animated page contains 14.77 MiB of thumbnail files. Separat
 </details>
 
 <details>
-<summary><strong>Stock Soldier_common motion references</strong> - 1267 clips</summary>
+<summary><strong>Stock Soldier_common motion references</strong> - 1268 clips</summary>
 
 | Page | Clip range | Animated table | Still-image table |
 | --- | --- | --- | --- |
@@ -1334,6 +1334,7 @@ The largest current animated page contains 14.77 MiB of thumbnail files. Separat
 | 1266 | `enetasr_s_swn_ris` | [Open 1 GIFs](tables/stock-b4f2701852d726bbd03add78a9cb4b48a68dda103deac32091410ebb26588592.md) | [Open stills](tables/stock-b4f2701852d726bbd03add78a9cb4b48a68dda103deac32091410ebb26588592-stills.md) |
 | 1267 | `enetasr_c_hdu_ed_b` | [Open 1 GIFs](tables/stock-a38a357ee44c01e0d9ca4b1742496a9e05d98aebcca5a8fd7fc501a0e9e9d665.md) | [Open stills](tables/stock-a38a357ee44c01e0d9ca4b1742496a9e05d98aebcca5a8fd7fc501a0e9e9d665-stills.md) |
 | 1268 | `enetasr_s_trq_rac_pid_rhnd` | [Open 1 GIFs](tables/stock-1fa633cd18a8f4f72e77ff926cbd52022082f3d4c3a27500920de682f90240e5.md) | [Open stills](tables/stock-1fa633cd18a8f4f72e77ff926cbd52022082f3d4c3a27500920de682f90240e5-stills.md) |
+| 1269 | `enetsmg_s_pat_idl_act_q` | [Open 1 GIFs](tables/stock-fa8d16482c2df5d644cb48ebd6c18b19979d620ea971223b52e23acd5c260f56.md) | [Open stills](tables/stock-fa8d16482c2df5d644cb48ebd6c18b19979d620ea971223b52e23acd5c260f56-stills.md) |
 
 </details>
 
