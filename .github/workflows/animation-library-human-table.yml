@@ -1,0 +1,79 @@
+name: Animation library single-table proposal
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - .github/workflows/animation-library-human-table.yml
+      - research/animation-library/build-human-table.py
+      - research/animation-library/test-human-table.mjs
+      - research/animation-library/human-table-config.json
+      - research/animation-library/web/**
+      - research/animation-library/catalogue.json
+permissions:
+  contents: read
+concurrency:
+  group: animation-library-human-table-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  build:
+    if: github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'codex/animation-library-human-table-')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Sparse-fetch metadata and reviewed browser sources
+        shell: bash
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+          SOURCE_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          [[ "$SOURCE_SHA" =~ ^[0-9a-f]{40}$ ]]
+          [[ "$SOURCE_REPOSITORY" == 'arsenal-pt/immersive-mother-base' ]]
+          git init work
+          cd work
+          git remote add origin "https://github.com/${SOURCE_REPOSITORY}.git"
+          git config remote.origin.promisor true
+          git config remote.origin.partialclonefilter blob:none
+          git config core.sparseCheckout true
+          git config core.sparseCheckoutCone false
+          mkdir -p .git/info
+          cat > .git/info/sparse-checkout <<'PATHS'
+          /research/animation-library/catalogue.json
+          /research/animation-library/build-human-table.py
+          /research/animation-library/test-human-table.mjs
+          /research/animation-library/human-table-config.json
+          /research/animation-library/web/
+          PATHS
+          git -c protocol.version=2 fetch --depth=1 --filter=blob:none --no-tags origin "$SOURCE_SHA"
+          git checkout --detach FETCH_HEAD
+          test ! -d media
+          test ! -d research/animation-library/clips
+      - name: Build and test the complete published metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd work
+          python3 -B research/animation-library/build-human-table.py --catalogue research/animation-library/catalogue.json --config research/animation-library/human-table-config.json --output "$RUNNER_TEMP/human-table/animation-library"
+          node research/animation-library/test-human-table.mjs "$RUNNER_TEMP/human-table/animation-library" --full-metadata-only > "$RUNNER_TEMP/human-table/DATA-CONTRACT.json"
+          mv "$RUNNER_TEMP/human-table/animation-library/BUILD-REPORT.json" "$RUNNER_TEMP/human-table/BUILD-REPORT.json"
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])/'human-table'
+          report=json.loads((root/'BUILD-REPORT.json').read_text())
+          result={k:v for k,v in report.items() if k not in ('mediaReferences','outputs')}
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('## Single-table library: reviewed metadata only\n\n```json\n'+json.dumps(result,indent=2)+'\n```\n')
+          PY
+      - name: Save static output for exact review
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: animation-library-human-table-${{ github.run_id }}
+          path: ${{ runner.temp }}/human-table/
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 6
+          overwrite: false

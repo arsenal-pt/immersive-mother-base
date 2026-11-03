@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "3e1ed2fbe3886604cf84fa6ae7d4118b7dbb6e3f",
+  "repository": "arsenal-pt/immersive-mother-base",
+  "cataloguePath": "research/animation-library/catalogue.json",
+  "catalogueSha256": "d7390804dfe5d88551507214b354054fab182a0568a48c0698dfab6570445b0d",
+  "catalogueGitBlob": "ee8255d5276ba9dbbffa4f569713fb3e52a28279",
+  "catalogueBytes": 23157289,
+  "expectedEntryCount": 1299,
+  "publicUrl": "https://mgsv-animation-reference.arsenal-pt.chatgpt.site/",
+  "deploymentStatus": "ROOT_CREATED_EXISTING_SITE_PUBLICATION_PENDING",
+  "characterPolicy": "Unknown: source-family interpretations and referenceCharacter are not verified native character identity",
+  "movesetPolicy": "Unknown unless explicitly recorded; source package/category remain separate fields"
+}

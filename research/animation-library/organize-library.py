@@ -209,6 +209,7 @@ def build(catalogue, csv_raw, readme_raw, expected_count):
     return outputs, {'missingRecordedMediaDimensions': missing_dimensions, 'publishedEntries': len(entries), 'groupedFamilies': len(buckets), 'animatedPages': len(pages), 'maxPreviewsPerPage': max(len(p['entries']) for p in pages), 'maxDeclaredAnimatedPageBytes': max(sum(e['media']['animatedThumbnail']['bytes'] for e in p['entries']) for p in pages), 'catalogueDataChanged': False, 'csvDataChanged': False, 'legacyTablesChanged': False, 'clipDetailsChanged': False, 'mediaReadOrChanged': False, 'nativeProofAdded': False}
 
 def main():
+    raise SystemExit("Grouped browsing generation is retired. Use build-human-table.py; see HUMAN-TABLE-MAINTENANCE.md. Legacy pages and original data remain unchanged.")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
