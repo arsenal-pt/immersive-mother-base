@@ -1,0 +1,15 @@
+# Stock Soldier_common motion references / /Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr - page 43
+
+[Library](../README.md) · [Grouped directory](../browse/README.md) · [This source family](../browse/stock-soldier-enetasr-dd428991.md) · [Switch mode](browse-stock-soldier-enetasr-dd428991-43.md)
+
+**Still images: no GIFs loaded** · 1 clips · 0.09 MiB downloaded.
+
+Images reuse existing files. A small display width does not reduce download size. Open one clip for its larger titled GIF and original technical data.
+
+Source-family grouping uses only recorded virtual directories; it does not establish an action, weapon, actor, rig or native compatibility. Existing descriptions and tags below are unchanged. Per-clip visual review may be pending; chosen preview speed is separate from unmeasured native timing.
+
+| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| <a href="../clips/mgsv-tpp-soldier_common-payloadsha256-a0419de07eea5dd076ef34edd455199d283b57b0cac81a42d97a664c8e84a353.md"><img src="../../../media/animation-previews/animation-post500-720-20261031/mgsv-tpp-soldier_common-payloadsha256-a0419de07eea5dd076ef34edd455199d283b57b0cac81a42d97a664c8e84a353.png" width="160" height="205" alt="Stock reference: enetasr_s_arrive_ptwk_vra_c"></a> | [Stock reference: enetasr_s_arrive_ptwk_vra_c](../clips/mgsv-tpp-soldier_common-payloadsha256-a0419de07eea5dd076ef34edd455199d283b57b0cac81a42d97a664c8e84a353.md)<br><code>enetasr_s_arrive_ptwk_vra_c</code> | Stock Soldier_common motion references | <code>stock animation reference</code><br><code>Soldier_common</code><br><code>source-derived label</code><br><code>Ocelot reference mesh</code> | <code>/Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr</code><br><code>enetasr_s_arrive_ptwk_vra_c.gani</code> | Retained MTAR: <code>Soldier_common.mtar</code><br>DAT / FPK membership unverified | Decoded stock reference enetasr_s_arrive_ptwk_vra_c; action interpretation unverified. | 231 raw<br>7.7 s chosen; native rate unknown<br>[Full data](../clips/mgsv-tpp-soldier_common-payloadsha256-a0419de07eea5dd076ef34edd455199d283b57b0cac81a42d97a664c8e84a353.md#technical-data) |
+
+[Source descriptions, confidence and credits](../description-sources.md) · [Complete JSON](../catalogue.json) · [CSV](../catalogue.csv)

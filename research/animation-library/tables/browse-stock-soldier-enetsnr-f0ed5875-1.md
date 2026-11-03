@@ -1,0 +1,15 @@
+# Stock Soldier_common motion references / /Assets/tpp/motion/SI_game/fani/bodies/enet/enetsnr - page 1
+
+[Library](../README.md) · [Grouped directory](../browse/README.md) · [This source family](../browse/stock-soldier-enetsnr-f0ed5875.md) · [Switch mode](browse-stock-soldier-enetsnr-f0ed5875-1-stills.md)
+
+**Animated references** · 1 clips · 9.43 MiB downloaded.
+
+Images reuse existing files. A small display width does not reduce download size. Animated previews use full existing GIFs where no separate thumbnail exists. Open one clip for its larger titled GIF and original technical data.
+
+Source-family grouping uses only recorded virtual directories; it does not establish an action, weapon, actor, rig or native compatibility. Existing descriptions and tags below are unchanged. Per-clip visual review may be pending; chosen preview speed is separate from unmeasured native timing.
+
+| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| <a href="../clips/mgsv-tpp-soldier_common-payloadsha256-14af43463cd6297bec96b041d5e887de1ad6499cce5b8fbb50f831dacf036187.md"><img src="../../../media/animation-previews/animation-post500-720-20261031/mgsv-tpp-soldier_common-payloadsha256-14af43463cd6297bec96b041d5e887de1ad6499cce5b8fbb50f831dacf036187.gif" width="160" height="205" alt="Stock reference: enetsnr_q_rdy_rld_c"></a> | [Stock reference: enetsnr_q_rdy_rld_c](../clips/mgsv-tpp-soldier_common-payloadsha256-14af43463cd6297bec96b041d5e887de1ad6499cce5b8fbb50f831dacf036187.md)<br><code>enetsnr_q_rdy_rld_c</code> | Stock Soldier_common motion references | <code>stock animation reference</code><br><code>Soldier_common</code><br><code>source-derived label</code><br><code>Ocelot reference mesh</code> | <code>/Assets/tpp/motion/SI_game/fani/bodies/enet/enetsnr</code><br><code>enetsnr_q_rdy_rld_c.gani</code> | Retained MTAR: <code>Soldier_common.mtar</code><br>DAT / FPK membership unverified | Decoded stock reference enetsnr_q_rdy_rld_c; action interpretation unverified. | 271 raw<br>9.03 s chosen; native rate unknown<br>[Full data](../clips/mgsv-tpp-soldier_common-payloadsha256-14af43463cd6297bec96b041d5e887de1ad6499cce5b8fbb50f831dacf036187.md#technical-data) |
+
+[Source descriptions, confidence and credits](../description-sources.md) · [Complete JSON](../catalogue.json) · [CSV](../catalogue.csv)
