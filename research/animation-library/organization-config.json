@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "524835baaddc19455e6a1f7b85fa1e1a0926b583",
+  "expectedEntryCount": 1299,
+  "inputGitBlobs": {
+    "research/animation-library/catalogue.json": "ee8255d5276ba9dbbffa4f569713fb3e52a28279",
+    "research/animation-library/catalogue.csv": "0cc1429296856507d4cdd3921609be266f16c777",
+    "research/animation-library/README.md": "086bfa6c874ab055720dd585bb6793fe10b774c8"
+  },
+  "scope": "Navigation-only organization; all published data/media/details/legacy tables remain unchanged",
+  "wholeGameCoverage": "UNKNOWN",
+  "nativeGameplayProofAdded": false
+}
