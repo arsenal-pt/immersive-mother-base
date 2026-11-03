@@ -1,0 +1,76 @@
+name: Animation library organization proposal
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - .github/workflows/animation-library-organization.yml
+      - research/animation-library/organize-library.py
+      - research/animation-library/test-organize-library.py
+      - research/animation-library/organization-config.json
+permissions:
+  contents: read
+concurrency:
+  group: animation-library-organization-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  organization:
+    if: github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'codex/animation-library-organize-')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Fetch metadata and authored organizer only
+        shell: bash
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+          SOURCE_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          [[ "$SOURCE_SHA" =~ ^[0-9a-f]{40}$ ]]
+          [[ "$SOURCE_REPOSITORY" == 'arsenal-pt/immersive-mother-base' ]]
+          git init work
+          cd work
+          git remote add origin "https://github.com/${SOURCE_REPOSITORY}.git"
+          git config remote.origin.promisor true
+          git config remote.origin.partialclonefilter blob:none
+          git config core.sparseCheckout true
+          git config core.sparseCheckoutCone false
+          mkdir -p .git/info
+          cat > .git/info/sparse-checkout <<'PATHS'
+          /research/animation-library/catalogue.json
+          /research/animation-library/catalogue.csv
+          /research/animation-library/README.md
+          /research/animation-library/organize-library.py
+          /research/animation-library/test-organize-library.py
+          /research/animation-library/organization-config.json
+          PATHS
+          git -c protocol.version=2 fetch --depth=1 --filter=blob:none --no-tags origin "$SOURCE_SHA"
+          git checkout --detach FETCH_HEAD
+          test ! -d media
+          test ! -d research/animation-library/clips
+      - name: Focused contracts and all-published metadata organization
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd work
+          python3 -B research/animation-library/test-organize-library.py
+          python3 -B research/animation-library/organize-library.py --root . --output "$RUNNER_TEMP/animation-organization" --config research/animation-library/organization-config.json
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          report = json.loads((Path(os.environ['RUNNER_TEMP']) / 'animation-organization/ORGANIZATION-REPORT.json').read_text())
+          summary = {k: v for k, v in report.items() if k not in ('outputs', 'inputBlobs')}
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write('## Metadata-only organization proposal\n\n```json\n' + json.dumps(summary, indent=2) + '\n```\n')
+          PY
+      - name: Save reviewable navigation overlay
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: animation-library-organization-${{ github.run_id }}
+          path: ${{ runner.temp }}/animation-organization/
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 6
+          overwrite: false
