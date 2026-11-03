@@ -73,10 +73,26 @@ class Contract(unittest.TestCase):
         self.assertIn('height="320"', still)
         self.assertIn('height="205"', animated)
         for name in ('animatedThumbnail', 'stillThumbnail'):
-            for bad in (0, -1, True, None, float('nan'), float('inf')):
+            for bad in (0, -1, True, float('nan'), float('inf')):
                 broken = deepcopy(c)
                 broken['entries'][0]['media'][name]['width'] = bad
                 with self.assertRaises(ValueError): org.build(broken, raw, readme, 1)
+    def test_legacy_missing_dimensions_use_browser_aspect_and_report_exact_bucket(self):
+        for absent in (('width',), ('height',), ('width', 'height')):
+            c, raw, readme = data([entry(1)])
+            for axis in absent: c['entries'][0]['media']['stillThumbnail'].pop(axis)
+            outputs, report = org.build(c, raw, readme, 1)
+            still = next(v.decode() for p, v in outputs.items() if p.endswith('-stills.md'))
+            self.assertIn('width="160"', still)
+            self.assertNotIn(' height=', still)
+            self.assertEqual(report['missingRecordedMediaDimensions'], [{'id': 'id-1', 'mode': 'stillThumbnail', 'missingFields': list(absent)}])
+            self.assertTrue(all(axis not in c['entries'][0]['media']['stillThumbnail'] for axis in absent))
+        c, raw, readme = data([entry(1)])
+        c['entries'][0]['media']['animatedThumbnail']['width'] = None
+        outputs, report = org.build(c, raw, readme, 1)
+        animated = next(v.decode() for p, v in outputs.items() if '/tables/' in p and not p.endswith('-stills.md'))
+        self.assertNotIn(' height=', animated)
+        self.assertEqual(report['missingRecordedMediaDimensions'][0]['missingFields'], ['width'])
     def test_path_traversal_and_baseline_change_refused(self):
         for bad in ('/absolute', '../escape', 'media/../escape', 'C:/raw', 'media\\raw'):
             with self.assertRaises(ValueError): org.safe_path(bad)

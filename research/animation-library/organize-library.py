@@ -81,8 +81,8 @@ def validate(catalogue, csv_raw, expected_count):
                 raise ValueError('Invalid media byte count')
         for name in ('animatedThumbnail', 'stillThumbnail'):
             for axis in ('width', 'height'):
-                value = e['media'][name][axis]
-                if type(value) not in (int, float) or not 0 < value < float('inf'):
+                value = e['media'][name].get(axis)
+                if value is not None and (type(value) not in (int, float) or not 0 < value < float('inf')):
                     raise ValueError('Invalid selected-media dimension')
         if not e['media']['animatedThumbnail']['path'].lower().endswith('.gif'):
             raise ValueError('Animated reference extension changed')
@@ -124,9 +124,10 @@ def pack(entries):
 def table_row(e, current, stills):
     detail = link(current, e['detailPage'])
     media = e['media']['stillThumbnail' if stills else 'animatedThumbnail']
-    dims = media
-    height = round(dims['height'] * 160 / dims['width'])
-    image = '<a href="' + detail + '"><img src="' + link(current, media['path']) + '" width="160" height="' + str(height) + '" alt="' + cell(e['title']) + '"></a>'
+    height_attr = ''
+    if media.get('width') is not None and media.get('height') is not None:
+        height_attr = ' height="' + str(round(media['height'] * 160 / media['width'])) + '"'
+    image = '<a href="' + detail + '"><img src="' + link(current, media['path']) + '" width="160"' + height_attr + ' alt="' + cell(e['title']) + '"></a>'
     loc = e['locations']
     gani = code(loc.get('ganiDirectory')) + '<br>' + code(posixpath.basename(loc.get('ganiVirtualPath') or e['shortIdentifier']))
     if e['group'] == 'stock-soldier':
@@ -142,9 +143,9 @@ def render_page(page, stills):
     sibling = page['animated' if stills else 'stills']
     mode = 'Still images: no GIFs loaded' if stills else 'Animated references'
     image_bytes = sum(e['media']['stillThumbnail' if stills else 'animatedThumbnail']['bytes'] for e in page['entries'])
-    lines = ['# ' + page['title'] + ' - page ' + str(page['number']), '', '[Library](../README.md) · [Grouped directory](../browse/README.md) · [This source family](' + link(current, page['familyIndex']) + ') · [Switch mode](' + link(current, sibling) + ')', '', '**' + mode + '** · ' + str(len(page['entries'])) + ' clips · ' + format(image_bytes / 1048576, '.2f') + ' MiB downloaded.', '', 'Images reuse existing files. A small display width does not reduce download size. ' + ('Animated previews use full existing GIFs where no separate thumbnail exists. ' if not stills else '') + 'Open one clip for its larger titled GIF and original technical data.', '', 'Source-family grouping uses only recorded virtual directories; it does not establish an action, weapon, actor, rig or native compatibility. Existing descriptions and tags below are unchanged. Per-clip visual review may be pending; chosen preview speed is separate from unmeasured native timing.', '', '| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |', '| --- | --- | --- | --- | --- | --- | --- | --- |']
+    lines = ['# ' + page['title'] + ' - page ' + str(page['number']), '', '[Library](../README.md) \u00b7 [Grouped directory](../browse/README.md) \u00b7 [This source family](' + link(current, page['familyIndex']) + ') \u00b7 [Switch mode](' + link(current, sibling) + ')', '', '**' + mode + '** \u00b7 ' + str(len(page['entries'])) + ' clips \u00b7 ' + format(image_bytes / 1048576, '.2f') + ' MiB downloaded.', '', 'Images reuse existing files. A small display width does not reduce download size. ' + ('Animated previews use full existing GIFs where no separate thumbnail exists. ' if not stills else '') + 'Open one clip for its larger titled GIF and original technical data.', '', 'Source-family grouping uses only recorded virtual directories; it does not establish an action, weapon, actor, rig or native compatibility. Existing descriptions and tags below are unchanged. Per-clip visual review may be pending; chosen preview speed is separate from unmeasured native timing.', '', '| Preview | Animation | Category | Tags | Virtual GANI directory / file | MTAR / container location | Description | Frames / data |', '| --- | --- | --- | --- | --- | --- | --- | --- |']
     lines += [table_row(e, current, stills) for e in page['entries']]
-    lines += ['', '[Source descriptions, confidence and credits](../description-sources.md) · [Complete JSON](../catalogue.json) · [CSV](../catalogue.csv)', '']
+    lines += ['', '[Source descriptions, confidence and credits](../description-sources.md) \u00b7 [Complete JSON](../catalogue.json) \u00b7 [CSV](../catalogue.csv)', '']
     return '\n'.join(lines).encode()
 
 def build(catalogue, csv_raw, readme_raw, expected_count):
@@ -169,13 +170,13 @@ def build(catalogue, csv_raw, readme_raw, expected_count):
             rows.append('| ' + str(number) + ' | ' + code(first) + (' to ' + code(last) if first != last else '') + ' | [Open ' + str(len(chunk)) + ' GIFs](' + link(family_index, page['animated']) + ') | [Open stills](' + link(family_index, page['stills']) + ') |')
             for e in chunk:
                 navigation.append({'id': e['id'], 'group': group, 'recordedSourceDirectory': directory or None, 'shortIdentifier': e['shortIdentifier'], 'animatedTable': page['animated'], 'stillTable': page['stills'], 'detailPage': e['detailPage']})
-        lines = ['# ' + title, '', '[Library](../README.md) · [All groups](README.md)', '', str(len(selected)) + ' published clips. Sorted by exact clip label, then stable ID. At most four GIFs per page, with a 16 MiB declared animated-media packing target. A single larger existing GIF is retained alone rather than skipped or changed.', '', '| Page | Exact clip range | Animated table | Still-image table |', '| --- | --- | --- | --- |'] + rows + ['', 'Grouping is derived from source-directory text, not a new semantic interpretation. Original details, tags, credits, media, source records and visual/native evidence limits are preserved.', '']
+        lines = ['# ' + title, '', '[Library](../README.md) \u00b7 [All groups](README.md)', '', str(len(selected)) + ' published clips. Sorted by exact clip label, then stable ID. At most four GIFs per page, with a 16 MiB declared animated-media packing target. A single larger existing GIF is retained alone rather than skipped or changed.', '', '| Page | Exact clip range | Animated table | Still-image table |', '| --- | --- | --- | --- |'] + rows + ['', 'Grouping is derived from source-directory text, not a new semantic interpretation. Original details, tags, credits, media, source records and visual/native evidence limits are preserved.', '']
         outputs[family_index] = '\n'.join(lines).encode()
         directory_rows.append('| ' + cell(groups[group]) + ' | ' + code(directory or 'Original category') + ' | ' + str(len(selected)) + ' | ' + str(len(chunks)) + ' | [Browse](' + link(LIB + '/browse/README.md', family_index) + ') |')
     for page in pages:
         outputs[page['animated']] = render_page(page, False)
         outputs[page['stills']] = render_page(page, True)
-    browse = ['# Animation library - grouped browsing', '', '[Library index](../README.md) · [Searchable ID/page map](navigation.json) · [CSV data](../catalogue.csv)', '', '**No preview images load on this directory.** Browse the original categories and recorded source directories. Family names are exact asset-directory tokens, not newly verified action or actor labels. Every published ID appears exactly once in the grouped tables. Legacy table and clip links remain available.', '', '| Category | Recorded source directory | Clips | Pages | Open |', '| --- | --- | --- | --- | --- |'] + directory_rows + ['', 'Descriptions, semantic tags and provenance remain in the original catalogue and clip details. Native timing, props/contact, arbitrary actor compatibility and continuous per-clip quality are not established by this reorganization.', '']
+    browse = ['# Animation library - grouped browsing', '', '[Library index](../README.md) \u00b7 [Searchable ID/page map](navigation.json) \u00b7 [CSV data](../catalogue.csv)', '', '**No preview images load on this directory.** Browse the original categories and recorded source directories. Family names are exact asset-directory tokens, not newly verified action or actor labels. Every published ID appears exactly once in the grouped tables. Legacy table and clip links remain available.', '', '| Category | Recorded source directory | Clips | Pages | Open |', '| --- | --- | --- | --- | --- |'] + directory_rows + ['', 'Descriptions, semantic tags and provenance remain in the original catalogue and clip details. Native timing, props/contact, arbitrary actor compatibility and continuous per-clip quality are not established by this reorganization.', '']
     outputs[LIB + '/browse/README.md'] = '\n'.join(browse).encode()
     outputs[LIB + '/browse/navigation.json'] = json_bytes({'schemaVersion': 1, 'entryCount': len(entries), 'groupingBasis': 'Original group; stock subgroup from recorded virtual GANI directory only', 'maxAnimatedPreviewsPerPage': PAGE_SIZE, 'declaredAnimatedPackingTargetBytes': MAX_PAGE_BYTES, 'entries': sorted(navigation, key=lambda x: x['id'])})
     readme = readme_raw.decode('utf-8')
@@ -185,7 +186,7 @@ def build(catalogue, csv_raw, readme_raw, expected_count):
     section = ['## Browse by section', '', '[**Open the grouped browsing directory**](browse/README.md) to choose a category and recorded source family. It contains **' + str(len(entries)) + ' published references** in **' + str(len(buckets)) + ' groups**, without loading images.', '', 'Each animated page has at most four previews, packed to a 16 MiB declared-media target when possible. Existing full GIFs are displayed small; their actual download size is shown. Still-image alternatives load no GIFs. All old per-clip and table URLs remain valid.', '', '| Original category | Published clips |', '| --- | --- |']
     counts = Counter(e['group'] for e in entries)
     section += ['| ' + cell(title) + ' | ' + str(counts[group]) + ' |' for group, title in groups.items()]
-    section += ['', '[Find an exact ID / clip label / page](browse/navigation.json) · [Search the CSV](catalogue.csv)', '', '']
+    section += ['', '[Find an exact ID / clip label / page](browse/navigation.json) \u00b7 [Search the CSV](catalogue.csv)', '', '']
     readme = readme[:start] + '\n'.join(section) + readme[end:]
     readme = readme.replace('at most four small GIFs', 'at most four GIF previews')
     readme = readme.replace('Stop at the selected category boundary; do not add another category to fill a batch cap.', 'That ledger describes its historical LMG batch only. The standing goal is broader humanoid coverage; the whole-game denominator remains unknown, and milestones, empty queues or planned exclusions do not prove exhaustion.')
@@ -204,7 +205,8 @@ def build(catalogue, csv_raw, readme_raw, expected_count):
             raise ValueError('Oversized generated navigation')
         if path.endswith('-stills.md') and re.search(r'<img[^>]+src="[^"]+\.gif"', raw.decode(), re.I):
             raise ValueError('GIF loaded in still mode')
-    return outputs, {'publishedEntries': len(entries), 'groupedFamilies': len(buckets), 'animatedPages': len(pages), 'maxPreviewsPerPage': max(len(p['entries']) for p in pages), 'maxDeclaredAnimatedPageBytes': max(sum(e['media']['animatedThumbnail']['bytes'] for e in p['entries']) for p in pages), 'catalogueDataChanged': False, 'csvDataChanged': False, 'legacyTablesChanged': False, 'clipDetailsChanged': False, 'mediaReadOrChanged': False, 'nativeProofAdded': False}
+    missing_dimensions = [{'id': e['id'], 'mode': name, 'missingFields': [axis for axis in ('width', 'height') if e['media'][name].get(axis) is None]} for e in entries for name in ('animatedThumbnail', 'stillThumbnail') if any(e['media'][name].get(axis) is None for axis in ('width', 'height'))]
+    return outputs, {'missingRecordedMediaDimensions': missing_dimensions, 'publishedEntries': len(entries), 'groupedFamilies': len(buckets), 'animatedPages': len(pages), 'maxPreviewsPerPage': max(len(p['entries']) for p in pages), 'maxDeclaredAnimatedPageBytes': max(sum(e['media']['animatedThumbnail']['bytes'] for e in p['entries']) for p in pages), 'catalogueDataChanged': False, 'csvDataChanged': False, 'legacyTablesChanged': False, 'clipDetailsChanged': False, 'mediaReadOrChanged': False, 'nativeProofAdded': False}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
