@@ -11,3 +11,5 @@ These are **offline references**. Preview speed is chosen; native timing, arbitr
 Original assets: **Konami / Kojima Productions**. Motion decoding, reference rig and mappings: **mctrollin**. Model conversion: **FMDL Studio v2 / BobDoleOwndU and contributors**. Supporting tools: GzsTool, MtarTool, Blender and Pillow. [Full credits](../../CREDITS.md) · [Preview recipe](../mtar-punch-combos/full-character-preview-recipe.md)
 
 Maintainers: [metadata-only build and publication](HUMAN-TABLE-MAINTENANCE.md). Existing media, IDs, original records and legacy URLs are retained.
+
+Two additional references are staged in the catalogue. They remain pending the reviewed single-table rebuild and Site publication.
