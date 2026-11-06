@@ -268,6 +268,10 @@
     {
       "path": "research/animation-library/reviewed/animation-common-deferred458-32811cdd5bffa9c1d329.json",
       "sha256": "fd42ec09f785cc4d5d2387d28f44d1b6cbeff95ef7f590ef2ce0b41128435bb6"
+    },
+    {
+      "path": "research/animation-library/reviewed/animation-common-deferred460-c4e39bddd82e7139990b.json",
+      "sha256": "d130742d96eaf71ec60d95347deda69ae97bcd23fcb00c566227a20f72392926"
     }
   ],
   "sourceBatches": [
@@ -990,6 +994,18 @@
         "path": "research/animation-library/reviewed/animation-common-deferred458-32811cdd5bffa9c1d329.json",
         "sha256": "fd42ec09f785cc4d5d2387d28f44d1b6cbeff95ef7f590ef2ce0b41128435bb6"
       }
+    },
+    {
+      "id": "animation-common-deferred460-c4e39bddd82e7139990b",
+      "entryCount": 1,
+      "extraction": {
+        "path": "research/animation-library/reviewed/animation-common-deferred460-c4e39bddd82e7139990b.json",
+        "sha256": "d130742d96eaf71ec60d95347deda69ae97bcd23fcb00c566227a20f72392926"
+      },
+      "previews": {
+        "path": "research/animation-library/reviewed/animation-common-deferred460-c4e39bddd82e7139990b.json",
+        "sha256": "d130742d96eaf71ec60d95347deda69ae97bcd23fcb00c566227a20f72392926"
+      }
     }
   ],
   "originalRecordPathsBase": "research/mtar-punch-combos",
@@ -1446,10 +1462,10 @@
     {
       "id": "stock-soldier",
       "title": "Stock Soldier_common motion references",
-      "count": 1283
+      "count": 1284
     }
   ],
-  "entryCount": 1314,
+  "entryCount": 1315,
   "entries": [
     {
       "id": "mgsv-tpp-player2_cqc-16b0a2fb40a09",
@@ -574820,6 +574836,643 @@
       ],
       "sourceBatch": "animation-common-deferred458-32811cdd5bffa9c1d329",
       "dedicatedTableSlug": "stock-7752a6813c804cad03f0949c2b4c7f9c5e4e00c767f2e0c9a06001c811b66537"
+    },
+    {
+      "id": "mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51",
+      "title": "Stock reference: enetasr_s_arrive_rdy_b",
+      "shortIdentifier": "enetasr_s_arrive_rdy_b",
+      "group": "stock-soldier",
+      "source": {
+        "game": "MGSV TPP",
+        "archive": "Soldier_common",
+        "archiveSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+        "path": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/enetasr_s_arrive_rdy_b",
+        "hashId": "1195a21d38f2b",
+        "payloadSha256": "a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51",
+        "originalCatalogueId": "mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51"
+      },
+      "identityBasis": "Exact retained archive plus full payload SHA256; header index and textual name retained separately",
+      "rawFrameCount": 460,
+      "nativeFrameRate": null,
+      "previewDurationMilliseconds": 15330,
+      "detailPage": "research/animation-library/clips/mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51.md",
+      "media": {
+        "fullGif": {
+          "path": "media/animation-previews/animation-common-deferred460-pilot-20261106/mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51.gif",
+          "sha256": "14aec4a637aaa05c56e4aeee85f26413e50893a97af2eb2d6e94c5e8d44d3f89",
+          "bytes": 14595095
+        },
+        "animatedThumbnail": {
+          "path": "media/animation-previews/animation-common-deferred460-pilot-20261106/mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51.gif",
+          "sha256": "14aec4a637aaa05c56e4aeee85f26413e50893a97af2eb2d6e94c5e8d44d3f89",
+          "bytes": 14595095,
+          "width": 480,
+          "height": 614,
+          "displayWidth": 160,
+          "displayHeight": 205,
+          "kind": "Full GIF displayed small; download bytes unchanged",
+          "encodedFrames": 230,
+          "durationMilliseconds": 15330,
+          "loop": 0
+        },
+        "stillThumbnail": {
+          "path": "media/animation-previews/animation-common-deferred460-pilot-20261106/mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51.png",
+          "sha256": "b5ae61eb583ecf1d492b78668771d6a43057c5c840425f78ec34d6d511daf206",
+          "bytes": 90217,
+          "width": 480,
+          "height": 614
+        }
+      },
+      "evidence": {
+        "offlineDecodedPreview": true,
+        "nativeGameplay": false,
+        "nativeTiming": false,
+        "pairedAlignment": false,
+        "ordinarySoldierAttacker": false,
+        "sampledRootVisualAcceptance": true,
+        "continuousHumanVisualReview": false,
+        "rootApprovedPipeline": true,
+        "perClipVisualReviewPending": false
+      },
+      "originalRecords": {
+        "extraction": {
+          "archiveAliases": [
+            {
+              "archive": "Soldier_common",
+              "archiveSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+              "bodyNamespaceCandidate": true,
+              "exporterPath": "Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/0274_enetasr_s_arrive_rdy_b.gani",
+              "nameFamilyOnly": "enet/enetasr",
+              "sourceIdentityAuthority": "historical retained exact MtarTool member manifest/XML + successful canonical roundtrip; not current source rehash"
+            }
+          ],
+          "category": "LONG196_TO900_CONDITIONAL",
+          "decodedThisTask": false,
+          "headerAliases": [
+            {
+              "fullArchivePathHash": "0xfc51195a21d38f2b",
+              "hashId": "1195a21d38f2b",
+              "headerIndex": 377,
+              "payloadBytes": 17360,
+              "rawFrameCount": 460,
+              "retainedNameCandidates": [
+                "Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/0274_enetasr_s_arrive_rdy_b.gani"
+              ],
+              "selectionStatus": "deferred-outside-first-short-clip-window12to180",
+              "tracksOffset": 3474560
+            }
+          ],
+          "newCredit": 0,
+          "partialLayerSemantics": "NOT_ESTABLISHED; aim/part/short-name hints are not proof",
+          "payloadSha256": "a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51",
+          "rawFrameCounts": [
+            460
+          ],
+          "referenceId": "mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51",
+          "fullArchivePathHash": "0xfc51195a21d38f2b",
+          "hashId": "1195a21d38f2b",
+          "headerIndex": 377,
+          "payloadBytes": 17360,
+          "rawFrameCount": 460,
+          "retainedNameCandidates": [
+            "Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/0274_enetasr_s_arrive_rdy_b.gani"
+          ],
+          "selectionStatus": "deferred-outside-first-short-clip-window12to180",
+          "tracksOffset": 3474560,
+          "id": "mgsv-tpp-soldier_common-payloadsha256-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51",
+          "exporterPath": "Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/0274_enetasr_s_arrive_rdy_b.gani",
+          "sourceArchive": "Soldier_common",
+          "sourceMtarSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+          "frameCount": 460,
+          "decoded": false,
+          "selectionOnly": true,
+          "visualReview": "NOT_PERFORMED",
+          "shortIdentifier": "enetasr_s_arrive_rdy_b",
+          "name": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/enetasr_s_arrive_rdy_b",
+          "sourceRole": "retained-stock-18track-family-candidate-pending-decode-and-mapping",
+          "role": "unclassified-stock-reference",
+          "sequenceFamily": "source-name-only",
+          "phase": null,
+          "phaseKind": "unclassified",
+          "sidecars": [
+            {
+              "extension": ".gani",
+              "sha256": "a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51"
+            }
+          ],
+          "nativeFrameRate": null,
+          "actionInterpretation": "unverified source-derived identifier",
+          "actualDecoded": false,
+          "sourceClass": "UNKNOWN",
+          "bodyPartialLayerSemantics": "UNKNOWN",
+          "queuePhase": "common-deferred460-pilot-20261106",
+          "displayNameDerivation": "Exact retained exporter numeric prefix stripped for display only; native action/body/partial class not inferred."
+        },
+        "sourceChain": {
+          "archiveSha256": "6f535a29e1c5b6da70514984a47f8a5c988aa468f1d5c87c37f212263dcc001e",
+          "archiveBytes": 15897168,
+          "header": {
+            "commonInfoOffset": 43072,
+            "fileCount": 1345,
+            "flags": 4096,
+            "motionPointUnits": 9,
+            "padding": 0,
+            "segmentCount": 56,
+            "shaderNodeCount": 0,
+            "shaderUnitCount": 0,
+            "trackCount": 18,
+            "version": 201403250
+          },
+          "originalStockOnly": true,
+          "nameBinding": "retained MtarTool manifest/XML plus exact original table block SHA; canonical text PathCode not independently recomputed",
+          "layout": "full original CommonInfo/MTAR retained; no loose GANI reconstruction",
+          "metadataPins": {
+            "exclusionCatalogueSha256": "4accbb6988c9e7f6a6ab314a6d7f68f206b96a5b6ee39b442d4540b7c5294fd1",
+            "manifestSha256": "156eabf438ecfa783fbbda2d7b96c2b8a1f6f9db3b0a2a27333a346edae3fc65",
+            "xmlSha256": "c782c00c7a391b13daeb21417a595fa2a5dea63b1eb7059afdaedde3db4d100e"
+          }
+        },
+        "preview": {
+          "sourceGaniSha256": "a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51",
+          "chosenSourceFramesPerSecond": 30,
+          "nativeFrameRate": null,
+          "sourceFramesSampled": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92,
+            94,
+            96,
+            98,
+            100,
+            102,
+            104,
+            106,
+            108,
+            110,
+            112,
+            114,
+            116,
+            118,
+            120,
+            122,
+            124,
+            126,
+            128,
+            130,
+            132,
+            134,
+            136,
+            138,
+            140,
+            142,
+            144,
+            146,
+            148,
+            150,
+            152,
+            154,
+            156,
+            158,
+            160,
+            162,
+            164,
+            166,
+            168,
+            170,
+            172,
+            174,
+            176,
+            178,
+            180,
+            182,
+            184,
+            186,
+            188,
+            190,
+            192,
+            194,
+            196,
+            198,
+            200,
+            202,
+            204,
+            206,
+            208,
+            210,
+            212,
+            214,
+            216,
+            218,
+            220,
+            222,
+            224,
+            226,
+            228,
+            230,
+            232,
+            234,
+            236,
+            238,
+            240,
+            242,
+            244,
+            246,
+            248,
+            250,
+            252,
+            254,
+            256,
+            258,
+            260,
+            262,
+            264,
+            266,
+            268,
+            270,
+            272,
+            274,
+            276,
+            278,
+            280,
+            282,
+            284,
+            286,
+            288,
+            290,
+            292,
+            294,
+            296,
+            298,
+            300,
+            302,
+            304,
+            306,
+            308,
+            310,
+            312,
+            314,
+            316,
+            318,
+            320,
+            322,
+            324,
+            326,
+            328,
+            330,
+            332,
+            334,
+            336,
+            338,
+            340,
+            342,
+            344,
+            346,
+            348,
+            350,
+            352,
+            354,
+            356,
+            358,
+            360,
+            362,
+            364,
+            366,
+            368,
+            370,
+            372,
+            374,
+            376,
+            378,
+            380,
+            382,
+            384,
+            386,
+            388,
+            390,
+            392,
+            394,
+            396,
+            398,
+            400,
+            402,
+            404,
+            406,
+            408,
+            410,
+            412,
+            414,
+            416,
+            418,
+            420,
+            422,
+            424,
+            426,
+            428,
+            430,
+            432,
+            434,
+            436,
+            438,
+            440,
+            442,
+            444,
+            446,
+            448,
+            450,
+            452,
+            454,
+            456,
+            458
+          ],
+          "separateEndpointFrame": 460,
+          "gifDurationMilliseconds": 15330,
+          "referenceCharacterBlendSha256": "68e793fb833999c2489d9de1811d6f9b27df471c2e418b4b872a1200ea0b105c",
+          "historicalDifferentReferenceSha256": "6c1cb2ead2a82b78bd1240ad880c1bac0ba2bfe1d7c8f04aa4c311852a286a28",
+          "sourceToolPins": {
+            "scriptSha256": "13c2fe0cc9ba420c28e2ced10c2f3b6e230d473f7ae9b698d68703bfc305adf6",
+            "referenceRigSha256": "c020ff7c2c39dd82b9b084999bcbdfa35c2d171d94552fe84696a90439c59445",
+            "trackMapSha256": "2755175dc333ee1320e16d732e6c0707d5f266ff7f91e5b122ca1d4ad3f34a81",
+            "boneMapSha256": "b6375a070f719de38a16648081eb124d3e5a3235b872285510443ece54f47d97"
+          },
+          "renderBatchReceiptSha256": "fc55db1441bd5309d4672e04385aefc1e84b17e613f21dae625304e600f9f8ec",
+          "renderReceiptSha256": "26ad14da75f0fbbf32bac956be696638df120d5921f9b42f4a1151e07ba0701f",
+          "rawLayoutFrameRateField": "5",
+          "actualSecondaryBoneAncestorFallbacks": {
+            "SKL_610_HRAA_SIM": "SKL_004_HEAD",
+            "SKL_611_HRAB_SIM": "SKL_004_HEAD",
+            "SKL_612_HRBA_SIM": "SKL_004_HEAD",
+            "SKL_613_HRBB_SIM": "SKL_004_HEAD",
+            "SKL_614_HRCA_SIM": "SKL_004_HEAD",
+            "SKL_615_HRCB_SIM": "SKL_004_HEAD",
+            "SKL_616_HRFA_SIM": "SKL_004_HEAD",
+            "SKL_617_HRFB_SIM": "SKL_004_HEAD",
+            "SKL_618_HRTA_SIM": "SKL_004_HEAD",
+            "SKL_549_SKFB_HLP": "SKL_003_NECK",
+            "SKL_550_SKFA_HLP": "SKL_003_NECK",
+            "SKL_635_SCLA_SIM": "SKL_002_CHEST",
+            "SKL_636_SCLB_SIM": "SKL_002_CHEST",
+            "SKL_640_SCRA_SIM": "SKL_002_CHEST",
+            "SKL_641_SCRB_SIM": "SKL_002_CHEST",
+            "SKL_600_HAGB_SIM": "SKL_001_SPINE",
+            "SKL_560_HLFA_HLP": "SKL_000_WAIST",
+            "SKL_561_HLFB_HLP": "SKL_000_WAIST"
+          },
+          "rawFrameCount": 460,
+          "decodedBodyTrackCount": 18,
+          "sourceHeaderIndex": 377,
+          "gifMotionFrames": 230,
+          "encodedManifestSha256": "34941a5627bc7bfb5477791342a46c3281c2cfd06381a133036f24c23333d95d",
+          "encoderReportedStatus": "encoded-render-awaiting-visual-review",
+          "encoderReportedPublicVisualAcceptance": false,
+          "rootAcceptanceSha256": "9af48993cc824799b418a789b50667964016f42ed27ee757b002d95580959dec",
+          "rootVisualAcceptance": true,
+          "perClipVisualReviewPending": false,
+          "rootReviewScope": "Exact clip sampled by root",
+          "referenceCharacter": "Stock Ocelot full-character community reference, untextured",
+          "rootMotion": "Retained root travel; GIF restart is not native continuity",
+          "actualWeightAuditSummary": {
+            "meshCount": 21,
+            "vertices": 10039,
+            "maxPerVertexWeightSumError": 1.4901161193847656e-07,
+            "meshes": [
+              {
+                "mesh": "9_-_MESH_ROOT",
+                "vertices": 340,
+                "maxPerVertexWeightSumError": 5.960464477539063e-08
+              },
+              {
+                "mesh": "8_-_MESH_ROOT",
+                "vertices": 402,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "7_-_MESH_ROOT",
+                "vertices": 111,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "6_-_MESH_ROOT",
+                "vertices": 46,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "5_-_MESH_ROOT",
+                "vertices": 1247,
+                "maxPerVertexWeightSumError": 2.9802322387695312e-08
+              },
+              {
+                "mesh": "4_-_MESH_ROOT",
+                "vertices": 1077,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "3_-_MESH_ROOT",
+                "vertices": 1034,
+                "maxPerVertexWeightSumError": 2.9802322387695312e-08
+              },
+              {
+                "mesh": "2_-_MESH_ROOT",
+                "vertices": 499,
+                "maxPerVertexWeightSumError": 1.4901161193847656e-07
+              },
+              {
+                "mesh": "20_-_MESH_ROOT",
+                "vertices": 146,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "1_-_MESH_ROOT",
+                "vertices": 2099,
+                "maxPerVertexWeightSumError": 2.9802322387695312e-08
+              },
+              {
+                "mesh": "19_-_9df4dd0aeae",
+                "vertices": 381,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "18_-_9df4dd0aeae",
+                "vertices": 160,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "17_-_9df4dd0aeae",
+                "vertices": 153,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "16_-_9df4dd0aeae",
+                "vertices": 180,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "15_-_9df4dd0aeae",
+                "vertices": 297,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "14_-_9df4dd0aeae",
+                "vertices": 300,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "13_-_9df4dd0aeae",
+                "vertices": 275,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "12_-_MESH_hag_a",
+                "vertices": 396,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "11_-_MESH_hag_b",
+                "vertices": 466,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "10_-_MESH_ROOT",
+                "vertices": 236,
+                "maxPerVertexWeightSumError": 0.0
+              },
+              {
+                "mesh": "0_-_MESH_ROOT",
+                "vertices": 194,
+                "maxPerVertexWeightSumError": 2.2351741790771484e-08
+              }
+            ]
+          }
+        }
+      },
+      "category": {
+        "id": "stock-soldier",
+        "label": "Stock Soldier_common motion references"
+      },
+      "tags": [
+        "stock animation reference",
+        "Soldier_common",
+        "source-derived label",
+        "Ocelot reference mesh"
+      ],
+      "classificationProvenance": {
+        "kind": "source-identity only",
+        "credit": "arsenal-pt / OpenAI Codex",
+        "actionClassificationVerified": false,
+        "categoryAndCandidateTags": "Retained source archive/identity only; action interpretation unverified",
+        "postureTags": null
+      },
+      "locations": {
+        "ganiVirtualPath": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr/enetasr_s_arrive_rdy_b.gani",
+        "ganiDirectory": "/Assets/tpp/motion/SI_game/fani/bodies/enet/enetasr",
+        "archiveFile": "Soldier_common.mtar",
+        "recordedContainerLabel": "Unverified",
+        "archiveVirtualPath": null,
+        "containerVirtualPath": null,
+        "datArchive": null,
+        "containerSha256": null,
+        "datArchiveSha256": null,
+        "datOriginStatus": "Unverified outer DAT/FPK membership; no installed-currentness or whole-DAT hash claim",
+        "provenance": {
+          "recordPath": "research/animation-library/reviewed/animation-common-deferred460-c4e39bddd82e7139990b.json",
+          "kind": "exact stock archive/payload/header and technical preview manifest",
+          "selectionSha256": "23616884fa63550b5e0017d3d393e95f931f82b4da13209384468bc9579dd6e8",
+          "publicationSelectionSha256": "23616884fa63550b5e0017d3d393e95f931f82b4da13209384468bc9579dd6e8",
+          "nameMatchLimit": "Textual PathCode64 not independently recomputed; exporter prefix is not an ordinal"
+        }
+      },
+      "motionOrigin": {
+        "actor": "Stock Soldier_common body-motion source; exact native actor unverified",
+        "basis": "Source archive/namespace, not reference model identity",
+        "referenceModelIsMotionOrigin": false
+      },
+      "description": {
+        "text": "Decoded stock reference enetasr_s_arrive_rdy_b; action interpretation unverified.",
+        "kind": "project-authored source-identifier-qualified reference",
+        "credit": "arsenal-pt / OpenAI Codex",
+        "basis": "Exact source identity; no per-clip action observation inferred"
+      },
+      "authoredDescription": {
+        "text": "Decoded stock reference enetasr_s_arrive_rdy_b; action interpretation unverified.",
+        "kind": "project-authored source-identifier-qualified reference",
+        "credit": "arsenal-pt / OpenAI Codex",
+        "basis": "Exact source identity; no per-clip action observation inferred"
+      },
+      "sourceDescription": {
+        "status": "no-verified-community-description",
+        "text": null,
+        "credit": null,
+        "sourceUrl": null,
+        "reason": "Unclassified exact source identifier",
+        "reviewRecord": "research/animation-library/reviewed/animation-common-deferred460-c4e39bddd82e7139990b.json"
+      },
+      "credits": [
+        {
+          "name": "Konami / Kojima Productions",
+          "role": "original game content"
+        },
+        {
+          "name": "mctrollin and contributors",
+          "role": "community decoder/reference rig/maps"
+        },
+        {
+          "name": "BobDoleOwndU and contributors",
+          "role": "MtarTool/FMDL tooling"
+        },
+        {
+          "name": "Blender / Pillow contributors",
+          "role": "rendering/encoding tools"
+        },
+        {
+          "name": "arsenal-pt / OpenAI Codex",
+          "role": "authored pipeline/integration"
+        }
+      ],
+      "sourceBatch": "animation-common-deferred460-c4e39bddd82e7139990b",
+      "dedicatedTableSlug": "stock-a72758681f28fa936788b8c3f29243f2e3b4e5349b65426bd4e24ac880cd3c51"
     }
   ],
   "reviewedReferencePolicy": "Exact accepted media; each reference carries its own display/encoding/provenance metadata"
